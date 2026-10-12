@@ -1,5 +1,174 @@
 [
   {
+    "id": "desktop-changelog-256f27f0f2f6ac61bfa4-4e13ffde2d8db267",
+    "sourceId": "desktop-changelog",
+    "title": "2026-10-08 · Codex CLI 0.162.0",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-10-08",
+    "detectedAt": "2026-10-12T21:43:34.018Z",
+    "type": "new",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-375a87b67e9a58ff503d-e08cdd153cd30d43",
+    "sourceId": "desktop-changelog",
+    "title": "2026-10-09 · Codex CLI 0.162.1",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-10-09",
+    "detectedAt": "2026-10-12T21:43:34.018Z",
+    "type": "new",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-4cab2537c74f4b2b7720-5a68315b7b246f52",
+    "sourceId": "desktop-changelog",
+    "title": "2026-09-30 · Codex CLI 0.159.3",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-09-30",
+    "detectedAt": "2026-10-12T21:43:34.018Z",
+    "type": "new",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-694f88a820107b9973f7-4d90a6e7d54a79ed",
+    "sourceId": "desktop-changelog",
+    "title": "2026-09-29 · Codex CLI 0.159.0",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-09-29",
+    "detectedAt": "2026-10-12T21:43:34.018Z",
+    "type": "new",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-743754c924d9652dd334-7db0be1b94f278d8",
+    "sourceId": "desktop-changelog",
+    "title": "2026-09-28 · Codex CLI 0.158.0",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-09-28",
+    "detectedAt": "2026-10-12T21:43:34.018Z",
+    "type": "new",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-820d28b0567bad2a9849-2e52fcf4315657de",
+    "sourceId": "desktop-changelog",
+    "title": "2026-10-07 · Codex CLI 0.161.0",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-10-07",
+    "detectedAt": "2026-10-12T21:43:34.018Z",
+    "type": "new",
+    "controlIds": [
+      "chatgpt-work-model-sol"
+    ],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-85e3c371d49681facbd9-928a2f571e522047",
+    "sourceId": "desktop-changelog",
+    "title": "2026-10-05 · Codex CLI 0.160.1",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-10-05",
+    "detectedAt": "2026-10-12T21:43:34.018Z",
+    "type": "new",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-994513e7c110cc47eb27-c78aa0a8d54d30c7",
+    "sourceId": "desktop-changelog",
+    "title": "2026-09-23 · Codex CLI 0.156.1",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-09-23",
+    "detectedAt": "2026-10-12T21:43:34.018Z",
+    "type": "new",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-a3c0aba5775311c5fb71-35ac9f21e9d50862",
+    "sourceId": "desktop-changelog",
+    "title": "2026-09-22 · Codex CLI 0.156.0",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-09-22",
+    "detectedAt": "2026-10-12T21:43:34.018Z",
+    "type": "new",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-a560982ea332bfea3126-d8773e1e8642513b",
+    "sourceId": "desktop-changelog",
+    "title": "2026-09-29 · Codex CLI 0.159.2",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-09-29",
+    "detectedAt": "2026-10-12T21:43:34.018Z",
+    "type": "new",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-c4124ebaaa211f027c99-d8bf0217ff17f316",
+    "sourceId": "desktop-changelog",
+    "title": "2026-09-26 · Codex CLI 0.157.1",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-09-26",
+    "detectedAt": "2026-10-12T21:43:34.018Z",
+    "type": "new",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-e610ca63e3d9b72a5063-b56dbe8c68900a27",
+    "sourceId": "desktop-changelog",
+    "title": "2026-09-25 · Codex CLI 0.157.0",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-09-25",
+    "detectedAt": "2026-10-12T21:43:34.018Z",
+    "type": "new",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-f5a95bd27b5bd0bd1729-5b712f74e0dd3758",
+    "sourceId": "desktop-changelog",
+    "title": "2026-09-29 · Codex CLI 0.159.1",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-09-29",
+    "detectedAt": "2026-10-12T21:43:34.018Z",
+    "type": "new",
+    "controlIds": [
+      "chatgpt-work-model-sol"
+    ],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-f9daac2bee4df395c161-bf209e892fde73da",
+    "sourceId": "desktop-changelog",
+    "title": "2026-10-01 · Codex CLI 0.160.0",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-10-01",
+    "detectedAt": "2026-10-12T21:43:34.018Z",
+    "type": "new",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "space-5deccb7a882b581f81ae-1676f8867531cfb8",
+    "sourceId": "space",
+    "title": "ChatGPT Space",
+    "url": "https://learn.chatgpt.com/docs/space",
+    "publishedAt": null,
+    "detectedAt": "2026-10-12T21:43:34.018Z",
+    "type": "edited",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
     "id": "chatgpt-2026-09-11-windows",
     "sourceId": "desktop-changelog",
     "title": "Quick chats with Pets and Appshots on Windows 26.908",

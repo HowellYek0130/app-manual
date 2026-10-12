@@ -1,13 +1,13 @@
 {
   "sources": {
     "release-notes": {
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
       "lastSuccessAt": null,
       "status": "error",
       "error": "HTTP 403"
     },
     "desktop-changelog": {
-      "hash": "87b959af253ecb8ab2ae95cb3baaadb568820cc780eb8757c52002bcb3821638",
+      "hash": "6e999515f5df7e3821c4dbd7ce7d1d9a05790f16a3a2654b8211103b506bf028",
       "entries": [
         {
           "id": "desktop-changelog-03c2a76299543de1588f",
@@ -143,6 +143,13 @@
           "url": "https://learn.chatgpt.com/docs/changelog"
         },
         {
+          "id": "desktop-changelog-256f27f0f2f6ac61bfa4",
+          "title": "2026-10-08 · Codex CLI 0.162.0",
+          "publishedAt": "2026-10-08",
+          "hash": "4e13ffde2d8db2679e3ab9205d60d0552bc1efc9248c3a5a0f51f59a7533db79",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
           "id": "desktop-changelog-2624b633aee0e47277a8",
           "title": "2026-06-01 · Use Codex with Amazon Bedrock",
           "publishedAt": "2026-06-01",
@@ -168,6 +175,13 @@
           "title": "2026-07-31 · Record & Replay expands to the EU, UK, and Switzerland",
           "publishedAt": "2026-07-31",
           "hash": "c94d0f5c06b332f9ea694210ace73e91f59f904ab6d240db72c0e51646d02ec9",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-375a87b67e9a58ff503d",
+          "title": "2026-10-09 · Codex CLI 0.162.1",
+          "publishedAt": "2026-10-09",
+          "hash": "e08cdd153cd30d4340e7216f0fc055204ce83860264443c5bc27fe95723c6e5a",
           "url": "https://learn.chatgpt.com/docs/changelog"
         },
         {
@@ -217,6 +231,13 @@
           "title": "2025-05-22 · Reworked environment page",
           "publishedAt": "2025-05-22",
           "hash": "88ceec88350d8a10b1bf83dd855b22490f756f15c475be3cccee4b0489c5395d",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-4cab2537c74f4b2b7720",
+          "title": "2026-09-30 · Codex CLI 0.159.3",
+          "publishedAt": "2026-09-30",
+          "hash": "5a68315b7b246f52744a3b558425501e4ede78e655b120d94c689c970a077e67",
           "url": "https://learn.chatgpt.com/docs/changelog"
         },
         {
@@ -318,6 +339,13 @@
           "url": "https://learn.chatgpt.com/docs/changelog"
         },
         {
+          "id": "desktop-changelog-694f88a820107b9973f7",
+          "title": "2026-09-29 · Codex CLI 0.159.0",
+          "publishedAt": "2026-09-29",
+          "hash": "4d90a6e7d54a79ed077153204796dce2791798362827d4f390feb8741bdb1e86",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
           "id": "desktop-changelog-6c9ff7c2b21983b1cd33",
           "title": "2025-12-04 · Introducing Codex for Linear",
           "publishedAt": "2025-12-04",
@@ -357,6 +385,13 @@
           "title": "2026-05-05 · Create Codex access tokens",
           "publishedAt": "2026-05-05",
           "hash": "d3a8a89509b5595eb46ae58a5fa0488d3f9bd5e3ed70372cf5803b2ca7abae23",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-743754c924d9652dd334",
+          "title": "2026-09-28 · Codex CLI 0.158.0",
+          "publishedAt": "2026-09-28",
+          "hash": "7db0be1b94f278d854fce7bd37c4a94c43f53cf6e67c53b61cf75a8feb0adb04",
           "url": "https://learn.chatgpt.com/docs/changelog"
         },
         {
@@ -423,6 +458,13 @@
           "url": "https://learn.chatgpt.com/docs/changelog"
         },
         {
+          "id": "desktop-changelog-820d28b0567bad2a9849",
+          "title": "2026-10-07 · Codex CLI 0.161.0",
+          "publishedAt": "2026-10-07",
+          "hash": "2e52fcf4315657dec6f98010c3d322de23f6538e39375a479c5e9f3d5c7b3776",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
           "id": "desktop-changelog-83f295be5ed1931dd37d",
           "title": "2026-06-16 · More Codex features in the EEA, UK, and Switzerland",
           "publishedAt": "2026-06-16",
@@ -434,6 +476,13 @@
           "title": "2026-02-28 · Codex app 26.228",
           "publishedAt": "2026-02-28",
           "hash": "f777bc8821ce22e333302ee57c50857ae8e1eecb8cfd8043183b10b2485054d8",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-85e3c371d49681facbd9",
+          "title": "2026-10-05 · Codex CLI 0.160.1",
+          "publishedAt": "2026-10-05",
+          "hash": "928a2f571e522047d8ad67518091dc521572948acb3008442a649af5db780f41",
           "url": "https://learn.chatgpt.com/docs/changelog"
         },
         {
@@ -542,6 +591,13 @@
           "url": "https://learn.chatgpt.com/docs/changelog"
         },
         {
+          "id": "desktop-changelog-994513e7c110cc47eb27",
+          "title": "2026-09-23 · Codex CLI 0.156.1",
+          "publishedAt": "2026-09-23",
+          "hash": "c78aa0a8d54d30c7a8936533dcbbb056a3e0b7c76c4ac1906a5b6b6e248db4a8",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
           "id": "desktop-changelog-9a07f503808db107bbfb",
           "title": "2026-08-17 · Public plugin catalog CSV export",
           "publishedAt": "2026-08-17",
@@ -560,6 +616,20 @@
           "title": "2026-05-11 · Expanded Auto-review documentation",
           "publishedAt": "2026-05-11",
           "hash": "e74b5e4abc2d7f7f82b2d5c07900c672c11d49e9caeb00d29c97414598ab113e",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-a3c0aba5775311c5fb71",
+          "title": "2026-09-22 · Codex CLI 0.156.0",
+          "publishedAt": "2026-09-22",
+          "hash": "35ac9f21e9d5086275af3b6264d2058a80844a080be455a069e1dde6da7f324c",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-a560982ea332bfea3126",
+          "title": "2026-09-29 · Codex CLI 0.159.2",
+          "publishedAt": "2026-09-29",
+          "hash": "d8773e1e8642513be0e5b2a6465854ce2235890d5798d45c418d34e90d2db41c",
           "url": "https://learn.chatgpt.com/docs/changelog"
         },
         {
@@ -609,6 +679,13 @@
           "title": "2026-02-10 · Codex app 26.210",
           "publishedAt": "2026-02-10",
           "hash": "2b35ed0dc3965fa3a2779a11e2ee54fe2c7999724303ac8b067a8d8292f0933c",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-c4124ebaaa211f027c99",
+          "title": "2026-09-26 · Codex CLI 0.157.1",
+          "publishedAt": "2026-09-26",
+          "hash": "d8bf0217ff17f316f0439993b8549648a1f1cc109264be84405aa49b14348907",
           "url": "https://learn.chatgpt.com/docs/changelog"
         },
         {
@@ -794,6 +871,13 @@
           "url": "https://learn.chatgpt.com/docs/changelog"
         },
         {
+          "id": "desktop-changelog-e610ca63e3d9b72a5063",
+          "title": "2026-09-25 · Codex CLI 0.157.0",
+          "publishedAt": "2026-09-25",
+          "hash": "b56dbe8c68900a27ceea9dad725f3c3e8ff8fefd013a3ab84b8c5ebcc4bcffca",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
           "id": "desktop-changelog-e6bb36aa04e3334613e0",
           "title": "2026-08-18 · ChatGPT for iOS 1.2026.223",
           "publishedAt": "2026-08-18",
@@ -843,6 +927,20 @@
           "url": "https://learn.chatgpt.com/docs/changelog"
         },
         {
+          "id": "desktop-changelog-f5a95bd27b5bd0bd1729",
+          "title": "2026-09-29 · Codex CLI 0.159.1",
+          "publishedAt": "2026-09-29",
+          "hash": "5b712f74e0dd37585a5f42f1fee1b382a0312cab98189421f998ceb1eed91298",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-f9daac2bee4df395c161",
+          "title": "2026-10-01 · Codex CLI 0.160.0",
+          "publishedAt": "2026-10-01",
+          "hash": "bf209e892fde73dab267fb4854f0722e8818377a6ba61f6db9b3dae91e864a41",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
           "id": "desktop-changelog-fb8d6965e219ea8b1223",
           "title": "2026-09-23 · ChatGPT for iOS 1.2026.258",
           "publishedAt": "2026-09-23",
@@ -864,13 +962,13 @@
           "url": "https://learn.chatgpt.com/docs/changelog"
         }
       ],
-      "lastEntryCount": 122,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastEntryCount": 136,
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "migration": {
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
       "lastSuccessAt": null,
       "status": "error",
       "error": "HTTP 403"
@@ -887,8 +985,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "app": {
@@ -903,8 +1001,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "windows": {
@@ -919,8 +1017,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "projects": {
@@ -935,8 +1033,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "settings": {
@@ -951,8 +1049,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "shortcuts": {
@@ -967,8 +1065,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "models": {
@@ -983,8 +1081,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "model-selection": {
@@ -999,8 +1097,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "pricing": {
@@ -1015,8 +1113,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "work": {
@@ -1031,8 +1129,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "plugins": {
@@ -1047,8 +1145,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "skills": {
@@ -1063,8 +1161,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "personalize": {
@@ -1079,8 +1177,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "memories": {
@@ -1095,30 +1193,30 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "chat-memory": {
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
       "lastSuccessAt": null,
       "status": "error",
       "error": "HTTP 403"
     },
     "data": {
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
       "lastSuccessAt": null,
       "status": "error",
       "error": "HTTP 403"
     },
     "temporary": {
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
       "lastSuccessAt": null,
       "status": "error",
       "error": "HTTP 403"
     },
     "files": {
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
       "lastSuccessAt": null,
       "status": "error",
       "error": "HTTP 403"
@@ -1135,8 +1233,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "browser": {
@@ -1151,8 +1249,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "browser-extension": {
@@ -1167,8 +1265,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "review": {
@@ -1183,8 +1281,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "environments": {
@@ -1199,8 +1297,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "worktrees": {
@@ -1215,8 +1313,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "permissions": {
@@ -1231,8 +1329,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "scheduled": {
@@ -1247,8 +1345,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "notifications": {
@@ -1263,8 +1361,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "voice": {
@@ -1279,8 +1377,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "appshots": {
@@ -1295,8 +1393,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "computer-use": {
@@ -1311,8 +1409,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "app-updates": {
@@ -1327,8 +1425,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "search": {
@@ -1343,8 +1441,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "images": {
@@ -1359,8 +1457,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "image-inputs": {
@@ -1375,8 +1473,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "terminal": {
@@ -1391,8 +1489,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "pets": {
@@ -1407,24 +1505,24 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "space": {
-      "hash": "76302e62c5cd1efc30ba9d2fb0e0235f3083b402cec14ee31a67ffda2d9cbd11",
+      "hash": "ef808a4d509b0017d788cad9fd92ef6e03833d9f869f624859d5dc08bd1b6f95",
       "entries": [
         {
           "id": "space-5deccb7a882b581f81ae",
           "title": "ChatGPT Space",
           "publishedAt": null,
-          "hash": "e3352744439123ce89b53ea7d4706dbe4d9f8ccbeaadc7891c6272983cf8db2f",
+          "hash": "1676f8867531cfb8eb26acd1b21bc5e7516b2fe3dcbee5614ad49379902fa04f",
           "url": "https://learn.chatgpt.com/docs/space"
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "remote": {
@@ -1439,8 +1537,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "developer-settings": {
@@ -1455,8 +1553,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     },
     "openai-announcements": {
@@ -3872,10 +3970,12 @@
         }
       ],
       "lastEntryCount": 344,
-      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
-      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
+      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
       "status": "ok"
     }
   },
-  "reviewControlIds": []
+  "reviewControlIds": [
+    "chatgpt-work-model-sol"
+  ]
 }
