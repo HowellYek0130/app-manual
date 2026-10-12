@@ -404,8 +404,8 @@
         }
       ],
       "lastEntryCount": 57,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-unified": {
@@ -420,8 +420,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-cloud": {
@@ -436,8 +436,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-start": {
@@ -452,8 +452,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-desktop": {
@@ -468,8 +468,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-models": {
@@ -484,8 +484,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-uploads": {
@@ -500,8 +500,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-projects": {
@@ -516,8 +516,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-cowork-projects": {
@@ -532,8 +532,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-memory": {
@@ -548,8 +548,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-memory-transfer": {
@@ -564,8 +564,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-incognito": {
@@ -580,8 +580,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-artifacts": {
@@ -596,8 +596,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-share": {
@@ -612,8 +612,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-docs": {
@@ -628,8 +628,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-design": {
@@ -644,8 +644,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-design-systems": {
@@ -660,8 +660,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-connectors": {
@@ -676,8 +676,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-connector-types": {
@@ -692,8 +692,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-tool-access": {
@@ -708,8 +708,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-directory": {
@@ -724,8 +724,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-skills": {
@@ -740,8 +740,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-plugins": {
@@ -756,8 +756,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-extensions": {
@@ -772,8 +772,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-appearance": {
@@ -788,8 +788,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-export": {
@@ -804,8 +804,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-files": {
@@ -820,8 +820,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-usage": {
@@ -836,8 +836,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-schedule": {
@@ -852,8 +852,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-cowork": {
@@ -868,8 +868,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-computer": {
@@ -884,8 +884,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-browser": {
@@ -900,8 +900,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-code": {
@@ -916,8 +916,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-code-plan": {
@@ -932,8 +932,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     },
     "claude-announcements": {
@@ -983,8 +983,8 @@
         }
       ],
       "lastEntryCount": 6,
-      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
-      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "lastAttemptAt": "2026-10-12T13:01:47.084Z",
+      "lastSuccessAt": "2026-10-12T13:01:47.084Z",
       "status": "ok"
     }
   },
