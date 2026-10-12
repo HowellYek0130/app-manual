@@ -1,5 +1,7 @@
 # App Manual · 软件操作说明书
 
+[打开在线说明书](https://howellyek0130.github.io/app-manual/) · [GitHub 项目](https://github.com/HowellYek0130/app-manual)
+
 可点击、能进入下层页面的 Windows App 教学界面，以及持续追踪官方功能更新的静态网站。第一版针对 ChatGPT Plus、Claude Pro，以最新版为主，保留旧版入口对照。中文解释保留原产品按钮名称，方便对照。
 
 ## 使用

@@ -1,10 +1,12 @@
 import { test, expect, type Page } from '@playwright/test';
-import { readFileSync, mkdirSync } from 'node:fs';
+import { readFileSync, mkdirSync, readdirSync } from 'node:fs';
 import path from 'node:path';
 import type { Control, Product, Screen, UpdateEntry } from '../src/types';
 
 const read = <T>(file: string): T => JSON.parse(readFileSync(path.resolve(file), 'utf8'));
 const products = ['chatgpt', 'claude'].map(id => read<Product>(`products/${id}/product.json`));
+const productFolderCount = readdirSync(path.resolve('products'), { withFileTypes: true })
+  .filter(folder => folder.isDirectory() && !folder.name.startsWith('.')).length;
 const product = (id: string) => products.find(p => p.id === id)!;
 const pageErrors = new WeakMap<Page, string[]>();
 test.beforeEach(({ page }) => {
@@ -55,7 +57,7 @@ async function screenshot(page: Page, name: string) {
 test('library opens both manuals and displays evidence-aware explanations', async ({ page }) => {
   await page.goto('/');
   await expect(page.getByRole('heading', { name: '选择一本说明书' })).toBeVisible();
-  await expect(page.locator('.manual-book')).toHaveCount(2);
+  await expect(page.locator('.manual-book')).toHaveCount(productFolderCount);
   await screenshot(page, 'library-desktop');
   for (const p of products) {
     await openProduct(page, p);
