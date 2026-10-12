@@ -1,0 +1,6120 @@
+{
+  "id": "chatgpt",
+  "name": "ChatGPT",
+  "plan": "Plus · 个人版",
+  "platform": "Windows · 新版桌面 App",
+  "versionLabel": "官方文档基线 2026-10-12 · 界面待实测",
+  "accent": "#16866c",
+  "intro": "从熟悉的问答走到 Work 与 Codex：逐层探索菜单、项目、设置、文件、插件与权限。布局为教学重建；每条说明标记官方文档证据，尚未核验真实最新版界面。",
+  "initialScreen": "home",
+  "screens": [
+    {
+      "id": "home",
+      "title": "ChatGPT · 首页",
+      "section": "Chat",
+      "layout": "chat",
+      "description": "新版桌面入口：Chat 用于问答，Work 用于完成任务，Codex 用于软件开发。点击模拟按钮会打开下一层说明。",
+      "controls": [
+        {
+          "id": "chatgpt-home-switcher",
+          "label": "ChatGPT ▾",
+          "placement": "toolbar",
+          "action": {
+            "kind": "navigate",
+            "target": "switcher"
+          },
+          "guide": {
+            "purpose": "切换 ChatGPT 与 Codex 两种工作视图。",
+            "steps": [
+              "打开左上方 ChatGPT 菜单",
+              "选择适合任务的视图"
+            ],
+            "outcome": "打开视图选择；Codex 历史与 ChatGPT 历史分开。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "migration"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "模式",
+              "Codex",
+              "Work"
+            ]
+          }
+        },
+        {
+          "id": "chatgpt-home-new",
+          "label": "New chat",
+          "placement": "sidebar",
+          "action": {
+            "kind": "navigate",
+            "target": "chat"
+          },
+          "guide": {
+            "purpose": "为新的问题开始独立对话，避免混入旧任务上下文。",
+            "steps": [
+              "点击 New chat",
+              "写清问题、背景与希望的回答格式"
+            ],
+            "outcome": "进入演示聊天；未使用项目资料。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "app",
+              "use-chatgpt"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-home-work",
+          "label": "Work",
+          "placement": "toolbar",
+          "action": {
+            "kind": "navigate",
+            "target": "work"
+          },
+          "guide": {
+            "purpose": "让 ChatGPT 把研究、分析或文件制作推进到可检查的结果。",
+            "steps": [
+              "切换到 Work",
+              "描述目标与验收标准"
+            ],
+            "outcome": "进入 Work 演示，可继续选择环境和文件。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "work"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-home-recents",
+          "label": "Recents",
+          "placement": "sidebar",
+          "action": {
+            "kind": "navigate",
+            "target": "recents"
+          },
+          "guide": {
+            "purpose": "找回 Chat 与 Work 对话、筛选状态并继续工作。",
+            "steps": [
+              "打开 Recents",
+              "选择已有对话"
+            ],
+            "outcome": "显示演示历史列表；不会读取你的真实聊天。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "migration",
+              "projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-home-projects",
+          "label": "Projects",
+          "placement": "sidebar",
+          "action": {
+            "kind": "navigate",
+            "target": "projects"
+          },
+          "guide": {
+            "purpose": "把相关聊天、来源和指令放在长期项目中。",
+            "steps": [
+              "打开 Projects",
+              "新建或进入项目"
+            ],
+            "outcome": "打开项目列表，继续学习 Sources 与项目指令。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-home-plugins",
+          "label": "Plugins",
+          "placement": "sidebar",
+          "action": {
+            "kind": "navigate",
+            "target": "plugins"
+          },
+          "guide": {
+            "purpose": "寻找能处理特定工作、连接外部服务的插件。",
+            "steps": [
+              "打开 Plugins",
+              "查看用途与权限",
+              "决定是否安装"
+            ],
+            "outcome": "进入插件目录演示。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "plugins"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-home-settings",
+          "label": "Settings",
+          "placement": "sidebar",
+          "action": {
+            "kind": "navigate",
+            "target": "settings"
+          },
+          "guide": {
+            "purpose": "集中调整偏好、快捷键、通知及访问权限。",
+            "steps": [
+              "从 App 菜单打开 Settings，或按 Ctrl+,",
+              "选择设置分类"
+            ],
+            "outcome": "显示各设置分类的下层入口。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-home-app-menu",
+          "label": "App menu",
+          "placement": "toolbar",
+          "action": {
+            "kind": "navigate",
+            "target": "desktop-menu"
+          },
+          "guide": {
+            "purpose": "查看新版 Windows 的更新、窗口分享与浮动控制入口。",
+            "steps": [
+              "打开桌面 App 菜单",
+              "选择所需功能",
+              "检查当前版本和账号支持"
+            ],
+            "outcome": "打开桌面功能菜单教学。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "app",
+              "settings",
+              "app-updates"
+            ],
+            "evidence": "needs-review",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-home-temporary",
+          "label": "New temporary chat",
+          "placement": "toolbar",
+          "action": {
+            "kind": "navigate",
+            "target": "temporary"
+          },
+          "guide": {
+            "purpose": "先选择个性化方式，再开始默认不保存到历史的聊天。",
+            "steps": [
+              "新建 Temporary chat",
+              "选择 Personalized 或 Unpersonalized",
+              "开始对话"
+            ],
+            "outcome": "进入临时聊天教学；不调用真实账号。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "temporary",
+              "shortcuts"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "switcher",
+      "title": "选择工作视图",
+      "section": "Chat",
+      "layout": "dialog",
+      "description": "Chat 和 Work 在 ChatGPT 视图中，Codex 有自己的开发界面及历史。",
+      "controls": [
+        {
+          "id": "chatgpt-switch-chat",
+          "label": "ChatGPT · Chat",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "chat"
+          },
+          "guide": {
+            "purpose": "进入日常问答、讨论和短篇写作。",
+            "steps": [
+              "选择 ChatGPT",
+              "切换 Chat"
+            ],
+            "outcome": "打开普通聊天模拟。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "use-chatgpt",
+              "migration"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-switch-work",
+          "label": "ChatGPT · Work",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "work"
+          },
+          "guide": {
+            "purpose": "委派多步骤任务，并在过程中修正方向。",
+            "steps": [
+              "选择 ChatGPT",
+              "切换 Work"
+            ],
+            "outcome": "打开任务与成品预览模拟。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "use-chatgpt",
+              "work"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-switch-codex",
+          "label": "Codex",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "codex"
+          },
+          "guide": {
+            "purpose": "进入文件、仓库、终端和代码审查工作流。",
+            "steps": [
+              "选择 Codex",
+              "选择项目或新任务"
+            ],
+            "outcome": "打开开发视图，不会连接真实文件夹。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "environments",
+              "migration"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "home"
+    },
+    {
+      "id": "recents",
+      "title": "Recents · 聊天历史",
+      "section": "Chat",
+      "layout": "list",
+      "description": "教学样例：旅行规划（Chat）与市场研究（Work）。筛选和固定用于整理列表，不会自动给 AI 更多权限。",
+      "controls": [
+        {
+          "id": "chatgpt-recents-search",
+          "label": "Search chats",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示搜索：已找到“市场研究”与“旅行规划”两条样例聊天。"
+          },
+          "guide": {
+            "purpose": "按对话文字寻找旧聊天，而不必记住标题。",
+            "steps": [
+              "打开 Search chats",
+              "输入记得的关键字",
+              "进入匹配聊天"
+            ],
+            "outcome": "显示样例搜索结果。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "新版桌面 Search chats 默认没有快捷键；可在 Keyboard Shortcuts 中设置。",
+            "sourceIds": [
+              "projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-recents-chat",
+          "label": "旅行规划 · Chat",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "chat"
+          },
+          "guide": {
+            "purpose": "继续之前的普通对话。",
+            "steps": [
+              "选择历史记录",
+              "回顾已有信息",
+              "发送后续问题"
+            ],
+            "outcome": "打开含样例回复的聊天。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "migration",
+              "projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-recents-work",
+          "label": "市场研究 · Work",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "work"
+          },
+          "guide": {
+            "purpose": "回到较长任务，阅读进度或提供追加条件。",
+            "steps": [
+              "选择 Work 聊天",
+              "检查是否需要输入",
+              "继续任务"
+            ],
+            "outcome": "打开 Work 演示。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "work",
+              "migration"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-recents-filter",
+          "label": "Filter / Sort",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：切换为只查看 Work 对话；真实筛选选项以当前 App 为准。"
+          },
+          "guide": {
+            "purpose": "从混合历史中筛选 Work、Chat 或固定聊天。",
+            "steps": [
+              "打开筛选选项",
+              "选择类别或排序方式"
+            ],
+            "outcome": "切换教学筛选状态。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "migration",
+              "notifications"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "home"
+    },
+    {
+      "id": "chat",
+      "title": "Chat · 对话",
+      "section": "Chat",
+      "layout": "chat",
+      "description": "样例问题：请比较 Chat、Work、Codex 的用途。这里练习添加上下文、选模型、发消息以及管理对话。",
+      "controls": [
+        {
+          "id": "chatgpt-chat-model",
+          "label": "Model / Reasoning",
+          "placement": "toolbar",
+          "action": {
+            "kind": "navigate",
+            "target": "chat-models"
+          },
+          "guide": {
+            "purpose": "选择普通 Chat 的模型及思考强度。",
+            "steps": [
+              "打开模型控件",
+              "查看账号可用选项",
+              "再发送问题"
+            ],
+            "outcome": "打开 Chat 模型教学；不与 Work 的模型清单混用。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "release-notes"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "GPT-6",
+              "思考",
+              "模型"
+            ]
+          }
+        },
+        {
+          "id": "chatgpt-chat-attach",
+          "label": "+ Add context",
+          "placement": "composer",
+          "action": {
+            "kind": "navigate",
+            "target": "attachments"
+          },
+          "guide": {
+            "purpose": "加入文件、图片或音频，让答案依据具体材料。",
+            "steps": [
+              "打开 + 菜单",
+              "选择材料",
+              "告诉 ChatGPT 要分析什么"
+            ],
+            "outcome": "进入多种上下文的下层说明。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "files",
+              "image-inputs"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-chat-send",
+          "label": "Send",
+          "placement": "composer",
+          "action": {
+            "kind": "submit",
+            "result": "演示回复：Chat 适合讨论；Work 适合研究和成品交付；Codex 适合仓库与代码工作。实际回答需核对。"
+          },
+          "guide": {
+            "purpose": "把你写好的问题提交到当前对话。",
+            "steps": [
+              "写明目标与背景",
+              "检查附件",
+              "点击 Send"
+            ],
+            "outcome": "添加本地演示回复；不会请求模型 API。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "发送前检查附件与聊天模式；真实服务出现限额时，依据账号提示等待重置。",
+            "sourceIds": [
+              "use-chatgpt"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-chat-voice",
+          "label": "Start voice chat",
+          "placement": "composer",
+          "action": {
+            "kind": "navigate",
+            "target": "voice"
+          },
+          "guide": {
+            "purpose": "用语音讨论并协调当前工作。",
+            "steps": [
+              "选择 Start voice chat",
+              "首次允许麦克风",
+              "开始说话"
+            ],
+            "outcome": "进入语音操作教学，不启用麦克风。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "voice"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-chat-tools",
+          "label": "Plugins / Tools",
+          "placement": "composer",
+          "action": {
+            "kind": "navigate",
+            "target": "tools"
+          },
+          "guide": {
+            "purpose": "选择研究、图片或外部工具工作流。",
+            "steps": [
+              "查看可用工具",
+              "选择工作流",
+              "明确你需要的结果"
+            ],
+            "outcome": "打开工具使用说明。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "plugins",
+              "search"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-chat-menu",
+          "label": "Chat menu · ⋯",
+          "placement": "toolbar",
+          "action": {
+            "kind": "navigate",
+            "target": "chat-menu"
+          },
+          "guide": {
+            "purpose": "整理、重命名、移动或归档当前聊天。",
+            "steps": [
+              "打开聊天菜单",
+              "根据用途选择管理操作"
+            ],
+            "outcome": "进入聊天管理菜单。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "projects",
+              "shortcuts"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "home"
+    },
+    {
+      "id": "chat-menu",
+      "title": "Chat menu · 管理聊天",
+      "section": "Chat",
+      "layout": "dialog",
+      "description": "菜单中的管理操作改变组织方式。归档可以恢复；本演示不会删除任何账号记录。",
+      "controls": [
+        {
+          "id": "chatgpt-chat-rename",
+          "label": "Rename chat",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：聊天标题已改为“Chat、Work、Codex 使用比较”。"
+          },
+          "guide": {
+            "purpose": "用结果导向的名称让历史更易找回。",
+            "steps": [
+              "选择 Rename chat",
+              "输入清楚的标题",
+              "保存"
+            ],
+            "outcome": "显示演示改名结果。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "projects",
+              "shortcuts"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-chat-pin",
+          "label": "Pin chat",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：已切换此聊天的固定状态；固定不增加上下文或文件访问。"
+          },
+          "guide": {
+            "purpose": "把经常使用的聊天保持在列表上方。",
+            "steps": [
+              "选择 Pin chat",
+              "从 Pinned 快速返回"
+            ],
+            "outcome": "切换本地演示固定状态。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-chat-move",
+          "label": "Move to project",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "projects"
+          },
+          "guide": {
+            "purpose": "把持续发展的工作放入相关项目。",
+            "steps": [
+              "选择项目管理入口",
+              "选择目标项目",
+              "确认归属"
+            ],
+            "outcome": "打开项目选择教学。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "移动操作的具体菜单位置需按最新版界面核验；项目与本地文件访问不是一回事。",
+            "sourceIds": [
+              "projects"
+            ],
+            "evidence": "needs-review",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-chat-archive",
+          "label": "Archive chat",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：聊天已归档。去 Settings > Archived chats 可学习恢复。"
+          },
+          "guide": {
+            "purpose": "把已完成聊天移出日常列表，但保留记录。",
+            "steps": [
+              "选择 Archive chat",
+              "需要时到 Archived chats 恢复"
+            ],
+            "outcome": "仅显示模拟归档结果。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "projects",
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-chat-popout",
+          "label": "Pop out chat",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "popout-chat"
+          },
+          "guide": {
+            "purpose": "把正在使用的聊天放到独立窗口。",
+            "steps": [
+              "在活动聊天中选择 pop out。",
+              "将独立窗口放在工作软件旁边。"
+            ],
+            "outcome": "进入独立聊天窗口学习页。",
+            "conditions": "ChatGPT Plus · 个人版 · Windows · 新版桌面 App；实际入口以账号和客户端提供为准。",
+            "troubleshooting": "官方资料确认独立窗口功能；当前 Windows 的具体菜单位置尚未实测。",
+            "sourceIds": [
+              "settings"
+            ],
+            "evidence": "needs-review",
+            "verifiedAt": "2026-10-12"
+          }
+        }
+      ],
+      "parentId": "chat"
+    },
+    {
+      "id": "chat-models",
+      "title": "Chat · 模型选择",
+      "section": "Chat",
+      "layout": "dialog",
+      "description": "2026-10-07 官方开始向 Plus 推出 Chat 中的 GPT-6 Sol 与 Intelligent UI。思考档位和名称以账号当前清单为准。",
+      "controls": [
+        {
+          "id": "chatgpt-chat-model-sol",
+          "label": "GPT-6 Sol",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：选择 GPT-6 Sol。Chat 中的交互回答能力受账号与 rollout 影响。"
+          },
+          "guide": {
+            "purpose": "为个人 Plus 的普通 Chat 使用官方当前推出的模型。",
+            "steps": [
+              "打开 Chat 模型选择",
+              "若可见选择 GPT-6 Sol"
+            ],
+            "outcome": "显示模拟模型选择。",
+            "conditions": "Plus 的 Chat；2026-10-07 起逐步开放，Work 与 Codex 的模型没有随这次 Chat 发布一起改变。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "release-notes"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-chat-model-instant",
+          "label": "Instant",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：选择较低思考强度，适合清晰、简单的问题。"
+          },
+          "guide": {
+            "purpose": "优先快速获得简单问题的回复。",
+            "steps": [
+              "选择账号提供的 Instant 档位",
+              "提问",
+              "检查是否需要更深入分析"
+            ],
+            "outcome": "改变模拟思考设置。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "可见档位随平台变化；没有此名称时使用账号提供的较低思考选项。",
+            "sourceIds": [
+              "release-notes"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-chat-model-high",
+          "label": "Higher reasoning",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：提高思考强度，适合比较复杂方案；回复可能更慢。"
+          },
+          "guide": {
+            "purpose": "让复杂推理得到更多思考时间。",
+            "steps": [
+              "提高可用 reasoning 档位",
+              "写明约束与验收要求"
+            ],
+            "outcome": "显示模拟高思考状态。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "models",
+              "release-notes"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "chat"
+    },
+    {
+      "id": "attachments",
+      "title": "+ · 添加上下文",
+      "section": "Chat",
+      "layout": "dialog",
+      "description": "文件是需要处理的资料。图片、音频和当前窗口有不同限制，上传后还要说明你希望完成的工作。",
+      "controls": [
+        {
+          "id": "chatgpt-attach-file",
+          "label": "Add files",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：已附加 research-notes.pdf。请要求提取结论、引用页码并列出不确定之处。"
+          },
+          "guide": {
+            "purpose": "让 ChatGPT 依据文档、表格或其他支持文件进行分析。",
+            "steps": [
+              "选择 Add files 或拖入支持的文件",
+              "检查文件名",
+              "写清任务"
+            ],
+            "outcome": "附加演示 PDF；没有真实上传。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "真实上传失败时检查文件格式、大小、账号额度和模型支持；本演示只提供样例。",
+            "sourceIds": [
+              "files",
+              "artifacts"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-attach-image",
+          "label": "Add image",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：已附加一张设置截图。提问时指出区域与希望解释的操作。"
+          },
+          "guide": {
+            "purpose": "提供界面、图表或视觉参考。",
+            "steps": [
+              "粘贴或添加图片",
+              "标出需要分析的部分",
+              "描述输出"
+            ],
+            "outcome": "添加演示图片上下文。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "image-inputs"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-attach-audio",
+          "label": "Add audio",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：已附加 meeting.wav。可以要求转写、总结与行动项；转写需人工核对。"
+          },
+          "guide": {
+            "purpose": "处理录音，而不是开启实时语音。",
+            "steps": [
+              "添加支持的音频文件",
+              "要求转写或总结",
+              "检查人名、数字和语言错误"
+            ],
+            "outcome": "显示模拟音频分析任务。",
+            "conditions": "付费 ChatGPT；2026-10-06 公告，仍依地区、版本、模型和账号设置开放。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "files",
+              "release-notes"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-attach-appshot",
+          "label": "Appshots · 双 Alt",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "appshots"
+          },
+          "guide": {
+            "purpose": "分享当前应用窗口的图片与可读取文本。",
+            "steps": [
+              "让目标窗口位于最前",
+              "同时按两个 Alt",
+              "回到 ChatGPT 写要求"
+            ],
+            "outcome": "打开 Windows Appshots 教学。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "appshots",
+              "desktop-changelog"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "chat"
+    },
+    {
+      "id": "tools",
+      "title": "Tools · 常用工作流",
+      "section": "Chat",
+      "layout": "dialog",
+      "description": "新版桌面的工作流可以从插件目录进入。工具出现在哪里、叫什么名字，会随版本和账号改变。",
+      "controls": [
+        {
+          "id": "chatgpt-tool-search",
+          "label": "Web search",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：准备搜索官方帮助文档，并在回答里给出处。请核对发布日期与来源。"
+          },
+          "guide": {
+            "purpose": "获取需要最新来源的资料。",
+            "steps": [
+              "直接要求搜索当前资料",
+              "阅读搜索活动与引用",
+              "打开来源核对"
+            ],
+            "outcome": "显示模拟搜索结果提示。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "真实结果有误时限定官方域名、指定日期或要求比较多个来源；不要只信搜索摘要。",
+            "sourceIds": [
+              "search"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-tool-research",
+          "label": "Deep research",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "plugin-detail"
+          },
+          "guide": {
+            "purpose": "研究多个来源并得到可检查的报告。",
+            "steps": [
+              "切换 Work",
+              "Plugins 中找 Deep research",
+              "安装或启用",
+              "选择 Try now"
+            ],
+            "outcome": "打开插件详情与权限说明。",
+            "conditions": "个人 Plus 的实际 Deep research 可用性与额度以账号清单为准。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "search",
+              "plugins"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-tool-image",
+          "label": "Image generation",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：准备生成“极简说明书封面”。真实生成会消耗账号额度。"
+          },
+          "guide": {
+            "purpose": "创建新图片或根据参考图修改图片。",
+            "steps": [
+              "说明图片用途、主体与约束",
+              "需要修改时附参考图",
+              "检查结果"
+            ],
+            "outcome": "显示示范图片请求，不生成图片。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "images"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-tool-computer",
+          "label": "Computer Use",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "computer-use"
+          },
+          "guide": {
+            "purpose": "在获得授权后让 Work 或 Codex 操作桌面和浏览器界面。",
+            "steps": [
+              "查看插件与访问设置",
+              "明确任务边界",
+              "阅读每次授权请求"
+            ],
+            "outcome": "进入访问与授权教学。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "computer-use"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "chat"
+    },
+    {
+      "id": "temporary",
+      "title": "Temporary chat · 临时对话",
+      "section": "Chat",
+      "layout": "dialog",
+      "description": "最新版允许在开始前选择是否个性化。临时对话不创建或更新记忆；保存后会变为普通聊天。",
+      "controls": [
+        {
+          "id": "chatgpt-temporary-personalized",
+          "label": "Personalized",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "chat"
+          },
+          "guide": {
+            "purpose": "临时聊天可使用已有记忆、指令及可用插件。",
+            "steps": [
+              "开始前选择 Personalized",
+              "开始聊天"
+            ],
+            "outcome": "进入普通外观的演示对话；示范个性化临时模式。",
+            "conditions": "以当前账号显示的临时聊天选项为准；开始后不能切换个性化方式。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "temporary"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-temporary-unpersonalized",
+          "label": "Unpersonalized",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "chat"
+          },
+          "guide": {
+            "purpose": "在临时聊天中不使用个性化记忆、指令和插件。",
+            "steps": [
+              "开始前选择 Unpersonalized",
+              "开始聊天"
+            ],
+            "outcome": "模拟不个性化的临时聊天。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "临时模式仍可能因安全需要保留副本最多 30 天；账号与工作区限制继续适用。",
+            "sourceIds": [
+              "temporary"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-temporary-save",
+          "label": "Save chat",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：临时对话保存为普通聊天后会出现在历史里，并遵循账号的个性化与模型改进设置。"
+          },
+          "guide": {
+            "purpose": "把有价值的临时对话保留下来。",
+            "steps": [
+              "使用可用的 Save chat 入口",
+              "确认转为普通聊天"
+            ],
+            "outcome": "展示保存后规则变化。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "temporary"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "home"
+    },
+    {
+      "id": "voice",
+      "title": "Voice · 语音对话",
+      "section": "Chat",
+      "layout": "dialog",
+      "description": "实时语音可用于 Chat、Work 与 Codex。这里不会调用麦克风。",
+      "controls": [
+        {
+          "id": "chatgpt-voice-start",
+          "label": "Start voice chat",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：语音已开始。你可以说“总结当前进度”或“把结果改成中文”。"
+          },
+          "guide": {
+            "purpose": "把说话作为当前对话的输入方式。",
+            "steps": [
+              "首次允许麦克风并选声音",
+              "点击 Start voice chat",
+              "自然表达需求"
+            ],
+            "outcome": "显示语音运行示范。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "没有按钮时更新 App 和运行任务的 host，检查账号 rollout；也可以使用听写先输入文字。",
+            "sourceIds": [
+              "voice"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-voice-stop",
+          "label": "Stop voice chat",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：语音已结束；已委派的任务进度仍需回到聊天检查。"
+          },
+          "guide": {
+            "purpose": "结束语音会话并返回文字操作。",
+            "steps": [
+              "选择 Stop voice chat",
+              "阅读任务结果和后续状态"
+            ],
+            "outcome": "退出模拟语音状态。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "voice"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-voice-settings",
+          "label": "Voice settings / Hotkey",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "shortcuts"
+          },
+          "guide": {
+            "purpose": "查看语音快捷键，并避免与常用应用冲突。",
+            "steps": [
+              "打开 Settings > Voice",
+              "查看 Voice chat hotkey"
+            ],
+            "outcome": "打开快捷键教学；实际 Voice 设置以版本为准。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "voice",
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "chat"
+    },
+    {
+      "id": "projects",
+      "title": "Projects · 项目列表",
+      "section": "Projects",
+      "layout": "list",
+      "description": "ChatGPT 项目保存上传来源与共享指令；本地项目连接电脑文件夹。这两类项目不代表相同访问权限。",
+      "controls": [
+        {
+          "id": "chatgpt-projects-create",
+          "label": "New project",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "project-create"
+          },
+          "guide": {
+            "purpose": "为长期主题建立独立资料与聊天集合。",
+            "steps": [
+              "选择 New project",
+              "命名",
+              "添加来源和项目指令"
+            ],
+            "outcome": "打开创建项目演示。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-projects-open",
+          "label": "软件学习 · ChatGPT project",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "project"
+          },
+          "guide": {
+            "purpose": "让相关 Chat 和 Work 对话复用同一组来源。",
+            "steps": [
+              "打开项目",
+              "检查 Sources 和 Instructions",
+              "开始新聊天"
+            ],
+            "outcome": "打开含官方说明书样例的项目。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-projects-local",
+          "label": "Add local project",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "codex-project"
+          },
+          "guide": {
+            "purpose": "关联电脑上的文件夹，用于本地 Work 或 Codex。",
+            "steps": [
+              "选择本地项目入口或 Ctrl+O",
+              "选择文件夹",
+              "检查任务权限"
+            ],
+            "outcome": "进入本地开发项目教学，不读取电脑文件。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "projects",
+              "windows"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "home"
+    },
+    {
+      "id": "project-create",
+      "title": "New project · 新建项目",
+      "section": "Projects",
+      "layout": "dialog",
+      "description": "教学样例：命名“软件学习”，上传公开参考材料，并写下持续适用的中文说明要求。",
+      "controls": [
+        {
+          "id": "chatgpt-project-create-name",
+          "label": "Project name",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示名称：软件学习。用一个能长期理解的名称，比“新项目”更易管理。"
+          },
+          "guide": {
+            "purpose": "明确这组资料和聊天服务于哪个主题。",
+            "steps": [
+              "填写项目名称",
+              "检查是否与已有项目重复"
+            ],
+            "outcome": "显示演示名称。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-project-create-submit",
+          "label": "Create project",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "project"
+          },
+          "guide": {
+            "purpose": "建立项目并继续配置上下文。",
+            "steps": [
+              "填写名称",
+              "创建",
+              "添加资料和指令"
+            ],
+            "outcome": "打开演示项目。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "projects"
+    },
+    {
+      "id": "project",
+      "title": "软件学习 · 项目",
+      "section": "Projects",
+      "layout": "workspace",
+      "description": "Chats：界面研究；Sources：官方发布说明与需求文档。项目不是自动获得本地电脑访问的授权。",
+      "controls": [
+        {
+          "id": "chatgpt-project-chat",
+          "label": "New chat · Chat",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "chat"
+          },
+          "guide": {
+            "purpose": "用项目来源开始普通讨论。",
+            "steps": [
+              "从项目中新建 Chat",
+              "要求解释具体功能"
+            ],
+            "outcome": "打开项目 Chat 的教学路径。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-project-work",
+          "label": "New chat · Work",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "work"
+          },
+          "guide": {
+            "purpose": "用同一项目资料委派报告或说明书制作。",
+            "steps": [
+              "从项目选择 Work",
+              "指定输出文件和验收标准"
+            ],
+            "outcome": "进入 Work 的项目任务示范。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "projects",
+              "work"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-project-sources",
+          "label": "Sources",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "project-sources"
+          },
+          "guide": {
+            "purpose": "查看项目聊天共享的文件与连接上下文。",
+            "steps": [
+              "打开 Sources",
+              "核对材料",
+              "添加缺少的参考"
+            ],
+            "outcome": "进入来源管理下层页面。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-project-instructions",
+          "label": "Project instructions",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "project-instructions"
+          },
+          "guide": {
+            "purpose": "定义这个项目中始终适用的目标与写作要求。",
+            "steps": [
+              "打开项目指令",
+              "写清持续规则",
+              "保存"
+            ],
+            "outcome": "进入指令编辑演示。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "projects",
+              "personalize"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-project-menu",
+          "label": "Project menu · ⋯",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "project-menu"
+          },
+          "guide": {
+            "purpose": "管理项目名称、固定状态和完成的聊天。",
+            "steps": [
+              "打开项目菜单",
+              "选择管理操作"
+            ],
+            "outcome": "显示项目管理选项。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "projects"
+    },
+    {
+      "id": "project-sources",
+      "title": "Sources · 项目资料",
+      "section": "Projects",
+      "layout": "list",
+      "description": "共享材料必须明确添加。给项目改名或固定项目都不会增加 AI 能读取的内容。",
+      "controls": [
+        {
+          "id": "chatgpt-source-upload",
+          "label": "Add source",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：已添加 product-requirements.pdf，供项目中的新聊天参考。"
+          },
+          "guide": {
+            "purpose": "补足能让 ChatGPT 按你要求完成工作的材料。",
+            "steps": [
+              "选择 Add source",
+              "上传或连接来源",
+              "检查内容与权限"
+            ],
+            "outcome": "添加模拟项目文件。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "上传失败时检查文件限制；网页链接不一定等于已导入全部正文，要求确认能读到的内容。",
+            "sourceIds": [
+              "projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-source-open",
+          "label": "Open · product-requirements.pdf",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "artifact"
+          },
+          "guide": {
+            "purpose": "打开来源文件，核对是否确实是需要的版本。",
+            "steps": [
+              "选择 Sources 文件",
+              "查看或下载",
+              "确认日期与内容"
+            ],
+            "outcome": "打开文件预览模拟。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "projects",
+              "artifacts",
+              "desktop-changelog"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-source-remove",
+          "label": "Remove source",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：仅移除模拟项目来源；真实操作前确认其他项目聊天是否仍需要它。"
+          },
+          "guide": {
+            "purpose": "停止把某个来源作为项目共享资料。",
+            "steps": [
+              "找到来源管理入口",
+              "核对文件",
+              "移除"
+            ],
+            "outcome": "显示移除演示。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "来源移除入口位置待真实界面核验；不要把移除来源与删除电脑文件混为一谈。",
+            "sourceIds": [
+              "projects"
+            ],
+            "evidence": "needs-review",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "project"
+    },
+    {
+      "id": "project-instructions",
+      "title": "Project instructions · 项目指令",
+      "section": "Projects",
+      "layout": "detail",
+      "description": "示例：用中文解释，保留英文按钮名称，逐层说明路径，为每条最新功能给官方来源和日期。",
+      "controls": [
+        {
+          "id": "chatgpt-instructions-edit",
+          "label": "Edit instructions",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示指令：保留原按钮名称；说明用途、操作结果、限制及来源；证据不足标记待核验。"
+          },
+          "guide": {
+            "purpose": "把重复说明的项目要求保存一次。",
+            "steps": [
+              "打开编辑",
+              "写目标、术语和检查标准",
+              "保存"
+            ],
+            "outcome": "显示模拟指令内容。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "projects",
+              "personalize"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-instructions-save",
+          "label": "Save instructions",
+          "placement": "content",
+          "action": {
+            "kind": "submit",
+            "result": "演示：项目指令已保存。下一次从此项目开始的聊天可用这些要求。"
+          },
+          "guide": {
+            "purpose": "让之后的项目聊天复用规定。",
+            "steps": [
+              "检查指令没有冲突",
+              "保存",
+              "用小任务确认执行方式"
+            ],
+            "outcome": "显示本地演示保存结果。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "project"
+    },
+    {
+      "id": "project-menu",
+      "title": "Project menu · 管理项目",
+      "section": "Projects",
+      "layout": "dialog",
+      "description": "这些操作用来整理长期工作；归档聊天不等于删除聊天或清除模型训练偏好。",
+      "controls": [
+        {
+          "id": "chatgpt-project-pin",
+          "label": "Pin project",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：项目固定状态已切换。"
+          },
+          "guide": {
+            "purpose": "把当前项目放到易于访问的位置。",
+            "steps": [
+              "选择 Pin project",
+              "从侧栏 Pinned 返回"
+            ],
+            "outcome": "切换模拟固定状态。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-project-rename",
+          "label": "Rename project",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：项目名称改为“软件界面说明书”。"
+          },
+          "guide": {
+            "purpose": "让名称反映项目最终目标。",
+            "steps": [
+              "打开项目管理",
+              "修改名称",
+              "保存"
+            ],
+            "outcome": "展示模拟名称变更。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "projects"
+            ],
+            "evidence": "needs-review",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-project-archive-chats",
+          "label": "Archive chats",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：归档项目内完成的聊天；需要时去 Archived chats 恢复。"
+          },
+          "guide": {
+            "purpose": "批量整理已完成项目聊天。",
+            "steps": [
+              "项目菜单选择 Archive chats",
+              "检查要归档的范围"
+            ],
+            "outcome": "只显示批量归档教学结果。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "project"
+    },
+    {
+      "id": "settings",
+      "title": "Settings · 设置目录",
+      "section": "Settings",
+      "layout": "settings",
+      "description": "选择分类继续进入下一层。以官方文档确认的功能为准；模拟目录没有宣称每个位置与实际 App 完全相同。",
+      "controls": [
+        {
+          "id": "chatgpt-settings-general",
+          "label": "General",
+          "placement": "tab",
+          "action": {
+            "kind": "navigate",
+            "target": "general"
+          },
+          "guide": {
+            "purpose": "调整发送与跟进方式。",
+            "steps": [
+              "打开 Settings",
+              "选择 General",
+              "查看可用设置"
+            ],
+            "outcome": "进入 General 的详细教学。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-settings-profile",
+          "label": "Profile",
+          "placement": "tab",
+          "action": {
+            "kind": "navigate",
+            "target": "profile"
+          },
+          "guide": {
+            "purpose": "查看资料与活动统计。",
+            "steps": [
+              "打开 Settings",
+              "选择 Profile",
+              "查看可用设置"
+            ],
+            "outcome": "进入 Profile 的详细教学。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-settings-shortcuts",
+          "label": "Keyboard Shortcuts",
+          "placement": "tab",
+          "action": {
+            "kind": "navigate",
+            "target": "shortcuts"
+          },
+          "guide": {
+            "purpose": "查看、搜索与修改快捷键。",
+            "steps": [
+              "打开 Settings",
+              "选择 Keyboard Shortcuts",
+              "查看可用设置"
+            ],
+            "outcome": "进入 Keyboard Shortcuts 的详细教学。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-settings-notification-settings",
+          "label": "Notifications",
+          "placement": "tab",
+          "action": {
+            "kind": "navigate",
+            "target": "notification-settings"
+          },
+          "guide": {
+            "purpose": "控制完成、权限和问题通知。",
+            "steps": [
+              "打开 Settings",
+              "选择 Notifications",
+              "查看可用设置"
+            ],
+            "outcome": "进入 Notifications 的详细教学。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-settings-appearance",
+          "label": "Appearance",
+          "placement": "tab",
+          "action": {
+            "kind": "navigate",
+            "target": "appearance"
+          },
+          "guide": {
+            "purpose": "改变主题、字体与可读性。",
+            "steps": [
+              "打开 Settings",
+              "选择 Appearance",
+              "查看可用设置"
+            ],
+            "outcome": "进入 Appearance 的详细教学。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-settings-personalization",
+          "label": "Personalization",
+          "placement": "tab",
+          "action": {
+            "kind": "navigate",
+            "target": "personalization"
+          },
+          "guide": {
+            "purpose": "管理指令和记忆。",
+            "steps": [
+              "打开 Settings",
+              "选择 Personalization",
+              "查看可用设置"
+            ],
+            "outcome": "进入 Personalization 的详细教学。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-settings-data-controls",
+          "label": "Data controls · 账号",
+          "placement": "tab",
+          "action": {
+            "kind": "navigate",
+            "target": "data-controls"
+          },
+          "guide": {
+            "purpose": "了解账号数据与训练设置。",
+            "steps": [
+              "打开 Settings",
+              "选择 Data controls · 账号",
+              "查看可用设置"
+            ],
+            "outcome": "进入 Data controls · 账号 的详细教学。",
+            "conditions": "账号设置为官方网页路径；新版桌面具体入口待核验，必要时在网页端登录同一账号管理。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "data"
+            ],
+            "evidence": "needs-review",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-settings-archived",
+          "label": "Archived chats",
+          "placement": "tab",
+          "action": {
+            "kind": "navigate",
+            "target": "archived"
+          },
+          "guide": {
+            "purpose": "恢复已归档聊天。",
+            "steps": [
+              "打开 Settings",
+              "选择 Archived chats",
+              "查看可用设置"
+            ],
+            "outcome": "进入 Archived chats 的详细教学。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-settings-browser-settings",
+          "label": "Browser",
+          "placement": "tab",
+          "action": {
+            "kind": "navigate",
+            "target": "browser-settings"
+          },
+          "guide": {
+            "purpose": "管理内置浏览器与网站权限。",
+            "steps": [
+              "打开 Settings",
+              "选择 Browser",
+              "查看可用设置"
+            ],
+            "outcome": "进入 Browser 的详细教学。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-settings-computer-use",
+          "label": "Computer Use",
+          "placement": "tab",
+          "action": {
+            "kind": "navigate",
+            "target": "computer-use"
+          },
+          "guide": {
+            "purpose": "管理桌面及浏览器访问。",
+            "steps": [
+              "打开 Settings",
+              "选择 Computer Use",
+              "查看可用设置"
+            ],
+            "outcome": "进入 Computer Use 的详细教学。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-settings-connections",
+          "label": "Connections",
+          "placement": "tab",
+          "action": {
+            "kind": "navigate",
+            "target": "connections"
+          },
+          "guide": {
+            "purpose": "设置受信任设备的远程连接。",
+            "steps": [
+              "打开 Settings",
+              "选择 Connections",
+              "查看可用设置"
+            ],
+            "outcome": "进入 Connections 的详细教学。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-settings-pets",
+          "label": "Pets",
+          "placement": "tab",
+          "action": {
+            "kind": "navigate",
+            "target": "pets"
+          },
+          "guide": {
+            "purpose": "控制浮动宠物与快捷聊天。",
+            "steps": [
+              "打开 Settings",
+              "选择 Pets",
+              "查看可用设置"
+            ],
+            "outcome": "进入 Pets 的详细教学。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-settings-git",
+          "label": "Git",
+          "placement": "tab",
+          "action": {
+            "kind": "navigate",
+            "target": "git-settings"
+          },
+          "guide": {
+            "purpose": "调整代码审阅、分支和提交的默认规则。",
+            "steps": [
+              "打开 Settings > Git。",
+              "选择需要修改的规则并检查其影响。"
+            ],
+            "outcome": "进入 Git 设置学习页。",
+            "conditions": "ChatGPT Plus · 个人版 · Windows · 新版桌面 App；实际入口以账号和客户端提供为准。",
+            "troubleshooting": "本页为教学重建；缺少入口时先核对版本及来源，尚未核验你的实际账号界面。",
+            "sourceIds": [
+              "developer-settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12"
+          }
+        },
+        {
+          "id": "chatgpt-settings-mcp",
+          "label": "Integrations / MCP",
+          "placement": "tab",
+          "action": {
+            "kind": "navigate",
+            "target": "mcp-settings"
+          },
+          "guide": {
+            "purpose": "查看连接外部工具的 MCP 配置。",
+            "steps": [
+              "在开发设置中查找 Integrations 或 MCP。",
+              "查看已启用服务器及授权方式。"
+            ],
+            "outcome": "打开 MCP 配置说明。",
+            "conditions": "ChatGPT Plus · 个人版 · Windows · 新版桌面 App；实际入口以账号和客户端提供为准。",
+            "troubleshooting": "官方资料确认 MCP 配置能力，但本手册未核验当前 Windows 菜单的精确名称与位置。",
+            "sourceIds": [
+              "developer-settings"
+            ],
+            "evidence": "needs-review",
+            "verifiedAt": "2026-10-12"
+          }
+        }
+      ],
+      "parentId": "home"
+    },
+    {
+      "id": "general",
+      "title": "General · 常规",
+      "section": "Settings",
+      "layout": "settings",
+      "description": "发送偏好决定 Enter 的行为；Follow-up behavior 决定工作中追加消息如何处理。",
+      "controls": [
+        {
+          "id": "chatgpt-general-enter",
+          "label": "Enter sends prompts",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：已切换 Enter 发送偏好；Ctrl+Enter 的具体规则以当前设置说明为准。"
+          },
+          "guide": {
+            "purpose": "避免写多行内容时意外提交。",
+            "steps": [
+              "打开 General",
+              "选择 Enter 或 Ctrl+Enter 的发送方式",
+              "在输入框确认"
+            ],
+            "outcome": "切换模拟发送偏好。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-general-followup",
+          "label": "Follow-up behavior",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：工作中发送的跟进消息可选择引导当前运行，或排到下次运行。"
+          },
+          "guide": {
+            "purpose": "控制任务进行中追加内容的处理方式。",
+            "steps": [
+              "查看 Follow-up behavior",
+              "选择 steer 或 wait",
+              "在正在运行的任务中验证"
+            ],
+            "outcome": "显示跟进方式演示。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-general-updates",
+          "label": "In-app updates",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "desktop-updates"
+          },
+          "guide": {
+            "purpose": "检查版本与更新渠道是否可用。",
+            "steps": [
+              "查看 General 中的更新状态",
+              "使用 Check for Updates",
+              "依据渠道更新"
+            ],
+            "outcome": "打开更新与版本区别教学。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "app-updates"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "settings"
+    },
+    {
+      "id": "profile",
+      "title": "Profile · 个人资料",
+      "section": "Settings",
+      "layout": "settings",
+      "description": "个人消费账号可查看活动与资料卡。统计不是一次具体任务的费用凭证。",
+      "controls": [
+        {
+          "id": "chatgpt-profile-details",
+          "label": "Edit profile",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：可编辑头像、显示名称和用户名；这里使用演示账号。"
+          },
+          "guide": {
+            "purpose": "整理 App 内显示的个人资料。",
+            "steps": [
+              "打开 Profile",
+              "修改可编辑资料",
+              "保存"
+            ],
+            "outcome": "展示资料编辑说明。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-profile-activity",
+          "label": "Activity insights",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：显示活跃天数、累计 tokens 与最长任务。各指标以真实 Profile 定义为准。"
+          },
+          "guide": {
+            "purpose": "了解长期使用活动，发现较常使用的工作流。",
+            "steps": [
+              "打开 Profile",
+              "阅读活动统计和指标说明"
+            ],
+            "outcome": "显示模拟活动统计。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "settings"
+    },
+    {
+      "id": "shortcuts",
+      "title": "Keyboard Shortcuts · 快捷键",
+      "section": "Settings",
+      "layout": "settings",
+      "description": "Windows 可从 Settings 打开快捷键，用命令名或按键组合搜索。不要把 macOS 的 Command 换写为 Windows 指令。",
+      "controls": [
+        {
+          "id": "chatgpt-shortcuts-search",
+          "label": "Search command / Keystroke",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：搜索“Search chats”，默认未分配，可在设置中绑定。"
+          },
+          "guide": {
+            "purpose": "找出命令名称和已有快捷键冲突。",
+            "steps": [
+              "输入命令名，或切换按键搜索",
+              "按组合键",
+              "查看对应命令"
+            ],
+            "outcome": "显示演示搜索结果。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "shortcuts",
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-shortcuts-bind",
+          "label": "Change binding",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：准备给 Search chats 绑定自选组合键。请先检查是否与系统或其他 App 冲突。"
+          },
+          "guide": {
+            "purpose": "给高频操作指定你容易记住的按键。",
+            "steps": [
+              "选中命令",
+              "输入新组合键",
+              "检查冲突",
+              "保存"
+            ],
+            "outcome": "展示改键操作流程。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-shortcuts-reset",
+          "label": "Reset shortcuts",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：恢复默认快捷键。真实操作会覆盖你设置的按键，先记录需要保留的组合。"
+          },
+          "guide": {
+            "purpose": "撤销不合适的自定义快捷键。",
+            "steps": [
+              "检查自定义列表",
+              "选择可用 Reset 入口",
+              "确认恢复范围"
+            ],
+            "outcome": "显示模拟重置结果。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "settings"
+    },
+    {
+      "id": "notification-settings",
+      "title": "Notifications · 通知",
+      "section": "Settings",
+      "layout": "settings",
+      "description": "完成通知、权限通知和问题通知可分别设置；Windows 的系统通知开关也会影响结果。",
+      "controls": [
+        {
+          "id": "chatgpt-notifications-turn",
+          "label": "Turn completion",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：通知方式在 Never、Only in background、Always 中切换；本教学只保存模拟状态。"
+          },
+          "guide": {
+            "purpose": "让较长任务完成时更容易被注意到。",
+            "steps": [
+              "打开 Notifications",
+              "选择完成通知时机",
+              "检查 Windows 通知权限"
+            ],
+            "outcome": "切换通知偏好示范。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "notifications",
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-notifications-attention",
+          "label": "Permissions and questions",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：权限或提问通知已切换。关闭通知仍应主动检查任务是否等待你回复。"
+          },
+          "guide": {
+            "purpose": "在需要授权或补充信息时收到提醒。",
+            "steps": [
+              "开启权限与问题通知",
+              "查看任务中的待答问题"
+            ],
+            "outcome": "显示通知状态示范。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "notifications"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-notifications-activity",
+          "label": "Activity · 🔔",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "activity"
+          },
+          "guide": {
+            "purpose": "集中查看未读、运行中和等待输入的任务。",
+            "steps": [
+              "点击侧栏铃铛，或 Ctrl+Alt+U",
+              "按状态选择聊天"
+            ],
+            "outcome": "打开活动列表教学。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "notifications"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "settings"
+    },
+    {
+      "id": "activity",
+      "title": "Activity · 任务状态",
+      "section": "Work",
+      "layout": "list",
+      "description": "示例状态：Running（执行中）、Needs input（需要回复）、Ready（结果未读）、Blocked（失败或系统问题）。",
+      "controls": [
+        {
+          "id": "chatgpt-activity-work",
+          "label": "Needs input · 市场研究",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "approval"
+          },
+          "guide": {
+            "purpose": "在任务等待时确认它需要的是授权还是问题答案。",
+            "steps": [
+              "选择需要输入的任务",
+              "阅读请求",
+              "决定继续方式"
+            ],
+            "outcome": "打开授权请求样例。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "notifications",
+              "work"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-activity-read",
+          "label": "Mark all as read",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：未读标记已清除；这不会把运行中任务停下来。"
+          },
+          "guide": {
+            "purpose": "清除已查看过的未读提示。",
+            "steps": [
+              "读完重要任务",
+              "选择 Mark all as read"
+            ],
+            "outcome": "显示模拟已读状态。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "notifications"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "home"
+    },
+    {
+      "id": "appearance",
+      "title": "Appearance · 外观",
+      "section": "Settings",
+      "layout": "settings",
+      "description": "主题、字体和大小影响阅读体验；这些选项不会提高模型能力。",
+      "controls": [
+        {
+          "id": "chatgpt-appearance-theme",
+          "label": "Theme · Light / Dark / System",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：切换 App 主题偏好；说明书网页主题独立于真实 ChatGPT。"
+          },
+          "guide": {
+            "purpose": "让界面适应环境与阅读习惯。",
+            "steps": [
+              "选择 Light、Dark 或 System",
+              "检查文字对比度"
+            ],
+            "outcome": "显示主题切换示范。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-appearance-font",
+          "label": "UI font / Code font",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：界面字体与代码字体可分别调整。代码字体优先选择易区分字符的字体。"
+          },
+          "guide": {
+            "purpose": "提高一般文字和代码的可读性。",
+            "steps": [
+              "查看字体设置",
+              "选择字体和大小",
+              "检查预览"
+            ],
+            "outcome": "展示字体设置方法。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "settings"
+    },
+    {
+      "id": "personalization",
+      "title": "Personalization · 个性化",
+      "section": "Settings",
+      "layout": "settings",
+      "description": "ChatGPT 账号记忆与本地 Codex 记忆是不同存储。Windows 手册不把 macOS 专属 Computer History 当作可用功能。",
+      "controls": [
+        {
+          "id": "chatgpt-personal-instructions",
+          "label": "Personal instructions · AGENTS.md",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示指令：中文为主、保留英文术语、先说明操作结果。本地 Codex 个人指令存于所选机器的 AGENTS.md。"
+          },
+          "guide": {
+            "purpose": "为本地工作设定持续写作与协作偏好。",
+            "steps": [
+              "在 Personalization 打开个人指令",
+              "写稳定偏好",
+              "保存"
+            ],
+            "outcome": "显示指令编辑示范。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "personalize",
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-personal-chat-memory",
+          "label": "ChatGPT Memory",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "chat-memory"
+          },
+          "guide": {
+            "purpose": "理解账号中的记忆来源、修改和删除方式。",
+            "steps": [
+              "打开账号 Personalization",
+              "检查 Memory",
+              "查看 Sources"
+            ],
+            "outcome": "进入账号记忆教学。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "chat-memory",
+              "personalize"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-personal-codex-memory",
+          "label": "Enable Codex memories",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "codex-memory"
+          },
+          "guide": {
+            "purpose": "控制所选机器的独立本地记忆层。",
+            "steps": [
+              "在 Personalization 查看 Enable Codex memories",
+              "选择是否开启"
+            ],
+            "outcome": "进入本地 Codex 记忆的下层说明。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "memories"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "settings"
+    },
+    {
+      "id": "chat-memory",
+      "title": "Memory · ChatGPT 账号",
+      "section": "Settings",
+      "layout": "settings",
+      "description": "记忆可来自过去聊天、保存偏好及账号可用来源，不保证逐字保存所有内容。可见选项因计划和地区而异。",
+      "controls": [
+        {
+          "id": "chatgpt-chat-memory-enable",
+          "label": "Memory settings",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：账号记忆偏好已切换。仅关闭记忆不等于删除已记住的内容。"
+          },
+          "guide": {
+            "purpose": "选择未来回复是否使用可用记忆进行个性化。",
+            "steps": [
+              "打开 Personalization > Memory",
+              "检查可用开关",
+              "设置偏好"
+            ],
+            "outcome": "显示模拟记忆状态。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "chat-memory"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-chat-memory-sources",
+          "label": "Memory Sources",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：偏好“中文解释”来自样例聊天。Sources 是理解上下文来源的入口，并不列出所有潜在细节。"
+          },
+          "guide": {
+            "purpose": "查看和核对个性化回复依据的资料。",
+            "steps": [
+              "打开 Memory 的来源入口",
+              "查看来源",
+              "更正不准确内容"
+            ],
+            "outcome": "显示样例记忆来源。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "chat-memory"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-chat-memory-delete",
+          "label": "Delete memory",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：移除样例记忆；要完整移除相关信息，还应处理最初分享它的聊天及其他相关来源。"
+          },
+          "guide": {
+            "purpose": "移除不再希望用于个性化的记忆内容。",
+            "steps": [
+              "核对记忆条目",
+              "删除",
+              "检查来源聊天和相关连接资料"
+            ],
+            "outcome": "仅展示模拟删除说明。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "删除聊天不自动删除已保存记忆；关闭 Memory 也不等于删除内容。按最新帮助文档处理相关来源。",
+            "sourceIds": [
+              "chat-memory"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "personalization"
+    },
+    {
+      "id": "codex-memory",
+      "title": "Memories · 本地 Codex",
+      "section": "Settings",
+      "layout": "settings",
+      "description": "本地记忆依机器保留，并在符合条件的空闲聊天后后台生成；不会在每次任务完成时立即更新。",
+      "controls": [
+        {
+          "id": "chatgpt-codex-memory-enable",
+          "label": "Enable Codex memories",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：所选机器的本地 Codex 记忆开关已切换。"
+          },
+          "guide": {
+            "purpose": "让本地 Codex 从以往工作中携带有用约定。",
+            "steps": [
+              "Settings > Personalization",
+              "Enable Codex memories",
+              "检查所选机器"
+            ],
+            "outcome": "切换模拟本地记忆偏好。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "memories"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-codex-memory-chat",
+          "label": "/memories",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：当前聊天可单独控制读取旧记忆和贡献未来记忆。重要规则仍应写入 AGENTS.md。"
+          },
+          "guide": {
+            "purpose": "为单次本地聊天调整记忆参与方式。",
+            "steps": [
+              "在可用的本地聊天输入 /memories",
+              "查看两种权限",
+              "选择"
+            ],
+            "outcome": "显示聊天级记忆说明。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "memories"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-codex-memory-delete",
+          "label": "Delete Codex memories",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：清空所选机器的记忆存储；真实操作需要确认。Windows 没有本教学中的 macOS Computer History。"
+          },
+          "guide": {
+            "purpose": "重置这台机器上的本地记忆内容。",
+            "steps": [
+              "核对机器",
+              "选择 Delete Codex memories",
+              "阅读确认信息"
+            ],
+            "outcome": "展示重置范围说明。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "memories"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "personalization"
+    },
+    {
+      "id": "data-controls",
+      "title": "Data controls · 账号隐私",
+      "section": "Settings",
+      "layout": "settings",
+      "description": "官方确立的账号路径为 Settings > Data controls。新版 Windows 的位置尚待实测，可在网页端同一账号管理。",
+      "controls": [
+        {
+          "id": "chatgpt-data-training",
+          "label": "Improve the model for everyone",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：关闭后，新聊天和个人 Codex 任务不用于改进模型；聊天仍保留在历史中。"
+          },
+          "guide": {
+            "purpose": "管理个人账号新内容是否参与模型改进。",
+            "steps": [
+              "打开账号 Settings > Data controls",
+              "关闭 Improve the model for everyone",
+              "保存"
+            ],
+            "outcome": "显示模拟账号偏好；不会修改你的账号。",
+            "conditions": "个人消费账号；已登录时账号设置跨设备生效。Codex 的 Include environments 是另一个独立设置。",
+            "troubleshooting": "关闭训练不删除聊天；归档也不改变此偏好。需要核对环境上下文时检查 Codex 单独的 Include environments。",
+            "sourceIds": [
+              "data"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-data-export",
+          "label": "Export data",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：账号导出是另一项操作，真实结果可能通过验证与下载流程提供；这里不发出申请。"
+          },
+          "guide": {
+            "purpose": "获取账号聊天和数据的导出副本。",
+            "steps": [
+              "登录同一账号",
+              "Data controls 中使用可用的导出入口",
+              "完成验证并读取说明"
+            ],
+            "outcome": "展示导出流程提示。",
+            "conditions": "账号支持的导出功能；具体验证、下载期限以真实提示为准。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "data"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-data-temporary",
+          "label": "Temporary chat",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "temporary"
+          },
+          "guide": {
+            "purpose": "为不想留在历史中的新对话选择临时模式。",
+            "steps": [
+              "在新聊天开始前选择 Temporary",
+              "选择是否个性化"
+            ],
+            "outcome": "打开临时聊天规则。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "data",
+              "temporary"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "settings"
+    },
+    {
+      "id": "archived",
+      "title": "Archived chats · 已归档",
+      "section": "Settings",
+      "layout": "list",
+      "description": "归档让聊天离开常用列表，但保留内容。这里列出“旧版界面学习”样例。",
+      "controls": [
+        {
+          "id": "chatgpt-archived-open",
+          "label": "旧版界面学习",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "chat"
+          },
+          "guide": {
+            "purpose": "先查看归档聊天，确认是否需要恢复。",
+            "steps": [
+              "打开 Archived chats",
+              "选中聊天",
+              "回顾内容"
+            ],
+            "outcome": "进入归档聊天教学样例。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "projects",
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-archived-restore",
+          "label": "Unarchive",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：聊天已恢复到日常历史。"
+          },
+          "guide": {
+            "purpose": "把仍有价值的聊天恢复到列表。",
+            "steps": [
+              "选中归档聊天",
+              "点击 Unarchive",
+              "回到 Recents"
+            ],
+            "outcome": "显示模拟恢复结果。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "settings",
+              "projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "settings"
+    },
+    {
+      "id": "browser-settings",
+      "title": "Browser · 浏览器设置",
+      "section": "Settings",
+      "layout": "settings",
+      "description": "内置浏览器使用独立 profile；不会自动继承 Chrome 或 Edge 的所有登录和标签。",
+      "controls": [
+        {
+          "id": "chatgpt-browser-settings-open",
+          "label": "Built-in browser",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "browser"
+          },
+          "guide": {
+            "purpose": "在 App 内预览网页、检查结果或继续网页任务。",
+            "steps": [
+              "打开 New tab",
+              "选择 Browser 或 Ctrl+T",
+              "输入网址"
+            ],
+            "outcome": "打开内置浏览器模拟。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "browser"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-browser-settings-permissions",
+          "label": "Agent permissions",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "browser-permissions"
+          },
+          "guide": {
+            "purpose": "分别约束网页访问、下载与上传。",
+            "steps": [
+              "Settings > Browser",
+              "Agent permissions",
+              "检查默认项和网站例外"
+            ],
+            "outcome": "进入权限分类教学。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "settings",
+              "browser"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-browser-settings-downloads",
+          "label": "Downloads location",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：默认下载至系统 Downloads；也可选择自定义位置或 Ask where to save downloads。"
+          },
+          "guide": {
+            "purpose": "找到 AI 下载的文件并选择保存策略。",
+            "steps": [
+              "Settings > Browser",
+              "检查下载目录",
+              "设置每次询问或固定位置"
+            ],
+            "outcome": "展示下载位置选项。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "browser"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-browser-history",
+          "label": "Browsing history / Clear browsing data",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "browser-history"
+          },
+          "guide": {
+            "purpose": "查看内置浏览器历史并选择清理范围。",
+            "steps": [
+              "打开 Settings > Browser。",
+              "搜索浏览历史或进入 Clear browsing data。"
+            ],
+            "outcome": "进入浏览器数据学习页。",
+            "conditions": "ChatGPT Plus · 个人版 · Windows · 新版桌面 App；实际入口以账号和客户端提供为准。",
+            "troubleshooting": "本页为教学重建；缺少入口时先核对版本及来源，尚未核验你的实际账号界面。",
+            "sourceIds": [
+              "browser"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12"
+          }
+        }
+      ],
+      "parentId": "settings"
+    },
+    {
+      "id": "browser-permissions",
+      "title": "Agent permissions · 网站权限",
+      "section": "Settings",
+      "layout": "dialog",
+      "description": "Browser 的默认规则可被特定网站例外覆盖；应理解每项操作的真实影响。",
+      "controls": [
+        {
+          "id": "chatgpt-browser-perm-browse",
+          "label": "Browse",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：Browse 改为 Requires approval。"
+          },
+          "guide": {
+            "purpose": "决定浏览网站前是否需要确认。",
+            "steps": [
+              "选择 Browse 的默认权限",
+              "根据任务设置 Requires approval、Always allow 或 Block"
+            ],
+            "outcome": "切换模拟访问规则。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-browser-perm-transfer",
+          "label": "Download / Upload",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：下载与上传分别设置。允许阅读网页不等于允许上传本地文件。"
+          },
+          "guide": {
+            "purpose": "为文件传入传出设置独立规则。",
+            "steps": [
+              "检查 Download",
+              "再检查 Upload",
+              "核对网站例外"
+            ],
+            "outcome": "展示独立文件传输权限。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-browser-perm-reset",
+          "label": "Remove site exception",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：移除 learn.chatgpt.com 的自定义例外后，将恢复默认规则。"
+          },
+          "guide": {
+            "purpose": "撤销给单个网站保存的特殊授权。",
+            "steps": [
+              "找到具体网站",
+              "删除自定义权限",
+              "检查默认规则"
+            ],
+            "outcome": "显示网站例外重置说明。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "browser-settings"
+    },
+    {
+      "id": "connections",
+      "title": "Connections · 远程连接",
+      "section": "Settings",
+      "layout": "settings",
+      "description": "远程访问需要同一账号、在线桌面 host 与所需验证。连接不会把本地文件自动搬到云端。",
+      "controls": [
+        {
+          "id": "chatgpt-connections-setup",
+          "label": "Control this PC · Set up / Add",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：显示配对流程。实际在电脑上同意远程访问，再用手机扫描 App 提供的二维码。"
+          },
+          "guide": {
+            "purpose": "从受信任手机查看、引导与审批电脑任务。",
+            "steps": [
+              "Settings > Connections > Control this PC",
+              "Set up / Add",
+              "扫码",
+              "核对同一账号与验证"
+            ],
+            "outcome": "显示模拟配对步骤，没有真实二维码。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "电脑睡眠、掉线或关闭 App 会影响访问；更新两端 App，并检查账号、工作区和验证要求。",
+            "sourceIds": [
+              "remote"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-connections-devices",
+          "label": "Manage connected devices",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：查看哪些设备可控制这台电脑，并撤销不再使用的设备。"
+          },
+          "guide": {
+            "purpose": "定期检查远程访问授权对象。",
+            "steps": [
+              "Connections",
+              "查看设备列表",
+              "核对名称与账号",
+              "撤销不需要的连接"
+            ],
+            "outcome": "展示设备管理说明。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "remote"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-connections-ssh",
+          "label": "SSH",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：SSH host 与手机远程配对是两种连接；需要独立配置远端环境、工具和凭证。"
+          },
+          "guide": {
+            "purpose": "在项目位于远程开发环境时使用对应 host。",
+            "steps": [
+              "打开 SSH 配置入口",
+              "连接受信任主机",
+              "检查远端项目与权限"
+            ],
+            "outcome": "显示 SSH 概念区别。",
+            "conditions": "支持的远程开发 host；配置细节依账号与环境而异，本教学不连接主机。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "remote"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "settings"
+    },
+    {
+      "id": "plugins",
+      "title": "Plugins · 插件目录",
+      "section": "Plugins",
+      "layout": "list",
+      "description": "插件可以包含技能和 MCP 工具。安装、连接账号、允许操作是不同步骤。",
+      "controls": [
+        {
+          "id": "chatgpt-plugins-research",
+          "label": "Deep research",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "plugin-detail"
+          },
+          "guide": {
+            "purpose": "查看适合多来源研究的工作流。",
+            "steps": [
+              "在 Plugins 搜索 Deep research",
+              "打开详情",
+              "阅读支持范围"
+            ],
+            "outcome": "打开插件详情演示。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "plugins",
+              "search"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-plugins-skills",
+          "label": "Skills",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "skills"
+          },
+          "guide": {
+            "purpose": "查看可复用的任务说明与模板。",
+            "steps": [
+              "查看已安装插件包含的技能，或 Codex 的技能入口",
+              "检查名称与用途"
+            ],
+            "outcome": "进入技能学习页面。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "Skills 在不同客户端的入口不同；本手册此页是概念重建，具体目录位置待实测。",
+            "sourceIds": [
+              "skills"
+            ],
+            "evidence": "needs-review",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-plugins-computer",
+          "label": "Computer Use",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "computer-use"
+          },
+          "guide": {
+            "purpose": "安装后按设备与网站授权使用图形界面。",
+            "steps": [
+              "Plugins > Computer Use",
+              "安装或 Enable",
+              "打开 Settings > Computer Use"
+            ],
+            "outcome": "进入权限与设置说明。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "computer-use"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "home"
+    },
+    {
+      "id": "plugin-detail",
+      "title": "Deep research · 插件详情",
+      "section": "Plugins",
+      "layout": "detail",
+      "description": "示范插件的安装、启用与连接流程。实际研究能力和额度以当前个人 Plus 账号为准。",
+      "controls": [
+        {
+          "id": "chatgpt-plugin-install",
+          "label": "Install plugin / Enable",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：插件已准备启用。真实安装前阅读技能、MCP 与服务连接权限。"
+          },
+          "guide": {
+            "purpose": "使该工作流出现在支持的 Chat 或 Work 中。",
+            "steps": [
+              "阅读详情",
+              "安装或 Enable",
+              "确认组件与可用客户端"
+            ],
+            "outcome": "显示模拟安装状态。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "plugins",
+              "search"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-plugin-connect",
+          "label": "Connect account",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：这是外部服务授权流程说明，不会打开真实 OAuth 或传出资料。"
+          },
+          "guide": {
+            "purpose": "让需要账号的插件获得已授权的数据访问。",
+            "steps": [
+              "查看请求的服务与权限",
+              "使用正确账号登录",
+              "返回插件检查连接"
+            ],
+            "outcome": "展示连接与安装的区别。",
+            "conditions": "仅需外部账号的插件才有连接步骤；Deep research 不一定要求单独连接账号。",
+            "troubleshooting": "安装不代表已连接服务；连接失败时检查账号、服务权限和可用客户端。",
+            "sourceIds": [
+              "plugins"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-plugin-try",
+          "label": "Try now",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "work"
+          },
+          "guide": {
+            "purpose": "把选定插件用于一次明确的任务。",
+            "steps": [
+              "选择 Try now",
+              "给研究问题、范围、文件和报告标准"
+            ],
+            "outcome": "打开 Work 研究样例。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "search",
+              "plugins"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-plugin-uninstall",
+          "label": "Uninstall plugin",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：移除插件后其技能和工具不再可用；服务侧授权是否撤销需另行检查。"
+          },
+          "guide": {
+            "purpose": "移除不需要的能力，减少无用工具。",
+            "steps": [
+              "在已安装插件详情检查组件",
+              "使用卸载入口",
+              "核对外部服务授权"
+            ],
+            "outcome": "仅显示模拟卸载结果。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "plugins"
+            ],
+            "evidence": "needs-review",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "plugins"
+    },
+    {
+      "id": "skills",
+      "title": "Skills · 可复用技能",
+      "section": "Plugins",
+      "layout": "detail",
+      "description": "技能是有名称、描述、流程与参考文件的说明包；插件可以同时包含技能和连接工具。",
+      "controls": [
+        {
+          "id": "chatgpt-skills-select",
+          "label": "@skill / $skill",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：ChatGPT 使用 @ 选择技能；Codex 使用 $ 选择技能，例如 $skill-creator。"
+          },
+          "guide": {
+            "purpose": "明确告诉 AI 使用某个已提供的工作流程。",
+            "steps": [
+              "检查技能用途",
+              "在支持的客户端选择或提及技能",
+              "写任务与材料"
+            ],
+            "outcome": "显示技能选择方式。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "skills"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-skills-create",
+          "label": "skill-creator",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：把固定的“每周软件更新简报”流程整理成技能，包含来源、格式和验收标准。"
+          },
+          "guide": {
+            "purpose": "把经常重复的要求制作成可复用指南。",
+            "steps": [
+              "ChatGPT 提及 @skill-creator，或 Codex 提及 $skill-creator",
+              "描述重复任务",
+              "提供模板或样例"
+            ],
+            "outcome": "展示创建技能的任务说明。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "skills"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "plugins"
+    },
+    {
+      "id": "computer-use",
+      "title": "Computer Use · 电脑访问",
+      "section": "Settings",
+      "layout": "settings",
+      "description": "Windows 的 Computer Use 在前台可见桌面工作；插件、App 授权与文件沙箱是不同边界。",
+      "controls": [
+        {
+          "id": "chatgpt-computer-install",
+          "label": "Install plugin / Enable",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：需安装 Computer Use 插件，打开 server 与 skill，再选择 Try now。"
+          },
+          "guide": {
+            "purpose": "准备图形界面操作能力。",
+            "steps": [
+              "Plugins > Computer Use",
+              "Install plugin 或 Enable",
+              "打开 server 与 skill",
+              "Try now"
+            ],
+            "outcome": "显示模拟安装流程。",
+            "conditions": "支持地区中的 ChatGPT Work / Codex；Windows 实际能力与可用 App 以当前部署为准。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "computer-use"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-computer-apps",
+          "label": "Always-allowed apps",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：查看和移除长期允许的 App；移除后未来任务应再次询问。"
+          },
+          "guide": {
+            "purpose": "管理之前保存的应用访问授权。",
+            "steps": [
+              "Settings > Computer Use",
+              "查看 Always-allowed apps",
+              "撤销不需要的 App"
+            ],
+            "outcome": "展示授权列表管理说明。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "computer-use"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-computer-browser",
+          "label": "Google Chrome / Edge · Manage",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "browser-extension"
+          },
+          "guide": {
+            "purpose": "连接日常浏览器，并单独管理网站权限。",
+            "steps": [
+              "选择浏览器",
+              "按需安装插件和扩展",
+              "确认显示 Manage"
+            ],
+            "outcome": "打开浏览器扩展深层页面。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "browser-extension"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "settings"
+    },
+    {
+      "id": "browser-extension",
+      "title": "Browser extension · 现有浏览器",
+      "section": "Settings",
+      "layout": "detail",
+      "description": "扩展用于 Chrome、Edge 等已有登录环境；内置 Browser 的 profile 与它不同。",
+      "controls": [
+        {
+          "id": "chatgpt-extension-install",
+          "label": "Install extension",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：从设置提供的官方浏览器商店入口安装，再回到 Computer Use 确认 Manage。"
+          },
+          "guide": {
+            "purpose": "让 ChatGPT 读取或操作已授权的普通浏览器标签。",
+            "steps": [
+              "Settings > Computer Use",
+              "浏览器 Install",
+              "阅读商店权限",
+              "回 App 确认连接"
+            ],
+            "outcome": "显示模拟安装路径。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "browser-extension"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-extension-mention",
+          "label": "@Edge / @Chrome / tab",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示请求：@Edge 请总结当前官方发布说明，仅阅读这页并列出来源。"
+          },
+          "guide": {
+            "purpose": "把需要的浏览器或具体标签作为上下文。",
+            "steps": [
+              "开始 Work 或 Codex",
+              "从 @ 菜单选择浏览器或标签",
+              "明确允许的操作"
+            ],
+            "outcome": "显示标签与浏览器提及示范。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "browser-extension"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-extension-sites",
+          "label": "Manage allowed / blocked websites",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：从允许列表移除网站将恢复询问；从阻止列表移除网站意味着可以再次请求授权。"
+          },
+          "guide": {
+            "purpose": "收回长期网站授权或解除错误阻止。",
+            "steps": [
+              "Settings > Computer Use",
+              "浏览器 Manage",
+              "核对 allowlist 和 blocklist"
+            ],
+            "outcome": "展示网站访问规则。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "browser-extension"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "computer-use"
+    },
+    {
+      "id": "work",
+      "title": "Work · 任务工作台",
+      "section": "Work",
+      "layout": "workspace",
+      "description": "样例任务：依据三份公开材料制作一页市场研究 PDF。过程中可看进度、给新条件和查看文件。",
+      "controls": [
+        {
+          "id": "chatgpt-work-environment",
+          "label": "Work in",
+          "placement": "composer",
+          "action": {
+            "kind": "navigate",
+            "target": "work-environment"
+          },
+          "guide": {
+            "purpose": "确认任务在哪个环境执行、能用哪些文件。",
+            "steps": [
+              "打开 Work in",
+              "选择可用环境",
+              "检查资料位置"
+            ],
+            "outcome": "进入环境选择教学。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "work",
+              "environments"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-work-model",
+          "label": "Model / Reasoning",
+          "placement": "composer",
+          "action": {
+            "kind": "navigate",
+            "target": "work-models"
+          },
+          "guide": {
+            "purpose": "按任务复杂度、响应速度与可用额度选择模型。",
+            "steps": [
+              "查看模型控件",
+              "选择可用模型",
+              "调整 reasoning"
+            ],
+            "outcome": "打开 Work / Codex 模型教学。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "models",
+              "model-selection"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-work-context",
+          "label": "+ Files / Plugins",
+          "placement": "composer",
+          "action": {
+            "kind": "navigate",
+            "target": "attachments"
+          },
+          "guide": {
+            "purpose": "给较长任务提供必须用到的资料与工具。",
+            "steps": [
+              "附上源文件",
+              "如需外部资料选择插件",
+              "明确输出格式"
+            ],
+            "outcome": "打开上下文选择页。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "work",
+              "files"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-work-send",
+          "label": "Start work",
+          "placement": "composer",
+          "action": {
+            "kind": "submit",
+            "result": "演示任务：读取材料 → 比较证据 → 写一页报告 → 生成可预览 PDF。请从“report.pdf”继续检查。"
+          },
+          "guide": {
+            "purpose": "让 AI 朝一个可验收的结果执行。",
+            "steps": [
+              "写目标、材料、限制和检查标准",
+              "发送",
+              "阅读进度"
+            ],
+            "outcome": "显示任务计划与模拟进度。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "work"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-work-artifact",
+          "label": "report.pdf · Open",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "artifact"
+          },
+          "guide": {
+            "purpose": "直接查看生成结果，而不只读聊天中的总结。",
+            "steps": [
+              "点击生成文件",
+              "检查内容与布局",
+              "指出需要改动的地方"
+            ],
+            "outcome": "进入文件预览模拟。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "artifacts"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-work-scheduled",
+          "label": "Scheduled",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "scheduled"
+          },
+          "guide": {
+            "purpose": "让这个工作流在指定时间重复运行。",
+            "steps": [
+              "先在普通任务中验证要求",
+              "打开 Scheduled",
+              "配置频率与上下文"
+            ],
+            "outcome": "进入调度管理教学。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "scheduled"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "home"
+    },
+    {
+      "id": "work-environment",
+      "title": "Work in · 执行位置",
+      "section": "Work",
+      "layout": "dialog",
+      "description": "本地步骤需要电脑在线；Cloud 的可用文件、浏览器登录和网络环境不自动等于这台电脑。",
+      "controls": [
+        {
+          "id": "chatgpt-environment-local",
+          "label": "This computer",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：选择当前电脑。需要本地文件时让电脑在线并检查授权路径。"
+          },
+          "guide": {
+            "purpose": "使用受许可的本地文件与工具。",
+            "steps": [
+              "选择 This computer",
+              "检查项目或文件夹",
+              "核对权限"
+            ],
+            "outcome": "模拟本地环境选择。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "work",
+              "environments"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-environment-cloud",
+          "label": "Cloud",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：选择可用 Cloud 环境。Codex 云端任务需已发布的环境；Work 的云端上下文依账号与可用连接。"
+          },
+          "guide": {
+            "purpose": "让支持的任务在云端继续工作。",
+            "steps": [
+              "选择 Cloud",
+              "检查可用环境或连接",
+              "添加云端能访问的资料"
+            ],
+            "outcome": "显示云端环境差异。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "environments",
+              "work"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "work"
+    },
+    {
+      "id": "work-models",
+      "title": "Work / Codex · 模型与思考",
+      "section": "Work",
+      "layout": "dialog",
+      "description": "这里与普通 Chat 的模型选项区分。官方建议先用默认思考强度，再按复杂度提高；更高强度通常更慢、更多用量。",
+      "controls": [
+        {
+          "id": "chatgpt-work-model-sol",
+          "label": "GPT-6.1 Sol",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：选择 GPT-6.1 Sol；该模型 2026-09-29 发布于 Work 与 Codex，可见性取决于账号。"
+          },
+          "guide": {
+            "purpose": "处理重复且较复杂的代码、文件与 App 工作。",
+            "steps": [
+              "模型清单若提供 GPT-6.1 Sol",
+              "选择",
+              "以小任务核对质量与用量"
+            ],
+            "outcome": "显示模拟模型选择。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "models",
+              "model-selection",
+              "desktop-changelog"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-work-model-luna",
+          "label": "GPT-6 Luna",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：选择 GPT-6 Luna，适合较明确、范围有限的任务。"
+          },
+          "guide": {
+            "purpose": "在任务清楚时优先效率与较低用量。",
+            "steps": [
+              "选择可用的 GPT-6 Luna",
+              "明确输入输出",
+              "检查结果"
+            ],
+            "outcome": "显示模拟轻量模型选择。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "models",
+              "model-selection"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-work-model-effort",
+          "label": "Reasoning effort / Power",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：使用默认思考档位；复杂方案可提高。Ultra 可调用子代理，会增加任务开销。"
+          },
+          "guide": {
+            "purpose": "按复杂度决定思考和协作投入。",
+            "steps": [
+              "先用默认 effort",
+              "检查不足",
+              "必要时提高 reasoning"
+            ],
+            "outcome": "展示思考强度区别。",
+            "conditions": "档位依模型和客户端；本 Plus 教学不把 Pro $500 专属 Ultrafast 当作可用按钮。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "models"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-model-advanced",
+          "label": "Advanced",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "work-advanced"
+          },
+          "guide": {
+            "purpose": "分别设置模型、思考程度和生成速度。",
+            "steps": [
+              "在 Work / Codex 的 Power 或模型控件打开 Advanced。",
+              "只使用当前账号实际提供的选项。"
+            ],
+            "outcome": "打开高级模型选项学习页。",
+            "conditions": "ChatGPT Plus · 个人版 · Windows · 新版桌面 App；实际入口以账号和客户端提供为准。",
+            "troubleshooting": "本页为教学重建；缺少入口时先核对版本及来源，尚未核验你的实际账号界面。",
+            "sourceIds": [
+              "models"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12"
+          }
+        }
+      ],
+      "parentId": "work"
+    },
+    {
+      "id": "artifact",
+      "title": "report.pdf · 文件预览",
+      "section": "Work",
+      "layout": "detail",
+      "description": "演示报告：比较 Chat、Work 与 Codex，并列出需要核验的新版入口。预览操作不会修改真实文件。",
+      "controls": [
+        {
+          "id": "chatgpt-artifact-open",
+          "label": "Open preview",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：显示 report.pdf 的一页预览；检查标题、引用、布局与文字是否正确。"
+          },
+          "guide": {
+            "purpose": "用视觉检查确认生成的文件可交付。",
+            "steps": [
+              "打开文件预览",
+              "检查每页",
+              "标记具体问题"
+            ],
+            "outcome": "显示预览检查步骤。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "artifacts"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-artifact-comment",
+          "label": "Comment / Annotate",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示反馈：请把第二段缩短，保留英文按钮名，并为模型差异增加官方引用。"
+          },
+          "guide": {
+            "purpose": "把修改请求指向输出中特定的位置。",
+            "steps": [
+              "在支持的预览中选择区域",
+              "添加明确反馈",
+              "发回当前聊天"
+            ],
+            "outcome": "展示定点反馈示范。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "artifacts"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-artifact-download",
+          "label": "Download",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：真实下载会保存文件；此教学没有外部成品，也不触发下载。"
+          },
+          "guide": {
+            "purpose": "获得可以离线使用或交给他人的文件副本。",
+            "steps": [
+              "检查最终版本",
+              "使用可用下载入口",
+              "打开保存副本确认"
+            ],
+            "outcome": "显示模拟下载说明。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "artifacts"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "work"
+    },
+    {
+      "id": "browser",
+      "title": "Browser · 内置网页预览",
+      "section": "Work",
+      "layout": "workspace",
+      "description": "模拟网页是公开文档页。这里不会登录、购买、发送资料或操作真实网站。",
+      "controls": [
+        {
+          "id": "chatgpt-browser-new-tab",
+          "label": "New tab / Ctrl+T",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：新标签打开 https://learn.chatgpt.com/docs。内置浏览器使用独立登录环境。"
+          },
+          "guide": {
+            "purpose": "把网页预览放在当前聊天旁边。",
+            "steps": [
+              "New tab",
+              "输入网址",
+              "查看页面"
+            ],
+            "outcome": "显示模拟新标签。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "browser"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-browser-comment",
+          "label": "Comment",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示反馈：请解释这段“Work in”的限制，并补充本地与云端差异。"
+          },
+          "guide": {
+            "purpose": "就网页或本地预览某个区域提供视觉反馈。",
+            "steps": [
+              "选择 Comment",
+              "点击目标区域",
+              "写清修改或解释要求",
+              "发送"
+            ],
+            "outcome": "显示模拟网页反馈。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "browser"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-browser-ask",
+          "label": "@Browser",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示请求：@Browser 阅读官方页面，解释这个功能的前提并提供来源。"
+          },
+          "guide": {
+            "purpose": "明确让 Work 或 Codex 使用内置浏览器。",
+            "steps": [
+              "在聊天选择 @Browser",
+              "指明网址和范围",
+              "阅读权限请求"
+            ],
+            "outcome": "展示内置浏览器提及方式。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "browser",
+              "browser-extension"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "work"
+    },
+    {
+      "id": "scheduled",
+      "title": "Scheduled · 定时任务",
+      "section": "Work",
+      "layout": "list",
+      "description": "样例：每周五整理官方更新。真实本地任务需要电脑与 App 在线；GitHub Actions 是本网站自身另一个独立调度系统。",
+      "controls": [
+        {
+          "id": "chatgpt-scheduled-create",
+          "label": "New scheduled task",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "schedule-editor"
+          },
+          "guide": {
+            "purpose": "把验证过的工作流程保存为重复任务。",
+            "steps": [
+              "先运行一次需求",
+              "创建定时任务",
+              "检查时间与材料位置"
+            ],
+            "outcome": "打开任务编辑教学。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "scheduled"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-scheduled-runs",
+          "label": "Recent runs",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：最近运行完成于周五，结果可从对应聊天查看。失败时应检查电脑与来源状态。"
+          },
+          "guide": {
+            "purpose": "确认任务确实运行并产生可用结果。",
+            "steps": [
+              "Scheduled 中选择任务",
+              "查看最近运行",
+              "打开结果或失败说明"
+            ],
+            "outcome": "显示样例运行记录。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "scheduled"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-scheduled-pause",
+          "label": "Pause / Resume",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：切换任务暂停状态；恢复后依据真实调度器运行，不会补造新闻。"
+          },
+          "guide": {
+            "purpose": "在流程需要修改时停止后续重复运行。",
+            "steps": [
+              "选中任务",
+              "Pause",
+              "修改需求并验证",
+              "Resume"
+            ],
+            "outcome": "切换模拟任务状态。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "scheduled"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "work"
+    },
+    {
+      "id": "schedule-editor",
+      "title": "Scheduled task · 编辑",
+      "section": "Work",
+      "layout": "dialog",
+      "description": "示例：Asia/Kuala_Lumpur 每周五 09:00 阅读官方来源；没有变化时保持安静，需要行动时通知。",
+      "controls": [
+        {
+          "id": "chatgpt-schedule-prompt",
+          "label": "Task prompt / Context",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示提示：只读取官方来源；列出发布时间与变化；来源失败时保留上次结果，并报告失败。"
+          },
+          "guide": {
+            "purpose": "让无人值守运行也知道输入、输出和通知标准。",
+            "steps": [
+              "写任务要求",
+              "保存持久资料的位置",
+              "检查需要的插件与权限"
+            ],
+            "outcome": "显示可靠任务提示样例。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "scheduled"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-schedule-time",
+          "label": "Schedule / Time zone",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：每周五 09:00，Asia/Kuala_Lumpur。真实创建后再次确认 App 显示的时区与下次运行。"
+          },
+          "guide": {
+            "purpose": "防止系统时间与个人时间不一致。",
+            "steps": [
+              "设置频率和时区",
+              "检查下次运行时间",
+              "核对本地任务在线要求"
+            ],
+            "outcome": "显示模拟时间设置。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "scheduled"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-schedule-save",
+          "label": "Save task",
+          "placement": "content",
+          "action": {
+            "kind": "submit",
+            "result": "演示：已保存任务。请检查前几次运行是否准确，再决定增加频率。"
+          },
+          "guide": {
+            "purpose": "把检查过的任务加入调度列表。",
+            "steps": [
+              "确认 prompt、时区、来源和执行环境",
+              "保存",
+              "检查第一次运行"
+            ],
+            "outcome": "仅保存教学结果。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "scheduled"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "scheduled"
+    },
+    {
+      "id": "codex",
+      "title": "Codex · 开发视图",
+      "section": "Codex",
+      "layout": "workspace",
+      "description": "开发任务的历史与 ChatGPT 视图分开。样例项目 app-manual，代码、终端与审查都只在演示中。",
+      "controls": [
+        {
+          "id": "chatgpt-codex-project",
+          "label": "Add project / Open folder",
+          "placement": "sidebar",
+          "action": {
+            "kind": "navigate",
+            "target": "codex-project"
+          },
+          "guide": {
+            "purpose": "把任务放在正确文件夹或仓库上下文中。",
+            "steps": [
+              "点击 Add project 或 Ctrl+O",
+              "选择目录",
+              "确认项目"
+            ],
+            "outcome": "打开本地项目管理教学。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "projects",
+              "windows"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-codex-new",
+          "label": "New chat",
+          "placement": "sidebar",
+          "action": {
+            "kind": "notice",
+            "result": "演示：已开始新的 app-manual 开发聊天。请写目标、约束与验证方式。"
+          },
+          "guide": {
+            "purpose": "为独立开发结果建立新的任务历史。",
+            "steps": [
+              "选择项目",
+              "New chat",
+              "描述代码任务"
+            ],
+            "outcome": "显示新任务样例。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "app",
+              "projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-codex-model",
+          "label": "Model / Reasoning",
+          "placement": "composer",
+          "action": {
+            "kind": "navigate",
+            "target": "work-models"
+          },
+          "guide": {
+            "purpose": "选择可用的代码模型和思考投入。",
+            "steps": [
+              "打开模型控件",
+              "选择可用模型",
+              "设置 reasoning"
+            ],
+            "outcome": "进入开发模型教学。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "models"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-codex-worktree",
+          "label": "Worktree",
+          "placement": "composer",
+          "action": {
+            "kind": "navigate",
+            "target": "codex-worktree"
+          },
+          "guide": {
+            "purpose": "给并行开发创建独立 Git checkout。",
+            "steps": [
+              "确认项目是 Git 仓库",
+              "打开 Worktree",
+              "决定从哪里开始"
+            ],
+            "outcome": "进入 worktree 的创建与交接教学。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "worktrees",
+              "environments"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-codex-permissions",
+          "label": "Permissions",
+          "placement": "composer",
+          "action": {
+            "kind": "navigate",
+            "target": "permissions"
+          },
+          "guide": {
+            "purpose": "检查文件、网络和审批策略。",
+            "steps": [
+              "打开输入框下方权限控件",
+              "选择适合任务的规则"
+            ],
+            "outcome": "进入权限模式下层。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "permissions"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-codex-review",
+          "label": "Review",
+          "placement": "toolbar",
+          "action": {
+            "kind": "navigate",
+            "target": "review"
+          },
+          "guide": {
+            "purpose": "查看代码差异与潜在问题，再决定提交或合并。",
+            "steps": [
+              "打开 Review",
+              "检查变更范围",
+              "阅读文件差异"
+            ],
+            "outcome": "打开代码审查模拟。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "review"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-codex-terminal",
+          "label": "New tab · Terminal",
+          "placement": "toolbar",
+          "action": {
+            "kind": "navigate",
+            "target": "terminal"
+          },
+          "guide": {
+            "purpose": "查看项目或 worktree 中运行的命令与输出。",
+            "steps": [
+              "New tab",
+              "Terminal，或 Ctrl+`",
+              "检查当前目录"
+            ],
+            "outcome": "打开 PowerShell 输出样例。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "terminal",
+              "windows"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "switcher"
+    },
+    {
+      "id": "codex-project",
+      "title": "Local project · app-manual",
+      "section": "Codex",
+      "layout": "workspace",
+      "description": "样例本地目录包含 source、docs 与参考文件。本地项目可包含多个文件夹；权限仍由任务沙箱限制。",
+      "controls": [
+        {
+          "id": "chatgpt-codex-project-folder",
+          "label": "Open folder / Ctrl+O",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：选择 D:\\Projects\\app-manual。真实任务会使用你选择的本地目录，不应误选个人资料目录。"
+          },
+          "guide": {
+            "purpose": "确保任务读写的位置与目标项目一致。",
+            "steps": [
+              "打开文件夹选择器",
+              "选择项目根目录",
+              "核对路径和仓库"
+            ],
+            "outcome": "显示本地路径样例，不请求文件系统访问。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "projects",
+              "windows"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-codex-project-add",
+          "label": "Add folders",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：可加入 docs 等相关文件夹；跨仓库审查范围与主仓库 PR 操作应分别核对。"
+          },
+          "guide": {
+            "purpose": "给同一项目提供相关文档与其他目录上下文。",
+            "steps": [
+              "查看项目目录管理",
+              "添加所需文件夹",
+              "核对访问权限"
+            ],
+            "outcome": "展示多文件夹项目概念。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "添加目录的具体菜单位置待实测；worktree 和 PR 操作针对主仓库，附加目录不一定同步复制。",
+            "sourceIds": [
+              "projects"
+            ],
+            "evidence": "needs-review",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-codex-project-chat",
+          "label": "New project chat",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "codex"
+          },
+          "guide": {
+            "purpose": "从项目开启任务，保留清楚的工作目录。",
+            "steps": [
+              "确认文件夹",
+              "新建项目聊天",
+              "写任务目标"
+            ],
+            "outcome": "返回开发工作台。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "codex"
+    },
+    {
+      "id": "codex-worktree",
+      "title": "Worktree · 隔离开发",
+      "section": "Codex",
+      "layout": "dialog",
+      "description": "Worktree 是第二份 Git checkout，适合并行工作；不是完整安全沙箱，也不会自动复制未提交改动。",
+      "controls": [
+        {
+          "id": "chatgpt-worktree-create",
+          "label": "Start in Worktree",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：为新任务建立单独 checkout。创建前确认分支与起始状态。"
+          },
+          "guide": {
+            "purpose": "避免两个任务同时修改同一份工作文件。",
+            "steps": [
+              "New chat 下选择 Worktree",
+              "核对起始状态",
+              "创建",
+              "检查新路径"
+            ],
+            "outcome": "展示隔离任务流程。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "worktrees"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-worktree-handoff",
+          "label": "Handoff",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：把任务在 Local 与 Worktree 之间交接；真实 App 会处理必要 Git 操作，先阅读冲突提示。"
+          },
+          "guide": {
+            "purpose": "在需要直接调试或并行处理时移动任务工作位置。",
+            "steps": [
+              "查看 Handoff",
+              "核对源与目标",
+              "阅读变更和冲突提示",
+              "检查完成后的目录"
+            ],
+            "outcome": "显示模拟交接结果。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "worktrees"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-worktree-review",
+          "label": "Review worktree changes",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "review"
+          },
+          "guide": {
+            "purpose": "在回到主工作目录之前检查隔离任务的代码。",
+            "steps": [
+              "打开此任务的 Review",
+              "检查 diff 和验证结果"
+            ],
+            "outcome": "进入 worktree 变更审查模拟。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "worktrees",
+              "review"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "codex"
+    },
+    {
+      "id": "permissions",
+      "title": "Permissions · 执行边界",
+      "section": "Codex",
+      "layout": "dialog",
+      "description": "权限模式与是否自动审批是两层设置。按任务需要授予最小合适范围，并阅读真实请求。",
+      "controls": [
+        {
+          "id": "chatgpt-permission-ask",
+          "label": "Ask for approval",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：在当前工作区内执行，越界文件和网络请求交给你审批。"
+          },
+          "guide": {
+            "purpose": "保留明确边界，并亲自检查额外访问。",
+            "steps": [
+              "打开权限控件",
+              "选择 Ask for approval",
+              "查看下一次具体请求"
+            ],
+            "outcome": "显示模拟审批模式。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "permissions"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-permission-auto",
+          "label": "Approve for me",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：保留工作区沙箱，把符合条件的越界请求送自动审查；不是 Full access。"
+          },
+          "guide": {
+            "purpose": "减少重复审批，同时保留沙箱边界。",
+            "steps": [
+              "选择 Approve for me",
+              "检查当前任务模式",
+              "阅读被转交或拒绝的请求"
+            ],
+            "outcome": "展示自动审查与沙箱的关系。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "permissions"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-permission-request",
+          "label": "Review an approval request",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "approval"
+          },
+          "guide": {
+            "purpose": "学习核对请求的目标、动作和理由。",
+            "steps": [
+              "打开等待审批的任务",
+              "阅读具体请求",
+              "按授权范围决定"
+            ],
+            "outcome": "打开一个模拟网络读取请求。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "permissions",
+              "computer-use"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "codex"
+    },
+    {
+      "id": "approval",
+      "title": "Approval · 读取公开网站",
+      "section": "Codex",
+      "layout": "dialog",
+      "description": "模拟请求：读取 learn.chatgpt.com 的官方说明；没有文件上传、购买或发送消息。",
+      "controls": [
+        {
+          "id": "chatgpt-approval-once",
+          "label": "Allow once",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：只允许这一次读取公开官方页面；未来新的范围仍需检查。"
+          },
+          "guide": {
+            "purpose": "按当前任务范围授权一次操作。",
+            "steps": [
+              "核对域名、动作、传出信息",
+              "选择 Allow once"
+            ],
+            "outcome": "显示单次授权示范。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "不同类型请求的标签不同；应按真实请求内容判断，不能仅凭“允许”文字。",
+            "sourceIds": [
+              "browser-extension",
+              "computer-use"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-approval-decline",
+          "label": "Decline",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：拒绝该操作。任务可改用你提供的文件或继续处理不需要这个权限的部分。"
+          },
+          "guide": {
+            "purpose": "阻止超出当前任务需要的访问。",
+            "steps": [
+              "确认请求不合适",
+              "选择 Decline",
+              "告诉 AI 可用的替代资料"
+            ],
+            "outcome": "显示拒绝与替代路径。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "browser-extension"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "permissions"
+    },
+    {
+      "id": "review",
+      "title": "Review · 代码审查",
+      "section": "Codex",
+      "layout": "workspace",
+      "description": "示例 PR：新增多层操作手册。Summary 解释目标与检查，Changes 展示具体差异。教学不会发布评论或合并。",
+      "controls": [
+        {
+          "id": "chatgpt-review-summary",
+          "label": "Summary",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示摘要：新增模拟手册，数据验证与构建通过。请继续确认实际 diff 和测试覆盖。"
+          },
+          "guide": {
+            "purpose": "理解 PR 目的、讨论和检查结果。",
+            "steps": [
+              "打开 Summary",
+              "读描述",
+              "检查评论与 CI 状态"
+            ],
+            "outcome": "显示模拟摘要。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "review"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-review-changes",
+          "label": "Changes",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "review-diff"
+          },
+          "guide": {
+            "purpose": "逐文件检查新增与删除的代码。",
+            "steps": [
+              "打开 Changes",
+              "选择文件",
+              "阅读上下文与评论"
+            ],
+            "outcome": "打开文件差异模拟。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "review"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-review-checks",
+          "label": "Checks",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：build 与 content-validation 通过；通过检查仍需判断行为与内容是否符合需求。"
+          },
+          "guide": {
+            "purpose": "确认自动检查状态并追查失败。",
+            "steps": [
+              "Summary 查看 Checks",
+              "打开失败检查",
+              "读错误和验证条件"
+            ],
+            "outcome": "显示测试状态示例。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "review"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "codex"
+    },
+    {
+      "id": "review-diff",
+      "title": "Changes · product.json",
+      "section": "Codex",
+      "layout": "detail",
+      "description": "演示 diff：新增稳定控件 ID、引导字段与证据状态。检查源码和实际产品行为应一起进行。",
+      "controls": [
+        {
+          "id": "chatgpt-diff-file",
+          "label": "Changed files · product.json",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：选中 product.json，查看新增屏幕与导航目标。"
+          },
+          "guide": {
+            "purpose": "定位某个文件的变更和上下文。",
+            "steps": [
+              "从 Changed files 选择文件",
+              "检查新增和删除区域"
+            ],
+            "outcome": "显示文件 diff 说明。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "review"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-diff-viewed",
+          "label": "Mark as viewed",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：切换当前修订版本的已阅标记。新版本修改后应再次检查。"
+          },
+          "guide": {
+            "purpose": "记录你已看过的文件，而不是批准整个 PR。",
+            "steps": [
+              "看完此修订文件",
+              "Mark as viewed",
+              "继续下一个文件"
+            ],
+            "outcome": "切换本地演示已阅状态。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "review"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-diff-comment",
+          "label": "Comment / Ask about selection",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示评论草稿：这个按钮目标缺失，会导致导航失败；请补上有效页面并验证。不会发送到 GitHub。"
+          },
+          "guide": {
+            "purpose": "把具体问题指向相应代码位置。",
+            "steps": [
+              "选择变更行",
+              "写触发条件、影响与建议",
+              "检查再决定是否发送"
+            ],
+            "outcome": "显示本地评论草稿。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "review"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "review"
+    },
+    {
+      "id": "terminal",
+      "title": "Terminal · PowerShell",
+      "section": "Codex",
+      "layout": "detail",
+      "description": "样例输出：npm run build 已成功。本页不是命令执行环境；不会在电脑运行输入。",
+      "controls": [
+        {
+          "id": "chatgpt-terminal-open",
+          "label": "Terminal / Ctrl+`",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示终端：PS D:\\Projects\\app-manual> npm run build → build succeeded。"
+          },
+          "guide": {
+            "purpose": "查看当前项目或 worktree 的命令与输出。",
+            "steps": [
+              "打开 Terminal",
+              "先确认目录",
+              "阅读输出与退出状态"
+            ],
+            "outcome": "显示 PowerShell 样例。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "terminal",
+              "windows"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-terminal-shell",
+          "label": "Integrated terminal shell",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：Windows 可选择 PowerShell、Command Prompt、Git Bash 或 WSL；改动作用于新终端会话。"
+          },
+          "guide": {
+            "purpose": "让终端使用适合项目的已安装 shell。",
+            "steps": [
+              "在设置检查 Integrated terminal shell",
+              "选择已安装 shell",
+              "新建终端"
+            ],
+            "outcome": "展示 Windows shell 区别。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "windows"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "codex"
+    },
+    {
+      "id": "desktop-menu",
+      "title": "App menu · 桌面功能",
+      "section": "Desktop",
+      "layout": "dialog",
+      "description": "这些入口与普通网页不同。按当前 App 的菜单与设置确认，不套用旧版 Companion window 的位置。",
+      "controls": [
+        {
+          "id": "chatgpt-desktop-settings",
+          "label": "Settings / Ctrl+,",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "settings"
+          },
+          "guide": {
+            "purpose": "从桌面菜单进入偏好与访问设置。",
+            "steps": [
+              "打开 App 菜单或按 Ctrl+,",
+              "选择分类"
+            ],
+            "outcome": "打开设置目录。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-desktop-check-updates",
+          "label": "Check for Updates",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "desktop-updates"
+          },
+          "guide": {
+            "purpose": "检查当前安装渠道提供的版本更新。",
+            "steps": [
+              "App 菜单 > Check for Updates",
+              "阅读结果与渠道",
+              "需要时完成更新"
+            ],
+            "outcome": "进入更新教学，不安装或重启。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "app-updates"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-desktop-appshot",
+          "label": "Appshots",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "appshots"
+          },
+          "guide": {
+            "purpose": "了解新版 Windows 的当前窗口分享方式。",
+            "steps": [
+              "选中需要说明的窗口",
+              "同时按两个 Alt",
+              "写清任务"
+            ],
+            "outcome": "进入 Appshots 说明。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "appshots"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-desktop-pet",
+          "label": "Show pet",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "pets"
+          },
+          "guide": {
+            "purpose": "在其他 App 工作时保留快捷聊天与进度入口。",
+            "steps": [
+              "Settings > Pets 选择宠物或 Mini",
+              "Windows+Alt+P"
+            ],
+            "outcome": "打开浮动控制教学。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "pets",
+              "desktop-changelog"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "home"
+    },
+    {
+      "id": "desktop-updates",
+      "title": "Updates · 版本与迁移",
+      "section": "Desktop",
+      "layout": "detail",
+      "description": "本手册采用截至 2026-10-12 的官方文档基线，不声称你的电脑已安装某个具体 build。",
+      "controls": [
+        {
+          "id": "chatgpt-updates-check",
+          "label": "Check for Updates",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：请依据实际渠道的检查结果决定。显示菜单不代表检查成功、符合升级资格或已经安装。"
+          },
+          "guide": {
+            "purpose": "确认你正在用的 App 与可获得版本。",
+            "steps": [
+              "使用 Check for Updates",
+              "检查结果与渠道",
+              "保存工作后按真实更新流程操作"
+            ],
+            "outcome": "只显示版本检查步骤。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "Store 或管理策略可能影响更新；Managed 提示才说明组织政策。检查不可用或失败不等于已是最新版本。",
+            "sourceIds": [
+              "app-updates"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-updates-classic",
+          "label": "ChatGPT vs ChatGPT Classic",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：新 App 含 Chat、Work、Codex；Classic 可并存并继续受支持，部分新 agent 功能只在新 App。"
+          },
+          "guide": {
+            "purpose": "辨认升级后电脑里为什么出现两个 App。",
+            "steps": [
+              "查看 App 名称",
+              "根据迁移提示安装新 App",
+              "用同一账号登录",
+              "检查项目与历史"
+            ],
+            "outcome": "显示新版与 Classic 差异。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "migration"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "desktop-menu"
+    },
+    {
+      "id": "appshots",
+      "title": "Appshots · 当前窗口",
+      "section": "Desktop",
+      "layout": "detail",
+      "description": "Appshot 可以含前台窗口截图和 App 提供的文本，部分文本可能不在当前可见区域。Windows 的 Appshots 在主 App 打开。",
+      "controls": [
+        {
+          "id": "chatgpt-appshots-capture",
+          "label": "Both Alt keys",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：分享最前方 App 窗口的截图及可读取文本；本网站不会截取屏幕。"
+          },
+          "guide": {
+            "purpose": "把错误提示或当前工作界面带给 ChatGPT。",
+            "steps": [
+              "把目标窗口置前",
+              "同时按两个 Alt",
+              "完成必要设置",
+              "写解释或操作请求"
+            ],
+            "outcome": "显示 Appshot 捕获样例。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "appshots"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-appshots-destination",
+          "label": "Appshot destination",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：可选 Current chat、New chat 或 Automatic。Automatic 通常新建；最近 60 秒互动的聊天可能接收它。"
+          },
+          "guide": {
+            "purpose": "避免把窗口上下文送到错误聊天。",
+            "steps": [
+              "Settings 检查 Appshot destination",
+              "选择目标策略",
+              "捕获前核对聊天"
+            ],
+            "outcome": "展示目的聊天的区别。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "appshots"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "attachments"
+    },
+    {
+      "id": "pets",
+      "title": "Pets · 浮动控制",
+      "section": "Desktop",
+      "layout": "settings",
+      "description": "宠物只是进度与聊天入口，不会改变 AI 完成工作的能力。Windows 使用 Windows+Alt+P 显示控制。",
+      "controls": [
+        {
+          "id": "chatgpt-pets-mini",
+          "label": "Mini / Choose pet",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：选 Mini 可只显示聊天控制；也可选择已提供的宠物。"
+          },
+          "guide": {
+            "purpose": "把快捷聊天放在正在工作的 App 旁边。",
+            "steps": [
+              "Settings > Pets",
+              "选择宠物或 Mini",
+              "Show pet"
+            ],
+            "outcome": "显示浮动入口示范。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "pets"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-pets-show",
+          "label": "Show pet · Windows+Alt+P",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：显示或隐藏浮动控制。真实快捷键再次按下会保持 Quick Chat 打开并聚焦。"
+          },
+          "guide": {
+            "purpose": "从全局快捷键快速开始对话。",
+            "steps": [
+              "App 保持运行",
+              "Windows+Alt+P",
+              "在 Quick Chat 写请求"
+            ],
+            "outcome": "切换本网站教学显示状态。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "pets"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        },
+        {
+          "id": "chatgpt-pets-activity",
+          "label": "Activity · bell",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "activity"
+          },
+          "guide": {
+            "purpose": "从浮动控制查看 Running、Needs input、Ready 或 Blocked。",
+            "steps": [
+              "打开浮动控制铃铛",
+              "选择需要处理的聊天",
+              "回主 App 查看"
+            ],
+            "outcome": "进入活动状态说明。",
+            "conditions": "Windows 新版 ChatGPT App，个人 Plus；实际入口受版本、账号、地区和逐步开放影响。",
+            "troubleshooting": "若你的 App 没有此入口，先核对是否为 ChatGPT Classic、更新版本，再查看账号可用功能；本页位置是教学重建，尚未实测。",
+            "sourceIds": [
+              "pets",
+              "notifications"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": []
+          }
+        }
+      ],
+      "parentId": "settings"
+    },
+    {
+      "id": "git-settings",
+      "title": "Git · 开发设置",
+      "section": "设置",
+      "layout": "settings",
+      "parentId": "settings",
+      "description": "这些设置影响 Codex 的 Git 操作与审阅流程；它们不会替你提交或发布代码。",
+      "controls": [
+        {
+          "id": "chatgpt-git-review-delivery",
+          "label": "Review delivery · Inline / Detached",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：选择 Detached，审阅在独立聊天中开展。"
+          },
+          "guide": {
+            "purpose": "选择代码审阅在当前聊天还是另开审阅聊天。",
+            "steps": [
+              "进入 Settings > Git。",
+              "在 Review delivery 选择 Inline 或 Detached。"
+            ],
+            "outcome": "演示切换审阅交付方式。",
+            "conditions": "ChatGPT Plus · 个人版 · Windows · 新版桌面 App；实际入口以账号和客户端提供为准。",
+            "troubleshooting": "本页为教学重建；缺少入口时先核对版本及来源，尚未核验你的实际账号界面。",
+            "sourceIds": [
+              "developer-settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12"
+          }
+        },
+        {
+          "id": "chatgpt-git-branch-naming",
+          "label": "Branch naming",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：查看分支名称规则；不会创建分支。"
+          },
+          "guide": {
+            "purpose": "统一 Codex 创建分支时采用的命名规则。",
+            "steps": [
+              "打开 Git 设置的分支命名选项。",
+              "填写团队或个人需要的规则。"
+            ],
+            "outcome": "演示展示分支命名偏好。",
+            "conditions": "ChatGPT Plus · 个人版 · Windows · 新版桌面 App；实际入口以账号和客户端提供为准。",
+            "troubleshooting": "本页为教学重建；缺少入口时先核对版本及来源，尚未核验你的实际账号界面。",
+            "sourceIds": [
+              "developer-settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12"
+          }
+        },
+        {
+          "id": "chatgpt-git-force-push",
+          "label": "Force pushes",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：保持不允许强制推送；真实操作应先核对共享分支历史。"
+          },
+          "guide": {
+            "purpose": "控制 Codex 是否能使用强制推送。",
+            "steps": [
+              "查看 Git 设置的 force push 偏好。",
+              "结合仓库协作规则确认选项。"
+            ],
+            "outcome": "演示切换设置，未执行 Git 命令。",
+            "conditions": "ChatGPT Plus · 个人版 · Windows · 新版桌面 App；实际入口以账号和客户端提供为准。",
+            "troubleshooting": "本页为教学重建；缺少入口时先核对版本及来源，尚未核验你的实际账号界面。",
+            "sourceIds": [
+              "developer-settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12"
+          }
+        },
+        {
+          "id": "chatgpt-git-message-prompts",
+          "label": "Commit / pull request prompts",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示提示：先写具体行为变化，再写验证结果；不发送到 GitHub。"
+          },
+          "guide": {
+            "purpose": "为自动生成的提交说明与 PR 描述提供写作要求。",
+            "steps": [
+              "在 Git 设置中分别编辑提交与 PR 提示。",
+              "用下一次草稿检查输出是否符合规则。"
+            ],
+            "outcome": "演示展示用于描述生成的写作规则。",
+            "conditions": "ChatGPT Plus · 个人版 · Windows · 新版桌面 App；实际入口以账号和客户端提供为准。",
+            "troubleshooting": "本页为教学重建；缺少入口时先核对版本及来源，尚未核验你的实际账号界面。",
+            "sourceIds": [
+              "developer-settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mcp-settings",
+      "title": "Integrations · MCP",
+      "section": "设置",
+      "layout": "settings",
+      "parentId": "settings",
+      "description": "MCP 把外部工具接入 Codex。配置可与 CLI、IDE 共享；真实服务器、OAuth 和插件连接需要各自授权。",
+      "controls": [
+        {
+          "id": "chatgpt-mcp-recommended",
+          "label": "Recommended servers",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：查看推荐服务器与它提供的工具；没有启用真实服务。"
+          },
+          "guide": {
+            "purpose": "从支持的推荐工具开始配置。",
+            "steps": [
+              "查看开发设置中的推荐 MCP 服务器。",
+              "检查服务器提供的工具与连接条件。"
+            ],
+            "outcome": "显示演示工具清单。",
+            "conditions": "ChatGPT Plus · 个人版 · Windows · 新版桌面 App；实际入口以账号和客户端提供为准。",
+            "troubleshooting": "本页为教学重建；缺少入口时先核对版本及来源，尚未核验你的实际账号界面。",
+            "sourceIds": [
+              "developer-settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12"
+          }
+        },
+        {
+          "id": "chatgpt-mcp-add",
+          "label": "Add MCP server",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：显示服务器配置说明；没有执行安装或网络请求。"
+          },
+          "guide": {
+            "purpose": "添加自定义 MCP 服务。",
+            "steps": [
+              "确认服务官方配置及运行方式。",
+              "在对应配置入口添加服务并检查连接状态。"
+            ],
+            "outcome": "显示演示配置步骤。",
+            "conditions": "ChatGPT Plus · 个人版 · Windows · 新版桌面 App；实际入口以账号和客户端提供为准。",
+            "troubleshooting": "配置能力有文档支持；Windows 中该按钮的实际名称和位置还需账号界面核验。",
+            "sourceIds": [
+              "developer-settings"
+            ],
+            "evidence": "needs-review",
+            "verifiedAt": "2026-10-12"
+          }
+        },
+        {
+          "id": "chatgpt-mcp-oauth",
+          "label": "Authenticate · OAuth",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "plugin-detail"
+          },
+          "guide": {
+            "purpose": "了解需要账号连接的服务如何授权。",
+            "steps": [
+              "选择需要认证的服务器。",
+              "阅读请求的权限后在服务提供的页面登录。"
+            ],
+            "outcome": "进入授权说明，不建立真实账号连接。",
+            "conditions": "ChatGPT Plus · 个人版 · Windows · 新版桌面 App；实际入口以账号和客户端提供为准。",
+            "troubleshooting": "本页为教学重建；缺少入口时先核对版本及来源，尚未核验你的实际账号界面。",
+            "sourceIds": [
+              "developer-settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12"
+          }
+        },
+        {
+          "id": "chatgpt-mcp-config",
+          "label": "config.toml",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：MCP 配置保存在 config.toml；修改前确认配置作用范围。"
+          },
+          "guide": {
+            "purpose": "理解 App、CLI 和 IDE 共享的工具配置。",
+            "steps": [
+              "在开发设置或配置文件中查看 MCP 配置。",
+              "区分个人配置与项目配置后再修改。"
+            ],
+            "outcome": "显示配置层级说明。",
+            "conditions": "ChatGPT Plus · 个人版 · Windows · 新版桌面 App；实际入口以账号和客户端提供为准。",
+            "troubleshooting": "本页为教学重建；缺少入口时先核对版本及来源，尚未核验你的实际账号界面。",
+            "sourceIds": [
+              "developer-settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12"
+          }
+        }
+      ]
+    },
+    {
+      "id": "browser-history",
+      "title": "Browser · History & data",
+      "section": "设置",
+      "layout": "settings",
+      "parentId": "browser-settings",
+      "description": "这里管理内置浏览器的独立数据。普通 Edge / Chrome 的历史与登录状态不会自动共用。",
+      "controls": [
+        {
+          "id": "chatgpt-history-search",
+          "label": "Search history",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：找到 learn.chatgpt.com/docs/browser 的样例历史。"
+          },
+          "guide": {
+            "purpose": "找到曾经在内置浏览器访问的页面。",
+            "steps": [
+              "输入标题、地址或关键词。",
+              "选择找到的页面重新打开。"
+            ],
+            "outcome": "显示样例历史搜索结果。",
+            "conditions": "ChatGPT Plus · 个人版 · Windows · 新版桌面 App；实际入口以账号和客户端提供为准。",
+            "troubleshooting": "本页为教学重建；缺少入口时先核对版本及来源，尚未核验你的实际账号界面。",
+            "sourceIds": [
+              "browser"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12"
+          }
+        },
+        {
+          "id": "chatgpt-history-reopen",
+          "label": "Open visited page",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "browser"
+          },
+          "guide": {
+            "purpose": "重新打开历史中的网页。",
+            "steps": [
+              "在历史列表选择已访问页面。",
+              "确认地址后继续操作。"
+            ],
+            "outcome": "打开模拟浏览器学习页。",
+            "conditions": "ChatGPT Plus · 个人版 · Windows · 新版桌面 App；实际入口以账号和客户端提供为准。",
+            "troubleshooting": "本页为教学重建；缺少入口时先核对版本及来源，尚未核验你的实际账号界面。",
+            "sourceIds": [
+              "browser"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12"
+          }
+        },
+        {
+          "id": "chatgpt-history-clear",
+          "label": "Clear browsing data",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：选择时间范围及数据类型；清除 cookies 可能使网站退出登录。真实数据未修改。"
+          },
+          "guide": {
+            "purpose": "删除选定时间范围的浏览数据。",
+            "steps": [
+              "打开 Clear browsing data。",
+              "选择时间范围和数据类型，核对后确认。"
+            ],
+            "outcome": "显示清理范围说明。",
+            "conditions": "ChatGPT Plus · 个人版 · Windows · 新版桌面 App；实际入口以账号和客户端提供为准。",
+            "troubleshooting": "本页为教学重建；缺少入口时先核对版本及来源，尚未核验你的实际账号界面。",
+            "sourceIds": [
+              "browser"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12"
+          }
+        }
+      ]
+    },
+    {
+      "id": "popout-chat",
+      "title": "Chat · 独立窗口",
+      "section": "桌面功能",
+      "layout": "detail",
+      "parentId": "chat-menu",
+      "description": "独立窗口让聊天紧邻浏览器、编辑器或设计稿；本网站在同一页面内演示这项能力。",
+      "controls": [
+        {
+          "id": "chatgpt-popout-top",
+          "label": "Always on top",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：独立聊天保持在其他窗口上方；网页没有修改系统窗口。"
+          },
+          "guide": {
+            "purpose": "让聊天在切换其他软件时仍保持可见。",
+            "steps": [
+              "在独立聊天窗口开启 Always on top。",
+              "切换其他软件查看是否适合当前工作。"
+            ],
+            "outcome": "演示切换置顶偏好。",
+            "conditions": "ChatGPT Plus · 个人版 · Windows · 新版桌面 App；实际入口以账号和客户端提供为准。",
+            "troubleshooting": "本页为教学重建；缺少入口时先核对版本及来源，尚未核验你的实际账号界面。",
+            "sourceIds": [
+              "settings"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12"
+          }
+        },
+        {
+          "id": "chatgpt-popout-return",
+          "label": "Return to chat · 教学导航",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "chat"
+          },
+          "guide": {
+            "purpose": "返回聊天继续使用其他功能。",
+            "steps": [
+              "关闭或收起独立窗口。",
+              "回到主窗口中的同一聊天。"
+            ],
+            "outcome": "返回模拟 Chat 页面。",
+            "conditions": "ChatGPT Plus · 个人版 · Windows · 新版桌面 App；实际入口以账号和客户端提供为准。",
+            "troubleshooting": "这是本手册的返回导航；真实窗口的关闭与返回方式以当前 App 为准。",
+            "sourceIds": [
+              "settings"
+            ],
+            "evidence": "needs-review",
+            "verifiedAt": "2026-10-12"
+          }
+        }
+      ]
+    },
+    {
+      "id": "work-advanced",
+      "title": "Model · Advanced",
+      "section": "Work",
+      "layout": "dialog",
+      "parentId": "work-models",
+      "description": "Power 预设适合快速调整，Advanced 提供分开的模型、effort 与 speed。Plus 的具体档位按当前账号核对；没有加入 Pro 专属 Ultrafast。",
+      "controls": [
+        {
+          "id": "chatgpt-advanced-model",
+          "label": "Model",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：选择账号可用的 GPT-6.1 Sol；不更改真实 App。"
+          },
+          "guide": {
+            "purpose": "为当前任务选择可用模型。",
+            "steps": [
+              "打开 Model。",
+              "根据任务选择实际提供的型号。"
+            ],
+            "outcome": "显示演示模型选择。",
+            "conditions": "ChatGPT Plus · 个人版 · Windows · 新版桌面 App；实际入口以账号和客户端提供为准。",
+            "troubleshooting": "本页为教学重建；缺少入口时先核对版本及来源，尚未核验你的实际账号界面。",
+            "sourceIds": [
+              "models"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12"
+          }
+        },
+        {
+          "id": "chatgpt-advanced-effort",
+          "label": "Reasoning effort",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：从默认 effort 开始；复杂任务再提高，Max / Ultra 的可用性依设置。"
+          },
+          "guide": {
+            "purpose": "决定模型为每次任务投入多少思考。",
+            "steps": [
+              "先使用当前默认档位。",
+              "需要更深入规划时提高 effort。"
+            ],
+            "outcome": "显示思考强度与用量说明。",
+            "conditions": "ChatGPT Plus · 个人版 · Windows · 新版桌面 App；实际入口以账号和客户端提供为准。",
+            "troubleshooting": "本页为教学重建；缺少入口时先核对版本及来源，尚未核验你的实际账号界面。",
+            "sourceIds": [
+              "models"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12"
+          }
+        },
+        {
+          "id": "chatgpt-advanced-speed",
+          "label": "Speed · Standard / Fast",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：查看当前模型支持的 Standard / Fast；Fast 的用量规则需对照账号说明。"
+          },
+          "guide": {
+            "purpose": "在支持的模型上选择服务速度。",
+            "steps": [
+              "查看当前模型提供的 Speed。",
+              "核对用量和额度说明后选择。"
+            ],
+            "outcome": "显示速度档位说明。",
+            "conditions": "ChatGPT Plus · 个人版 · Windows · 新版桌面 App；实际入口以账号和客户端提供为准。",
+            "troubleshooting": "本页为教学重建；缺少入口时先核对版本及来源，尚未核验你的实际账号界面。",
+            "sourceIds": [
+              "models",
+              "pricing"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12"
+          }
+        }
+      ]
+    }
+  ],
+  "tours": [
+    {
+      "id": "first-chat",
+      "title": "第一次完整对话",
+      "description": "从首页进入 Chat，选模型、添加材料，再发送并整理聊天。",
+      "controlIds": [
+        "chatgpt-home-new",
+        "chatgpt-chat-model",
+        "chatgpt-chat-model-sol",
+        "chatgpt-chat-attach",
+        "chatgpt-attach-file",
+        "chatgpt-chat-send",
+        "chatgpt-chat-menu",
+        "chatgpt-chat-rename"
+      ]
+    },
+    {
+      "id": "project-context",
+      "title": "把长期工作放进项目",
+      "description": "建立项目，添加共享来源和指令，再启动项目 Work。",
+      "controlIds": [
+        "chatgpt-home-projects",
+        "chatgpt-projects-create",
+        "chatgpt-project-create-submit",
+        "chatgpt-project-sources",
+        "chatgpt-source-upload",
+        "chatgpt-project-instructions",
+        "chatgpt-instructions-save",
+        "chatgpt-project-work",
+        "chatgpt-work-artifact",
+        "chatgpt-artifact-comment"
+      ]
+    },
+    {
+      "id": "privacy-memory",
+      "title": "记忆与数据设置",
+      "description": "区分账号记忆、本地 Codex 记忆和模型改进偏好。",
+      "controlIds": [
+        "chatgpt-home-settings",
+        "chatgpt-settings-personalization",
+        "chatgpt-personal-chat-memory",
+        "chatgpt-chat-memory-sources",
+        "chatgpt-personal-codex-memory",
+        "chatgpt-codex-memory-chat",
+        "chatgpt-settings-data-controls",
+        "chatgpt-data-training",
+        "chatgpt-data-temporary",
+        "chatgpt-temporary-unpersonalized"
+      ]
+    },
+    {
+      "id": "codex-review",
+      "title": "开发任务到审查结果",
+      "description": "切换 Codex，查看项目、worktree、审批和文件 diff。",
+      "controlIds": [
+        "chatgpt-home-switcher",
+        "chatgpt-switch-codex",
+        "chatgpt-codex-project",
+        "chatgpt-codex-project-folder",
+        "chatgpt-codex-worktree",
+        "chatgpt-worktree-create",
+        "chatgpt-codex-permissions",
+        "chatgpt-permission-request",
+        "chatgpt-approval-once",
+        "chatgpt-codex-review",
+        "chatgpt-review-changes",
+        "chatgpt-diff-viewed"
+      ]
+    },
+    {
+      "id": "new-desktop",
+      "title": "学习新版 Windows 桌面入口",
+      "description": "查看更新、Appshots、浮动快捷聊天与通知。",
+      "controlIds": [
+        "chatgpt-desktop-check-updates",
+        "chatgpt-updates-classic",
+        "chatgpt-desktop-appshot",
+        "chatgpt-appshots-destination",
+        "chatgpt-desktop-pet",
+        "chatgpt-pets-show",
+        "chatgpt-pets-activity",
+        "chatgpt-activity-work"
+      ]
+    }
+  ],
+  "differences": [
+    {
+      "title": "Classic 与新版桌面 App",
+      "before": "之前的 ChatGPT 桌面 App 可能继续安装并显示为 ChatGPT Classic。",
+      "now": "新版提供 ChatGPT 下的 Chat / Work，以及单独的 Codex 视图。Classic 仍支持既有能力，部分新的 agent 功能只在新版。",
+      "sourceIds": [
+        "migration"
+      ]
+    },
+    {
+      "title": "Chat 与 Work 的历史",
+      "before": "既有 Codex 工作流和普通 ChatGPT 聊天曾在不同 App 或视图中使用。",
+      "now": "Chat 与 Work 出现在 ChatGPT 的 Recents 与 Projects；Codex 保留单独历史。选择视图不会改变账号原有访问授权。",
+      "sourceIds": [
+        "migration",
+        "projects"
+      ]
+    },
+    {
+      "title": "模型要按视图学习",
+      "before": "只按旧模型名称记操作，容易把 Chat、Work、Codex 的选择混在一起。",
+      "now": "2026-10-07 起 Plus 的 Chat 开始推出 GPT-6 Sol 和 Intelligent UI；Work / Codex 有独立的模型与思考清单。GPT-5.5 将于 2026-10-14 从这些产品退休。",
+      "sourceIds": [
+        "release-notes",
+        "models"
+      ]
+    },
+    {
+      "title": "Windows 当前窗口分享",
+      "before": "旧版使用习惯可能只包含普通附件和旧 Companion window。",
+      "now": "新版 Windows 支持双 Alt 的 Appshots：分享前台窗口截图和可读取文本；快捷键与目标聊天可配置。",
+      "sourceIds": [
+        "appshots",
+        "desktop-changelog"
+      ]
+    },
+    {
+      "title": "临时聊天也要选个性化",
+      "before": "旧资料常把 Temporary chat 简化为完全不使用记忆。",
+      "now": "当前帮助文档允许开始前选择 Personalized / Unpersonalized；临时聊天不会创建记忆，保存后转为普通聊天并遵循账号设置。",
+      "sourceIds": [
+        "temporary"
+      ]
+    }
+  ]
+}

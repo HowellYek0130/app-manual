@@ -1,0 +1,5536 @@
+{
+  "id": "claude",
+  "name": "Claude",
+  "plan": "Pro · 个人版",
+  "platform": "Windows 桌面",
+  "versionLabel": "官方文档基线 2026-10-12 · 统一体验逐步上线",
+  "accent": "#b2694b",
+  "intro": "从一个按钮到下一层页面，学会聊天、项目、成果编辑、连接器与桌面任务。依据最新官方资料制作；页面是教学模拟，未使用你的账号实测。",
+  "initialScreen": "home",
+  "screens": [
+    {
+      "id": "home",
+      "title": "What can I help you with?",
+      "section": "开始使用",
+      "layout": "chat",
+      "description": "以 2026-10-12 官方资料中的统一 Claude 体验为主：聊天和较长任务从同一个输入框开始。Pro 仍逐步上线；若你还看到 Chat / Cowork，请查看版本差异。界面是学习模拟，不是你的账号截图。",
+      "controls": [
+        {
+          "id": "claude-home-new",
+          "label": "New chat",
+          "placement": "sidebar",
+          "action": {
+            "kind": "navigate",
+            "target": "conversation"
+          },
+          "guide": {
+            "purpose": "开始独立对话，描述目标、输入材料和期望交付格式。",
+            "steps": [
+              "选择 New chat。",
+              "输入问题或完整任务；本演示已填入「把访谈记录整理成产品简报」。"
+            ],
+            "outcome": "进入「访谈主题整理」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-unified",
+              "claude-start"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "New chat",
+              "What can I help you with?",
+              "开始使用"
+            ]
+          }
+        },
+        {
+          "id": "claude-home-recents",
+          "label": "Recents",
+          "placement": "sidebar",
+          "action": {
+            "kind": "navigate",
+            "target": "recents"
+          },
+          "guide": {
+            "purpose": "统一查看最近的聊天和新任务。",
+            "steps": [
+              "打开 Recents。",
+              "选择示例对话或任务继续阅读。"
+            ],
+            "outcome": "进入「Recents」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-unified"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Recents",
+              "What can I help you with?",
+              "开始使用"
+            ]
+          }
+        },
+        {
+          "id": "claude-home-projects",
+          "label": "Projects",
+          "placement": "sidebar",
+          "action": {
+            "kind": "navigate",
+            "target": "projects"
+          },
+          "guide": {
+            "purpose": "把相关资料、指令和对话集中到专属项目。",
+            "steps": [
+              "点击 Projects。",
+              "打开项目或用 + 创建。"
+            ],
+            "outcome": "进入「Projects」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-projects",
+              "claude-cowork-projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Projects",
+              "What can I help you with?",
+              "开始使用"
+            ]
+          }
+        },
+        {
+          "id": "claude-home-artifacts",
+          "label": "Artifacts",
+          "placement": "sidebar",
+          "action": {
+            "kind": "navigate",
+            "target": "artifacts"
+          },
+          "guide": {
+            "purpose": "查找 Claude 制作的文档、幻灯片、设计和应用。",
+            "steps": [
+              "选择 Artifacts。",
+              "打开现有成果或选择模板。"
+            ],
+            "outcome": "进入「Artifacts」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-artifacts"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Artifacts",
+              "What can I help you with?",
+              "开始使用"
+            ]
+          }
+        },
+        {
+          "id": "claude-home-customize",
+          "label": "Customize",
+          "placement": "sidebar",
+          "action": {
+            "kind": "navigate",
+            "target": "connectors"
+          },
+          "guide": {
+            "purpose": "进入 Connectors、Skills、Plugins 的统一自定义目录。",
+            "steps": [
+              "点击 Customize。",
+              "在页内切换所需分类。"
+            ],
+            "outcome": "进入「Customize · Connectors」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-directory"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Customize",
+              "What can I help you with?",
+              "开始使用"
+            ]
+          }
+        },
+        {
+          "id": "claude-home-scheduled",
+          "label": "Scheduled",
+          "placement": "sidebar",
+          "action": {
+            "kind": "navigate",
+            "target": "scheduled"
+          },
+          "guide": {
+            "purpose": "查看周期任务的计划和执行记录。",
+            "steps": [
+              "打开 Scheduled。",
+              "选择任务查看时间或结果。"
+            ],
+            "outcome": "进入「Scheduled」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-schedule"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Scheduled",
+              "What can I help you with?",
+              "开始使用"
+            ]
+          }
+        },
+        {
+          "id": "claude-home-code",
+          "label": "Code",
+          "placement": "tab",
+          "action": {
+            "kind": "navigate",
+            "target": "code-start"
+          },
+          "guide": {
+            "purpose": "进入面向本地仓库开发的 Claude Code 标签。",
+            "steps": [
+              "点击 Code。",
+              "选择运行环境和工作目录后描述任务。"
+            ],
+            "outcome": "进入「Code · Start a session」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-code",
+              "claude-desktop"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Code",
+              "What can I help you with?",
+              "开始使用"
+            ]
+          }
+        },
+        {
+          "id": "claude-home-profile",
+          "label": "Settings",
+          "placement": "sidebar",
+          "action": {
+            "kind": "navigate",
+            "target": "settings-general"
+          },
+          "guide": {
+            "purpose": "从左下角姓名或头像菜单进入设置。",
+            "steps": [
+              "点击左下角姓名或头像。",
+              "选择 Settings。"
+            ],
+            "outcome": "进入「Settings · General」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-export"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Settings",
+              "What can I help you with?",
+              "开始使用"
+            ]
+          }
+        },
+        {
+          "id": "claude-home-plus",
+          "label": "+",
+          "placement": "composer",
+          "action": {
+            "kind": "navigate",
+            "target": "composer-menu"
+          },
+          "guide": {
+            "purpose": "查看附件、Research、Memory 和连接器等输入选项。",
+            "steps": [
+              "点击输入框旁 +。",
+              "选择需要的工具或资料。"
+            ],
+            "outcome": "进入「Add context & tools」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-start",
+              "claude-unified"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "+",
+              "What can I help you with?",
+              "开始使用"
+            ]
+          }
+        },
+        {
+          "id": "claude-home-model",
+          "label": "Model",
+          "placement": "composer",
+          "action": {
+            "kind": "navigate",
+            "target": "model-picker"
+          },
+          "guide": {
+            "purpose": "选择模型并调整下一次回答的思考程度。",
+            "steps": [
+              "点击发送按钮附近的模型名称。",
+              "选择模型或打开 Effort。"
+            ],
+            "outcome": "进入「Model menu」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-models"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Model",
+              "What can I help you with?",
+              "开始使用"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "recents",
+      "title": "Recents",
+      "section": "聊天与历史",
+      "layout": "list",
+      "parentId": "home",
+      "description": "新体验把聊天和任务放在同一个列表。搜索暂不包含较早的 Cowork 本地任务；它们仍可按名称在历史列表查找。",
+      "controls": [
+        {
+          "id": "claude-recents-conversation",
+          "label": "访谈主题整理",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "conversation"
+          },
+          "guide": {
+            "purpose": "打开已保存的聊天，继续原有上下文。",
+            "steps": [
+              "在 Recents 中选中标题。",
+              "阅读之前的消息，再补充要求。"
+            ],
+            "outcome": "进入「访谈主题整理」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-unified",
+              "claude-memory"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "访谈主题整理",
+              "Recents",
+              "聊天与历史"
+            ]
+          }
+        },
+        {
+          "id": "claude-recents-task",
+          "label": "产品简报 · 已完成",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "task-detail"
+          },
+          "guide": {
+            "purpose": "回到任务查看成果和后续操作。",
+            "steps": [
+              "按任务名称找到记录。",
+              "点击打开任务。"
+            ],
+            "outcome": "进入「每日产品动态 · Task details」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-unified",
+              "claude-cowork"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "产品简报 · 已完成",
+              "Recents",
+              "聊天与历史"
+            ]
+          }
+        },
+        {
+          "id": "claude-recents-search",
+          "label": "Search",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：显示「访谈主题整理」示例匹配；旧 Cowork 任务不保证被搜索到。"
+          },
+          "guide": {
+            "purpose": "按关键词查找历史对话。",
+            "steps": [
+              "输入「访谈」等聊天标题或内容关键词。",
+              "从匹配项打开对话。"
+            ],
+            "outcome": "显示「访谈主题整理」示例匹配；旧 Cowork 任务不保证被搜索到。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "无结果时尝试标题关键词；旧 Cowork 任务需要在 Recents 中按名称找。",
+            "sourceIds": [
+              "claude-unified",
+              "claude-memory"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Search",
+              "Recents",
+              "聊天与历史"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "conversation",
+      "title": "访谈主题整理",
+      "section": "聊天与历史",
+      "layout": "chat",
+      "parentId": "home",
+      "description": "这里演示一次普通聊天与完整任务共享的输入区。聊天结果、思考摘要和生成文件均是预先准备的示例。",
+      "controls": [
+        {
+          "id": "claude-conversation-model",
+          "label": "Model",
+          "placement": "composer",
+          "action": {
+            "kind": "navigate",
+            "target": "model-picker"
+          },
+          "guide": {
+            "purpose": "切换之后的回答使用的模型。",
+            "steps": [
+              "打开模型名称菜单。",
+              "选择可用模型；更改从下一次回答开始。"
+            ],
+            "outcome": "进入「Model menu」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-models"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Model",
+              "访谈主题整理",
+              "聊天与历史"
+            ]
+          }
+        },
+        {
+          "id": "claude-conversation-plus",
+          "label": "+",
+          "placement": "composer",
+          "action": {
+            "kind": "navigate",
+            "target": "composer-menu"
+          },
+          "guide": {
+            "purpose": "补充资料或指定 Research、连接器、输出模板。",
+            "steps": [
+              "点击 +。",
+              "从菜单选择需要的选项。"
+            ],
+            "outcome": "进入「Add context & tools」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-start",
+              "claude-unified"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "+",
+              "访谈主题整理",
+              "聊天与历史"
+            ]
+          }
+        },
+        {
+          "id": "claude-conversation-send",
+          "label": "Send",
+          "placement": "composer",
+          "action": {
+            "kind": "submit",
+            "result": "演示：出现三条访谈主题和建议，并保留继续提问的入口。"
+          },
+          "guide": {
+            "purpose": "把你的问题或任务交给 Claude。",
+            "steps": [
+              "在输入框说明目标、输入与交付格式。",
+              "点击 Send；本演示使用访谈主题整理例子。"
+            ],
+            "outcome": "出现三条访谈主题和建议，并保留继续提问的入口。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若收到限制提示，检查 Settings > Usage；材料过大时拆分文件。",
+            "sourceIds": [
+              "claude-start"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Send",
+              "访谈主题整理",
+              "聊天与历史"
+            ]
+          }
+        },
+        {
+          "id": "claude-conversation-thinking",
+          "label": "Thinking",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：显示示例摘要：先整理证据，再按用户问题分组，最后列出待验证假设。"
+          },
+          "guide": {
+            "purpose": "展开已显示的思考摘要，了解回答的处理思路。",
+            "steps": [
+              "等待 Thinking 区域出现。",
+              "展开标题阅读摘要。"
+            ],
+            "outcome": "显示示例摘要：先整理证据，再按用户问题分组，最后列出待验证假设。",
+            "conditions": "所选模型启用思考；摘要不等于完整内部推理。",
+            "troubleshooting": "部分思考内容可能不提供；不要把摘要作为结论正确性的保证。",
+            "sourceIds": [
+              "claude-models"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Thinking",
+              "访谈主题整理",
+              "聊天与历史"
+            ]
+          }
+        },
+        {
+          "id": "claude-conversation-output",
+          "label": "Output",
+          "placement": "composer",
+          "action": {
+            "kind": "navigate",
+            "target": "artifacts"
+          },
+          "guide": {
+            "purpose": "选择 Docs、Slides 或 Design 等成果起点。",
+            "steps": [
+              "打开 Output。",
+              "选择所需模板并描述内容。"
+            ],
+            "outcome": "进入「Artifacts」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-artifacts"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Output",
+              "访谈主题整理",
+              "聊天与历史"
+            ]
+          }
+        },
+        {
+          "id": "claude-conversation-manual",
+          "label": "Manual / Auto",
+          "placement": "composer",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：示例改为 Manual：后续外部操作将等待你审核。"
+          },
+          "guide": {
+            "purpose": "选择整段对话中的任务行动需要多频繁询问你。",
+            "steps": [
+              "检查输入框的权限设置。",
+              "在需要逐项审核时选 Manual；熟悉任务再考虑 Auto。"
+            ],
+            "outcome": "示例改为 Manual：后续外部操作将等待你审核。",
+            "conditions": "统一体验；Manual 为默认。Auto 使用自动检查，但仍应核对有实际后果的操作。",
+            "troubleshooting": "这不是 Tool access 的 Auto；权限模式和连接器加载策略是两件不同的事。",
+            "sourceIds": [
+              "claude-unified"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Manual / Auto",
+              "访谈主题整理",
+              "聊天与历史"
+            ]
+          }
+        },
+        {
+          "id": "claude-conversation-task",
+          "label": "交付文件与任务进度",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "task-running"
+          },
+          "guide": {
+            "purpose": "查看多步任务的过程和输出。",
+            "steps": [
+              "发送需要研究、整理或制作文件的完整任务。",
+              "阅读任务过程并在需要时补充要求。"
+            ],
+            "outcome": "进入「产品简报 · Working」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-unified",
+              "claude-cowork"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "交付文件与任务进度",
+              "访谈主题整理",
+              "聊天与历史"
+            ]
+          }
+        },
+        {
+          "id": "claude-conversation-move",
+          "label": "Add to project",
+          "placement": "toolbar",
+          "action": {
+            "kind": "navigate",
+            "target": "projects"
+          },
+          "guide": {
+            "purpose": "将已有聊天加入相应项目。",
+            "steps": [
+              "打开聊天标题旁的下拉菜单。",
+              "选择 Add to project，再在弹窗中查找正确项目。"
+            ],
+            "outcome": "进入「Projects」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Add to project",
+              "访谈主题整理",
+              "聊天与历史"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "model-picker",
+      "title": "Model menu",
+      "section": "模型与思考",
+      "layout": "dialog",
+      "parentId": "conversation",
+      "description": "模型列表随套餐及发布变化。这里展示当前文档说明的 Sonnet / Opus 5.5 模型系列，不宣称你的账号必然列出所有型号。",
+      "controls": [
+        {
+          "id": "claude-model-picker-sonnet",
+          "label": "Claude Sonnet 5.5",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：选为 Sonnet 5.5，下一次回答采用该模型。"
+          },
+          "guide": {
+            "purpose": "选择适合常见写作、分析及开发任务的模型。",
+            "steps": [
+              "点击模型名。",
+              "选择账号中显示的 Sonnet 5.5。"
+            ],
+            "outcome": "演示选为 Sonnet 5.5，下一次回答采用该模型。",
+            "conditions": "仅在账号模型列表提供时可选；Pro 的额度仍共享。",
+            "troubleshooting": "不在列表时看 More models 和官方发布说明；不要把 API 可用性等同于 Pro 可用性。",
+            "sourceIds": [
+              "claude-models",
+              "claude-release-notes"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Claude Sonnet 5.5",
+              "Model menu",
+              "模型与思考"
+            ]
+          }
+        },
+        {
+          "id": "claude-model-picker-opus",
+          "label": "Claude Opus 5.5",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：选为 Opus 5.5。"
+          },
+          "guide": {
+            "purpose": "为较复杂任务选择 Opus 系列。",
+            "steps": [
+              "点击模型名。",
+              "选中可用的 Opus 型号后再调整 Effort。"
+            ],
+            "outcome": "演示选为 Opus 5.5。",
+            "conditions": "实际型号及额度以你的 Pro 模型列表为准。",
+            "troubleshooting": "复杂任务可能更快消耗额度；先在 Usage 查看当前状态。",
+            "sourceIds": [
+              "claude-models",
+              "claude-release-notes"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Claude Opus 5.5",
+              "Model menu",
+              "模型与思考"
+            ]
+          }
+        },
+        {
+          "id": "claude-model-picker-more",
+          "label": "More models",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：显示说明：其他型号由账号当前列表决定，手册不伪造完整列表。"
+          },
+          "guide": {
+            "purpose": "查看账号提供的其他模型，不靠旧教程猜名称。",
+            "steps": [
+              "打开模型选择器。",
+              "选择 More models 并阅读当前可用项。"
+            ],
+            "outcome": "显示说明：其他型号由账号当前列表决定，手册不伪造完整列表。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "模型下线后旧聊天仍可能存在；要选择现在可用的替代模型。",
+            "sourceIds": [
+              "claude-models",
+              "claude-release-notes"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "More models",
+              "Model menu",
+              "模型与思考"
+            ]
+          }
+        },
+        {
+          "id": "claude-model-picker-effort",
+          "label": "Effort",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "effort-menu"
+          },
+          "guide": {
+            "purpose": "进入努力程度与思考设置。",
+            "steps": [
+              "打开模型菜单。",
+              "点击或悬停 Effort。"
+            ],
+            "outcome": "进入「Effort & Thinking」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-models"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Effort",
+              "Model menu",
+              "模型与思考"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "effort-menu",
+      "title": "Effort & Thinking",
+      "section": "模型与思考",
+      "layout": "dialog",
+      "parentId": "model-picker",
+      "description": "Effort 调整处理力度，Thinking 控制可展开的思考。Haiku 5.5、Sonnet 5.5、Opus 5.5、Fable 5.1、Opus 5 在 Claude 中不能关闭思考。",
+      "controls": [
+        {
+          "id": "claude-effort-menu-low",
+          "label": "Low / Medium",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：选为 Medium，适合初稿和日常问题。"
+          },
+          "guide": {
+            "purpose": "对简单任务降低处理力度。",
+            "steps": [
+              "打开 Effort。",
+              "选 Low 或 Medium。"
+            ],
+            "outcome": "演示选为 Medium，适合初稿和日常问题。",
+            "conditions": "仅在当前模型支持 effort 时显示。",
+            "troubleshooting": "如果复杂问题质量不足，补充约束或提高 effort；不需要每次都选最高。",
+            "sourceIds": [
+              "claude-models"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Low / Medium",
+              "Effort & Thinking",
+              "模型与思考"
+            ]
+          }
+        },
+        {
+          "id": "claude-effort-menu-high",
+          "label": "High",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：选为 High。"
+          },
+          "guide": {
+            "purpose": "在深度与用量之间取得日常平衡。",
+            "steps": [
+              "打开 Effort。",
+              "选择 High 或模型标出的 Default。"
+            ],
+            "outcome": "演示选为 High。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "默认值因模型而异；请以菜单中 Default 标注为准。",
+            "sourceIds": [
+              "claude-models"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "High",
+              "Effort & Thinking",
+              "模型与思考"
+            ]
+          }
+        },
+        {
+          "id": "claude-effort-menu-xhigh",
+          "label": "Extra high / Max",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：显示 Extra high：预计处理更久，额度消耗更高。"
+          },
+          "guide": {
+            "purpose": "为复杂编程或多步分析投入更多计算。",
+            "steps": [
+              "选择账号模型支持的 Extra high 或 Max。",
+              "明确说明评估标准后发送请求。"
+            ],
+            "outcome": "演示显示 Extra high：预计处理更久，额度消耗更高。",
+            "conditions": "Extra high 适用于 Opus 4.7 及较新支持型号；选项随模型变化。",
+            "troubleshooting": "更高 effort 仍不能保证事实正确；检查来源、测试和交付文件。",
+            "sourceIds": [
+              "claude-models"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Extra high / Max",
+              "Effort & Thinking",
+              "模型与思考"
+            ]
+          }
+        },
+        {
+          "id": "claude-effort-menu-thinking",
+          "label": "Thinking / Extended",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：当前 Sonnet 5.5 的思考始终开启，不能关闭。"
+          },
+          "guide": {
+            "purpose": "对支持关闭思考的旧模型调整思考开关。",
+            "steps": [
+              "在模型菜单的 Effort 下查找 Thinking，旧模型可能显示 Extended。",
+              "仅当开关可用时切换。"
+            ],
+            "outcome": "演示说明：当前 Sonnet 5.5 的思考始终开启，不能关闭。",
+            "conditions": "Haiku 5.5、Sonnet 5.5、Opus 5.5、Fable 5.1 和 Opus 5 在 Claude 中不可关闭思考；旧型号以菜单为准。",
+            "troubleshooting": "开关不可见或锁定通常是模型限制；不要照旧教程寻找全局关闭按钮。",
+            "sourceIds": [
+              "claude-models"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Thinking / Extended",
+              "Effort & Thinking",
+              "模型与思考"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "composer-menu",
+      "title": "Add context & tools",
+      "section": "聊天与历史",
+      "layout": "dialog",
+      "parentId": "conversation",
+      "description": "新体验没有 Web search 开关：需要时自动搜索。Research 仍可手动指定；Memory 必须在第一条消息发送前决定。",
+      "controls": [
+        {
+          "id": "claude-composer-menu-upload",
+          "label": "Add files or photos",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：已附加 interview-notes.pdf；没有读取你的本地文件。"
+          },
+          "guide": {
+            "purpose": "把本次聊天要分析的文件或照片附加到输入框。",
+            "steps": [
+              "点击 + > Add files or photos。",
+              "在系统文件选择器选文件，再点击 Open。"
+            ],
+            "outcome": "演示已附加 interview-notes.pdf；没有读取你的本地文件。",
+            "conditions": "文件格式、大小和数量以最新 Upload files 文档为准；XLSX 需文件创建功能。",
+            "troubleshooting": "上传失败时检查格式和体积；非 PDF 文档中的内嵌图片不一定可读取。",
+            "sourceIds": [
+              "claude-uploads"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Add files or photos",
+              "Add context & tools",
+              "聊天与历史"
+            ]
+          }
+        },
+        {
+          "id": "claude-composer-menu-research",
+          "label": "Research",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：启用 Research，并要求比较三款产品的官方资料。"
+          },
+          "guide": {
+            "purpose": "指定一次跨多个来源的深入研究。",
+            "steps": [
+              "点击 + > Research 或输入 /deep-research。",
+              "描述研究范围、截止日期和需要的来源。"
+            ],
+            "outcome": "演示启用 Research，并要求比较三款产品的官方资料。",
+            "conditions": "Claude Pro 支持 Research；最新统一体验自动处理搜索。",
+            "troubleshooting": "旧界面可能要求先打开 Web search；新体验已经没有该搜索开关。",
+            "sourceIds": [
+              "claude-unified"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Research",
+              "Add context & tools",
+              "聊天与历史"
+            ]
+          }
+        },
+        {
+          "id": "claude-composer-menu-connectors",
+          "label": "Connectors",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "connector-detail"
+          },
+          "guide": {
+            "purpose": "按对话选择连接器并调整 Tool access。",
+            "steps": [
+              "展开 + > Connectors。",
+              "启用本次需要的服务，或打开 Tool access。"
+            ],
+            "outcome": "进入「Connector details & tool access」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-connectors",
+              "claude-tool-access"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Connectors",
+              "Add context & tools",
+              "聊天与历史"
+            ]
+          }
+        },
+        {
+          "id": "claude-composer-menu-memory",
+          "label": "Memory",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：将新聊天设为不使用记忆；历史仍可保存。"
+          },
+          "guide": {
+            "purpose": "让新对话不使用、也不形成记忆。",
+            "steps": [
+              "在第一条消息发送前打开 + 菜单。",
+              "关闭 Memory，再开始聊天。"
+            ],
+            "outcome": "演示将新聊天设为不使用记忆；历史仍可保存。",
+            "conditions": "需账号已启用记忆；对话开始后不能改变这一选项。",
+            "troubleshooting": "已发送第一条消息时需要重新开始聊天；它与不保存历史的 Incognito 不同。",
+            "sourceIds": [
+              "claude-memory"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Memory",
+              "Add context & tools",
+              "聊天与历史"
+            ]
+          }
+        },
+        {
+          "id": "claude-composer-menu-output",
+          "label": "Output",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "artifacts"
+          },
+          "guide": {
+            "purpose": "指定成果模板。",
+            "steps": [
+              "选择 Output。",
+              "挑选 Docs、Slides、Design 或可用的 Dashboards 模板。"
+            ],
+            "outcome": "进入「Artifacts」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-artifacts"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Output",
+              "Add context & tools",
+              "聊天与历史"
+            ]
+          }
+        },
+        {
+          "id": "claude-composer-menu-incognito",
+          "label": "Incognito（幽灵图标）",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：进入旧式临时聊天；不会保存此演示对话。"
+          },
+          "guide": {
+            "purpose": "创建不进入普通聊天历史和记忆的临时聊天。",
+            "steps": [
+              "在项目外新聊天找到幽灵图标。",
+              "开启 Incognito，再发送问题。"
+            ],
+            "outcome": "演示进入旧式临时聊天；不会保存此演示对话。",
+            "conditions": "新统一体验的 Incognito 仍打开旧聊天界面，不能运行代码或创建文件。",
+            "troubleshooting": "项目内和已开始的对话可能没有入口；关闭该临时聊天即可退出。",
+            "sourceIds": [
+              "claude-incognito",
+              "claude-unified"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Incognito（幽灵图标）",
+              "Add context & tools",
+              "聊天与历史"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "title": "Projects",
+      "section": "项目",
+      "layout": "list",
+      "parentId": "home",
+      "description": "项目保存可复用资料与指令；Pro 的私人项目不提供 Team / Enterprise 的组织共享功能。",
+      "controls": [
+        {
+          "id": "claude-projects-create",
+          "label": "+ New Project",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "project-create"
+          },
+          "guide": {
+            "purpose": "为一类长期工作建立专属空间。",
+            "steps": [
+              "打开 Projects 并点击 + New Project；旧 Cowork 路径可能显示 +。",
+              "填写项目名称和描述。"
+            ],
+            "outcome": "进入「Create project」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-projects",
+              "claude-cowork-projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "+ New Project",
+              "Projects",
+              "项目"
+            ]
+          }
+        },
+        {
+          "id": "claude-projects-open",
+          "label": "产品研究",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "project"
+          },
+          "guide": {
+            "purpose": "进入已有项目查看指令、文件和对话。",
+            "steps": [
+              "在项目列表选择产品研究。",
+              "先查看其知识和 Instructions，再开始新对话。"
+            ],
+            "outcome": "进入「产品研究」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-projects",
+              "claude-cowork-projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "产品研究",
+              "Projects",
+              "项目"
+            ]
+          }
+        },
+        {
+          "id": "claude-projects-archive",
+          "label": "Archive（项目菜单）",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：归档提示：本地原始文件不会因归档自动删除。"
+          },
+          "guide": {
+            "purpose": "从项目列表归档完成的工作。",
+            "steps": [
+              "打开项目菜单。",
+              "选择 Archive 前确认不再需要出现在当前列表。"
+            ],
+            "outcome": "演示归档提示：本地原始文件不会因归档自动删除。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "归档和删除文件不同；旧本地 Cowork 项目的元数据与文件可能仍留在电脑。",
+            "sourceIds": [
+              "claude-cowork-projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Archive（项目菜单）",
+              "Projects",
+              "项目"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "project-create",
+      "title": "Create project",
+      "section": "项目",
+      "layout": "dialog",
+      "parentId": "projects",
+      "description": "私人 Pro 项目没有组织可见性选择。名称和描述用于识别项目，不代替 Claude 能读取的 Project instructions 和文件。",
+      "controls": [
+        {
+          "id": "claude-project-create-name",
+          "label": "Project name & description",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：已填写项目名称与描述。"
+          },
+          "guide": {
+            "purpose": "填写易于识别的项目名称和用途。",
+            "steps": [
+              "名称填写「产品研究」。",
+              "描述填写「整理访谈与官方产品资料」。"
+            ],
+            "outcome": "演示已填写项目名称与描述。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "官方说明 Claude 不会访问这些名称和描述细节作为任务上下文；工作规则应写入项目指令。",
+            "sourceIds": [
+              "claude-projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Project name & description",
+              "Create project",
+              "项目"
+            ]
+          }
+        },
+        {
+          "id": "claude-project-create-create",
+          "label": "Create",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "project"
+          },
+          "guide": {
+            "purpose": "完成建立私人项目，随后添加资料和指令。",
+            "steps": [
+              "核对项目名称和描述。",
+              "点击创建，再打开 Files 与 Set project instructions。"
+            ],
+            "outcome": "进入「产品研究」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Create",
+              "Create project",
+              "项目"
+            ]
+          }
+        },
+        {
+          "id": "claude-project-create-cancel",
+          "label": "Cancel",
+          "placement": "content",
+          "action": {
+            "kind": "back",
+            "result": "演示：关闭演示创建弹窗。"
+          },
+          "guide": {
+            "purpose": "在创建前返回项目列表。",
+            "steps": [
+              "不需要该项目时选择 Cancel。",
+              "返回后仍可打开已有项目。"
+            ],
+            "outcome": "关闭演示创建弹窗。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "取消不会影响已存在的项目。",
+            "sourceIds": [
+              "claude-projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Cancel",
+              "Create project",
+              "项目"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "project",
+      "title": "产品研究",
+      "section": "项目",
+      "layout": "workspace",
+      "parentId": "projects",
+      "description": "演示项目含 3 份资料、一套输出规范和关联任务。项目资料、指令及记忆各有用途，应分别管理。",
+      "controls": [
+        {
+          "id": "claude-project-knowledge",
+          "label": "Files / Project knowledge",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "project-knowledge"
+          },
+          "guide": {
+            "purpose": "打开跨此项目对话可引用的资料。",
+            "steps": [
+              "打开项目的 Files 或知识区域。",
+              "检查材料后再添加新文件。"
+            ],
+            "outcome": "进入「Project files & knowledge」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-projects",
+              "claude-cowork-projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Files / Project knowledge",
+              "产品研究",
+              "项目"
+            ]
+          }
+        },
+        {
+          "id": "claude-project-instructions",
+          "label": "Set project instructions",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "project-instructions"
+          },
+          "guide": {
+            "purpose": "为项目统一回复语气、格式和工作规则。",
+            "steps": [
+              "选择 Set project instructions。",
+              "写入可复用规则并保存。"
+            ],
+            "outcome": "进入「Set project instructions」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Set project instructions",
+              "产品研究",
+              "项目"
+            ]
+          }
+        },
+        {
+          "id": "claude-project-chat",
+          "label": "New chat in project",
+          "placement": "content",
+          "action": {
+            "kind": "submit",
+            "result": "演示：产生产品定位简报，使用项目中的访谈记录。"
+          },
+          "guide": {
+            "purpose": "在当前项目的资料和规则下开始工作。",
+            "steps": [
+              "在项目中打开新对话。",
+              "明确任务，并点名需要引用的资料。"
+            ],
+            "outcome": "演示产生产品定位简报，使用项目中的访谈记录。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "某条聊天的内容不自动变成项目知识；需要跨聊天复用时应加入项目资料。",
+            "sourceIds": [
+              "claude-projects",
+              "claude-cowork-projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "New chat in project",
+              "产品研究",
+              "项目"
+            ]
+          }
+        },
+        {
+          "id": "claude-project-memory",
+          "label": "Memory",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "settings-memory"
+          },
+          "guide": {
+            "purpose": "查看记忆的管理方式，理解项目隔离。",
+            "steps": [
+              "阅读当前项目记忆。",
+              "需要全局记忆管理时进入 Settings > Memory。"
+            ],
+            "outcome": "进入「Settings · Memory」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-memory",
+              "claude-cowork-projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Memory",
+              "产品研究",
+              "项目"
+            ]
+          }
+        },
+        {
+          "id": "claude-project-scheduled",
+          "label": "Scheduled tasks",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "scheduled"
+          },
+          "guide": {
+            "purpose": "查看或创建和项目有关的周期工作。",
+            "steps": [
+              "在项目中描述需要重复的工作。",
+              "审核任务指令和频率后安排执行。"
+            ],
+            "outcome": "进入「Scheduled」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-cowork-projects",
+              "claude-schedule"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Scheduled tasks",
+              "产品研究",
+              "项目"
+            ]
+          }
+        },
+        {
+          "id": "claude-project-star",
+          "label": "Star",
+          "placement": "toolbar",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：产品研究已加星。"
+          },
+          "guide": {
+            "purpose": "把常用项目加入快速访问项目列表。",
+            "steps": [
+              "打开项目。",
+              "点击右上角星形图标；也可在项目菜单选择 Star。"
+            ],
+            "outcome": "演示产品研究已加星。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "加星只改变快速访问，不改变知识内容或权限。",
+            "sourceIds": [
+              "claude-projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Star",
+              "产品研究",
+              "项目"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "project-knowledge",
+      "title": "Project files & knowledge",
+      "section": "项目",
+      "layout": "detail",
+      "parentId": "project",
+      "description": "项目文件用于持久引用，单次聊天附件只针对该聊天。付费项目在接近上下文容量时可使用自动检索。",
+      "controls": [
+        {
+          "id": "claude-project-knowledge-add",
+          "label": "+ Add content",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：新增 product-brief.txt，之后的项目聊天可以引用。"
+          },
+          "guide": {
+            "purpose": "把长期参考文件加入项目。",
+            "steps": [
+              "点击知识或 Files 区域的 +。",
+              "上传需要跨多次聊天引用的文档。"
+            ],
+            "outcome": "演示新增 product-brief.txt，之后的项目聊天可以引用。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "文件上传限制与聊天附件不同；请查看 Upload files 的 Project files 部分。",
+            "sourceIds": [
+              "claude-projects",
+              "claude-uploads"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "+ Add content",
+              "Project files & knowledge",
+              "项目"
+            ]
+          }
+        },
+        {
+          "id": "claude-project-knowledge-open",
+          "label": "interview-notes.pdf",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：显示三条访谈摘要；不会显示你的真实文件。"
+          },
+          "guide": {
+            "purpose": "检查已加入项目的资料是否正确。",
+            "steps": [
+              "打开项目文件条目。",
+              "核对名称、内容和版本，再让 Claude 引用。"
+            ],
+            "outcome": "演示显示三条访谈摘要；不会显示你的真实文件。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "需要精确表格或图片时说明页码；大 PDF 的视觉处理能力与文本提取不同。",
+            "sourceIds": [
+              "claude-projects",
+              "claude-uploads"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "interview-notes.pdf",
+              "Project files & knowledge",
+              "项目"
+            ]
+          }
+        },
+        {
+          "id": "claude-project-knowledge-remove",
+          "label": "Remove file",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：移除确认：项目上下文中不再使用该文件；本地原始文件未被操作。"
+          },
+          "guide": {
+            "purpose": "移除不再应该供此项目引用的资料。",
+            "steps": [
+              "选择项目文件的操作菜单。",
+              "移除前确认后续任务不再需要它。"
+            ],
+            "outcome": "演示移除确认：项目上下文中不再使用该文件；本地原始文件未被操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "如果希望保留内容用于备份，请先下载；不要把移除项目文件理解为删除电脑上的原件。",
+            "sourceIds": [
+              "claude-projects",
+              "claude-uploads"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Remove file",
+              "Project files & knowledge",
+              "项目"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "project-instructions",
+      "title": "Set project instructions",
+      "section": "项目",
+      "layout": "dialog",
+      "parentId": "project",
+      "description": "用持久规则定义结构，例如「中文解释，保留英文按钮名；每条结论附来源」。任务临时要求应放在具体对话中。",
+      "controls": [
+        {
+          "id": "claude-project-instructions-edit",
+          "label": "Instructions",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：规则：中文简报、每项结论列来源、缺证据时标待核验。"
+          },
+          "guide": {
+            "purpose": "编辑此项目共同遵循的规则。",
+            "steps": [
+              "在指令输入框写角色、输出结构和资料引用规则。",
+              "保持规则简短；避免贴入所有任务细节。"
+            ],
+            "outcome": "演示规则：中文简报、每项结论列来源、缺证据时标待核验。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "项目指令过长会占用上下文；把大段知识放到文件中。",
+            "sourceIds": [
+              "claude-projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Instructions",
+              "Set project instructions",
+              "项目"
+            ]
+          }
+        },
+        {
+          "id": "claude-project-instructions-save",
+          "label": "Save instructions",
+          "placement": "content",
+          "action": {
+            "kind": "submit",
+            "result": "演示：项目指令已保存。"
+          },
+          "guide": {
+            "purpose": "保存后让项目中的后续对话使用规则。",
+            "steps": [
+              "检查指令内容。",
+              "点击 Save instructions 并在新对话验证格式。"
+            ],
+            "outcome": "演示项目指令已保存。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "保存指令不会自动重写此前生成的回答；请在后续消息中要求重新整理。",
+            "sourceIds": [
+              "claude-projects"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Save instructions",
+              "Set project instructions",
+              "项目"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "artifacts",
+      "title": "Artifacts",
+      "section": "成果与编辑",
+      "layout": "list",
+      "parentId": "home",
+      "description": "最新版 Artifacts 集中文档、演示、设计与小工具；旧聊天里的 legacy artifacts 仍可查看，但新成果使用新的编辑与分享流程。",
+      "controls": [
+        {
+          "id": "claude-artifacts-docs",
+          "label": "Docs",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "artifact-doc"
+          },
+          "guide": {
+            "purpose": "从可编辑文档模板开始。",
+            "steps": [
+              "在 Artifacts 选择 Docs，或在聊天选择 Output > Docs。",
+              "描述文档目的与结构。"
+            ],
+            "outcome": "进入「产品研究简报 · Claude Docs」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-artifacts",
+              "claude-docs"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Docs",
+              "Artifacts",
+              "成果与编辑"
+            ]
+          }
+        },
+        {
+          "id": "claude-artifacts-slides",
+          "label": "Slides",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "artifact-slides"
+          },
+          "guide": {
+            "purpose": "从演示模板开始并编辑、放映或导出。",
+            "steps": [
+              "选择 Slides 模板。",
+              "附上提纲或报告，说明演示受众。"
+            ],
+            "outcome": "进入「Claude Slides」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-artifacts"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Slides",
+              "Artifacts",
+              "成果与编辑"
+            ]
+          }
+        },
+        {
+          "id": "claude-artifacts-design",
+          "label": "Design",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "artifact-design"
+          },
+          "guide": {
+            "purpose": "从设计模板开始制作原型或视觉稿。",
+            "steps": [
+              "选择 Design。",
+              "给出目标、布局、内容和参考素材。"
+            ],
+            "outcome": "进入「Claude Design」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-design"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Design",
+              "Artifacts",
+              "成果与编辑"
+            ]
+          }
+        },
+        {
+          "id": "claude-artifacts-dashboard",
+          "label": "Dashboards (beta)",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：显示产品反馈趋势；真实查询须连接支持的数据源。"
+          },
+          "guide": {
+            "purpose": "把连接器中的数据做成可检查查询与刷新时间的图表。",
+            "steps": [
+              "选择账号可用的 Dashboards 模板。",
+              "指定已连接的数据服务和指标。"
+            ],
+            "outcome": "演示显示产品反馈趋势；真实查询须连接支持的数据源。",
+            "conditions": "Dashboards 为 Pro 可用的 beta；Motion 当前面向 Team / Enterprise，未作为 Pro 控件展示。",
+            "troubleshooting": "数据并不总是实时更新；检查每张图表的查询和更新时间。",
+            "sourceIds": [
+              "claude-artifacts"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Dashboards (beta)",
+              "Artifacts",
+              "成果与编辑"
+            ]
+          }
+        },
+        {
+          "id": "claude-artifacts-open",
+          "label": "产品研究简报",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "artifact-doc"
+          },
+          "guide": {
+            "purpose": "重新打开已经生成的成果继续编辑。",
+            "steps": [
+              "在 Artifacts 查找标题。",
+              "打开后直接编辑或告诉 Claude 修改。"
+            ],
+            "outcome": "进入「产品研究简报 · Claude Docs」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-artifacts",
+              "claude-docs"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "产品研究简报",
+              "Artifacts",
+              "成果与编辑"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "artifact-doc",
+      "title": "产品研究简报 · Claude Docs",
+      "section": "成果与编辑",
+      "layout": "workspace",
+      "parentId": "artifacts",
+      "description": "文档旁保留对话；可以直接修改文字，也能选中具体段落请 Claude 修订。新文档默认私人，分享前需明确选择权限。",
+      "controls": [
+        {
+          "id": "claude-artifact-doc-edit",
+          "label": "Edit with Claude",
+          "placement": "content",
+          "action": {
+            "kind": "submit",
+            "result": "演示：把结论段落改成三句话。"
+          },
+          "guide": {
+            "purpose": "对选中段落提出精确修改要求。",
+            "steps": [
+              "选中「研究结论」段落。",
+              "点击 Edit with Claude，输入「精简到三句话」并提交。"
+            ],
+            "outcome": "演示把结论段落改成三句话。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "未选中文字时先选中目标范围；多文件编辑请求需提交后才会生效。",
+            "sourceIds": [
+              "claude-docs"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Edit with Claude",
+              "产品研究简报 · Claude Docs",
+              "成果与编辑"
+            ]
+          }
+        },
+        {
+          "id": "claude-artifact-doc-format",
+          "label": "Formatting toolbar",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：为「研究结论」加粗。"
+          },
+          "guide": {
+            "purpose": "通过编辑器格式栏或 Windows 快捷键设置文字格式。",
+            "steps": [
+              "选中文字。",
+              "按 Ctrl+F6 到格式栏，或用 Ctrl+B 加粗。"
+            ],
+            "outcome": "演示为「研究结论」加粗。",
+            "conditions": "Docs 编辑权限；Windows 快捷键与 Mac 不同。",
+            "troubleshooting": "Tab 在文档正文中可能用于缩进或切换表格单元格；按 Esc 离开正文。",
+            "sourceIds": [
+              "claude-docs"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Formatting toolbar",
+              "产品研究简报 · Claude Docs",
+              "成果与编辑"
+            ]
+          }
+        },
+        {
+          "id": "claude-artifact-doc-comment",
+          "label": "Add a comment",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：添加评论「补充第二组访谈样本」。"
+          },
+          "guide": {
+            "purpose": "给选中的内容留下评论或请求修改。",
+            "steps": [
+              "选中一段文字。",
+              "按 Ctrl+Alt+M，输入评论后按 Enter。"
+            ],
+            "outcome": "演示添加评论「补充第二组访谈样本」。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "评论与直接编辑不同；需要实际改正文时使用编辑或 Edit with Claude。",
+            "sourceIds": [
+              "claude-docs"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Add a comment",
+              "产品研究简报 · Claude Docs",
+              "成果与编辑"
+            ]
+          }
+        },
+        {
+          "id": "claude-artifact-doc-share",
+          "label": "Share",
+          "placement": "toolbar",
+          "action": {
+            "kind": "navigate",
+            "target": "artifact-share"
+          },
+          "guide": {
+            "purpose": "打开谁可以查看文档的设置。",
+            "steps": [
+              "点击 Share。",
+              "检查访问范围与权限后再复制链接。"
+            ],
+            "outcome": "进入「Share artifact」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-docs",
+              "claude-share"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Share",
+              "产品研究简报 · Claude Docs",
+              "成果与编辑"
+            ]
+          }
+        },
+        {
+          "id": "claude-artifact-doc-export",
+          "label": "Export",
+          "placement": "toolbar",
+          "action": {
+            "kind": "navigate",
+            "target": "artifact-export"
+          },
+          "guide": {
+            "purpose": "选择 Word、PDF、Markdown 或 Google Docs 等导出格式。",
+            "steps": [
+              "点击 Export。",
+              "选择用途对应的格式。"
+            ],
+            "outcome": "进入「Export doc」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-docs"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Export",
+              "产品研究简报 · Claude Docs",
+              "成果与编辑"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "artifact-share",
+      "title": "Share artifact",
+      "section": "成果与编辑",
+      "layout": "dialog",
+      "parentId": "artifact-doc",
+      "description": "新成果的共享链接要求访问者有 Claude 账号；它不同于旧 legacy artifact 的公开 Publish。Docs 在 Pro 使用链接分享，不支持按邮箱邀请。",
+      "controls": [
+        {
+          "id": "claude-artifact-share-private",
+          "label": "Only you",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：访问范围保持 Only you。"
+          },
+          "guide": {
+            "purpose": "保持新成果仅自己访问。",
+            "steps": [
+              "打开 Share。",
+              "选择 Only you 并核对权限。"
+            ],
+            "outcome": "演示访问范围保持 Only you。",
+            "conditions": "个人 Pro 成果默认私人。",
+            "troubleshooting": "若链接对别人打不开，检查是否仍为 Only you；不要为了排查而公开敏感内容。",
+            "sourceIds": [
+              "claude-share",
+              "claude-docs"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Only you",
+              "Share artifact",
+              "成果与编辑"
+            ]
+          }
+        },
+        {
+          "id": "claude-artifact-share-link",
+          "label": "Anyone with the link",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：显示链接分享提示；没有在真实 Claude 发布内容。"
+          },
+          "guide": {
+            "purpose": "允许有链接且登录 Claude 的人查看成果。",
+            "steps": [
+              "选择 Anyone with the link。",
+              "为文档检查可查看或可编辑的权限。"
+            ],
+            "outcome": "演示显示链接分享提示；没有在真实 Claude 发布内容。",
+            "conditions": "Pro 支持链接分享；Docs 访问者需 Claude 账号。",
+            "troubleshooting": "不同成果类型有不同编辑权限；共享带存储或连接器的数据需再检查数据范围。",
+            "sourceIds": [
+              "claude-share",
+              "claude-docs"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Anyone with the link",
+              "Share artifact",
+              "成果与编辑"
+            ]
+          }
+        },
+        {
+          "id": "claude-artifact-share-version",
+          "label": "Latest / specific version",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：选择 Latest：之后的改动会随链接展示。"
+          },
+          "guide": {
+            "purpose": "决定链接跟随最新成果还是展示固定版本。",
+            "steps": [
+              "在分享弹窗查看版本选项。",
+              "选择最新版或当前可用的特定版本。"
+            ],
+            "outcome": "演示选择 Latest：之后的改动会随链接展示。",
+            "conditions": "仅在对应成果的 Share 对话提供版本选择时使用。",
+            "troubleshooting": "设计成果不一定有版本历史；若没有选项，以当前成果类型支持范围为准。",
+            "sourceIds": [
+              "claude-share",
+              "claude-docs"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Latest / specific version",
+              "Share artifact",
+              "成果与编辑"
+            ]
+          }
+        },
+        {
+          "id": "claude-artifact-share-copy",
+          "label": "Copy link",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：复制的是说明书示例链接，不会自动发给任何人。"
+          },
+          "guide": {
+            "purpose": "复制已经配置访问范围的成果链接。",
+            "steps": [
+              "先确认访问范围及权限。",
+              "点击 Copy link，再到需要分享的地方粘贴。"
+            ],
+            "outcome": "演示复制的是说明书示例链接，不会自动发给任何人。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "复制链接不等于允许访问；先确认权限。旧 Publish 链接的访问规则不同。",
+            "sourceIds": [
+              "claude-share",
+              "claude-docs"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Copy link",
+              "Share artifact",
+              "成果与编辑"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "artifact-export",
+      "title": "Export doc",
+      "section": "成果与编辑",
+      "layout": "dialog",
+      "parentId": "artifact-doc",
+      "description": "导出给不在 Claude 编辑器中工作的读者。Google Docs 导出需要关联 Google 账号；所有按钮在此只展示示例结果。",
+      "controls": [
+        {
+          "id": "claude-artifact-export-word",
+          "label": "Word (.docx)",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：生成产品研究简报.docx 的下载确认。"
+          },
+          "guide": {
+            "purpose": "导出可在 Microsoft Word 中继续编辑的文件。",
+            "steps": [
+              "点击 Export > Word。",
+              "下载后打开检查页边距、字体和表格。"
+            ],
+            "outcome": "演示生成产品研究简报.docx 的下载确认。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "导出样式可能需要校对；核对长表格和分页。",
+            "sourceIds": [
+              "claude-docs"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Word (.docx)",
+              "Export doc",
+              "成果与编辑"
+            ]
+          }
+        },
+        {
+          "id": "claude-artifact-export-pdf",
+          "label": "PDF (.pdf)",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：生成产品研究简报.pdf 的下载确认。"
+          },
+          "guide": {
+            "purpose": "生成适合固定版式分发的 PDF。",
+            "steps": [
+              "选择 Export > PDF。",
+              "下载后逐页检查。"
+            ],
+            "outcome": "演示生成产品研究简报.pdf 的下载确认。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若排版截断，先调整文档结构再重新导出。",
+            "sourceIds": [
+              "claude-docs"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "PDF (.pdf)",
+              "Export doc",
+              "成果与编辑"
+            ]
+          }
+        },
+        {
+          "id": "claude-artifact-export-markdown",
+          "label": "Markdown (.md)",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：生成产品研究简报.md 的下载确认。"
+          },
+          "guide": {
+            "purpose": "导出便于纯文本管理和版本比较的 Markdown。",
+            "steps": [
+              "选择 Export > Markdown。",
+              "在文本编辑器或仓库查看文件。"
+            ],
+            "outcome": "演示生成产品研究简报.md 的下载确认。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "Markdown 不会保留 Word 的完整视觉格式；需要固定版式时用 PDF。",
+            "sourceIds": [
+              "claude-docs"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Markdown (.md)",
+              "Export doc",
+              "成果与编辑"
+            ]
+          }
+        },
+        {
+          "id": "claude-artifact-export-google",
+          "label": "Google Docs",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：显示 Google Docs 授权提示，不建立真实连接。"
+          },
+          "guide": {
+            "purpose": "把文档导出到已授权的 Google Docs。",
+            "steps": [
+              "选择 Export > Google Docs。",
+              "按实际提示连接 Google 账号并审核权限。"
+            ],
+            "outcome": "演示显示 Google Docs 授权提示，不建立真实连接。",
+            "conditions": "需支持的 Google 账号连接及源系统权限。",
+            "troubleshooting": "登录和导出失败时检查选中的 Google 账号；组织策略也可能限制导出。",
+            "sourceIds": [
+              "claude-docs"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Google Docs",
+              "Export doc",
+              "成果与编辑"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "artifact-slides",
+      "title": "Claude Slides",
+      "section": "成果与编辑",
+      "layout": "workspace",
+      "parentId": "artifacts",
+      "description": "Slides 有单独的演示起点，可在画布上修改并导出 PowerPoint / PDF。键盘导航支持 F6 与 Windows Ctrl+F6。",
+      "controls": [
+        {
+          "id": "claude-artifact-slides-edit",
+          "label": "Edit slide",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：把第 1 页标题改为「我们学到了什么」。"
+          },
+          "guide": {
+            "purpose": "修改当前幻灯片的文字和对象。",
+            "steps": [
+              "选中一页。",
+              "直接编辑文字，或在聊天要求修改当前页。"
+            ],
+            "outcome": "演示把第 1 页标题改为「我们学到了什么」。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "用 Esc 退出文字编辑再移动对象；布局绑定对象可能需要请 Claude 调整。",
+            "sourceIds": [
+              "claude-artifacts"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Edit slide",
+              "Claude Slides",
+              "成果与编辑"
+            ]
+          }
+        },
+        {
+          "id": "claude-artifact-slides-present",
+          "label": "Present",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：进入第一张幻灯片的放映说明。"
+          },
+          "guide": {
+            "purpose": "在 Claude 内放映演示。",
+            "steps": [
+              "点击 Present 并开始。",
+              "用方向键或空格翻页，Esc 结束。"
+            ],
+            "outcome": "演示进入第一张幻灯片的放映说明。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "键盘还在文字编辑框时先按 Esc；放映快捷键只在放映时生效。",
+            "sourceIds": [
+              "claude-artifacts"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Present",
+              "Claude Slides",
+              "成果与编辑"
+            ]
+          }
+        },
+        {
+          "id": "claude-artifact-slides-export",
+          "label": "Export",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：选择 PowerPoint (.pptx)，并提示下载后核对字体与布局。"
+          },
+          "guide": {
+            "purpose": "把演示导出到 PowerPoint、PDF 或 Google Slides。",
+            "steps": [
+              "点击 Export。",
+              "选择 PowerPoint、PDF 或已连接的 Google Slides。"
+            ],
+            "outcome": "演示选择 PowerPoint (.pptx)，并提示下载后核对字体与布局。",
+            "conditions": "可用导出格式以当前菜单为准；Google Slides 需相关账号连接。",
+            "troubleshooting": "需要可编辑文件时选 PowerPoint / Google Slides；定稿查看可用 PDF。",
+            "sourceIds": [
+              "claude-artifacts"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Export",
+              "Claude Slides",
+              "成果与编辑"
+            ]
+          }
+        },
+        {
+          "id": "claude-artifact-slides-share",
+          "label": "Share",
+          "placement": "toolbar",
+          "action": {
+            "kind": "navigate",
+            "target": "artifact-share"
+          },
+          "guide": {
+            "purpose": "为演示选择访问范围。",
+            "steps": [
+              "打开 Share。",
+              "检查链接版本和权限。"
+            ],
+            "outcome": "进入「Share artifact」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-share"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Share",
+              "Claude Slides",
+              "成果与编辑"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "artifact-design",
+      "title": "Claude Design",
+      "section": "成果与编辑",
+      "layout": "workspace",
+      "parentId": "artifacts",
+      "description": "新版 Design 已在对话和 Artifacts 模板中。它有画布与属性面板，个人 Pro 可建立设计系统；这里仅演示常见编辑路径。",
+      "controls": [
+        {
+          "id": "claude-artifact-design-properties",
+          "label": "Properties",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：显示标题层的颜色、字号和间距。"
+          },
+          "guide": {
+            "purpose": "查看并修改画布所选元素的样式与布局属性。",
+            "steps": [
+              "先选中画布上的元素。",
+              "点击 Properties 或按 Ctrl+ 打开属性面板。"
+            ],
+            "outcome": "演示显示标题层的颜色、字号和间距。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "属性面板里移动到的层未必已经被画布选中；删除前先确认选中对象。",
+            "sourceIds": [
+              "claude-design"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Properties",
+              "Claude Design",
+              "成果与编辑"
+            ]
+          }
+        },
+        {
+          "id": "claude-artifact-design-system",
+          "label": "Design system / /design-sync",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：使用「研究手册」的配色和文字层级。"
+          },
+          "guide": {
+            "purpose": "让成果沿用颜色、字体和真实组件规范。",
+            "steps": [
+              "在聊天提供品牌资料，或在 Claude Code 用 /design-sync。",
+              "检查生成的设计系统，再让新设计引用。"
+            ],
+            "outcome": "演示使用「研究手册」的配色和文字层级。",
+            "conditions": "Design systems 在 Pro 为 beta；代码组件同步需要 Claude Code 与源代码访问。",
+            "troubleshooting": "不完整的品牌资料会影响一致性；先补齐规范再复用。",
+            "sourceIds": [
+              "claude-design-systems"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Design system / /design-sync",
+              "Claude Design",
+              "成果与编辑"
+            ]
+          }
+        },
+        {
+          "id": "claude-artifact-design-export",
+          "label": "Export / Handoff to Claude Code",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：选择 standalone HTML；不执行真实发布或仓库写入。"
+          },
+          "guide": {
+            "purpose": "导出设计或交给编程工作流实现。",
+            "steps": [
+              "点击 Export。",
+              "按用途选 ZIP、PDF、HTML，或 Handoff to Claude Code。"
+            ],
+            "outcome": "演示选择 standalone HTML；不执行真实发布或仓库写入。",
+            "conditions": "实际格式以菜单为准；Design 当前没有版本历史。",
+            "troubleshooting": "导出的交互稿仍应测试；交接代码前检查组件、资源和响应式布局。",
+            "sourceIds": [
+              "claude-design"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Export / Handoff to Claude Code",
+              "Claude Design",
+              "成果与编辑"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "connectors",
+      "title": "Customize · Connectors",
+      "section": "连接器与自定义",
+      "layout": "settings",
+      "parentId": "home",
+      "description": "Remote connector 从云端连接服务，desktop extension 在电脑本地运行。它们不是同一安装入口。",
+      "controls": [
+        {
+          "id": "claude-connectors-skills",
+          "label": "Skills",
+          "placement": "tab",
+          "action": {
+            "kind": "navigate",
+            "target": "skills"
+          },
+          "guide": {
+            "purpose": "切换到可复用工作方法的技能列表。",
+            "steps": [
+              "在 Customize 选择 Skills。",
+              "浏览、启用或上传技能。"
+            ],
+            "outcome": "进入「Customize · Skills」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-directory"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Skills",
+              "Customize · Connectors",
+              "连接器与自定义"
+            ]
+          }
+        },
+        {
+          "id": "claude-connectors-plugins",
+          "label": "Plugins",
+          "placement": "tab",
+          "action": {
+            "kind": "navigate",
+            "target": "plugins"
+          },
+          "guide": {
+            "purpose": "切换到捆绑技能与连接器的插件列表。",
+            "steps": [
+              "在 Customize 选择 Plugins。",
+              "阅读插件内容再添加。"
+            ],
+            "outcome": "进入「Customize · Plugins」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-directory"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Plugins",
+              "Customize · Connectors",
+              "连接器与自定义"
+            ]
+          }
+        },
+        {
+          "id": "claude-connectors-browse",
+          "label": "+ Browse connectors",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "connector-detail"
+          },
+          "guide": {
+            "purpose": "打开连接器目录，先检查服务能力。",
+            "steps": [
+              "点击 Connectors 区域 +。",
+              "选择服务并阅读 read/write 权限。"
+            ],
+            "outcome": "进入「Connector details & tool access」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-connectors"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "+ Browse connectors",
+              "Customize · Connectors",
+              "连接器与自定义"
+            ]
+          }
+        },
+        {
+          "id": "claude-connectors-custom",
+          "label": "Add custom connector",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：显示远程 MCP 表单；不会建立真实网络连接。"
+          },
+          "guide": {
+            "purpose": "连接公开可达的自建远程 MCP 服务。",
+            "steps": [
+              "选择 + > Add custom connector。",
+              "填写名称与服务 URL；按需要配置 OAuth，再 Add。"
+            ],
+            "outcome": "演示显示远程 MCP 表单；不会建立真实网络连接。",
+            "conditions": "Pro 支持自定义连接器；远程服务必须能由 Anthropic 的云端访问。",
+            "troubleshooting": "localhost URL 不适合作为远程连接器；本地工具应使用 Extensions。",
+            "sourceIds": [
+              "claude-connectors",
+              "claude-connector-types"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Add custom connector",
+              "Customize · Connectors",
+              "连接器与自定义"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "connector-detail",
+      "title": "Connector details & tool access",
+      "section": "连接器与自定义",
+      "layout": "detail",
+      "parentId": "connectors",
+      "description": "演示连接器详情与 + > Connectors 的对话工具菜单。Tool access 控制工具何时加载，不等于允许工具执行所有写操作。",
+      "controls": [
+        {
+          "id": "claude-connector-detail-connect",
+          "label": "Connect",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "connector-auth"
+          },
+          "guide": {
+            "purpose": "授权选定服务，让 Claude 在你的源系统权限范围内访问。",
+            "steps": [
+              "阅读服务说明、账号和 read/write 能力。",
+              "点击 Connect，按服务提示登录。"
+            ],
+            "outcome": "进入「Connect · Authorization」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-connectors"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Connect",
+              "Connector details & tool access",
+              "连接器与自定义"
+            ]
+          }
+        },
+        {
+          "id": "claude-connector-detail-toggle",
+          "label": "Enable for this conversation",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：打开连接器；不连接任何真实服务。"
+          },
+          "guide": {
+            "purpose": "决定本次聊天能否调用已连接服务。",
+            "steps": [
+              "在聊天 + > Connectors 找到服务。",
+              "打开本次需要的服务开关。"
+            ],
+            "outcome": "演示打开连接器；不连接任何真实服务。",
+            "conditions": "服务已完成账号授权。",
+            "troubleshooting": "开关打开仍找不到文件时检查源系统权限和当前登录账号。",
+            "sourceIds": [
+              "claude-connectors"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Enable for this conversation",
+              "Connector details & tool access",
+              "连接器与自定义"
+            ]
+          }
+        },
+        {
+          "id": "claude-connector-detail-tool",
+          "label": "Tool access · Auto / Always available / On demand",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：使用 Auto；Claude按任务加载所需工具。"
+          },
+          "guide": {
+            "purpose": "选择连接器加载策略，减少不需要的上下文占用。",
+            "steps": [
+              "在 + > Connectors 打开 Tool access。",
+              "通常选 Auto；许多连接器时考虑 On demand。"
+            ],
+            "outcome": "演示使用 Auto；Claude按任务加载所需工具。",
+            "conditions": "该选择只作用于当前对话；Always available 会预先加载更多工具。",
+            "troubleshooting": "On demand 可能多一步查找；必须每次可用的连接器可单独设置。",
+            "sourceIds": [
+              "claude-tool-access"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Tool access · Auto / Always available / On demand",
+              "Connector details & tool access",
+              "连接器与自定义"
+            ]
+          }
+        },
+        {
+          "id": "claude-connector-detail-disconnect",
+          "label": "Disconnect",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：显示断开确认；真实服务授权未被更改。"
+          },
+          "guide": {
+            "purpose": "撤销该服务与 Claude 的连接。",
+            "steps": [
+              "回到 Customize > Connectors。",
+              "在服务详情选择断开，并审核提示。"
+            ],
+            "outcome": "演示显示断开确认；真实服务授权未被更改。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "对话禁用与账号断开不同；重新使用时可能需要重新登录源服务。",
+            "sourceIds": [
+              "claude-connectors"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Disconnect",
+              "Connector details & tool access",
+              "连接器与自定义"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "connector-auth",
+      "title": "Connect · Authorization",
+      "section": "连接器与自定义",
+      "layout": "dialog",
+      "parentId": "connector-detail",
+      "description": "授权页通常由第三方服务提供，因此按钮文字和权限列表因服务不同。这里模拟审核过程，不能代替实际 OAuth 权限页。",
+      "controls": [
+        {
+          "id": "claude-connector-auth-review",
+          "label": "Review requested permissions",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：权限：读取指定资料、搜索记录；没有实际账号或令牌。"
+          },
+          "guide": {
+            "purpose": "了解要授权的账号、数据范围与读写能力。",
+            "steps": [
+              "核对服务域名与当前账号。",
+              "阅读每项请求权限，确认是否符合这次工作。"
+            ],
+            "outcome": "演示权限：读取指定资料、搜索记录；没有实际账号或令牌。",
+            "conditions": "授权列表由具体连接器和源系统决定。",
+            "troubleshooting": "若要求的权限超出需要，取消流程并寻找范围更小的配置。",
+            "sourceIds": [
+              "claude-connectors"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Review requested permissions",
+              "Connect · Authorization",
+              "连接器与自定义"
+            ]
+          }
+        },
+        {
+          "id": "claude-connector-auth-allow",
+          "label": "Authorize / Allow（由服务决定）",
+          "placement": "content",
+          "action": {
+            "kind": "submit",
+            "result": "演示：授权成功；真实外部服务未收到请求。"
+          },
+          "guide": {
+            "purpose": "在确认权限后完成第三方登录授权。",
+            "steps": [
+              "确认账号和范围正确。",
+              "按真实服务的授权按钮继续，再返回 Claude。"
+            ],
+            "outcome": "演示授权成功；真实外部服务未收到请求。",
+            "conditions": "你愿意授权且有该服务账号；Claude 不会因此获得你本来无权访问的文件。",
+            "troubleshooting": "循环登录时检查浏览器阻止弹窗、源服务登录状态和正确账号。",
+            "sourceIds": [
+              "claude-connectors"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Authorize / Allow（由服务决定）",
+              "Connect · Authorization",
+              "连接器与自定义"
+            ]
+          }
+        },
+        {
+          "id": "claude-connector-auth-cancel",
+          "label": "Cancel",
+          "placement": "content",
+          "action": {
+            "kind": "back",
+            "result": "演示：关闭演示授权流程。"
+          },
+          "guide": {
+            "purpose": "退出授权，不增加新的连接。",
+            "steps": [
+              "选择取消或关闭第三方授权页。",
+              "返回连接器目录。"
+            ],
+            "outcome": "关闭演示授权流程。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "取消后连接器通常不可用；需要使用时重新开始 Connect。",
+            "sourceIds": [
+              "claude-connectors"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Cancel",
+              "Connect · Authorization",
+              "连接器与自定义"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "title": "Customize · Skills",
+      "section": "连接器与自定义",
+      "layout": "settings",
+      "parentId": "connectors",
+      "description": "技能描述某类任务的做法。目录技能可用但不可直接改内容；自定义技能用 ZIP 上传。",
+      "controls": [
+        {
+          "id": "claude-skills-connectors",
+          "label": "Connectors",
+          "placement": "tab",
+          "action": {
+            "kind": "navigate",
+            "target": "connectors"
+          },
+          "guide": {
+            "purpose": "返回连接器分类。",
+            "steps": [
+              "选择 Connectors 标签。",
+              "管理服务授权。"
+            ],
+            "outcome": "进入「Customize · Connectors」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-directory"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Connectors",
+              "Customize · Skills",
+              "连接器与自定义"
+            ]
+          }
+        },
+        {
+          "id": "claude-skills-browse",
+          "label": "+ > Browse skills",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：添加「报告整理」技能，并默认启用。"
+          },
+          "guide": {
+            "purpose": "从目录挑选可复用的技能。",
+            "steps": [
+              "打开 + > Browse skills。",
+              "阅读适用任务，再点击 Add。"
+            ],
+            "outcome": "演示添加「报告整理」技能，并默认启用。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "目录技能只读；需要修改时下载副本并上传为自己的技能。",
+            "sourceIds": [
+              "claude-directory"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "+ > Browse skills",
+              "Customize · Skills",
+              "连接器与自定义"
+            ]
+          }
+        },
+        {
+          "id": "claude-skills-enable",
+          "label": "Enable skill",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：启用报告整理；之后相关任务可自动采用。"
+          },
+          "guide": {
+            "purpose": "控制 Claude 在任务相关时能否采用该技能。",
+            "steps": [
+              "找到已安装技能。",
+              "打开或关闭技能开关。"
+            ],
+            "outcome": "演示启用报告整理；之后相关任务可自动采用。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "开关只控制可用性；技能需与当前任务匹配才会自动使用。",
+            "sourceIds": [
+              "claude-skills"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Enable skill",
+              "Customize · Skills",
+              "连接器与自定义"
+            ]
+          }
+        },
+        {
+          "id": "claude-skills-create",
+          "label": "+ Create skill",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "skill-create"
+          },
+          "guide": {
+            "purpose": "上传自己的工作流程。",
+            "steps": [
+              "点击 +，选择 + Create skill。",
+              "选择 Upload a skill。"
+            ],
+            "outcome": "进入「Create skill」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-skills"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "+ Create skill",
+              "Customize · Skills",
+              "连接器与自定义"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "skill-create",
+      "title": "Create skill",
+      "section": "连接器与自定义",
+      "layout": "dialog",
+      "parentId": "skills",
+      "description": "演示上传包含 SKILL.md 的技能文件夹 ZIP。技能是指令与配套资源，不是授予外部账号权限。",
+      "controls": [
+        {
+          "id": "claude-skill-create-upload",
+          "label": "Upload a skill",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：选择 research-brief.zip。"
+          },
+          "guide": {
+            "purpose": "选择自定义技能的 ZIP 包。",
+            "steps": [
+              "准备符合官方结构的技能文件夹。",
+              "将文件夹压缩成 ZIP，再选择 Upload a skill。"
+            ],
+            "outcome": "演示选择 research-brief.zip。",
+            "conditions": "文件夹应包含正确的 SKILL.md 和所需资源。",
+            "troubleshooting": "结构或格式错误时先对照官方技能结构；不要只上传单个不完整资源文件。",
+            "sourceIds": [
+              "claude-skills"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Upload a skill",
+              "Create skill",
+              "连接器与自定义"
+            ]
+          }
+        },
+        {
+          "id": "claude-skill-create-add",
+          "label": "Upload",
+          "placement": "content",
+          "action": {
+            "kind": "submit",
+            "result": "演示：新增「Research brief」技能。"
+          },
+          "guide": {
+            "purpose": "将技能加入自己的技能列表。",
+            "steps": [
+              "阅读包内指令和脚本来源。",
+              "确认后上传，回到列表检查是否启用。"
+            ],
+            "outcome": "演示新增「Research brief」技能。",
+            "conditions": "只上传理解且信任的内容；实际是否可用需通过相关任务验证。",
+            "troubleshooting": "技能不自动连接第三方服务；资料权限仍需在 Connectors 单独配置。",
+            "sourceIds": [
+              "claude-skills"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Upload",
+              "Create skill",
+              "连接器与自定义"
+            ]
+          }
+        },
+        {
+          "id": "claude-skill-create-cancel",
+          "label": "Cancel",
+          "placement": "content",
+          "action": {
+            "kind": "back",
+            "result": "演示：取消示例技能上传。"
+          },
+          "guide": {
+            "purpose": "关闭上传流程。",
+            "steps": [
+              "未准备好技能时取消。",
+              "回到技能列表后再准备 ZIP。"
+            ],
+            "outcome": "取消示例技能上传。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "取消不会删掉现有技能。",
+            "sourceIds": [
+              "claude-skills"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Cancel",
+              "Create skill",
+              "连接器与自定义"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "plugins",
+      "title": "Customize · Plugins",
+      "section": "连接器与自定义",
+      "layout": "settings",
+      "parentId": "connectors",
+      "description": "插件把技能、命令及连接器组合成一个工作包。安装插件并不代表已授权它需要的所有服务。",
+      "controls": [
+        {
+          "id": "claude-plugins-discover",
+          "label": "Discover",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "plugin-detail"
+          },
+          "guide": {
+            "purpose": "浏览插件目录并查看具体包内容。",
+            "steps": [
+              "打开 Discover。",
+              "选择插件检查 Skills 和 Connectors。"
+            ],
+            "outcome": "进入「Plugin details」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-directory"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Discover",
+              "Customize · Plugins",
+              "连接器与自定义"
+            ]
+          }
+        },
+        {
+          "id": "claude-plugins-marketplace",
+          "label": "Add > Add marketplace",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：加入官方 Knowledge Work 市场。"
+          },
+          "guide": {
+            "purpose": "把可信插件市场加入列表。",
+            "steps": [
+              "选择 Add > Add marketplace。",
+              "浏览 Anthropic 来源，或填写信任的仓库 URL。"
+            ],
+            "outcome": "演示加入官方 Knowledge Work 市场。",
+            "conditions": "市场可来自官方目录或支持的公开 Git 仓库。",
+            "troubleshooting": "市场的内容仍需逐个审核；添加来源不等于安装其中每个插件。",
+            "sourceIds": [
+              "claude-plugins"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Add > Add marketplace",
+              "Customize · Plugins",
+              "连接器与自定义"
+            ]
+          }
+        },
+        {
+          "id": "claude-plugins-enable",
+          "label": "Enable plugin",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：打开报告工作包；其技能可在任务匹配时使用。"
+          },
+          "guide": {
+            "purpose": "控制已安装插件是否可参与相关任务。",
+            "steps": [
+              "找到已安装插件。",
+              "打开或关闭可用开关。"
+            ],
+            "outcome": "演示打开报告工作包；其技能可在任务匹配时使用。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "依赖连接器尚未授权时，插件的部分功能仍不能用。",
+            "sourceIds": [
+              "claude-plugins"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Enable plugin",
+              "Customize · Plugins",
+              "连接器与自定义"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "plugin-detail",
+      "title": "Plugin details",
+      "section": "连接器与自定义",
+      "layout": "detail",
+      "parentId": "plugins",
+      "description": "这是用于说明流程的「研究工作包」示例；插件名称不是对目录中真实条目的可用性承诺。",
+      "controls": [
+        {
+          "id": "claude-plugin-detail-add",
+          "label": "Add",
+          "placement": "content",
+          "action": {
+            "kind": "submit",
+            "result": "演示：研究工作包已加入账号。"
+          },
+          "guide": {
+            "purpose": "将所选插件保存到 Claude 账号。",
+            "steps": [
+              "阅读插件来源、技能和依赖。",
+              "选择 Add，再核对连接器授权需求。"
+            ],
+            "outcome": "演示研究工作包已加入账号。",
+            "conditions": "仅安装信任的插件；同账号登录的相应 Claude 表面可用其技能和命令。",
+            "troubleshooting": "插件使用本地 MCP 时，桌面或 Code 才能运行相关本地工具。",
+            "sourceIds": [
+              "claude-plugins",
+              "claude-connector-types"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Add",
+              "Plugin details",
+              "连接器与自定义"
+            ]
+          }
+        },
+        {
+          "id": "claude-plugin-detail-connectors",
+          "label": "Connectors",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "connectors"
+          },
+          "guide": {
+            "purpose": "为插件所需服务配置访问权限。",
+            "steps": [
+              "在插件内容中查看所需服务。",
+              "到 Connectors 完成对应服务授权。"
+            ],
+            "outcome": "进入「Customize · Connectors」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-plugins",
+              "claude-connectors"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Connectors",
+              "Plugin details",
+              "连接器与自定义"
+            ]
+          }
+        },
+        {
+          "id": "claude-plugin-detail-remove",
+          "label": "Remove",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：显示移除确认；不操作真实安装。"
+          },
+          "guide": {
+            "purpose": "移除不再使用的个人插件。",
+            "steps": [
+              "打开插件详情或菜单。",
+              "选择 Remove 并确认。"
+            ],
+            "outcome": "演示显示移除确认；不操作真实安装。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "移除插件与断开外部账号不是同一操作；不需要服务时也到 Connectors 检查。",
+            "sourceIds": [
+              "claude-directory",
+              "claude-plugins"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Remove",
+              "Plugin details",
+              "连接器与自定义"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "settings-general",
+      "title": "Settings · General",
+      "section": "设置",
+      "layout": "settings",
+      "parentId": "home",
+      "description": "最新统一体验把 Cowork Global instructions 合并到 Instructions for Claude。此处同时提供各设置分类的学习入口；真实应用排列可能随桌面版本变化。",
+      "controls": [
+        {
+          "id": "claude-settings-general-instructions",
+          "label": "Instructions for Claude",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：偏好：中文解释，英文按钮原名，缺证据时说明。"
+          },
+          "guide": {
+            "purpose": "配置所有对话适用的个人偏好。",
+            "steps": [
+              "在 Settings > General 找到 Instructions for Claude。",
+              "写明语言、格式和工作习惯，按实际界面的保存提示确认。"
+            ],
+            "outcome": "演示偏好：中文解释，英文按钮原名，缺证据时说明。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "项目特有规则放在 Project instructions；新体验请检查旧 Global instructions 已合并后的内容。",
+            "sourceIds": [
+              "claude-unified"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Instructions for Claude",
+              "Settings · General",
+              "设置"
+            ]
+          }
+        },
+        {
+          "id": "claude-settings-general-appearance",
+          "label": "Appearance",
+          "placement": "tab",
+          "action": {
+            "kind": "navigate",
+            "target": "settings-appearance"
+          },
+          "guide": {
+            "purpose": "调整主题和聊天字体。",
+            "steps": [
+              "选择 Appearance。",
+              "更改 Color mode 或 Chat font。"
+            ],
+            "outcome": "进入「Settings · Appearance」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-appearance"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Appearance",
+              "Settings · General",
+              "设置"
+            ]
+          }
+        },
+        {
+          "id": "claude-settings-general-privacy",
+          "label": "Privacy",
+          "placement": "tab",
+          "action": {
+            "kind": "navigate",
+            "target": "settings-privacy"
+          },
+          "guide": {
+            "purpose": "查看模型改进偏好和数据导出。",
+            "steps": [
+              "选择 Privacy。",
+              "阅读每项数据设置的说明。"
+            ],
+            "outcome": "进入「Settings · Privacy」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-cloud",
+              "claude-export"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Privacy",
+              "Settings · General",
+              "设置"
+            ]
+          }
+        },
+        {
+          "id": "claude-settings-general-memory",
+          "label": "Memory",
+          "placement": "tab",
+          "action": {
+            "kind": "navigate",
+            "target": "settings-memory"
+          },
+          "guide": {
+            "purpose": "管理记忆开关、主题和迁移。",
+            "steps": [
+              "选择 Memory。",
+              "查看 Topics 或暂停记忆。"
+            ],
+            "outcome": "进入「Settings · Memory」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-memory"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Memory",
+              "Settings · General",
+              "设置"
+            ]
+          }
+        },
+        {
+          "id": "claude-settings-general-capabilities",
+          "label": "Capabilities",
+          "placement": "tab",
+          "action": {
+            "kind": "navigate",
+            "target": "settings-capabilities"
+          },
+          "guide": {
+            "purpose": "检查代码执行、文件创建与网络访问。",
+            "steps": [
+              "选择 Capabilities。",
+              "核对所需能力是否启用。"
+            ],
+            "outcome": "进入「Settings · Capabilities」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-files"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Capabilities",
+              "Settings · General",
+              "设置"
+            ]
+          }
+        },
+        {
+          "id": "claude-settings-general-usage",
+          "label": "Usage",
+          "placement": "tab",
+          "action": {
+            "kind": "navigate",
+            "target": "settings-usage"
+          },
+          "guide": {
+            "purpose": "了解套餐共享额度和限制。",
+            "steps": [
+              "选择 Usage。",
+              "核对当前用量及恢复时间。"
+            ],
+            "outcome": "进入「Settings · Usage」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-usage"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Usage",
+              "Settings · General",
+              "设置"
+            ]
+          }
+        },
+        {
+          "id": "claude-settings-general-extensions",
+          "label": "Extensions",
+          "placement": "tab",
+          "action": {
+            "kind": "navigate",
+            "target": "settings-extensions"
+          },
+          "guide": {
+            "purpose": "安装或配置在电脑运行的 MCP 扩展。",
+            "steps": [
+              "在桌面设置选择 Extensions。",
+              "浏览目录或打开 Advanced settings。"
+            ],
+            "outcome": "进入「Settings · Extensions」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-extensions"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Extensions",
+              "Settings · General",
+              "设置"
+            ]
+          }
+        },
+        {
+          "id": "claude-settings-general-desktop",
+          "label": "This computer / Desktop app",
+          "placement": "tab",
+          "action": {
+            "kind": "navigate",
+            "target": "settings-desktop"
+          },
+          "guide": {
+            "purpose": "进入本机权限、浏览器和开发工具相关设置。",
+            "steps": [
+              "在设置中打开本机相关分类。",
+              "新版 Code 文档为 This computer > System；旧帮助页仍写 Desktop app > General。"
+            ],
+            "outcome": "进入「This computer · System」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-code",
+              "claude-computer"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "This computer / Desktop app",
+              "Settings · General",
+              "设置"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "settings-appearance",
+      "title": "Settings · Appearance",
+      "section": "设置",
+      "layout": "settings",
+      "parentId": "settings-general",
+      "description": "主题和字体只改变界面显示方式，不改变模型或答案能力。",
+      "controls": [
+        {
+          "id": "claude-settings-appearance-light",
+          "label": "Color mode · Light",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：选择 Light。"
+          },
+          "guide": {
+            "purpose": "使用明亮主题。",
+            "steps": [
+              "在 Color mode 选择 Light。",
+              "查看阅读区是否舒适。"
+            ],
+            "outcome": "演示选择 Light。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "不舒适时使用 Dark 或 Match System；不必重启聊天。",
+            "sourceIds": [
+              "claude-appearance"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Color mode · Light",
+              "Settings · Appearance",
+              "设置"
+            ]
+          }
+        },
+        {
+          "id": "claude-settings-appearance-system",
+          "label": "Color mode · Match System / Dark",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：选择 Match System。"
+          },
+          "guide": {
+            "purpose": "跟随 Windows 配色或使用暗色主题。",
+            "steps": [
+              "在 Color mode 选择 Match System 或 Dark。",
+              "检查系统配色与应用显示。"
+            ],
+            "outcome": "演示选择 Match System。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "系统自动切换主题时应用显示也可能变化；需固定主题时明确选 Light / Dark。",
+            "sourceIds": [
+              "claude-appearance"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Color mode · Match System / Dark",
+              "Settings · Appearance",
+              "设置"
+            ]
+          }
+        },
+        {
+          "id": "claude-settings-appearance-font",
+          "label": "Chat font",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：选择 Dyslexic Friendly。"
+          },
+          "guide": {
+            "purpose": "选择 Default、Match System 或 Dyslexic Friendly 字体。",
+            "steps": [
+              "在 Appearance 找到 Chat font。",
+              "选择容易阅读的字体。"
+            ],
+            "outcome": "演示选择 Dyslexic Friendly。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "字体选项影响界面阅读，不会自动设置导出文档字体。",
+            "sourceIds": [
+              "claude-appearance"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Chat font",
+              "Settings · Appearance",
+              "设置"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "settings-privacy",
+      "title": "Settings · Privacy",
+      "section": "设置",
+      "layout": "settings",
+      "parentId": "settings-general",
+      "description": "个人 Pro 的隐私设置与组织套餐不同。数据导出可以在桌面发起，处理完成后的链接发送到账号邮箱。导出文件不能直接导入另一个私人 Claude 账号；只迁移偏好时使用 Memory 的独立迁移流程。",
+      "controls": [
+        {
+          "id": "claude-settings-privacy-training",
+          "label": "Help improve our AI models",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：关闭模型改进偏好；真实账号未修改。"
+          },
+          "guide": {
+            "purpose": "选择对话是否按当前政策用于模型改进。",
+            "steps": [
+              "在 Privacy 阅读 Help improve our AI models 的说明。",
+              "根据偏好选择，并核对当前政策。"
+            ],
+            "outcome": "演示关闭模型改进偏好；真实账号未修改。",
+            "conditions": "个人套餐；具体保留和处理政策以官方实时说明为准。",
+            "troubleshooting": "关闭模型改进不代表所有数据立即删除；导出、聊天删除和账号删除分别管理。",
+            "sourceIds": [
+              "claude-cloud"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Help improve our AI models",
+              "Settings · Privacy",
+              "设置"
+            ]
+          }
+        },
+        {
+          "id": "claude-settings-privacy-export",
+          "label": "Export data",
+          "placement": "content",
+          "action": {
+            "kind": "submit",
+            "result": "演示：请求已记录；不会发送邮件或导出真实数据。"
+          },
+          "guide": {
+            "purpose": "请求账号与聊天历史的下载副本。",
+            "steps": [
+              "点击 Export data。",
+              "等待账号邮箱收到链接，再登录原账号下载。"
+            ],
+            "outcome": "演示请求已记录；不会发送邮件或导出真实数据。",
+            "conditions": "个人 Free / Pro / Max 可用；导出链接通常交付后 24 小时过期。",
+            "troubleshooting": "邮件延迟时检查正确邮箱和垃圾邮件；链接过期需重新请求。",
+            "sourceIds": [
+              "claude-export"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Export data",
+              "Settings · Privacy",
+              "设置"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "settings-memory",
+      "title": "Settings · Memory",
+      "section": "设置",
+      "layout": "settings",
+      "parentId": "settings-general",
+      "description": "最新记忆以 Topics 条目组织；项目记忆独立于其他项目和普通聊天。单次聊天关闭记忆要在发送第一条消息之前完成。",
+      "controls": [
+        {
+          "id": "claude-settings-memory-toggle",
+          "label": "Generate memory from chats",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：开启记忆。"
+          },
+          "guide": {
+            "purpose": "控制 Claude 是否使用并生成记忆。",
+            "steps": [
+              "在 Memory 找到开关。",
+              "开启后检查新条目；关闭时仔细区分暂停与重置。"
+            ],
+            "outcome": "演示开启记忆。",
+            "conditions": "Pro 默认可用；旧本地 Cowork 任务的记忆不会自动变成云端聊天记忆。",
+            "troubleshooting": "界面缺失时检查账号与更新；旧教程可能把此项写在 Capabilities。",
+            "sourceIds": [
+              "claude-memory"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Generate memory from chats",
+              "Settings · Memory",
+              "设置"
+            ]
+          }
+        },
+        {
+          "id": "claude-settings-memory-topics",
+          "label": "Topics · Edit / Delete",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：把沟通偏好改为「中文解释，按钮保留英文」。"
+          },
+          "guide": {
+            "purpose": "查看并修改 Claude 保存的具体条目。",
+            "steps": [
+              "在 Topics 中选择一个主题。",
+              "使用编辑图标修正，或 Delete 删除该条目。"
+            ],
+            "outcome": "演示把沟通偏好改为「中文解释，按钮保留英文」。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "删除条目和删除历史聊天不同；需要查看所有数据时也请求账号导出。",
+            "sourceIds": [
+              "claude-memory"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Topics · Edit / Delete",
+              "Settings · Memory",
+              "设置"
+            ]
+          }
+        },
+        {
+          "id": "claude-settings-memory-sensitive",
+          "label": "Include sensitive topics in memory",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：保持关闭。"
+          },
+          "guide": {
+            "purpose": "决定是否保留官方所定义的敏感主题。",
+            "steps": [
+              "先阅读敏感主题范围。",
+              "只有希望持续使用这些上下文时才开启。"
+            ],
+            "outcome": "演示保持关闭。",
+            "conditions": "默认不记忆敏感主题；开启后不追溯之前的内容。",
+            "troubleshooting": "再次关闭会移除已保存的敏感主题；部分信息始终不保存。",
+            "sourceIds": [
+              "claude-memory"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Include sensitive topics in memory",
+              "Settings · Memory",
+              "设置"
+            ]
+          }
+        },
+        {
+          "id": "claude-settings-memory-pause",
+          "label": "Pause memory / Reset memory",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：选择 Pause：保留已有条目，不使用或新增记忆。"
+          },
+          "guide": {
+            "purpose": "暂时停用或永久清空记忆。",
+            "steps": [
+              "关闭记忆时阅读两个选项。",
+              "暂时不用选 Pause；需要重新开始才选 Reset 并再次确认。"
+            ],
+            "outcome": "演示选择 Pause：保留已有条目，不使用或新增记忆。",
+            "conditions": "Reset 会永久删除包括项目记忆在内的已有记忆，不能撤销。",
+            "troubleshooting": "暂停期间的聊天不会在恢复后补记；重置前可先导出记忆。",
+            "sourceIds": [
+              "claude-memory"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Pause memory / Reset memory",
+              "Settings · Memory",
+              "设置"
+            ]
+          }
+        },
+        {
+          "id": "claude-settings-memory-transfer",
+          "label": "Import / Export memory",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：导入三条学习偏好；没有访问另一 AI 服务账号。"
+          },
+          "guide": {
+            "purpose": "迁移可复用的个人偏好与背景。",
+            "steps": [
+              "按官方流程从原服务导出记忆文本。",
+              "使用导入入口或记忆修改框，核对导入内容。"
+            ],
+            "outcome": "演示导入三条学习偏好；没有访问另一 AI 服务账号。",
+            "conditions": "该迁移功能仍在实验阶段；记忆副本不包含完整聊天迁移。",
+            "troubleshooting": "不要把敏感信息或过时偏好一并导入；逐项检查 Topics。",
+            "sourceIds": [
+              "claude-memory-transfer"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Import / Export memory",
+              "Settings · Memory",
+              "设置"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "settings-capabilities",
+      "title": "Settings · Capabilities",
+      "section": "设置",
+      "layout": "settings",
+      "parentId": "settings-general",
+      "description": "文件创建与代码执行用于生成可下载文件及新 Artifacts。它们不等于在你的 Windows 终端直接运行命令。",
+      "controls": [
+        {
+          "id": "claude-settings-capabilities-code",
+          "label": "Cloud code execution and file creation",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：启用，可生成简报文档与表格。"
+          },
+          "guide": {
+            "purpose": "允许在隔离计算环境中分析资料、生成文件。",
+            "steps": [
+              "在 Capabilities 找到 Code execution and file creation（新界面可能加 Cloud）。",
+              "打开后在聊天说明需要的文件格式。"
+            ],
+            "outcome": "演示启用，可生成简报文档与表格。",
+            "conditions": "Pro 个人账号通常默认开启；新 Artifacts 需要该能力。",
+            "troubleshooting": "生成文件仍需要你检查公式、内容和排版；关闭后相关成果能力可能不可用。",
+            "sourceIds": [
+              "claude-files",
+              "claude-artifacts"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Cloud code execution and file creation",
+              "Settings · Capabilities",
+              "设置"
+            ]
+          }
+        },
+        {
+          "id": "claude-settings-capabilities-egress",
+          "label": "Allow network egress",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：显示网络访问规则说明。"
+          },
+          "guide": {
+            "purpose": "允许计算环境按当前网络规则访问外部资源。",
+            "steps": [
+              "阅读 Allow network egress 的范围。",
+              "仅在分析或文件制作确有需要时开启。"
+            ],
+            "outcome": "演示显示网络访问规则说明。",
+            "conditions": "网络访问范围与 Web search、web fetch、连接器不是同一个开关。",
+            "troubleshooting": "无法访问某 URL 时检查官方允许范围；不要认为该设置放开所有网站。",
+            "sourceIds": [
+              "claude-files",
+              "claude-cowork"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Allow network egress",
+              "Settings · Capabilities",
+              "设置"
+            ]
+          }
+        },
+        {
+          "id": "claude-settings-capabilities-tools",
+          "label": "Manage connectors",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "connectors"
+          },
+          "guide": {
+            "purpose": "把所需外部资料服务单独连接。",
+            "steps": [
+              "打开 Customize > Connectors。",
+              "审核服务授权及工具权限。"
+            ],
+            "outcome": "进入「Customize · Connectors」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-connectors"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Manage connectors",
+              "Settings · Capabilities",
+              "设置"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "settings-usage",
+      "title": "Settings · Usage",
+      "section": "设置",
+      "layout": "settings",
+      "parentId": "settings-general",
+      "description": "聊天、桌面、Code 和复杂任务使用套餐共享额度；越长的分析、较高 Effort 和更多工具调用通常消耗越多。",
+      "controls": [
+        {
+          "id": "claude-settings-usage-view",
+          "label": "Current usage",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：说明五小时会话限制和周限制；不展示伪造的真实百分比。"
+          },
+          "guide": {
+            "purpose": "查看当前周期使用量与恢复时间。",
+            "steps": [
+              "打开 Usage。",
+              "读取当前账号的进度、周期和恢复提示。"
+            ],
+            "outcome": "演示说明五小时会话限制和周限制；不展示伪造的真实百分比。",
+            "conditions": "实际限额与账号、模型及任务有关，手册不提供固定消息数。",
+            "troubleshooting": "无法继续时以 Usage 的恢复提示为准；新建聊天不会重置套餐额度。",
+            "sourceIds": [
+              "claude-usage",
+              "claude-unified"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Current usage",
+              "Settings · Usage",
+              "设置"
+            ]
+          }
+        },
+        {
+          "id": "claude-settings-usage-effort",
+          "label": "Adjust effort",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "effort-menu"
+          },
+          "guide": {
+            "purpose": "为简单任务减少不必要的计算。",
+            "steps": [
+              "打开模型选择器的 Effort。",
+              "简单任务选择较低程度。"
+            ],
+            "outcome": "进入「Effort & Thinking」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-models",
+              "claude-usage"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Adjust effort",
+              "Settings · Usage",
+              "设置"
+            ]
+          }
+        },
+        {
+          "id": "claude-settings-usage-credits",
+          "label": "Usage credits（如账号提供）",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：展示付费选项说明，不购买任何额度。"
+          },
+          "guide": {
+            "purpose": "了解超过套餐内额度后的付费选项。",
+            "steps": [
+              "查看账号当前是否提供 usage credits。",
+              "阅读价格和支出设置后自行决定。"
+            ],
+            "outcome": "演示展示付费选项说明，不购买任何额度。",
+            "conditions": "Pro 可能有额外用量选项；价格和实际可用性以账号当前页面为准。",
+            "troubleshooting": "套餐内额度和 API 余额不是一回事；不要把 Max 的 API credits 当作 Pro 包含项。",
+            "sourceIds": [
+              "claude-usage"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Usage credits（如账号提供）",
+              "Settings · Usage",
+              "设置"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "settings-extensions",
+      "title": "Settings · Extensions",
+      "section": "设置",
+      "layout": "settings",
+      "parentId": "settings-general",
+      "description": "Extensions 用于电脑本地的 MCP 服务。它们不自动在手机或网页运行；多数云服务应使用 Remote connectors。",
+      "controls": [
+        {
+          "id": "claude-settings-extensions-browse",
+          "label": "Browse extensions",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：显示本地扩展目录说明。"
+          },
+          "guide": {
+            "purpose": "浏览官方审核的本地扩展。",
+            "steps": [
+              "打开 Extensions > Browse extensions。",
+              "选择条目，检查它访问的本地资源。"
+            ],
+            "outcome": "演示显示本地扩展目录说明。",
+            "conditions": "Claude Desktop；具体目录条目与操作系统支持有关。",
+            "troubleshooting": "找不到云端服务时回到 Customize > Connectors；不要把远程连接器当作本地扩展。",
+            "sourceIds": [
+              "claude-extensions",
+              "claude-connector-types"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Browse extensions",
+              "Settings · Extensions",
+              "设置"
+            ]
+          }
+        },
+        {
+          "id": "claude-settings-extensions-install",
+          "label": "Install",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：安装确认；不安装任何软件或读取凭据。"
+          },
+          "guide": {
+            "purpose": "安装选定扩展并填写必需配置。",
+            "steps": [
+              "在目录选择扩展并点击 Install。",
+              "按实际表单填写所需设置，审核本地访问范围。"
+            ],
+            "outcome": "演示安装确认；不安装任何软件或读取凭据。",
+            "conditions": "只选择信任且支持 Windows 的扩展。",
+            "troubleshooting": "工具未出现时重启应用，并检查必填配置、访问目录与凭据。",
+            "sourceIds": [
+              "claude-extensions"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Install",
+              "Settings · Extensions",
+              "设置"
+            ]
+          }
+        },
+        {
+          "id": "claude-settings-extensions-advanced",
+          "label": "Advanced settings > Install Extension…",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：选择 research-tools.mcpb；没有执行安装。"
+          },
+          "guide": {
+            "purpose": "从可信 .mcpb 文件安装自定义本地扩展。",
+            "steps": [
+              "打开 Advanced settings 的 Extension Developer 区域。",
+              "点击 Install Extension…，选择 .mcpb 并审核配置。"
+            ],
+            "outcome": "演示选择 research-tools.mcpb；没有执行安装。",
+            "conditions": "Claude Desktop；须自行了解包的来源及运行内容。",
+            "troubleshooting": "扩展无法安装时检查应用版本、文件完整性与磁盘空间；不能用任意 ZIP 替代 .mcpb。",
+            "sourceIds": [
+              "claude-extensions"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Advanced settings > Install Extension…",
+              "Settings · Extensions",
+              "设置"
+            ]
+          }
+        },
+        {
+          "id": "claude-settings-extensions-logs",
+          "label": "Developer · MCP status / logs",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：显示「服务已连接，缺少工作目录配置」的诊断例子。"
+          },
+          "guide": {
+            "purpose": "排查本地服务是否连接及为什么工具不可用。",
+            "steps": [
+              "在 Desktop app 的 Developer 设置查看状态。",
+              "查看对应 MCP 日志；不要公开日志中的敏感配置。"
+            ],
+            "outcome": "演示显示「服务已连接，缺少工作目录配置」的诊断例子。",
+            "conditions": "菜单名称可能随桌面设置重排；连接状态也可在 + > Connectors 查到。",
+            "troubleshooting": "Windows 路径应指向存在且有访问权限的目录；缺失 API key 时在扩展配置补齐。",
+            "sourceIds": [
+              "claude-extensions"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Developer · MCP status / logs",
+              "Settings · Extensions",
+              "设置"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "settings-desktop",
+      "title": "This computer · System",
+      "section": "桌面功能",
+      "layout": "settings",
+      "parentId": "settings-general",
+      "description": "Windows 专属说明：新版 Code 文档使用 This computer > System，Cowork 帮助页仍出现 Desktop app > General。依据账号当前设置找同名功能，不把 Mac 系统授权教程套到 Windows。",
+      "controls": [
+        {
+          "id": "claude-settings-desktop-computer",
+          "label": "Enable computer use",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：打开 computer use，但不控制真实电脑。"
+          },
+          "guide": {
+            "purpose": "让 Claude 在授权后操作 Windows 桌面应用。",
+            "steps": [
+              "更新 Claude Desktop。",
+              "找到 Enable computer use 并打开；Windows 即时生效。"
+            ],
+            "outcome": "演示打开 computer use，但不控制真实电脑。",
+            "conditions": "Pro / Max beta；电脑需要唤醒且桌面应用打开。",
+            "troubleshooting": "Windows 不需要按照 Mac 教程开启 Accessibility / Screen Recording；缺入口时先核对套餐与版本。",
+            "sourceIds": [
+              "claude-code",
+              "claude-computer"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Enable computer use",
+              "This computer · System",
+              "桌面功能"
+            ]
+          }
+        },
+        {
+          "id": "claude-settings-desktop-denied",
+          "label": "Denied apps",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：将示例密码管理器加入拒绝列表。"
+          },
+          "guide": {
+            "purpose": "为不希望被直接操作的应用设置拒绝列表。",
+            "steps": [
+              "打开 Computer use 设置。",
+              "在 Denied apps 添加应用。"
+            ],
+            "outcome": "演示将示例密码管理器加入拒绝列表。",
+            "conditions": "新版 Code 桌面设置支持；禁止直接操作不阻止所有间接影响。",
+            "troubleshooting": "每次应用权限提示仍要核对控制级别；不要把拒绝列表视为完整隔离。",
+            "sourceIds": [
+              "claude-code"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Denied apps",
+              "This computer · System",
+              "桌面功能"
+            ]
+          }
+        },
+        {
+          "id": "claude-settings-desktop-browser",
+          "label": "Preferred browser",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "built-in-browser"
+          },
+          "guide": {
+            "purpose": "选择内置浏览器或 Claude in Chrome。",
+            "steps": [
+              "在账号当前的 Cowork / 本机设置找到 Preferred browser。",
+              "按需要选择 Built-in browser 或 Chrome (Claude in Chrome)。"
+            ],
+            "outcome": "进入内置浏览器说明，可进一步了解网站权限和登录导入。",
+            "conditions": "内置浏览器逐步上线；Chrome 路径需已有扩展。",
+            "troubleshooting": "内置浏览器需要桌面打开并在线；已有 Chrome 用户的默认可能仍是扩展。",
+            "sourceIds": [
+              "claude-browser"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Preferred browser",
+              "This computer · System",
+              "桌面功能"
+            ]
+          }
+        },
+        {
+          "id": "claude-settings-desktop-storage",
+          "label": "Storage folder / Trusted folders",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：列出一个示例研究文件夹；未读取你的磁盘。"
+          },
+          "guide": {
+            "purpose": "检查任务输出位置及允许访问的本地文件夹。",
+            "steps": [
+              "在 Settings 查找 Storage folder 和 Trusted folders。",
+              "核对需要访问的目录后再交办文件任务。"
+            ],
+            "outcome": "演示列出一个示例研究文件夹；未读取你的磁盘。",
+            "conditions": "Pro 新任务在云端；本地文件夹保持在电脑，经打开的桌面应用按需访问。",
+            "troubleshooting": "旧本地任务会保留在原电脑；新版不再提供 Only on your computer 的全局运行切换。",
+            "sourceIds": [
+              "claude-unified",
+              "claude-cloud"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Storage folder / Trusted folders",
+              "This computer · System",
+              "桌面功能"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "scheduled",
+      "title": "Scheduled",
+      "section": "任务与自动化",
+      "layout": "list",
+      "parentId": "home",
+      "description": "最新统一体验可以在任何对话中描述频率并安排任务。云端任务按计划运行，旧本地计划可能仍需要原电脑。",
+      "controls": [
+        {
+          "id": "claude-scheduled-new",
+          "label": "New task",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "schedule-form"
+          },
+          "guide": {
+            "purpose": "建立需要重复或按需执行的工作。",
+            "steps": [
+              "在聊天说明任务和频率，或在仍提供 New task 的列表中创建。",
+              "审核计划再确认。"
+            ],
+            "outcome": "进入「Schedule task」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-schedule",
+              "claude-cloud"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "New task",
+              "Scheduled",
+              "任务与自动化"
+            ]
+          }
+        },
+        {
+          "id": "claude-scheduled-open",
+          "label": "每日产品动态",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "task-detail"
+          },
+          "guide": {
+            "purpose": "打开计划查看说明、下次执行和历史结果。",
+            "steps": [
+              "在 Scheduled 点击任务标题。",
+              "查看时间、状态和结果。"
+            ],
+            "outcome": "进入「每日产品动态 · Task details」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-schedule",
+              "claude-cloud"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "每日产品动态",
+              "Scheduled",
+              "任务与自动化"
+            ]
+          }
+        },
+        {
+          "id": "claude-scheduled-history",
+          "label": "Upcoming / past runs",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：显示一次成功运行和下一次计划。"
+          },
+          "guide": {
+            "purpose": "核对计划是否真的执行，而不是只看任务存在。",
+            "steps": [
+              "查看任务即将到来的时间。",
+              "打开过去一次运行记录检查成果。"
+            ],
+            "outcome": "演示显示一次成功运行和下一次计划。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "任务没有结果时检查服务授权、计划状态和额度；本地旧任务需原设备在线。",
+            "sourceIds": [
+              "claude-schedule",
+              "claude-cloud"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Upcoming / past runs",
+              "Scheduled",
+              "任务与自动化"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "schedule-form",
+      "title": "Schedule task",
+      "section": "任务与自动化",
+      "layout": "dialog",
+      "parentId": "scheduled",
+      "description": "最新路径：在对话中说「每天 9 点检查这些官方资料」，回答必要问题，核对 Claude 提议后点击 Schedule。旧 Cowork 还提供手动表单。",
+      "controls": [
+        {
+          "id": "claude-schedule-form-instructions",
+          "label": "Task name & instructions",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：任务：汇总官方产品更新，附来源，重复内容跳过。"
+          },
+          "guide": {
+            "purpose": "定义每次任务真正要做的工作。",
+            "steps": [
+              "输入清楚的任务名称与资料范围。",
+              "指定交付格式以及需要时才通知的条件。"
+            ],
+            "outcome": "演示任务：汇总官方产品更新，附来源，重复内容跳过。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "指令太模糊会产生不稳定结果；写出来源和输出要求。",
+            "sourceIds": [
+              "claude-schedule"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Task name & instructions",
+              "Schedule task",
+              "任务与自动化"
+            ]
+          }
+        },
+        {
+          "id": "claude-schedule-form-cadence",
+          "label": "Schedule / cadence",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：按马来西亚时间每天 09:00 安排。"
+          },
+          "guide": {
+            "purpose": "审核频率、日期、时间和时区。",
+            "steps": [
+              "写明「Asia/Kuala_Lumpur，每天 09:00」。",
+              "检查系统给出的计划是否一致。"
+            ],
+            "outcome": "演示按马来西亚时间每天 09:00 安排。",
+            "conditions": "实际时间设置方式以当前对话或旧表单为准。",
+            "troubleshooting": "跨时区时不要只写上午 9 点；同时说明时区并检查下次执行时间。",
+            "sourceIds": [
+              "claude-schedule"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Schedule / cadence",
+              "Schedule task",
+              "任务与自动化"
+            ]
+          }
+        },
+        {
+          "id": "claude-schedule-form-confirm",
+          "label": "Schedule",
+          "placement": "content",
+          "action": {
+            "kind": "submit",
+            "result": "演示：任务已加入 Scheduled；未创建真实自动任务。"
+          },
+          "guide": {
+            "purpose": "在审核名称、说明和频率后确认建立任务。",
+            "steps": [
+              "阅读 Claude 提议的计划。",
+              "确认符合要求再点击 Schedule。"
+            ],
+            "outcome": "演示任务已加入 Scheduled；未创建真实自动任务。",
+            "conditions": "Pro 支持；新的云任务不需要电脑常开，但访问本地资料仍有设备条件。",
+            "troubleshooting": "旧本地计划继续在电脑运行；本地文件或应用访问不能因云计划而绕过桌面权限。",
+            "sourceIds": [
+              "claude-schedule"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Schedule",
+              "Schedule task",
+              "任务与自动化"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "task-detail",
+      "title": "每日产品动态 · Task details",
+      "section": "任务与自动化",
+      "layout": "detail",
+      "parentId": "scheduled",
+      "description": "查看任务说明与运行记录，可以修改频率、暂停或按需运行。此演示未连接新闻服务。",
+      "controls": [
+        {
+          "id": "claude-task-detail-edit",
+          "label": "Edit instructions / cadence",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：改为工作日 09:00。"
+          },
+          "guide": {
+            "purpose": "调整未来运行使用的内容和频率。",
+            "steps": [
+              "打开任务详情。",
+              "修改说明或频率，保存后核对下次时间。"
+            ],
+            "outcome": "演示改为工作日 09:00。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "编辑通常不重写已经完成的结果；查看新的下一次运行时间。",
+            "sourceIds": [
+              "claude-schedule"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Edit instructions / cadence",
+              "每日产品动态 · Task details",
+              "任务与自动化"
+            ]
+          }
+        },
+        {
+          "id": "claude-task-detail-pause",
+          "label": "Pause / Resume",
+          "placement": "content",
+          "action": {
+            "kind": "toggle",
+            "result": "演示：任务暂停；可再次点击学习恢复流程。"
+          },
+          "guide": {
+            "purpose": "暂时停止自动执行，之后可恢复。",
+            "steps": [
+              "在任务详情选择 Pause。",
+              "需要恢复时选择 Resume，并检查下次执行。"
+            ],
+            "outcome": "演示任务暂停；可再次点击学习恢复流程。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "暂停不等于删除历史，也不取消其他计划。",
+            "sourceIds": [
+              "claude-schedule"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Pause / Resume",
+              "每日产品动态 · Task details",
+              "任务与自动化"
+            ]
+          }
+        },
+        {
+          "id": "claude-task-detail-run",
+          "label": "Run now",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "task-running"
+          },
+          "guide": {
+            "purpose": "按需立刻运行一次任务并查看过程。",
+            "steps": [
+              "确认指令和服务权限。",
+              "选择 Run now。"
+            ],
+            "outcome": "进入「产品简报 · Working」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-schedule"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Run now",
+              "每日产品动态 · Task details",
+              "任务与自动化"
+            ]
+          }
+        },
+        {
+          "id": "claude-task-detail-delete",
+          "label": "Delete task",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：显示删除确认；真实计划未修改。"
+          },
+          "guide": {
+            "purpose": "删除不再需要的计划。",
+            "steps": [
+              "在任务详情选择 Delete。",
+              "阅读确认信息，再决定是否删除。"
+            ],
+            "outcome": "演示显示删除确认；真实计划未修改。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "需要暂时停用用 Pause；删除后不保证可恢复原计划配置。",
+            "sourceIds": [
+              "claude-schedule"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Delete task",
+              "每日产品动态 · Task details",
+              "任务与自动化"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "task-running",
+      "title": "产品简报 · Working",
+      "section": "任务与自动化",
+      "layout": "workspace",
+      "parentId": "conversation",
+      "description": "长任务在云端继续；访问你电脑上的文件、浏览器与应用需要桌面在线。以下是预设过程，不调用模型或外部服务。",
+      "controls": [
+        {
+          "id": "claude-task-running-stop",
+          "label": "Stop",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：任务已停止。"
+          },
+          "guide": {
+            "purpose": "立即打断当前任务动作。",
+            "steps": [
+              "发现任务方向错误时点击 Stop。",
+              "说明原因与新边界，再决定继续。"
+            ],
+            "outcome": "演示任务已停止。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "停止不能自动撤销已经完成的外部写操作；真实任务需检查已发生的改变。",
+            "sourceIds": [
+              "claude-code",
+              "claude-unified"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Stop",
+              "产品简报 · Working",
+              "任务与自动化"
+            ]
+          }
+        },
+        {
+          "id": "claude-task-running-redirect",
+          "label": "Send follow-up",
+          "placement": "content",
+          "action": {
+            "kind": "submit",
+            "result": "演示：任务新增官方来源限制。"
+          },
+          "guide": {
+            "purpose": "在任务运行中补充要求或纠正方向。",
+            "steps": [
+              "输入「只使用官方资料，先列来源」。",
+              "提交后检查后续动作是否按要求调整。"
+            ],
+            "outcome": "演示任务新增官方来源限制。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "任务正在执行某工具时，补充要求可能在当前动作完成后才读取。",
+            "sourceIds": [
+              "claude-code",
+              "claude-unified"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Send follow-up",
+              "产品简报 · Working",
+              "任务与自动化"
+            ]
+          }
+        },
+        {
+          "id": "claude-task-running-files",
+          "label": "Files · 产品研究简报",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "artifact-doc"
+          },
+          "guide": {
+            "purpose": "打开完成的文件继续审阅和修订。",
+            "steps": [
+              "等待成果就绪。",
+              "从任务旁文件或成果列表打开。"
+            ],
+            "outcome": "进入「产品研究简报 · Claude Docs」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-unified",
+              "claude-docs"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Files · 产品研究简报",
+              "产品简报 · Working",
+              "任务与自动化"
+            ]
+          }
+        },
+        {
+          "id": "claude-task-running-computer",
+          "label": "App access request",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "computer-permission"
+          },
+          "guide": {
+            "purpose": "学习本机应用授权提示。",
+            "steps": [
+              "请求需要桌面应用的任务。",
+              "Claude 将在首次使用该应用时等待许可。"
+            ],
+            "outcome": "进入「App access request」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-computer",
+              "claude-code"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "App access request",
+              "产品简报 · Working",
+              "任务与自动化"
+            ]
+          }
+        },
+        {
+          "id": "claude-task-browser",
+          "label": "Built-in browser · side panel",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "built-in-browser"
+          },
+          "guide": {
+            "purpose": "查看 Claude 处理网站任务时使用的浏览器面板。",
+            "steps": [
+              "要求 Claude 读取或处理指定网页。",
+              "在任务旁查看浏览器操作和网站权限请求。"
+            ],
+            "outcome": "进入浏览器面板学习页。",
+            "conditions": "Claude Pro · 个人版 · Windows 桌面；实际入口以账号和客户端提供为准。",
+            "troubleshooting": "本页为教学重建；缺少入口时先核对版本及来源，尚未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-browser"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12"
+          }
+        }
+      ]
+    },
+    {
+      "id": "computer-permission",
+      "title": "App access request",
+      "section": "桌面功能",
+      "layout": "dialog",
+      "parentId": "task-running",
+      "description": "Windows computer use 为 Pro / Max beta。真实提示会显示应用及允许的控制级别；这些级别由应用类别决定，不是任意全权限开关。",
+      "controls": [
+        {
+          "id": "claude-computer-permission-review",
+          "label": "Control level",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：应用「记事本」为 Full control；浏览器可能仅 View only。"
+          },
+          "guide": {
+            "purpose": "在许可前检查 Claude 能看、点击或输入什么。",
+            "steps": [
+              "读取应用名与提示的控制级别。",
+              "确认当前屏幕没有不该被任务读取的资料。"
+            ],
+            "outcome": "演示应用「记事本」为 Full control；浏览器可能仅 View only。",
+            "conditions": "级别按类别：View only、Click only、Full control；详情以当前提示为准。",
+            "troubleshooting": "宽权限应用如终端和文件管理器有额外说明；需逐次阅读，不假设所有应用相同。",
+            "sourceIds": [
+              "claude-code"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Control level",
+              "App access request",
+              "桌面功能"
+            ]
+          }
+        },
+        {
+          "id": "claude-computer-permission-allow",
+          "label": "Allow for this session",
+          "placement": "content",
+          "action": {
+            "kind": "submit",
+            "result": "演示：授权给当前会话；不会控制真实记事本。"
+          },
+          "guide": {
+            "purpose": "授权在当前会话中访问指定应用。",
+            "steps": [
+              "确认目标应用和任务一致。",
+              "点击 Allow for this session，再观察动作。"
+            ],
+            "outcome": "演示授权给当前会话；不会控制真实记事本。",
+            "conditions": "设备唤醒、Claude Desktop 打开；普通授权作用于当前会话。",
+            "troubleshooting": "授权不代表任务会自动成功；复杂步骤需要审阅或重试。",
+            "sourceIds": [
+              "claude-code",
+              "claude-computer"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Allow for this session",
+              "App access request",
+              "桌面功能"
+            ]
+          }
+        },
+        {
+          "id": "claude-computer-permission-deny",
+          "label": "Deny",
+          "placement": "content",
+          "action": {
+            "kind": "back",
+            "result": "演示：拒绝本机访问并返回任务。"
+          },
+          "guide": {
+            "purpose": "拒绝访问这款应用。",
+            "steps": [
+              "对不符合任务的应用选择 Deny。",
+              "告诉 Claude 换用可接受的资料或工具。"
+            ],
+            "outcome": "演示拒绝本机访问并返回任务。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "需要长期拒绝时检查 Denied apps；拒绝当前应用并不撤销其他应用的既有访问。",
+            "sourceIds": [
+              "claude-code"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Deny",
+              "App access request",
+              "桌面功能"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "browser-permission",
+      "title": "Browser · Site permission",
+      "section": "桌面功能",
+      "layout": "dialog",
+      "parentId": "code-session",
+      "description": "这里演示 Code 内置浏览器首次对外部网站操作的许可卡片。Cowork 浏览器也要求网站许可，但具体提示以实际界面为准。",
+      "controls": [
+        {
+          "id": "claude-browser-permission-once",
+          "label": "Allow once",
+          "placement": "content",
+          "action": {
+            "kind": "submit",
+            "result": "演示：一次性允许读取示例文档页面。"
+          },
+          "guide": {
+            "purpose": "只允许当前网站动作，不保存长期批准。",
+            "steps": [
+              "核对域名和这一次动作。",
+              "点击 Allow once。"
+            ],
+            "outcome": "演示一次性允许读取示例文档页面。",
+            "conditions": "每个网站和子域需要各自审批；本地开发服务器一般不需这种外站许可。",
+            "troubleshooting": "未批准的新域名可能再次提示；这是不同站点的许可范围。",
+            "sourceIds": [
+              "claude-code"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Allow once",
+              "Browser · Site permission",
+              "桌面功能"
+            ]
+          }
+        },
+        {
+          "id": "claude-browser-permission-always",
+          "label": "Always allow",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：显示持久授权说明，未保存真实网站许可。"
+          },
+          "guide": {
+            "purpose": "在此设备上保存该网站的批准。",
+            "steps": [
+              "确认对该网站的持续访问符合需求。",
+              "选择 Always allow；之后可在 Settings 撤销。"
+            ],
+            "outcome": "演示显示持久授权说明，未保存真实网站许可。",
+            "conditions": "即使批准，部分风险动作仍会被检查并询问。",
+            "troubleshooting": "不熟悉的网站用 Allow once；批准网站并不代表可自动购买或创建账号。",
+            "sourceIds": [
+              "claude-code"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Always allow",
+              "Browser · Site permission",
+              "桌面功能"
+            ]
+          }
+        },
+        {
+          "id": "claude-browser-permission-deny",
+          "label": "Deny",
+          "placement": "content",
+          "action": {
+            "kind": "back",
+            "result": "演示：拒绝外站动作。"
+          },
+          "guide": {
+            "purpose": "拒绝当前网站操作并返回任务。",
+            "steps": [
+              "域名或动作不符合要求时选 Deny。",
+              "提出替代来源。"
+            ],
+            "outcome": "演示拒绝外站动作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "浏览器登录状态和网站授权不同；不需要的登录可单独清除。",
+            "sourceIds": [
+              "claude-code"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Deny",
+              "Browser · Site permission",
+              "桌面功能"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "code-start",
+      "title": "Code · Start a session",
+      "section": "编程工作区",
+      "layout": "workspace",
+      "parentId": "home",
+      "description": "个人 Pro 包含 Claude Code。Code 的本地会话可读取仓库、改文件、运行命令，和云端普通聊天不同；本手册仅演示工作区。",
+      "controls": [
+        {
+          "id": "claude-code-start-environment",
+          "label": "Environment · Local / Cloud / WSL",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：选择 Local，不打开真实环境。"
+          },
+          "guide": {
+            "purpose": "决定开发工作运行在哪里。",
+            "steps": [
+              "开始会话前打开 Environment。",
+              "Windows 可按实际可用项选 Local、Cloud 或 WSL。"
+            ],
+            "outcome": "演示选择 Local，不打开真实环境。",
+            "conditions": "Cloud 继续运行的条件与本地不同；WSL 需要对应发行版。",
+            "troubleshooting": "不要把 Cowork 新任务云端设置和 Code 的 Local 环境混为一谈。",
+            "sourceIds": [
+              "claude-code"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Environment · Local / Cloud / WSL",
+              "Code · Start a session",
+              "编程工作区"
+            ]
+          }
+        },
+        {
+          "id": "claude-code-start-folder",
+          "label": "Project folder",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：使用 D:\\Demo\\product-research，不读取磁盘。"
+          },
+          "guide": {
+            "purpose": "选择 Claude Code 实际读写的代码目录。",
+            "steps": [
+              "点击工作目录选择器。",
+              "选仓库或文件夹，并确认分支与改动状态。"
+            ],
+            "outcome": "演示使用 D:\\Demo\\product-research，不读取磁盘。",
+            "conditions": "本地目录需存在且有权限；云会话选择仓库。",
+            "troubleshooting": "聊天 Projects 与 Code 的文件夹不是同一个功能；Code 开发需要选择目录。",
+            "sourceIds": [
+              "claude-code"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Project folder",
+              "Code · Start a session",
+              "编程工作区"
+            ]
+          }
+        },
+        {
+          "id": "claude-code-start-plan",
+          "label": "Permission mode · Plan",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：只展示待执行方案，不改源代码。"
+          },
+          "guide": {
+            "purpose": "先调查和提出方案，再决定执行。",
+            "steps": [
+              "在发送按钮旁选权限模式。",
+              "选 Plan 并描述需要修改的功能。"
+            ],
+            "outcome": "演示只展示待执行方案，不改源代码。",
+            "conditions": "Plan 是当前会话的阶段；批准方案后再选执行模式。",
+            "troubleshooting": "旧版 Ask permissions / Auto accept edits 名称已改为 Manual / Accept edits；按行为识别。",
+            "sourceIds": [
+              "claude-code"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Permission mode · Plan",
+              "Code · Start a session",
+              "编程工作区"
+            ]
+          }
+        },
+        {
+          "id": "claude-code-start-start",
+          "label": "Start session",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "code-session"
+          },
+          "guide": {
+            "purpose": "进入有对话、差异、终端和浏览器面板的开发会话。",
+            "steps": [
+              "确认环境、目录、模型和权限模式。",
+              "输入任务并按 Enter。"
+            ],
+            "outcome": "进入「Code · 产品研究网站」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-code"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Start session",
+              "Code · Start a session",
+              "编程工作区"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "code-session",
+      "title": "Code · 产品研究网站",
+      "section": "编程工作区",
+      "layout": "workspace",
+      "parentId": "code-start",
+      "description": "演示会话展示修改差异、终端输出和应用预览。不会运行命令、写仓库或创建真实 PR。",
+      "controls": [
+        {
+          "id": "claude-code-session-diff",
+          "label": "Diff · +12 −1",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：显示按钮文案从旧名称改成新名称的差异。"
+          },
+          "guide": {
+            "purpose": "逐文件检查 Claude 已经产生的代码修改。",
+            "steps": [
+              "点击新增/删除行数指示。",
+              "阅读文件列表和差异，再决定是否保留。"
+            ],
+            "outcome": "演示显示按钮文案从旧名称改成新名称的差异。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "不要只看总行数；检查修改逻辑和测试结果，再创建 PR。",
+            "sourceIds": [
+              "claude-code"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Diff · +12 −1",
+              "Code · 产品研究网站",
+              "编程工作区"
+            ]
+          }
+        },
+        {
+          "id": "claude-code-session-comment",
+          "label": "Comment on diff",
+          "placement": "content",
+          "action": {
+            "kind": "submit",
+            "result": "演示：新增评论「请补充键盘访问标签」。"
+          },
+          "guide": {
+            "purpose": "对具体代码行提出修改反馈。",
+            "steps": [
+              "在 diff 中点击相关行并输入评论。",
+              "多条评论完成后按 Ctrl+Enter 一次提交。"
+            ],
+            "outcome": "演示新增评论「请补充键盘访问标签」。",
+            "conditions": "Windows 使用 Ctrl+Enter；Mac 使用 Cmd+Enter。",
+            "troubleshooting": "单纯填写评论不代表已批量发送；提交后再看新差异。",
+            "sourceIds": [
+              "claude-code"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Comment on diff",
+              "Code · 产品研究网站",
+              "编程工作区"
+            ]
+          }
+        },
+        {
+          "id": "claude-code-session-browser",
+          "label": "Browser",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "browser-permission"
+          },
+          "guide": {
+            "purpose": "打开应用预览或外站并了解许可。",
+            "steps": [
+              "点击会话标题栏 Browser，或按 Ctrl+Shift+B。",
+              "打开外部站点时核对权限提示。"
+            ],
+            "outcome": "进入「Browser · Site permission」，可继续点击控件查看下一层操作。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "若入口缺失，先更新桌面应用、确认登录 Pro 账号，再对照官方来源；本手册未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-code"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Browser",
+              "Code · 产品研究网站",
+              "编程工作区"
+            ]
+          }
+        },
+        {
+          "id": "claude-code-session-terminal",
+          "label": "Terminal",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：终端显示检查通过的预设输出，不实际执行。"
+          },
+          "guide": {
+            "purpose": "查看并运行开发工作区中的命令。",
+            "steps": [
+              "打开 Terminal 面板。",
+              "阅读命令和输出，在真实环境确认运行范围。"
+            ],
+            "outcome": "演示终端显示检查通过的预设输出，不实际执行。",
+            "conditions": "执行模式与文件权限决定命令审批；本手册没有真实终端。",
+            "troubleshooting": "有失败输出时修复具体原因；不要因为文字写着成功就跳过真实测试。",
+            "sourceIds": [
+              "claude-code"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Terminal",
+              "Code · 产品研究网站",
+              "编程工作区"
+            ]
+          }
+        },
+        {
+          "id": "claude-code-session-mode",
+          "label": "Manual / Accept edits / Auto",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：选择 Manual，等待你审阅文件修改和命令。"
+          },
+          "guide": {
+            "purpose": "决定开发会话的编辑和命令审批方式。",
+            "steps": [
+              "打开权限模式选择器。",
+              "选 Manual 逐项审核，或在理解范围后选 Accept edits / 可用 Auto。"
+            ],
+            "outcome": "演示选择 Manual，等待你审阅文件修改和命令。",
+            "conditions": "Auto 需支持的模型；Accept edits 自动处理文件编辑，其他命令仍可询问。",
+            "troubleshooting": "不要把旧版 Auto accept edits 理解为现在的 Auto；绕过权限只适合明确隔离环境。",
+            "sourceIds": [
+              "claude-code"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Manual / Accept edits / Auto",
+              "Code · 产品研究网站",
+              "编程工作区"
+            ]
+          }
+        },
+        {
+          "id": "claude-code-session-stop",
+          "label": "Stop",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：停止开发会话。"
+          },
+          "guide": {
+            "purpose": "暂停开发动作后继续纠正要求。",
+            "steps": [
+              "点击停止按钮。",
+              "说明新要求，再发送后续任务。"
+            ],
+            "outcome": "演示停止开发会话。",
+            "conditions": "Claude Pro · Windows 桌面；入口以当前账号逐步上线情况为准。",
+            "troubleshooting": "停止不会自动恢复已改文件；先查看 diff 再决定撤销。",
+            "sourceIds": [
+              "claude-code"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12",
+            "keywords": [
+              "Stop",
+              "Code · 产品研究网站",
+              "编程工作区"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "built-in-browser",
+      "title": "Built-in browser",
+      "section": "桌面功能",
+      "layout": "workspace",
+      "parentId": "settings-desktop",
+      "description": "网站在任务旁的独立浏览器打开。Pro 新任务可在云端运行，但使用内置浏览器时桌面 App 仍需在线。",
+      "controls": [
+        {
+          "id": "claude-browser-preference",
+          "label": "Preferred browser",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：选择 Built-in browser；已有 Claude in Chrome 用户可保留自己的扩展路径。"
+          },
+          "guide": {
+            "purpose": "选择网页任务默认使用内置浏览器还是 Chrome 扩展。",
+            "steps": [
+              "在 Settings > Cowork 查找 Preferred browser，统一体验的路径可能变化。",
+              "选择账号提供的浏览器。"
+            ],
+            "outcome": "显示浏览器偏好说明。",
+            "conditions": "Claude Pro · 个人版 · Windows 桌面；实际入口以账号和客户端提供为准。",
+            "troubleshooting": "该设置在旧 Cowork 帮助页有明确路径；统一体验下的准确位置尚未核验。",
+            "sourceIds": [
+              "claude-browser"
+            ],
+            "evidence": "needs-review",
+            "verifiedAt": "2026-10-12"
+          }
+        },
+        {
+          "id": "claude-browser-import",
+          "label": "Import cookies",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "browser-import"
+          },
+          "guide": {
+            "purpose": "按站点选择要导入的浏览器登录。",
+            "steps": [
+              "在首次打开浏览器时查看 Import cookies。",
+              "只选择当前任务需要的站点。"
+            ],
+            "outcome": "进入站点导入说明。",
+            "conditions": "Claude Pro · 个人版 · Windows 桌面；实际入口以账号和客户端提供为准。",
+            "troubleshooting": "本页为教学重建；缺少入口时先核对版本及来源，尚未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-browser"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12"
+          }
+        },
+        {
+          "id": "claude-browser-signin",
+          "label": "Sign in · 网站自己的界面",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：用户在网站自己的登录界面完成登录。这里不收集密码，也不建立真实连接。"
+          },
+          "guide": {
+            "purpose": "在内置浏览器中登录任务需要的网站。",
+            "steps": [
+              "确认网站地址。",
+              "在网站登录界面完成认证后继续任务。"
+            ],
+            "outcome": "显示网站登录操作说明。",
+            "conditions": "Claude Pro · 个人版 · Windows 桌面；实际入口以账号和客户端提供为准。",
+            "troubleshooting": "本页为教学重建；缺少入口时先核对版本及来源，尚未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-browser"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12"
+          }
+        },
+        {
+          "id": "claude-browser-access",
+          "label": "Site access · permission request",
+          "placement": "content",
+          "action": {
+            "kind": "navigate",
+            "target": "browser-permission"
+          },
+          "guide": {
+            "purpose": "审阅 Claude 第一次对网站执行操作的请求。",
+            "steps": [
+              "检查请求涉及的网站与任务。",
+              "按需要允许或拒绝。"
+            ],
+            "outcome": "打开模拟网站权限请求。",
+            "conditions": "Claude Pro · 个人版 · Windows 桌面；实际入口以账号和客户端提供为准。",
+            "troubleshooting": "本页为教学重建；缺少入口时先核对版本及来源，尚未核验你的实际账号界面。",
+            "sourceIds": [
+              "claude-browser"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12"
+          }
+        }
+      ]
+    },
+    {
+      "id": "browser-import",
+      "title": "Import cookies · Windows",
+      "section": "桌面功能",
+      "layout": "dialog",
+      "parentId": "built-in-browser",
+      "description": "当前官方资料只支持从 Windows Firefox 导入；这里没有制作 Windows Chrome / Edge 的虚构导入入口。",
+      "controls": [
+        {
+          "id": "claude-browser-import-firefox",
+          "label": "Firefox",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：选中 Firefox；没有读取浏览器 cookies。"
+          },
+          "guide": {
+            "purpose": "选择 Windows 当前支持的登录导入来源。",
+            "steps": [
+              "查看 Import cookies 提供的来源。",
+              "选择 Firefox。"
+            ],
+            "outcome": "展示演示导入来源。",
+            "conditions": "Claude Pro · 个人版 · Windows 桌面；实际入口以账号和客户端提供为准。",
+            "troubleshooting": "没有该选项时可直接在网站登录；不要使用仅适用于 macOS 的 Chrome / Edge 导入教程。",
+            "sourceIds": [
+              "claude-browser"
+            ],
+            "evidence": "documented",
+            "verifiedAt": "2026-10-12"
+          }
+        },
+        {
+          "id": "claude-browser-import-sites",
+          "label": "Select sites · 教学站点选择",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：只勾选示例知识库站点。银行、邮箱和单点登录网站默认不选中。"
+          },
+          "guide": {
+            "purpose": "缩小导入登录的范围。",
+            "steps": [
+              "逐个检查可导入站点。",
+              "只勾选当前任务必需的网站。"
+            ],
+            "outcome": "展示演示站点选择。",
+            "conditions": "Claude Pro · 个人版 · Windows 桌面；实际入口以账号和客户端提供为准。",
+            "troubleshooting": "文档确认逐站点选择；本手册的选择按钮名称和布局为教学示意。",
+            "sourceIds": [
+              "claude-browser"
+            ],
+            "evidence": "needs-review",
+            "verifiedAt": "2026-10-12"
+          }
+        },
+        {
+          "id": "claude-browser-import-confirm",
+          "label": "Import · 教学确认",
+          "placement": "content",
+          "action": {
+            "kind": "notice",
+            "result": "演示：导入流程完成。真实登录会保留供该电脑未来任务使用；本网站没有导入任何数据。"
+          },
+          "guide": {
+            "purpose": "确认选定网站的登录导入。",
+            "steps": [
+              "确认勾选范围。",
+              "完成实际界面提供的确认流程。"
+            ],
+            "outcome": "显示演示导入结果。",
+            "conditions": "Claude Pro · 个人版 · Windows 桌面；实际入口以账号和客户端提供为准。",
+            "troubleshooting": "文档没有列出完整确认弹窗按钮；执行真实流程时需逐项核对。",
+            "sourceIds": [
+              "claude-browser"
+            ],
+            "evidence": "needs-review",
+            "verifiedAt": "2026-10-12"
+          }
+        }
+      ]
+    }
+  ],
+  "tours": [
+    {
+      "id": "claude-first-task",
+      "title": "从提问到可编辑简报",
+      "description": "选择模型与思考程度，加入资料，再打开、修改和导出文档。",
+      "controlIds": [
+        "claude-home-new",
+        "claude-conversation-model",
+        "claude-model-picker-effort",
+        "claude-effort-menu-high",
+        "claude-conversation-plus",
+        "claude-composer-menu-upload",
+        "claude-conversation-output",
+        "claude-artifacts-docs",
+        "claude-artifact-doc-edit",
+        "claude-artifact-doc-export",
+        "claude-artifact-export-word"
+      ]
+    },
+    {
+      "id": "claude-project",
+      "title": "让项目记住你的工作规范",
+      "description": "进入项目、检查知识、保存指令，并区分项目资料和记忆。",
+      "controlIds": [
+        "claude-home-projects",
+        "claude-projects-open",
+        "claude-project-knowledge",
+        "claude-project-knowledge-add",
+        "claude-project-instructions",
+        "claude-project-instructions-save",
+        "claude-project-memory",
+        "claude-settings-memory-topics"
+      ]
+    },
+    {
+      "id": "claude-connector",
+      "title": "连接服务与控制工具访问",
+      "description": "从统一目录进入授权，再控制当前对话可用性与加载策略。",
+      "controlIds": [
+        "claude-home-customize",
+        "claude-connectors-browse",
+        "claude-connector-detail-connect",
+        "claude-connector-auth-review",
+        "claude-connector-auth-allow",
+        "claude-connector-detail-toggle",
+        "claude-connector-detail-tool"
+      ]
+    },
+    {
+      "id": "claude-scheduled",
+      "title": "建立每日任务并检查结果",
+      "description": "确认任务说明、频率与时区，查看历史、暂停以及按需运行。",
+      "controlIds": [
+        "claude-home-scheduled",
+        "claude-scheduled-new",
+        "claude-schedule-form-instructions",
+        "claude-schedule-form-cadence",
+        "claude-schedule-form-confirm",
+        "claude-scheduled-open",
+        "claude-task-detail-pause",
+        "claude-task-detail-run",
+        "claude-task-running-files"
+      ]
+    },
+    {
+      "id": "claude-code",
+      "title": "Windows Code 的计划与审阅",
+      "description": "选择本地目录、先规划，再检查差异、预览权限和终端输出。",
+      "controlIds": [
+        "claude-home-code",
+        "claude-code-start-environment",
+        "claude-code-start-folder",
+        "claude-code-start-plan",
+        "claude-code-start-start",
+        "claude-code-session-diff",
+        "claude-code-session-browser",
+        "claude-browser-permission-once",
+        "claude-code-session-terminal"
+      ]
+    }
+  ],
+  "differences": [
+    {
+      "title": "Chat 与 Cowork 合并为统一对话",
+      "before": "输入框先选 Chat 或 Cowork，较长任务和聊天分开管理。",
+      "now": "已上线的 Pro / Max 从同一对话开始，任务与聊天归入 Recents；不能手动切回旧模式。尚未上线的账号仍使用旧切换。",
+      "sourceIds": [
+        "claude-unified",
+        "claude-release-notes"
+      ]
+    },
+    {
+      "title": "Pro / Max 新任务改在云端运行",
+      "before": "Cowork 可选 Only on your computer；任务和旧计划可能依赖本机。",
+      "now": "2026-10-06 起新任务在云端；旧本地任务留在原电脑。访问本地文件、内置浏览器或 computer use 仍需要桌面在线；想创建纯本地新任务用 Code。",
+      "sourceIds": [
+        "claude-cloud"
+      ]
+    },
+    {
+      "title": "Web search 开关与全局指令位置变化",
+      "before": "手动开启 Web search；Cowork Global instructions 单独设置。",
+      "now": "统一体验按需要搜索，没有搜索开关；Research 通过 + 或 /deep-research 指定；全局指令进入 General 的 Instructions for Claude。",
+      "sourceIds": [
+        "claude-unified"
+      ]
+    },
+    {
+      "title": "新版 Artifacts 分享与旧 Publish 不同",
+      "before": "legacy 聊天成果使用 Publish，公开链接可供无账号访问者查看。",
+      "now": "新成果使用 Share，默认私人且访问需要 Claude 账号；Docs、Slides、Design 有模板和直接编辑流程。旧 legacy 成果继续使用原规则。",
+      "sourceIds": [
+        "claude-artifacts",
+        "claude-share",
+        "claude-docs"
+      ]
+    },
+    {
+      "title": "思考设置不能照旧教程全部关闭",
+      "before": "旧模型常通过 Extended 开关选择思考。",
+      "now": "Effort 与 Thinking 是两种设置；Haiku 5.5、Sonnet 5.5、Opus 5.5、Fable 5.1、Opus 5 在 Claude 中思考始终开启。其他模型按当前菜单操作。",
+      "sourceIds": [
+        "claude-models"
+      ]
+    },
+    {
+      "title": "Windows 桌面权限与 Code 名称更新",
+      "before": "Code 曾使用 Ask permissions / Auto accept edits；旧帮助页把 computer use 放在 Desktop app > General。",
+      "now": "Code 为 Manual / Accept edits / Plan / Auto；较新文档的本机设置在 This computer > System。Windows 已支持 Pro / Max beta computer use，不需要 Mac 的系统授权步骤。",
+      "sourceIds": [
+        "claude-code",
+        "claude-computer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+name: Track and publish App Manual
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '17 9,21 * * *'
+      timezone: Asia/Kuala_Lumpur
+  workflow_dispatch:
+    inputs:
+      product:
+        description: 'Product folder ID; leave blank to check all products'
+        required: false
+        type: string
+
+# A pull request never receives write permissions or enters this workflow.
+permissions:
+  contents: read
+
+# Serialize tracking and publication so two runs cannot overwrite generated state.
+concurrency:
+  group: app-manual-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out the triggering revision
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Set up Node
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24'
+          cache: npm
+      - name: Install locked dependencies
+        run: npm ci
+      - name: Retrieve official documentation
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        env:
+          PRODUCT_ID: ${{ inputs.product }}
+        run: |
+          if [ -n "$PRODUCT_ID" ]; then
+            npm run track -- --product "$PRODUCT_ID"
+          else
+            npm run track
+          fi
+      - name: Validate and test
+        run: |
+          npm run validate
+          npm test
+      - name: Install acceptance-test browser
+        run: npx playwright install --with-deps chromium
+      - name: Verify browser acceptance paths
+        run: npm run test:e2e
+      - name: Build static site
+        run: npm run build
+      - name: Store generated tracking data for the persistence job
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: tracking-data
+          path: |
+            products/*/tracking.json
+            products/*/updates.json
+          if-no-files-found: error
+          retention-days: 3
+      - name: Upload Pages site
+        uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4.0.0
+        with:
+          path: dist
+
+  persist:
+    needs: build
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    outputs:
+      revision: ${{ steps.persistence.outputs.revision }}
+    steps:
+      - name: Check out main for the data commit
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+          # Only this job retains a token, for its restricted generated-data commit.
+          persist-credentials: true
+      - name: Download validated tracking data outside the checkout
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: tracking-data
+          path: ${{ runner.temp }}/app-manual-tracking
+      - name: Persist generated files without overwriting a newer main revision
+        id: persistence
+        env:
+          EXPECTED_REVISION: ${{ github.sha }}
+          TRACKING_DATA: ${{ runner.temp }}/app-manual-tracking
+        run: |
+          test "$(git rev-parse HEAD)" = "$EXPECTED_REVISION" || { echo 'Main advanced during tracking; no stale data will be pushed.'; exit 1; }
+          for product_path in "$TRACKING_DATA"/*; do
+            test -d "$product_path" || continue
+            product_id=$(basename "$product_path")
+            [[ "$product_id" =~ ^[a-z0-9][a-z0-9._-]*$ ]] || { echo 'Invalid product artifact directory.'; exit 1; }
+            test -f "products/$product_id/product.json" || { echo 'Product no longer exists.'; exit 1; }
+            for filename in tracking.json updates.json; do
+              test -f "$product_path/$filename"
+              cp -- "$product_path/$filename" "products/$product_id/$filename"
+            done
+          done
+          git add -- ':(glob)products/*/tracking.json' ':(glob)products/*/updates.json'
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'chore: refresh official documentation tracking'
+            git push origin HEAD:main
+          fi
+          echo "revision=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    needs: [build, persist]
+    if: always() && github.ref == 'refs/heads/main' && needs.build.result == 'success' && (needs.persist.result == 'success' || needs.persist.result == 'skipped')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Refuse to publish an artifact superseded by a newer main revision
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EXPECTED_REVISION: ${{ needs.persist.outputs.revision || github.sha }}
+        run: |
+          current_revision=$(gh api "repos/$GITHUB_REPOSITORY/git/ref/heads/main" --jq '.object.sha')
+          test "$current_revision" = "$EXPECTED_REVISION" || { echo 'Main advanced before publication; the newer run will deploy its own artifact.'; exit 1; }
+      - name: Deploy this run's artifact directly
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4.0.5

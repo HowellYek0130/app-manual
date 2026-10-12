@@ -1,0 +1,64 @@
+[
+  {
+    "id": "chatgpt-2026-09-11-windows",
+    "sourceId": "desktop-changelog",
+    "title": "Quick chats with Pets and Appshots on Windows 26.908",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-09-11",
+    "detectedAt": "2026-10-12T00:00:00Z",
+    "type": "baseline",
+    "controlIds": [
+      "chatgpt-attach-appshot",
+      "chatgpt-appshots-capture",
+      "chatgpt-pets-show"
+    ],
+    "summaryZh": "Windows 增加 Appshots 当前窗口分享，并可从浮动 Pets 控制输入快捷聊天、查看任务状态。",
+    "interpretation": "reviewed"
+  },
+  {
+    "id": "chatgpt-2026-09-29-sol61",
+    "sourceId": "desktop-changelog",
+    "title": "GPT-6.1 Sol in Codex and ChatGPT Work",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-09-29",
+    "detectedAt": "2026-10-12T00:00:00Z",
+    "type": "baseline",
+    "controlIds": [
+      "chatgpt-work-model",
+      "chatgpt-work-model-sol",
+      "chatgpt-codex-model"
+    ],
+    "summaryZh": "Work 与 Codex 新增 GPT-6.1 Sol，用于复杂且重复的代码、App 与文档任务；可用性按账号核对。",
+    "interpretation": "reviewed"
+  },
+  {
+    "id": "chatgpt-2026-10-06-audio",
+    "sourceId": "release-notes",
+    "title": "Audio uploads in ChatGPT",
+    "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+    "publishedAt": "2026-10-06",
+    "detectedAt": "2026-10-12T00:00:00Z",
+    "type": "baseline",
+    "controlIds": [
+      "chatgpt-chat-attach",
+      "chatgpt-attach-audio"
+    ],
+    "summaryZh": "付费账号可添加支持的音频文件做转写与总结；实际支持依地区、模型和客户端。",
+    "interpretation": "reviewed"
+  },
+  {
+    "id": "chatgpt-2026-10-07-gpt6-chat",
+    "sourceId": "release-notes",
+    "title": "GPT-6 and Intelligent UI in ChatGPT",
+    "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+    "publishedAt": "2026-10-07",
+    "detectedAt": "2026-10-12T00:00:00Z",
+    "type": "baseline",
+    "controlIds": [
+      "chatgpt-chat-model",
+      "chatgpt-chat-model-sol"
+    ],
+    "summaryZh": "Plus 的 Chat 开始推出 GPT-6 Sol；回答可按需要结合文字、图解与交互元素。账号 rollout 仍需核对。",
+    "interpretation": "reviewed"
+  }
+]

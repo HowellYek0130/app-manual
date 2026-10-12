@@ -1,0 +1,33 @@
+{
+  "name": "app-manual",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "npm run validate && tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "validate": "node scripts/validate.mjs",
+    "track": "node scripts/track.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "cheerio": "1.2.0",
+    "driver.js": "1.9.0",
+    "fast-xml-parser": "5.11.2",
+    "lucide-react": "0.468.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@playwright/cli": "0.1.22",
+    "@playwright/test": "1.64.0",
+    "@types/node": "24.19.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "5.2.0",
+    "typescript": "5.9.3",
+    "vite": "7.3.7"
+  }
+}

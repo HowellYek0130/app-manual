@@ -1,0 +1,3881 @@
+{
+  "sources": {
+    "release-notes": {
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": null,
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "desktop-changelog": {
+      "hash": "87b959af253ecb8ab2ae95cb3baaadb568820cc780eb8757c52002bcb3821638",
+      "entries": [
+        {
+          "id": "desktop-changelog-03c2a76299543de1588f",
+          "title": "2025-05-19 · Codex in the ChatGPT iOS app",
+          "publishedAt": "2025-05-19",
+          "hash": "80c3e2e682cf278f6acb8bda664f6bfa4ee1a90b82164639b5f494fcbcf90300",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-05a44e749d723fa4d497",
+          "title": "2026-08-25 · Trigger scheduled tasks from Gmail, Slack, and GitHub events",
+          "publishedAt": "2026-08-25",
+          "hash": "1c8fdaa3d502aade1313f7fe3eb86953ecf426d323bbd3333338eab01726b7df",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-05fa1e2335f5a9675696",
+          "title": "2026-03-24 · Codex app 26.323",
+          "publishedAt": "2026-03-24",
+          "hash": "17122de8a94cce65d5a2faad60971eab7a1cbab80c430490f51813bfc08f06d7",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-0e5bef7ab691aebd172c",
+          "title": "2026-04-23 · GPT-5.5 and Codex app updates",
+          "publishedAt": "2026-04-23",
+          "hash": "3ecb5f7e0771fccab395a539ca9963ef970f2e411e98c81c8dd933416d35bd9f",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-1044e27fb1725dcbeae8",
+          "title": "2026-07-09 · Codex joins the ChatGPT desktop app 26.707",
+          "publishedAt": "2026-07-09",
+          "hash": "b1351c8ba6d90908584ea2493673e0994eb129147212a02232ab77c917ad42d8",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-10edf3b12cbb7fd2a24c",
+          "title": "2026-03-05 · Introducing GPT-5.4 in Codex",
+          "publishedAt": "2026-03-05",
+          "hash": "2815ad0547c2181c202300f655e5b3a016ff0c04e097ebec3e6eab49d50a017f",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-11c6582e55c43df1b662",
+          "title": "2026-01-28 · Web search is now enabled by default",
+          "publishedAt": "2026-01-28",
+          "hash": "8ca28e49b91d47962279f2c77b308eb621334952020a80c83150463bf3f7a173",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-15560680b3e9360bdadf",
+          "title": "2026-03-03 · Codex app 26.303",
+          "publishedAt": "2026-03-03",
+          "hash": "b2f1631e432b823ebc152320327807b81a082f4657a687aebc641acfc7d76849",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-15acfd4f062c8ad82ce9",
+          "title": "2025-09-23 · GPT-5-Codex in the API",
+          "publishedAt": "2025-09-23",
+          "hash": "4c687b85d6946e12dfe3c4e00ed247b11192dae0033462d780eae5c82c3abec0",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-1b9c79cfa6e9104365d4",
+          "title": "2026-02-26 · Codex app 26.226",
+          "publishedAt": "2026-02-26",
+          "hash": "dbb5216f5070691d7087b15bc742cd0588e35d61bff3e3d7ef55386704621560",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-1c7e419743a3409e4a14",
+          "title": "2025-11-24 · Usage and credits fixes",
+          "publishedAt": "2025-11-24",
+          "hash": "37fe97cd786624d4cedbc4e3a2578464d2be681d654ec4b0a962c46117ac98de",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-1de419acd4e6d9dc1231",
+          "title": "2025-08-27 · Late August update",
+          "publishedAt": "2025-08-27",
+          "hash": "865e1e60f30fdf14694b9b9eba02548ff5eb841deedbd3ff918923ad1ef43b32",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-1ef0e5ce41e69a75a14e",
+          "title": "2026-04-12 · Codex app 26.410",
+          "publishedAt": "2026-04-12",
+          "hash": "54c4af038dec8a047f13a22f4da1274aa8838a66e89cc9e676e861044f5852de",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-1fc596c9a13a54c402d9",
+          "title": "2026-02-04 · Codex app 26.204",
+          "publishedAt": "2026-02-04",
+          "hash": "50c2dc76250c47043fe5316cf36fdee3072e159c4d57599b59dfad4fb171efe9",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-201d964c26e0876a3fe3",
+          "title": "2026-03-25 · Build and install plugins in Codex",
+          "publishedAt": "2026-03-25",
+          "hash": "d846095d7cd002a62cdbe6e75cede2f19ee496216bbfe36137901806a7823207",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-22177b765d6ff940f00a",
+          "title": "2026-06-09 · Codex app 26.608",
+          "publishedAt": "2026-06-09",
+          "hash": "26c7590afaa68ace49363aa13855852a9c0636e75c3098d1f2de2c63a021e269",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-232384c3ea04487cba1a",
+          "title": "2026-02-12 · Introducing GPT-5.3-Codex-Spark",
+          "publishedAt": "2026-02-12",
+          "hash": "5201b495dafc5e179c450606aaba1b9b469932cf5d7a07ff4a71f3ace20a0768",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-233f1df62ff4f186dd6d",
+          "title": "2026-02-02 · Introducing the Codex app",
+          "publishedAt": "2026-02-02",
+          "hash": "a0232f24e7bb04cc53bfb2b7b0ba21d64a6c8b0b25507ec2a15fc8b206372992",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-248f8c0300f065f628e3",
+          "title": "2026-08-11 · Linux desktop preview and agent imports",
+          "publishedAt": "2026-08-11",
+          "hash": "631df9efb97b8a55c857a15433a6ffc4b8211fd25fb3837904cc44bff4c776ea",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-2624b633aee0e47277a8",
+          "title": "2026-06-01 · Use Codex with Amazon Bedrock",
+          "publishedAt": "2026-06-01",
+          "hash": "d97419d4ccc1a5efa88eb4c932fcc4846ef044651a5de72ae4f506fbb9e7711b",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-2bd5d3602a96fe3a7547",
+          "title": "2026-08-07 · ChatGPT for iOS 1.2026.209",
+          "publishedAt": "2026-08-07",
+          "hash": "01d860af8ed48953177fb3c6260a86e20869b7324eb638d9bf5a06cfd3b56e17",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-2fe754a5bff82f802ce5",
+          "title": "2026-03-11 · Codex app 26.311",
+          "publishedAt": "2026-03-11",
+          "hash": "729b00c7702d0cc6652bd7b3b885e0859812c58fe22418e73d9629db879729dc",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-32c329e82d33b1e994bf",
+          "title": "2026-07-31 · Record & Replay expands to the EU, UK, and Switzerland",
+          "publishedAt": "2026-07-31",
+          "hash": "c94d0f5c06b332f9ea694210ace73e91f59f904ab6d240db72c0e51646d02ec9",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-392e0c2420b02967b7cd",
+          "title": "2026-07-31 · GPT-5.4 and GPT-5.4 mini retire from Codex on August 31",
+          "publishedAt": "2026-07-31",
+          "hash": "1085ae768fd90552a324c11068ad99a5224068898555eeebff3b37a349df4ea8",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-39bf10395f393ccd4c9f",
+          "title": "2026-07-20 · ChatGPT for iOS 1.2026.195",
+          "publishedAt": "2026-07-20",
+          "hash": "72851efd576cd763f9f21d3a0a81e8c2c3c0ff7bf16dd28b5ed4280ccf9bbf47",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-41660f720c3758d8d970",
+          "title": "2026-01-22 · Custom prompts deprecated",
+          "publishedAt": "2026-01-22",
+          "hash": "8ef6589facf54a91a7332c16f970b96f7740d991befa126d6e5a938a2f9de91c",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-43c893b4fa29b1e3e080",
+          "title": "2026-07-27 · ChatGPT for iOS 1.2026.202",
+          "publishedAt": "2026-07-27",
+          "hash": "f3103216256f0533edd88f35f04d6142a0512819ba833e0f2421f9be6168227a",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-45d92eb43594a2a42587",
+          "title": "2026-06-22 · ChatGPT for iOS 1.2026.167",
+          "publishedAt": "2026-06-22",
+          "hash": "56c5fcf4f09c62613efa40fb016a35c47ef5c04fb123d4958542099487f4b942",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-47105d0607b8823e18ba",
+          "title": "2026-05-29 · Computer use and mobile access on Windows 26.527",
+          "publishedAt": "2026-05-29",
+          "hash": "edaac493a300e00b12f20ba4321583a2c08c9e6703d38771d0c9e9303be3d801",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-4ad3b293b8dbdc2de13e",
+          "title": "2025-05-22 · Reworked environment page",
+          "publishedAt": "2025-05-22",
+          "hash": "88ceec88350d8a10b1bf83dd855b22490f756f15c475be3cccee4b0489c5395d",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-4d8052d73a6b79ba3176",
+          "title": "2026-07-06 · ChatGPT for iOS 1.2026.181",
+          "publishedAt": "2026-07-06",
+          "hash": "c26174a83ba7aed46d00d7b6488296a64c9212a4d68c5a2a33921d82a87615c1",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-4e5655343dc4d2125c35",
+          "title": "2025-12-18 · Introducing GPT-5.2-Codex",
+          "publishedAt": "2025-12-18",
+          "hash": "df3daa0d33a7508c219cab4f8a7f1cd3bef40a0aa8f5126fa64fa432906fdaca",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-50583383fc4259a509ee",
+          "title": "2026-06-09 · ChatGPT for iOS 1.2026.153",
+          "publishedAt": "2026-06-09",
+          "hash": "f99d3fe61b4d0e5dc0b3fb5c21d2f92b0e67896935e948b36e555b8b49144333",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-52aa8233e79840409001",
+          "title": "2025-06-13 · Best of N",
+          "publishedAt": "2025-06-13",
+          "hash": "159e16f89e977352fc68afed1601cb5c01e0e89942218bfb49edfb3c99d4749c",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-588183c1479015939bd8",
+          "title": "2025-09-15 · Introducing GPT-5-Codex",
+          "publishedAt": "2025-09-15",
+          "hash": "adbbdde83b560f03e8a75e4440d0a9fb1fd90632d2acce93205f79d2045217a7",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-595100ad05e42945acef",
+          "title": "2026-06-02 · ChatGPT for iOS 1.2026.146",
+          "publishedAt": "2026-06-02",
+          "hash": "5e1695ab29140967724cf7d2100db785a63621583cea1fc2d79376b7fde81da4",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-5a5c6b33749b350dadc2",
+          "title": "2026-03-20 · Codex app 26.320",
+          "publishedAt": "2026-03-20",
+          "hash": "960276c70efa8dacdc11b679025022a38617d9de71b085f349f324c4a5301844",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-5de48028b36d2d15915e",
+          "title": "2026-08-19 · GitLab support in Codex cloud (Beta)",
+          "publishedAt": "2026-08-19",
+          "hash": "faea6104914d9318034c56f1242d5fb39b2bec8a6069af34293ab52a6632e127",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-60f97311d56263c0f7f3",
+          "title": "2026-09-01 · ChatGPT for iOS 1.2026.237",
+          "publishedAt": "2026-09-01",
+          "hash": "6148f07ba71f222198efc875bff9c5060ee4c1fc0e4057195c95eec71a9c7b54",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-65ef46c7e2d479c6e61b",
+          "title": "2026-01-23 · Team Config for shared configuration",
+          "publishedAt": "2026-01-23",
+          "hash": "031539d0a1789aedf5ccc22d8a5dbed0e713831945b4b845493dc95e38773714",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-6602d42a9c1d683ccafd",
+          "title": "2026-06-11 · Usage resets and Browser Developer mode 26.609",
+          "publishedAt": "2026-06-11",
+          "hash": "63cc6537fc161c1801c53c211873b0d91a716a3ccf4ab5890da16b4a5f97aeea",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-687d9b2360e0009ec387",
+          "title": "2026-08-24 · Codex MCP server command deprecated",
+          "publishedAt": "2026-08-24",
+          "hash": "ce20fe5cf1755a4ff9151d5372c25141d458e40be652b4ac06bee9891dda02bf",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-693e28256b7d05b3cad9",
+          "title": "2026-10-07 · ChatGPT for iOS 1.2026.272",
+          "publishedAt": "2026-10-07",
+          "hash": "17cf3f51c8eb68ee7f5cfcfb29cc06014c4025818b37c9859cc0cb89e8216234",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-69405eb9885adc38128f",
+          "title": "2025-10-06 · Codex is now GA",
+          "publishedAt": "2025-10-06",
+          "hash": "af3ccfbdbcf2db2247be4f595934eedca0d518a7eebbf16fc8872543e41b6bbb",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-6c9ff7c2b21983b1cd33",
+          "title": "2025-12-04 · Introducing Codex for Linear",
+          "publishedAt": "2025-12-04",
+          "hash": "4674673d09e5d28456b1792c7306d0e908921758b4838cbf82041793859850e7",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-6daf330087610ab4727c",
+          "title": "2026-05-06 · Codex analytics governance docs update",
+          "publishedAt": "2026-05-06",
+          "hash": "4c7454c5ac3094b0fe220869032510147dc1edce0994e046abfff3c7d4cc87a4",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-6ec413a68add4f0b039b",
+          "title": "2026-03-05 · Codex app 26.305",
+          "publishedAt": "2026-03-05",
+          "hash": "160052b95121048f0da9ea29a4a92cad4339feabe96eb512507b674a92976ad5",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-6eedc588d7ecc190866e",
+          "title": "2026-02-09 · GPT-5.3-Codex in Cursor and VS Code",
+          "publishedAt": "2026-02-09",
+          "hash": "f5a415afe3851b22cfb082687eea1d7f87ba65868999aa6d80c3e3bbe738bf69",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-71114c1cbec370fe044a",
+          "title": "2026-02-27 · Codex app 26.227",
+          "publishedAt": "2026-02-27",
+          "hash": "ab78b0cafb2ca4db2a0d47c7e65e71f5b7857b3230f4ea184424f7bc90df9e35",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-7310b1d7ea3da5987955",
+          "title": "2026-05-05 · Create Codex access tokens",
+          "publishedAt": "2026-05-05",
+          "hash": "d3a8a89509b5595eb46ae58a5fa0488d3f9bd5e3ed70372cf5803b2ca7abae23",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-75c28c52a108e91d8a65",
+          "title": "2026-10-02 · ChatGPT for iOS 1.2026.267",
+          "publishedAt": "2026-10-02",
+          "hash": "265c9036da805ff7421761442bc13445baaf6a11b389ea49acc4c32f98ac8ce6",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-785132f7848cbb05cd9b",
+          "title": "2026-04-24 · Codex app 26.423",
+          "publishedAt": "2026-04-24",
+          "hash": "725eb2e0337630583bbccd913e3b6635930bbf8d263776e8cfb38cf0249052a6",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-7919aed5e42cbbd01fe2",
+          "title": "2026-07-13 · ChatGPT for iOS 1.2026.188",
+          "publishedAt": "2026-07-13",
+          "hash": "4ec9c1298c45c954b59eb2e40974a189b643b10339013c1ac2c68a8494dbd3fb",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-7aa64a8b07dd25f2def2",
+          "title": "2025-06-03 · June update",
+          "publishedAt": "2025-06-03",
+          "hash": "1fd7e9b95245c6a078825b04f219de8b3ca6c6432583d26fe0a815713c436b44",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-7ab34d896f108ac65e35",
+          "title": "2026-02-06 · Codex app 26.206",
+          "publishedAt": "2026-02-06",
+          "hash": "faf5598ecc530751524acf0721e7c738b7e0790b0745774b9a19cd09969bc324",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-7d486088cc0c3840a4f4",
+          "title": "2026-02-08 · Codex app 26.208",
+          "publishedAt": "2026-02-08",
+          "hash": "0634480e4ac83cede7b96bd2623aa24a44fa696577dfec1244f7aad6d87db6ea",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-7e539c42b1647d53d5e1",
+          "title": "2025-11-06 · GPT-5-Codex model update",
+          "publishedAt": "2025-11-06",
+          "hash": "b0511348f89a705fe810db1b322116bef5cc58a90b2f178e38de3df2e0bf58f2",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-7fb6037f4961e7c2ffff",
+          "title": "2026-08-10 · Introducing Daybreak Blue and Daybreak Red",
+          "publishedAt": "2026-08-10",
+          "hash": "a2e8a92c5c0bdafeca1794815e8b416e6f87f2cbdab406f86c3756964f6a2ac0",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-80f3f3612fadacd210d4",
+          "title": "2026-05-14 · Work with Codex from anywhere",
+          "publishedAt": "2026-05-14",
+          "hash": "29589c18316861a19933dac190c1721ce3be9068d354ad1c4f09a0482312efa0",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-83f295be5ed1931dd37d",
+          "title": "2026-06-16 · More Codex features in the EEA, UK, and Switzerland",
+          "publishedAt": "2026-06-16",
+          "hash": "d7bdaafcf3bdd8816a56c2958bba1511b44b59ed9dc238f7ae0337c81310a8d0",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-859f1ed4d74d745dddb9",
+          "title": "2026-02-28 · Codex app 26.228",
+          "publishedAt": "2026-02-28",
+          "hash": "f777bc8821ce22e333302ee57c50857ae8e1eecb8cfd8043183b10b2485054d8",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-874474400701298fa698",
+          "title": "2026-04-20 · Codex app 26.417",
+          "publishedAt": "2026-04-20",
+          "hash": "99380c530549bdf79c6df522ac0dde7b19ad5b67f072e6f9698b12e5e78bd2be",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-87dd1eea5735f5cd31a9",
+          "title": "2026-03-17 · Introducing GPT-5.4 mini in Codex",
+          "publishedAt": "2026-03-17",
+          "hash": "eeff635fd9cf894f1f4f303768d9e11087e6c34e402c4964056fd13678d36315",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-881672edce45cc2a2155",
+          "title": "2026-09-29 · GPT-6.1 Sol in Codex and ChatGPT Work",
+          "publishedAt": "2026-09-29",
+          "hash": "0a0039ed512c52b8df2d987b72d7d58ac8bce10fd55645af6f612835977b1d88",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-8914e985e8877d03d3a7",
+          "title": "2026-08-13 · Computer History",
+          "publishedAt": "2026-08-13",
+          "hash": "6e06f7233e70b683ace84d79f3deab85f54e41920aa6a7f42626b50a7e5e27f8",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-89d65b96dc422a744067",
+          "title": "2026-09-25 · macOS security update 26.924",
+          "publishedAt": "2026-09-25",
+          "hash": "28ff57dd3b7ebbe6d879aebc7625220bda5d48cb7062d3da84c15bdc5dfff12c",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-8b20e39efd27435d7165",
+          "title": "2026-03-18 · Codex app 26.317",
+          "publishedAt": "2026-03-18",
+          "hash": "b569de6e8d2c6743746747ca72c503eb32fd082f0c399c6e5080257f149775cf",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-8cbbdd6bd9c2ae61746d",
+          "title": "2026-07-23 · ChatGPT Voice and multi-folder projects 26.715",
+          "publishedAt": "2026-07-23",
+          "hash": "02d104f8e4862bbc58097a3eac3942b9887250e4e8a5e3780c7627ddd640799f",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-8df48229c763781470a4",
+          "title": "2026-09-14 · GPT-5.5 retires from ChatGPT, ChatGPT Work, and Codex on October 14",
+          "publishedAt": "2026-09-14",
+          "hash": "7a664c67fa2621a0e5399a9ebb1619ee50d959382992faa8749027080543b073",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-91a8b36e5e17844fc00f",
+          "title": "2025-10-22 · Tag @Codex on GitHub Issues and PRs",
+          "publishedAt": "2025-10-22",
+          "hash": "2bff81130d8b302af910b413433ea703a4731e14ebc75abd82a61dadcee45243",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-91c1a9cb94db57bdab94",
+          "title": "2025-10-30 · Credits on ChatGPT Pro and Plus",
+          "publishedAt": "2025-10-30",
+          "hash": "fa73eaf3562bb57802b387e4fec6dba4b09f58fb1091ddf8027d63d55f0997e2",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-91d8f347596166a10bfd",
+          "title": "2026-03-04 · Codex app 26.304",
+          "publishedAt": "2026-03-04",
+          "hash": "051978f5675b5f90688c9072ff31d1d08eb07c4c9c57b8c3fe5e8396ebaf068c",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-962a91d267eb9723f22f",
+          "title": "2026-07-29 · Sign in with ChatGPT (beta)",
+          "publishedAt": "2026-07-29",
+          "hash": "c74b7896a617f7aae7999f9706411f1ba80e344e1820c00d0a4e61524a71291e",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-96c83c9d86e64659c2fe",
+          "title": "2026-03-19 · Codex app 26.318, 26.319",
+          "publishedAt": "2026-03-19",
+          "hash": "63cc96c5f00075b6304c922b0ca7a048561a2e43981e928ef0bf07b67b11dd03",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-973764366d6530d76e12",
+          "title": "2026-05-07 · Codex for Chrome",
+          "publishedAt": "2026-05-07",
+          "hash": "ce7cb4d69d825c43658eedc1649f6ef00418a8034dade4d2605e93b2592cf31b",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-9933a202dcb536572970",
+          "title": "2026-04-10 · Codex app 26.409",
+          "publishedAt": "2026-04-10",
+          "hash": "68abf47d7464a1fb90dd62536d694db8754ef29f718d3c77e9f2899f0580484f",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-9a07f503808db107bbfb",
+          "title": "2026-08-17 · Public plugin catalog CSV export",
+          "publishedAt": "2026-08-17",
+          "hash": "300365f7b379289765692cd95255318826488b31a1d802b0bb018b6330ca567e",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-9cae36762b9b5e8383db",
+          "title": "2026-09-18 · ChatGPT for iOS 1.2026.251",
+          "publishedAt": "2026-09-18",
+          "hash": "6a9ad6b14aa4eaf8f3f797e6bbd289b0c802333ef6c49fec67aaf99aaa08a93b",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-a083fed0e76e3dc5ea7f",
+          "title": "2026-05-11 · Expanded Auto-review documentation",
+          "publishedAt": "2026-05-11",
+          "hash": "e74b5e4abc2d7f7f82b2d5c07900c672c11d49e9caeb00d29c97414598ab113e",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-ace02dedb1f8763fa1c1",
+          "title": "2026-05-26 · GPT-5.3-Codex and GPT-5.2 deprecated",
+          "publishedAt": "2026-05-26",
+          "hash": "ecd07fd60d6b1e0777a38859fbb7fcc0ecdf38093c836e8aa4487276e9e621be",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-ade80035ab82e7f4479c",
+          "title": "2026-08-20 · Codex and ChatGPT updates",
+          "publishedAt": "2026-08-20",
+          "hash": "75c3348d762c3446c26fa1097022af69bc9d87e3c4bcc685bfa5318fa2cde514",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-ba35cb2b21986d31308e",
+          "title": "2025-11-18 · Introducing GPT-5.1-Codex-Max",
+          "publishedAt": "2025-11-18",
+          "hash": "2827c63cc8731b64c9c9a91fe0d4062705c264d5cb9746b256de1edd0bc0c546",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-be06a1812ffe1c2f9488",
+          "title": "2026-05-08 · Codex app 26.506",
+          "publishedAt": "2026-05-08",
+          "hash": "7a0c70b95324f9adb75c90585c03e500a6f8365ef98f431a7c9a799170b56f39",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-bfdad6bcdc042a04007d",
+          "title": "2026-10-08 · GPT-6.1 Sol Ultrafast in Codex and ChatGPT Work",
+          "publishedAt": "2026-10-08",
+          "hash": "ab008db36cf11f6ebd63b7393f904e33c0747ee44ef6efa52fb708910c633aec",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-c15798e86763f7558daf",
+          "title": "2026-02-17 · Codex app 26.217",
+          "publishedAt": "2026-02-17",
+          "hash": "cc0c55f372b3e96201331fdef90468b2724d8ee9508fddcb8b3f0960aea988a8",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-c3131fb32f5caa85aa5a",
+          "title": "2026-02-10 · Codex app 26.210",
+          "publishedAt": "2026-02-10",
+          "hash": "2b35ed0dc3965fa3a2779a11e2ee54fe2c7999724303ac8b067a8d8292f0933c",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-c710f9fe8c1f7a324a9e",
+          "title": "2026-04-01 · Codex app 26.325, 26.331, 26.401",
+          "publishedAt": "2026-04-01",
+          "hash": "eb8b59ec1d0d75f4a3a6e0e2349b8646dc47daa77493db80689bdac76de34d74",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-c97f50ae4fb263ebda37",
+          "title": "2026-09-05 · Codex MCP server removed",
+          "publishedAt": "2026-09-05",
+          "hash": "241d469bb77ef24fbd4831c00038e62af98703f6621cc886f25f0327b4bbf5ec",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-cc8878009fed76552922",
+          "title": "2026-05-25 · ChatGPT for iOS 1.2026.139",
+          "publishedAt": "2026-05-25",
+          "hash": "44c93b7d1cd9f30b8f3d16fcfa66d07831699195ff1c273f5a25c7d641a5ef31",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-cf447231c09d02241a8b",
+          "title": "2026-06-04 · Codex app updates 26.602",
+          "publishedAt": "2026-06-04",
+          "hash": "79ddcf7d3af9482aeed2aca3909af6d415c92f27606575855ce6d02353070305",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-cf8420694df02221f7aa",
+          "title": "2026-08-25 · Browser extensions, site tools, and cloud sign-in",
+          "publishedAt": "2026-08-25",
+          "hash": "03b784b0cc0a89a4cc5d8890d75c8971df25e2c7a07756c0b78f52144bf0b1ec",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-cf9e38cd85ece40ca911",
+          "title": "2026-07-30 · Browser upgrades, multi-repository review, and image editing 26.727",
+          "publishedAt": "2026-07-30",
+          "hash": "febfe8de1155f6d658803bb81afa62851c15321287b992b87fb247eccf5c6121",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-cfd924985e2146df47ba",
+          "title": "2026-03-25 · Codex app 26.324",
+          "publishedAt": "2026-03-25",
+          "hash": "a0ac5ed0ea23d210773c21af032a76c8bdafc4a8019beb4f2a7db35022cf8284",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-d157565f316fbdee5aaf",
+          "title": "2025-11-13 · Introducing GPT-5.1-Codex and GPT-5.1-Codex-Mini",
+          "publishedAt": "2025-11-13",
+          "hash": "103e3b2aac6ed0bfa7a2d19fb61f0d7ff78e2cb7a22bf8559c7637de5f6d2d72",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-d1f514657e6e6a19e0d8",
+          "title": "2026-09-14 · GPT-5.3-Codex-Spark deprecated",
+          "publishedAt": "2026-09-14",
+          "hash": "b41cb1ae1d06803696a67de6dc4b61201797b552c74d40acb20b5b7b9b1c0f0c",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-d35b144f6e2668c17111",
+          "title": "2026-02-12 · Codex app 26.212",
+          "publishedAt": "2026-02-12",
+          "hash": "3ac2225a9327473584496358600894e46dd9e98f8503459dbb01204ac907aa2c",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-d46d3df3307e8e7834ab",
+          "title": "2026-09-08 · ChatGPT for iOS 1.2026.244",
+          "publishedAt": "2026-09-08",
+          "hash": "1eb7e15ab8ea6efd8e3c36b98cd65f036f3da524ee07843ccbb78937f5741730",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-d501ed25f897a5eda54b",
+          "title": "2026-09-11 · Quick chats with Pets and Appshots on Windows 26.908",
+          "publishedAt": "2026-09-11",
+          "hash": "f608a4634987f9974a9bddc927dcb602ed079e26eb956de9682507ac1395a0bc",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-d57dc4a32caa749fd741",
+          "title": "2026-03-16 · Codex app 26.313",
+          "publishedAt": "2026-03-16",
+          "hash": "2230462f9954a176a5f97265697048de71eccef51f685575f8b8d0b8600496a9",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-d6f7f6b90cafe95338ff",
+          "title": "2026-05-18 · ChatGPT for iOS 1.2026.132",
+          "publishedAt": "2026-05-18",
+          "hash": "267341d7e9439a6872d9ed49ccf36a54893d455c453b22622a75371587e9cfb0",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-d9e1a9042d130f391e11",
+          "title": "2026-06-02 · Build and deploy websites with Sites",
+          "publishedAt": "2026-06-02",
+          "hash": "d8f1d76c5b10b7e39f5dc4a0a0c8a474370641ec6502557cbd2bd5436a0d73a6",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-da200f677e281444984e",
+          "title": "2026-06-15 · ChatGPT for iOS 1.2026.160",
+          "publishedAt": "2026-06-15",
+          "hash": "6105b8ff167cb3c19e6233e708bb4fab07f52acdbaf04553287339c392b038d2",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-db4973c3d36a328b3199",
+          "title": "2026-06-01 · Terminal placement controls 26.601",
+          "publishedAt": "2026-06-01",
+          "hash": "30f5eb6b0eea7dd1ca5e543290691c2ddf121c0562a1130d8fd71e1ff771d618",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-db6ccbc93d87ffb38658",
+          "title": "2026-04-07 · Codex model availability update",
+          "publishedAt": "2026-04-07",
+          "hash": "3c0171519a4e84c2fb598ed79f57d89c24cd5e5abe8105ebf28eca1b439b15d3",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-dc60b0efbec68392fadd",
+          "title": "2026-04-09 · Codex app 26.406",
+          "publishedAt": "2026-04-09",
+          "hash": "8d35080794aeae9f837993050799fe1a6b07f4b54b9b16aeeecff47e297fa5bc",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-dfaa0b7a67414629d7e0",
+          "title": "2026-09-22 · GPT-6 Sol and Luna in Codex and ChatGPT Work",
+          "publishedAt": "2026-09-22",
+          "hash": "e3410c2a2011063f8995bf2678739f26f0f87deb0580ed31e4f007c2712ac392",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-e060b3cfd6b449d55500",
+          "title": "2026-08-26 · ChatGPT for iOS 1.2026.230",
+          "publishedAt": "2026-08-26",
+          "hash": "4e77f8c33beede15505c957ed1d0bf805d00346da494655b3d2bf2e63a402ede",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-e095042413acdac8503b",
+          "title": "2026-03-12 · Codex app 26.312",
+          "publishedAt": "2026-03-12",
+          "hash": "d5e4dbbb14e2eef10970b15ec425e9ada8f4141fb69d8c65f4eb28ebd4625301",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-e101be0d6125447f70ea",
+          "title": "2026-06-18 · Record & Replay and remote task handoff 26.616",
+          "publishedAt": "2026-06-18",
+          "hash": "2258dd23ce0206195e1614c77193af7fde0ac2da102c9ebaa653d3ab8f3bda62",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-e133ebc05461170182da",
+          "title": "2026-02-05 · Introducing GPT-5.3-Codex",
+          "publishedAt": "2026-02-05",
+          "hash": "10b6c94ccc51d8a68574b3de67b0cdfd552db8aa80970befc31852173515bf74",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-e3dfffe86bba19f23394",
+          "title": "2026-04-16 · Codex can now help with more of your work 26.415",
+          "publishedAt": "2026-04-16",
+          "hash": "214fb76408af3ce94dfa8cd76191762f575854c9d390d6e8967e0cea7295f04a",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-e5f8b0691ad61c4b42d5",
+          "title": "2025-11-07 · Introducing GPT-5-Codex-Mini",
+          "publishedAt": "2025-11-07",
+          "hash": "0a4501b99730ad716e173dd2c83dc9d762270e9db086c6246cfa37e92bea73dd",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-e6bb36aa04e3334613e0",
+          "title": "2026-08-18 · ChatGPT for iOS 1.2026.223",
+          "publishedAt": "2026-08-18",
+          "hash": "f8c6639f6ec0e80a42faaa70a82ed7551d18040de2ed960a1bb287c7a00d0675",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-eb575f8ba0a3512d8f1e",
+          "title": "2025-12-19 · Agent skills in Codex",
+          "publishedAt": "2025-12-19",
+          "hash": "a5c228183ca5774fcff08a50ff52429736cf812d1c563092495cdb5cfef36da9",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-eb7b283e2789869fd2b9",
+          "title": "2025-08-21 · Mid August update",
+          "publishedAt": "2025-08-21",
+          "hash": "4da1b4be5c2e6c85914d4a0d1ad171add6256ce6c1b76e325b0229f2af24fbae",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-ed90b73d0621a0ea2c21",
+          "title": "2026-05-21 · Appshots, goal mode, and more 26.519",
+          "publishedAt": "2026-05-21",
+          "hash": "4de5465bb90bd32e58f71435e45b5463c0f106ae6a100b8eab3df7319fded0f5",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-ee6f1bb3bc00c07eafb5",
+          "title": "2026-06-25 · Codex Remote reaches general availability",
+          "publishedAt": "2026-06-25",
+          "hash": "9c5074c3450cb9d8b517da838c14178010f6eb253ec9e2b3931f9b433a18d4a4",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-f25c57043e2668d39154",
+          "title": "2026-02-03 · Codex app 26.203",
+          "publishedAt": "2026-02-03",
+          "hash": "a7893b2c1a10476438aa6cea7934eb9f01085d6c57faf469991202cca3781fe9",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-f2640805c9b07301e871",
+          "title": "2026-01-14 · GPT-5.2-Codex API availability",
+          "publishedAt": "2026-01-14",
+          "hash": "6a3de6ae30c213670ae50b15018983096eaba08547f29eba36a0a864abea8fc2",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-fb8d6965e219ea8b1223",
+          "title": "2026-09-23 · ChatGPT for iOS 1.2026.258",
+          "publishedAt": "2026-09-23",
+          "hash": "0220745d1bb489eef747cf3e5c53f3e09d6d2dd1cb9cb24abe0178b71e58a714",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-fc444d9b24108862c75c",
+          "title": "2026-05-05 · Codex app 26.429",
+          "publishedAt": "2026-05-05",
+          "hash": "3547cd8dd03c0d0091d7fa6c0d219a9203cc25f295becb1bc8d85451d5e84656",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        },
+        {
+          "id": "desktop-changelog-fc50b4f2ad270873d4b0",
+          "title": "2026-02-05 · Codex app 26.205",
+          "publishedAt": "2026-02-05",
+          "hash": "9108e70ff8a9101f7f34a214251d8f1f7604eab3cdebee4efc48932c51aa1d91",
+          "url": "https://learn.chatgpt.com/docs/changelog"
+        }
+      ],
+      "lastEntryCount": 122,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "migration": {
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": null,
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "use-chatgpt": {
+      "hash": "1b2c58ea174a2383495afb40b7ea9b68e52bb69184999272fecce0ccb852d614",
+      "entries": [
+        {
+          "id": "use-chatgpt-9aecd0e3df6f126260a1",
+          "title": "Use ChatGPT",
+          "publishedAt": null,
+          "hash": "1ed4e4f6ea7d62354b8721acad11e0efba1f85cf471e69f9219daaaca6882509",
+          "url": "https://learn.chatgpt.com/docs/use-chatgpt"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "app": {
+      "hash": "ffeecdceb3750bd1188d139a5b2098ec3a573d31dc4e14cf51bca3a94ed916da",
+      "entries": [
+        {
+          "id": "app-9e2c32300d9efee6e310",
+          "title": "ChatGPT desktop app",
+          "publishedAt": null,
+          "hash": "ff4ee6b3cfb160615cfbe695f44598da19c2392b2ce422bd6a48658ac3918c14",
+          "url": "https://learn.chatgpt.com/docs/app"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "windows": {
+      "hash": "eb607c4a0efc256a00c48fcabca86e528ae78fbb0d6a483c921094a8430c611e",
+      "entries": [
+        {
+          "id": "windows-3c68907322069ecc0d49",
+          "title": "ChatGPT desktop app for Windows",
+          "publishedAt": null,
+          "hash": "0cb361cc6b11188e07baa31a725b1dedb1e93ae40afd96badca19fd77a9f767a",
+          "url": "https://learn.chatgpt.com/docs/windows/windows-app"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "projects": {
+      "hash": "cf43e166415303a25d53e25acd33591df1e91705665cd60d948c592432eaa16e",
+      "entries": [
+        {
+          "id": "projects-55b6fd4ca0a04a65a6ec",
+          "title": "Projects and chats",
+          "publishedAt": null,
+          "hash": "b6f448cab234826d50de5a5b0eabfe749770d9c0fe38be9772a32770a82a7091",
+          "url": "https://learn.chatgpt.com/docs/projects"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "settings": {
+      "hash": "ed7ee84be903a2b639d439aae41bfb883c9e8ad86ed54019315e8fdc9ae7820a",
+      "entries": [
+        {
+          "id": "settings-f05c73bcb8a52b06ba7d",
+          "title": "Settings",
+          "publishedAt": null,
+          "hash": "09b4b9827f42262f02f52a445581e307c1561d722ed1bfb6764b7ff9267a4979",
+          "url": "https://learn.chatgpt.com/docs/reference/settings"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "shortcuts": {
+      "hash": "ccd3477e2557835fd8024f8a280d8ce702ee979874961fa87573bb8f6dca6a95",
+      "entries": [
+        {
+          "id": "shortcuts-a3630044b68cb849f3ac",
+          "title": "Commands",
+          "publishedAt": null,
+          "hash": "af38ae1d5c57decfc9bbe670a9d271c33a32bb88a6568c31c096b402f548e6b3",
+          "url": "https://learn.chatgpt.com/docs/reference/commands"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "models": {
+      "hash": "66389b36cec937030c156866e158ee16c7e25310d270959e4f999ac6249109d4",
+      "entries": [
+        {
+          "id": "models-c272fa6faf4691de0d32",
+          "title": "Models",
+          "publishedAt": null,
+          "hash": "4a2a00a78b33e0223d51725b506fe73cb14c3a18cf32e4112f75173c8b15c572",
+          "url": "https://learn.chatgpt.com/docs/models"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "model-selection": {
+      "hash": "a05ade3c047e5dd880d095e72d9631bc86c1b92b99f39fe0b22c1f3e68933637",
+      "entries": [
+        {
+          "id": "model-selection-e2aba88174054f15c6e9",
+          "title": "Model selection",
+          "publishedAt": null,
+          "hash": "4900fec02cf816a0dd29a13ebfbc0ebc1cb5412e906a47a9c1aa1afb7dabd1dc",
+          "url": "https://learn.chatgpt.com/docs/model-selection"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "pricing": {
+      "hash": "6d35cdc116f19dfbeeaae74ef98d8bc5e99a66eff3e4706e137b52ccc91ce6cc",
+      "entries": [
+        {
+          "id": "pricing-ac4d1ae97fe8c4030f39",
+          "title": "Pricing",
+          "publishedAt": null,
+          "hash": "5f7f55cab18a0232b297a33aef8af990bc952dc2f323a3999d7dfe255bef6a21",
+          "url": "https://learn.chatgpt.com/docs/pricing"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "work": {
+      "hash": "3e2d840e71ecc577dd69410b7218a1ef1448937c1973e2aeb725a278946d8a47",
+      "entries": [
+        {
+          "id": "work-ef29f77d21b02bcd7a5b",
+          "title": "Get started with ChatGPT Work",
+          "publishedAt": null,
+          "hash": "a2f5429ce1e8e0bfbef07cd33be85ba9415a31e6d590f9a9502c8999d06b9b14",
+          "url": "https://learn.chatgpt.com/docs/get-started-with-work"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "plugins": {
+      "hash": "f04d6fbcdba796318b19c6c158d93f2721cdba3b6f3071b66c84a8b39e59ff15",
+      "entries": [
+        {
+          "id": "plugins-798e7051861817421a88",
+          "title": "Plugins",
+          "publishedAt": null,
+          "hash": "4c61c73d25935e52ea9f547bdeccb4c21f6b476c88b50eaa57a22f263c4b5bac",
+          "url": "https://learn.chatgpt.com/docs/plugins"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "skills": {
+      "hash": "031ed17503a14366e718139d613f5e9554f1d7ba56323f4e391af4e6c19e9777",
+      "entries": [
+        {
+          "id": "skills-b07ddb18ab3df15b8d3f",
+          "title": "Skills & Plugins",
+          "publishedAt": null,
+          "hash": "d74f131f2e9adf80f2e0ff807de20c60805df496d6dfd518fc81c97089279f25",
+          "url": "https://learn.chatgpt.com/docs/skills-and-plugins"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "personalize": {
+      "hash": "a8788bc1e498403a83251f07e1c8b385cd80b42ed13a611c06643a167f3cbef5",
+      "entries": [
+        {
+          "id": "personalize-bc8bd8e58aee78e4ee2e",
+          "title": "Personalize ChatGPT",
+          "publishedAt": null,
+          "hash": "e7129bd5646e306a9607047665fb1f9044fb6e46c5f6f2d135b43b543a983eab",
+          "url": "https://learn.chatgpt.com/docs/personalize"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "memories": {
+      "hash": "9a0d914516a7955fca72ad64712a9c460ae9554a5ea4d05e5dd30af0b20fc6c7",
+      "entries": [
+        {
+          "id": "memories-f6319305e74430f40495",
+          "title": "Memories",
+          "publishedAt": null,
+          "hash": "d486ad58ebb34b7ce98bf2f2a44d0fcfd40510864c3e6f810c90090454561a23",
+          "url": "https://learn.chatgpt.com/docs/customization/memories"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "chat-memory": {
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": null,
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "data": {
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": null,
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "temporary": {
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": null,
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "files": {
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": null,
+      "status": "error",
+      "error": "HTTP 403"
+    },
+    "artifacts": {
+      "hash": "efefb591d49d03691ebc950f7958820a3f907aa0c8669b76e081d5fc1e7e9b3a",
+      "entries": [
+        {
+          "id": "artifacts-b01fcedba9b45b1a578f",
+          "title": "Work with files",
+          "publishedAt": null,
+          "hash": "f28cf521a0dd72d3948e1d16d1f7fe760623a5538e1f2af809c42640899c5ae7",
+          "url": "https://learn.chatgpt.com/docs/artifacts-viewer"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "browser": {
+      "hash": "df43240c35d29dcf4b23ed0f0cd671b2c9594a942498025e5a25ab7f93942a49",
+      "entries": [
+        {
+          "id": "browser-9724500c38de1f5eb3fe",
+          "title": "Browser",
+          "publishedAt": null,
+          "hash": "bdcd95963f766ab26313b7ced9c3cad7a7d2427642037dcd20d34d80abad1810",
+          "url": "https://learn.chatgpt.com/docs/browser"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "browser-extension": {
+      "hash": "46efea2c2b934011f756fdd6c8e36f50a1dafa59361c4fa698a122567439d2b8",
+      "entries": [
+        {
+          "id": "browser-extension-4d1fc816e544597403cb",
+          "title": "Browser extension",
+          "publishedAt": null,
+          "hash": "59b1b5f9491ecbd488eebe64f8deffdeb47730f7c5daaab569bcf04742de2e73",
+          "url": "https://learn.chatgpt.com/docs/chrome-extension"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "review": {
+      "hash": "89e0ee4e23e3db7545a7645f3c2cfb50f3900591464ddf248ab5b2e85c828d8b",
+      "entries": [
+        {
+          "id": "review-51f19553660c18a83802",
+          "title": "Code review",
+          "publishedAt": null,
+          "hash": "007d2a769a5ad72b2e144ba456cdeb56c1d2b7038bd8be195226218296481f19",
+          "url": "https://learn.chatgpt.com/docs/code-review"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "environments": {
+      "hash": "61d7c9e190da8a6c3f8efdf8e00494d81646a92714185b7151b3670c63b87f58",
+      "entries": [
+        {
+          "id": "environments-20ced02f609e7e65cd15",
+          "title": "Codex environments",
+          "publishedAt": null,
+          "hash": "ec014ee2850adb7d02602fc401e98156aa3e6ad45583b6f8c694b3a539917a04",
+          "url": "https://learn.chatgpt.com/docs/environments/modes"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "worktrees": {
+      "hash": "80d4de06c45d47cff78ffd90cddd2a79215bfac89880d58a3ff161efac2d8379",
+      "entries": [
+        {
+          "id": "worktrees-8a988ff508a48ddef7e0",
+          "title": "Worktrees",
+          "publishedAt": null,
+          "hash": "70ec9a3758b24967462546b0eeeee60facf4e653f96949d3665ead6a2ccda9e8",
+          "url": "https://learn.chatgpt.com/docs/environments/git-worktrees"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "permissions": {
+      "hash": "4fa4b67fb9427257536a42ed51dda7be366c5dcf9ab86ae4b5270390fd150190",
+      "entries": [
+        {
+          "id": "permissions-0321994aea78f2d398ed",
+          "title": "Permissions",
+          "publishedAt": null,
+          "hash": "a68f7d4a64112b4c5bc0df8c6eae7529e99e360aa485d14889e36375ec59deaa",
+          "url": "https://learn.chatgpt.com/docs/permission-modes"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "scheduled": {
+      "hash": "9f87642565bb12a990de6f72ce53f9b4688a607757fa2b2c999db751b078ecee",
+      "entries": [
+        {
+          "id": "scheduled-803acf44becc0ece0309",
+          "title": "Scheduled tasks",
+          "publishedAt": null,
+          "hash": "9ff6d32ebc280d165a978dbc7b474ca68906bd967d2852710a9daf47af4d37b7",
+          "url": "https://learn.chatgpt.com/docs/automations"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "notifications": {
+      "hash": "35122297f2a087e8cd6f50e7f427c6c49510d26600644e5c4cb18610eaffedbf",
+      "entries": [
+        {
+          "id": "notifications-9fd2d6a4e5239835ae79",
+          "title": "Notifications",
+          "publishedAt": null,
+          "hash": "61faa42c887a6379c546a76adae979a021c429e3d36badf32723795db0cb063f",
+          "url": "https://learn.chatgpt.com/docs/notifications"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "voice": {
+      "hash": "5fa4e25d9f6c2cdcfb573074f348e49f3c3bd0af70efc2168be9448923b6ede7",
+      "entries": [
+        {
+          "id": "voice-439fa9f1c21088650e22",
+          "title": "ChatGPT Voice",
+          "publishedAt": null,
+          "hash": "1e5eb6ba63521ef1defcff5735881f1e55445d55e4ab5f4131446824d727da20",
+          "url": "https://learn.chatgpt.com/docs/features/voice"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "appshots": {
+      "hash": "fd168ce5685e3ce36f9842ab2cebfe4d60712d4d3be725dddcb22c50e0a1085c",
+      "entries": [
+        {
+          "id": "appshots-acdadc76067d9224326e",
+          "title": "Appshots",
+          "publishedAt": null,
+          "hash": "6480e939754519bd646cd5a906fabbc0b649e221b2c679222e7ad65eff57e4c9",
+          "url": "https://learn.chatgpt.com/docs/appshots"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "computer-use": {
+      "hash": "98f93fc952fb436481bf04d0c10454622bb7c37eacbbae007b35c57333605e14",
+      "entries": [
+        {
+          "id": "computer-use-ec21f0dba84816fbdf5b",
+          "title": "Computer Use",
+          "publishedAt": null,
+          "hash": "f8b02a8afd6645a02cf03f2447565ec397cc7c145710b34a982b0171a97ebdfd",
+          "url": "https://learn.chatgpt.com/docs/computer-use"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "app-updates": {
+      "hash": "4eaf5a2f229b1d142304cd3b3313fc1e00f39eaee4678e046a302b77550fbbfe",
+      "entries": [
+        {
+          "id": "app-updates-2f129d20969ec4d2e7af",
+          "title": "Manage app updates",
+          "publishedAt": null,
+          "hash": "c29fb90cba5b0fe37f3e92090f129adaa9cffe1091ec66047ec96906d5fc06cc",
+          "url": "https://learn.chatgpt.com/docs/enterprise/manage-app-updates"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "search": {
+      "hash": "9da9818e93a888f9287372a4e16cb617293b2a4b189c174967a232dad28b2d09",
+      "entries": [
+        {
+          "id": "search-27c8c7bd17219732c19c",
+          "title": "Web search",
+          "publishedAt": null,
+          "hash": "c2f4c666e168fbd5c0b3b22791e03ad18e599b539622cfd736af88efa57635a9",
+          "url": "https://learn.chatgpt.com/docs/web-search"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "images": {
+      "hash": "1c15a912528083b139d65e68773393aaa969dad879b2b245702b530ef0941469",
+      "entries": [
+        {
+          "id": "images-7f4bf97ad90ab4a02d55",
+          "title": "Image generation",
+          "publishedAt": null,
+          "hash": "9b6f2bcd9d104f721ee6bdde942eadeb3356ff84a86ab49ae38bb457f5338dc6",
+          "url": "https://learn.chatgpt.com/docs/image-generation"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "image-inputs": {
+      "hash": "bcb94cf1591ec13821cb048c13ff89cbf1d5f2aa0391405c74afcc621c097cb7",
+      "entries": [
+        {
+          "id": "image-inputs-c96a29990021f82db18a",
+          "title": "Image inputs",
+          "publishedAt": null,
+          "hash": "b98551719a98e3e077e37e42cd023f8e2923d8457babcd300f74566c23b6c30a",
+          "url": "https://learn.chatgpt.com/docs/image-inputs"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "terminal": {
+      "hash": "1f606db59619981b22eea9a1075f9c272f2eb0fc0c8d6453548536b6effc0def",
+      "entries": [
+        {
+          "id": "terminal-9790141be201cc916787",
+          "title": "Integrated terminal",
+          "publishedAt": null,
+          "hash": "077561acc8d1438ab545307d68ed12c74a656a888687aec6c6edf686f8168acf",
+          "url": "https://learn.chatgpt.com/docs/integrated-terminal"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "pets": {
+      "hash": "f3d9ac31d0a99caa84ea3a391c8fe172e1a6d288002b87f2fe129c8861e2fd85",
+      "entries": [
+        {
+          "id": "pets-0e350e42386a955b3214",
+          "title": "Pets",
+          "publishedAt": null,
+          "hash": "b53e1701c49c1f031dd903f5bf42c8d80463d8a966b25d84360b2a1a3fcc62f6",
+          "url": "https://learn.chatgpt.com/docs/pets"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "space": {
+      "hash": "76302e62c5cd1efc30ba9d2fb0e0235f3083b402cec14ee31a67ffda2d9cbd11",
+      "entries": [
+        {
+          "id": "space-5deccb7a882b581f81ae",
+          "title": "ChatGPT Space",
+          "publishedAt": null,
+          "hash": "e3352744439123ce89b53ea7d4706dbe4d9f8ccbeaadc7891c6272983cf8db2f",
+          "url": "https://learn.chatgpt.com/docs/space"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "remote": {
+      "hash": "d6dea0b0280c059ee558a32c50e30fe870dd7be6f573bf238b3c9a8d351e71cd",
+      "entries": [
+        {
+          "id": "remote-d3fdc383ee88189a1af1",
+          "title": "Remote connections",
+          "publishedAt": null,
+          "hash": "e9d32e158c82a1425ce4a9aa9eeef002bd7f36e25b1832b18332042bacb0a78a",
+          "url": "https://learn.chatgpt.com/docs/remote-connections"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "developer-settings": {
+      "hash": "41fc80db675c61f04e007a7e969bcca57573589902d55e22867678161dfc749e",
+      "entries": [
+        {
+          "id": "developer-settings-d38afa89254fa059c40a",
+          "title": "Developer settings",
+          "publishedAt": null,
+          "hash": "bd714d44f6ecab33e8a867883525efa2d57bd15c4b5215eff4a5fa253646849b",
+          "url": "https://learn.chatgpt.com/docs/developer-settings"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "openai-announcements": {
+      "hash": "4cf99de60a18e5d8fc3b069bed9e548988601ec3b101f3f581b11e640b157083",
+      "entries": [
+        {
+          "id": "openai-announcements-0001057cafdd5edc8a49",
+          "title": "Introducing ChatGPT Futures: Class of 2026",
+          "publishedAt": "2026-05-06",
+          "hash": "aba78dfd57e8791ffb31049372bfa884a6165d7ba19c9a854c19360cf2f2ea13",
+          "url": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026"
+        },
+        {
+          "id": "openai-announcements-007b2c119143a8d76ea1",
+          "title": "Instacart and OpenAI partner on AI shopping experiences",
+          "publishedAt": "2025-12-08",
+          "hash": "392d7347d4ee090e77affdaf35672dfaed32c9c273e238aef017edd27cf01d78",
+          "url": "https://openai.com/index/instacart-partnership"
+        },
+        {
+          "id": "openai-announcements-009f70280ebcc29e7c90",
+          "title": "OpenAI to acquire Ona",
+          "publishedAt": "2026-06-11",
+          "hash": "4d4485f1d2e7988534f8071ff55c3e9e22cbd13020b3dbd1ea0ed97ee121351b",
+          "url": "https://openai.com/index/openai-to-acquire-ona"
+        },
+        {
+          "id": "openai-announcements-00ef73acc9a89dfcb94b",
+          "title": "Hoax: Fake Russian “troll” error message",
+          "publishedAt": "2024-10-01",
+          "hash": "eabb422c2b1efbedbb0c6af25744c3a3ecd8d40cb2602cfc7ffab47b75fe765b",
+          "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-hoax-russian-troll"
+        },
+        {
+          "id": "openai-announcements-01a8b52eee8198f545c2",
+          "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+          "publishedAt": "2026-05-05",
+          "hash": "5b19bb634a6c011eecf1ba38e049f4cb987eecdd0eaa832ce0f8024fa3a352bc",
+          "url": "https://openai.com/index/gpt-5-5-instant"
+        },
+        {
+          "id": "openai-announcements-020ab4b4b78d46cf764a",
+          "title": "Updating our Model Spec with teen protections",
+          "publishedAt": "2025-12-18",
+          "hash": "020a86f5d8e05ef56bb9740ffa5d6e6eb678ea02e0bb3f0d6b1d1b05d41fdc44",
+          "url": "https://openai.com/index/updating-model-spec-with-teen-protections"
+        },
+        {
+          "id": "openai-announcements-032a72a6e2127c3b4bf2",
+          "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
+          "publishedAt": "2026-06-03",
+          "hash": "1d90b6c86088040eedfd08705e972895f18312e357307203ee6be40a2903a067",
+          "url": "https://openai.com/index/wasmer"
+        },
+        {
+          "id": "openai-announcements-032e9a0593ca381c381d",
+          "title": "Providing ChatGPT to the Entire U.S. Federal Workforce",
+          "publishedAt": "2025-08-06",
+          "hash": "2940dff52f35ce871ef14c5a6e03a1b8211dc76715cbbf73cb3d5c1d2304fa76",
+          "url": "https://openai.com/index/providing-chatgpt-to-the-entire-us-federal-workforce"
+        },
+        {
+          "id": "openai-announcements-03a24c4610632eb60df7",
+          "title": "Sparking a more productive company with ChatGPT Enterprise",
+          "publishedAt": "2024-03-06",
+          "hash": "a3c8914bf31c473092a85c667e04cb737cf30c358e0d6286b0fb0a3a31ea473b",
+          "url": "https://openai.com/index/match-group"
+        },
+        {
+          "id": "openai-announcements-043e5abd402665567d8a",
+          "title": "BBVA puts AI at the core of banking with OpenAI",
+          "publishedAt": "2026-06-11",
+          "hash": "0117369ef2259a26cc0168b161213baf85763b77294ab48ed6526f0755a8a3dd",
+          "url": "https://openai.com/index/bbva"
+        },
+        {
+          "id": "openai-announcements-058aaf1f9b7b50574069",
+          "title": "Fighting the New York Times’ invasion of user privacy",
+          "publishedAt": "2025-11-12",
+          "hash": "b9c49147578658a72c515476abe63a1772860d3f460dc9ab584ce7d090644b90",
+          "url": "https://openai.com/index/fighting-nyt-user-privacy-invasion"
+        },
+        {
+          "id": "openai-announcements-059597e6b10663e40960",
+          "title": "1 million business customers putting AI to work",
+          "publishedAt": "2025-11-05",
+          "hash": "70b5d14a8bddcb9246eecee161308e5cbc8daa478de41f73ae275dacc4a1ba4b",
+          "url": "https://openai.com/index/1-million-businesses-putting-ai-to-work"
+        },
+        {
+          "id": "openai-announcements-0606f63a1fb875903957",
+          "title": "How we’re responding to The New York Times’ data demands in order to protect user privacy",
+          "publishedAt": "2025-06-05",
+          "hash": "6ea36cf1d9c4cc2146b46a5c456853d5ff26bfa3dbe66aa6d983d8675276e45b",
+          "url": "https://openai.com/index/response-to-nyt-data-demands"
+        },
+        {
+          "id": "openai-announcements-068c9bc43551fee5154c",
+          "title": "How ChatGPT adoption has expanded",
+          "publishedAt": "2026-06-30",
+          "hash": "a1c8bf4fe74ba467dacd4ea00f4853c59df8e3fecfa669079b0b8bcec3c45f11",
+          "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded"
+        },
+        {
+          "id": "openai-announcements-082c4173c70b04519142",
+          "title": "Building AI infrastructure with the Effingham County community",
+          "publishedAt": "2026-07-22",
+          "hash": "0af5f9c0539977b4ba55b21384c52b612b417220146f7ec3214128f4cf4b35f0",
+          "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community"
+        },
+        {
+          "id": "openai-announcements-083efae304f8dcca292d",
+          "title": "Operations workflows with ChatGPT Work",
+          "publishedAt": "2026-05-15",
+          "hash": "18f0e4de8f4484e004fb0d759399d6ada62e38163ae2b6d1b8f840918e738f6c",
+          "url": "https://openai.com/academy/chatgpt-work/how-business-operations-teams-use-codex"
+        },
+        {
+          "id": "openai-announcements-086eb057df4745d84c70",
+          "title": "Using Codex across the software development lifecycle",
+          "publishedAt": "2025-11-20",
+          "hash": "b65c621d5e4ccd0cc786476df11d9d13c4fd56c7bf2deb25675c5cebb2121120",
+          "url": "https://openai.com/business/learn/using-codex-across-the-software-development-lifecycle"
+        },
+        {
+          "id": "openai-announcements-087387dbcb427fbcaeda",
+          "title": "Strengthening ChatGPT’s responses in sensitive conversations",
+          "publishedAt": "2025-10-27",
+          "hash": "266ede08cee089e60ea1f6ad6d856ec7d25caf6436ded33d6b39b0c89940e91c",
+          "url": "https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations"
+        },
+        {
+          "id": "openai-announcements-08792e01b9a92ec8f6c4",
+          "title": "New ways to buy ChatGPT ads",
+          "publishedAt": "2026-05-05",
+          "hash": "9622de9430cc7175f09f48852111c415c5798059aec3544035e39bbd3b172da2",
+          "url": "https://openai.com/index/new-ways-to-buy-chatgpt-ads"
+        },
+        {
+          "id": "openai-announcements-0a0c5c86c5bf86bec468",
+          "title": "Codex is now generally available",
+          "publishedAt": "2025-10-06",
+          "hash": "0ab047ef4f075ff7dc0246ebfe53ecfc839b09803f711699e4ab5387fb38592a",
+          "url": "https://openai.com/index/codex-now-generally-available"
+        },
+        {
+          "id": "openai-announcements-0a65f327454cc9964deb",
+          "title": "Building a data-driven, efficient culture with AI",
+          "publishedAt": "2024-03-18",
+          "hash": "0db324d167a0f103fb10d5884db358d8c8b1aacec9eca510c2d799a40ba6ff6d",
+          "url": "https://openai.com/index/holiday-extras"
+        },
+        {
+          "id": "openai-announcements-0ad9fbef8c874c3e515c",
+          "title": "Continuously hardening ChatGPT Atlas against prompt injection",
+          "publishedAt": "2025-12-22",
+          "hash": "82126c97aef01c6305c95483ce456d2e6995231e8cf68c1e1fac8baafd53d149",
+          "url": "https://openai.com/index/hardening-atlas-against-prompt-injection"
+        },
+        {
+          "id": "openai-announcements-0b3bb9ee029b76221ad8",
+          "title": "Learn ChatGPT workflows for sales teams",
+          "publishedAt": "2026-04-10",
+          "hash": "22a957745f403da13a18ff1011073e41682718514ea83b8f2721457e416b4f28",
+          "url": "https://openai.com/academy/sales"
+        },
+        {
+          "id": "openai-announcements-0b5a688ac44522d68511",
+          "title": "Polimill builds Japan's next-generation public AI infrastructure",
+          "publishedAt": "2026-08-31",
+          "hash": "92f07997ac37363d23334873f672dc7f36717bbe1c71837061765e59f7c946fa",
+          "url": "https://openai.com/index/polimill"
+        },
+        {
+          "id": "openai-announcements-0b992bc46863ad9fa5c1",
+          "title": "Introducing ChatGPT Pulse",
+          "publishedAt": "2025-09-25",
+          "hash": "cb2284ec07c1747de0dab742d744d8bfc405c98dbe680b99a9f0de76642cc81b",
+          "url": "https://openai.com/index/introducing-chatgpt-pulse"
+        },
+        {
+          "id": "openai-announcements-0bb946f0c421538942e4",
+          "title": "Introducing ChatGPT for Financial Services",
+          "publishedAt": "2026-09-10",
+          "hash": "a4fbeb6e7ee74410f00c529638b9fdc69b5cef06fbd0e9569806595a796fa7df",
+          "url": "https://openai.com/index/introducing-chatgpt-financial-services"
+        },
+        {
+          "id": "openai-announcements-0c531abf3bf62e69511c",
+          "title": "Minnesota’s Enterprise Translation Office uses ChatGPT to bridge language gaps",
+          "publishedAt": "2024-09-26",
+          "hash": "cddd40ed798d1805f7bb11fa001e1369836b2462b587f90a5a12f2bcd5f603b1",
+          "url": "https://openai.com/index/state-of-minnesota"
+        },
+        {
+          "id": "openai-announcements-0e82d8998833621ad9c9",
+          "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
+          "publishedAt": "2026-08-10",
+          "hash": "dee3c4b9ded1b041abfc05bf3fc8ca39d4792034cc7639dde27ce87f0af6d7f3",
+          "url": "https://openai.com/index/virgin-atlantic/chatgpt-work"
+        },
+        {
+          "id": "openai-announcements-0ed7a8a167fee1d4ad4d",
+          "title": "Rakuten fixes issues twice as fast with Codex",
+          "publishedAt": "2026-03-11",
+          "hash": "aa22ce4d73ed680888f5d96100e24b36002d17a9692ac0047faa41d935a6b35a",
+          "url": "https://openai.com/index/rakuten"
+        },
+        {
+          "id": "openai-announcements-0f5953f545f0f0bc4d0a",
+          "title": "ChatGPT for marketing teams",
+          "publishedAt": "2026-04-10",
+          "hash": "6000dd024ead8fcec0c544179f4c067bba126e9bfa87b4031f83a94526b079a2",
+          "url": "https://openai.com/academy/marketing"
+        },
+        {
+          "id": "openai-announcements-0f697d747d9cd2888acc",
+          "title": "Introducing ChatGPT Images 2.0",
+          "publishedAt": "2026-04-21",
+          "hash": "23f56f37bcbe4881c2c300a7c9da22bf015bff818c38f1852398386b349c4f2b",
+          "url": "https://openai.com/index/introducing-chatgpt-images-2-0"
+        },
+        {
+          "id": "openai-announcements-0fda1a1b5a24b71ccbe1",
+          "title": "How an astrophysicist uses Codex to help simulate black holes",
+          "publishedAt": "2026-06-11",
+          "hash": "9b5e3707c4040cf0241b2cd8cf4278032609af54c40242cdd75b92173c422182",
+          "url": "https://openai.com/index/using-codex-to-simulate-black-holes"
+        },
+        {
+          "id": "openai-announcements-0ff444850a32f480e770",
+          "title": "OpenAI models, Codex, and Managed Agents come to AWS",
+          "publishedAt": "2026-04-28",
+          "hash": "197b2432049d84ed7d8012a194f4cd6f970056f8bd3356061b1089b595e17f3c",
+          "url": "https://openai.com/index/openai-on-aws"
+        },
+        {
+          "id": "openai-announcements-101605e3044aa24dfa0a",
+          "title": "New ways to learn math and science in ChatGPT",
+          "publishedAt": "2026-03-10",
+          "hash": "bb7c95450a85d8848deba0bee9c17c4a41724ee5461ac7c2ad86adf961a5056b",
+          "url": "https://openai.com/index/new-ways-to-learn-math-and-science-in-chatgpt"
+        },
+        {
+          "id": "openai-announcements-1018915a22e8f7b1692c",
+          "title": "Sales workflows with ChatGPT Work",
+          "publishedAt": "2026-07-14",
+          "hash": "30b0ea6da5201dd64c29859729be470ec922f5f87592a0b36996ae13414441c9",
+          "url": "https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex"
+        },
+        {
+          "id": "openai-announcements-1018bc4132b96ab8133b",
+          "title": "How the voices for ChatGPT were chosen",
+          "publishedAt": "2024-05-19",
+          "hash": "c7f6da1e206a2f3e5c13ecba144ea190b4ccdbb643b170b03d77f713b8ddf362",
+          "url": "https://openai.com/index/how-the-voices-for-chatgpt-were-chosen"
+        },
+        {
+          "id": "openai-announcements-10495d0e64701fb31178",
+          "title": "How OpenAI uses ChatGPT Atlas at work",
+          "publishedAt": "2025-11-18",
+          "hash": "17f06619bafdd45eaedab1f22ed23b39439073ff97fe1a9ec2a48f1319d63946",
+          "url": "https://openai.com/business/learn/how-openai-uses-chatgpt-atlas-at-work"
+        },
+        {
+          "id": "openai-announcements-10ab1c39be1497734c70",
+          "title": "Introducing GPT-5.2",
+          "publishedAt": "2025-12-11",
+          "hash": "c27a52ff8a77c7486cdbd2ae7982268d69b9d18cde6f39d6718c2b927ac66fae",
+          "url": "https://openai.com/index/introducing-gpt-5-2"
+        },
+        {
+          "id": "openai-announcements-10fe9d0c673254a4bd77",
+          "title": "Writing with canvas in ChatGPT",
+          "publishedAt": "2025-04-08",
+          "hash": "da529a12d4bbab869786b74064413e8334366a11dd2d3139aba9a87db482beda",
+          "url": "https://openai.com/business/learn/writing-with-canvas-in-chatgpt"
+        },
+        {
+          "id": "openai-announcements-11f49bce2d7cc12592b2",
+          "title": "Surging developer productivity with custom GPTs",
+          "publishedAt": "2024-06-18",
+          "hash": "7ff067f8c8db7d9a91274522c2acf6aba6738e3e0db7811431dbb64aec611440",
+          "url": "https://openai.com/index/paf"
+        },
+        {
+          "id": "openai-announcements-12688eae171370cd5a0f",
+          "title": "Global news partnerships: Le Monde and Prisa Media",
+          "publishedAt": "2024-03-13",
+          "hash": "43da98fb42c4dc0a6b646e7ea1938497f874314ebff3a3c6b87b1a82eefc2ad6",
+          "url": "https://openai.com/index/global-news-partnerships-le-monde-and-prisa-media"
+        },
+        {
+          "id": "openai-announcements-129511f54188e7df4ed8",
+          "title": "New ways to learn and teach with ChatGPT Work and Codex",
+          "publishedAt": "2026-08-04",
+          "hash": "ec3f2e22b24c67ac7e57e884c7ac59d9597e58765d349093127a47e17466aeaa",
+          "url": "https://openai.com/index/learn-teach-chatgpt-work-codex"
+        },
+        {
+          "id": "openai-announcements-13d4a9bfec6354847044",
+          "title": "GPT-5.1-Codex-Max System Card",
+          "publishedAt": "2025-11-19",
+          "hash": "db8194eda070ef70b4cc650434bc92bb290b146ddebad59c287ffe7a64260ce9",
+          "url": "https://openai.com/index/gpt-5-1-codex-max-system-card"
+        },
+        {
+          "id": "openai-announcements-15823ae5556ea01d28f4",
+          "title": "Introducing the Codex app",
+          "publishedAt": "2026-02-02",
+          "hash": "6384601c3c10f1b115db3293c7e2a9bd4d7564ec0df1dc8a476b187a5c651d86",
+          "url": "https://openai.com/index/introducing-the-codex-app"
+        },
+        {
+          "id": "openai-announcements-15e34c2e2d89d828b731",
+          "title": "Introducing ChatGPT Health",
+          "publishedAt": "2026-01-07",
+          "hash": "6733f53c7453b340aecc85be7a86105c5980dbfad2082e2f43931f95f2c9b7d6",
+          "url": "https://openai.com/index/introducing-chatgpt-health"
+        },
+        {
+          "id": "openai-announcements-16594c97bd60c5236263",
+          "title": "STADLER reshapes knowledge work at a 230-year-old company",
+          "publishedAt": "2026-03-27",
+          "hash": "3282584405cacef8d52f670e55aed6ccd13efda5bac44c26e47b52063f43b3f1",
+          "url": "https://openai.com/index/stadler"
+        },
+        {
+          "id": "openai-announcements-1667df8c425045fb8a67",
+          "title": "AI is becoming a first hire for small businesses",
+          "publishedAt": "2026-05-25",
+          "hash": "8647aec1a72af941fd8430ee7b3afbfb3fd7f792755b2bed95bf888dfe39936c",
+          "url": "https://openai.com/index/ai-first-hire-small-business"
+        },
+        {
+          "id": "openai-announcements-18096a712e7fa8d9fbda",
+          "title": "OpenAI and NORAD team up to bring new magic to “NORAD Tracks Santa”",
+          "publishedAt": "2025-12-01",
+          "hash": "72760dbb0d832759256030ccf667afa5644c0363b6b587dc1c77fa16b78a9072",
+          "url": "https://openai.com/index/norad-holiday-collaboration"
+        },
+        {
+          "id": "openai-announcements-1811bb452cd9bda48846",
+          "title": "March 20 ChatGPT outage: Here’s what happened",
+          "publishedAt": "2023-03-24",
+          "hash": "d5c2c58f175650e074096d8263064dd286872d21bb0b2f1e6a9863d89b9ad3f2",
+          "url": "https://openai.com/index/march-20-chatgpt-outage"
+        },
+        {
+          "id": "openai-announcements-183d58a311d515e31a24",
+          "title": "Addendum to o3 and o4-mini system card: Codex",
+          "publishedAt": "2025-05-16",
+          "hash": "5bb04734f5b3b0fae1400fb83b9d4868894f2b70e5c524c20f0214e1d81f032b",
+          "url": "https://openai.com/index/o3-o4-mini-codex-system-card-addendum"
+        },
+        {
+          "id": "openai-announcements-18f13afbd6901fb3b6c8",
+          "title": "Work with Codex from anywhere",
+          "publishedAt": "2026-05-14",
+          "hash": "d17d17817f8d5c8cc0da701a315e5675cf1e31a435d8aab172ead41d89b50c1f",
+          "url": "https://openai.com/index/work-with-codex-from-anywhere"
+        },
+        {
+          "id": "openai-announcements-1b257354b88be0768ec9",
+          "title": "Scaling Codex to enterprises worldwide",
+          "publishedAt": "2026-04-21",
+          "hash": "7a67b38b05218c24cffa92494949744a0a0b6d01d85f65e1bf28acbce3a8c366",
+          "url": "https://openai.com/index/scaling-codex-to-enterprises-worldwide"
+        },
+        {
+          "id": "openai-announcements-1ba2801c79e44bbc5741",
+          "title": "Equipping workers with insights about compensation",
+          "publishedAt": "2026-03-17",
+          "hash": "724666d3c1d490d47c86411eb67e3a46df51912fc3e67d6d59d24468630da29f",
+          "url": "https://openai.com/index/equipping-workers-with-insights-about-compensation"
+        },
+        {
+          "id": "openai-announcements-1c04d5e205f83e52ea8d",
+          "title": "AI literacy resources for teens and parents",
+          "publishedAt": "2025-12-18",
+          "hash": "af69c0187af6a3097846ecc19b3a5310930ec42489c4d0dd1ec9d0c23c3795dc",
+          "url": "https://openai.com/index/ai-literacy-resources-for-teens-and-parents"
+        },
+        {
+          "id": "openai-announcements-1dcea8b0f8acab144d94",
+          "title": "Introducing ChatGPT Images 2.5",
+          "publishedAt": "2026-09-08",
+          "hash": "4b32ad1fd9e33537ef07caa3af362f020c0296fc64202238c3a5f61151b9064e",
+          "url": "https://openai.com/index/introducing-chatgpt-images-2-5"
+        },
+        {
+          "id": "openai-announcements-2015b07b78a1afecfd58",
+          "title": "ChatGPT is now a partner for your most ambitious work",
+          "publishedAt": "2026-07-09",
+          "hash": "70b64138297bdcaa581a26e7bddd08c5310b0604e664254e4b2decf43b118db1",
+          "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work"
+        },
+        {
+          "id": "openai-announcements-20383a0947db90dd7911",
+          "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
+          "publishedAt": "2026-05-16",
+          "hash": "ac636aa215d335454a08fca5556de1e6c6ef417cfacd039bab9b0d15106e2a4f",
+          "url": "https://openai.com/index/malta-chatgpt-plus-partnership"
+        },
+        {
+          "id": "openai-announcements-20e34cbfb714919ccbb0",
+          "title": "Codex for (almost) everything",
+          "publishedAt": "2026-04-16",
+          "hash": "05b858d3d5f258802e64d8018e68325ab16568b8d240fd11bb56f2eff46cb3e0",
+          "url": "https://openai.com/index/codex-for-almost-everything"
+        },
+        {
+          "id": "openai-announcements-2121f89a615698299939",
+          "title": "Free ChatGPT for transitioning U.S. servicemembers and veterans",
+          "publishedAt": "2025-11-10",
+          "hash": "238b00a94cc377c32ee078d632a9bc98672746ed92272d7ad6a5e17ba96ff7f4",
+          "url": "https://openai.com/index/chatgpt-for-veterans"
+        },
+        {
+          "id": "openai-announcements-2167384f51e2a4466793",
+          "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+          "publishedAt": "2026-10-01",
+          "hash": "f8aec2fbfdb843a8eb14466183cd4282c637d7fe70ad98948072b94b1244ed43",
+          "url": "https://openai.com/index/the-den-family-social"
+        },
+        {
+          "id": "openai-announcements-21b0842f98ec05c2d965",
+          "title": "Powering next generation applications with OpenAI Codex",
+          "publishedAt": "2022-05-24",
+          "hash": "d80793961b8059bcfa14a6d19e35210c401e24c2d2cd47c8fed724595c8818cd",
+          "url": "https://openai.com/index/codex-apps"
+        },
+        {
+          "id": "openai-announcements-22c2ff8bad8cfd85b49c",
+          "title": "Codex now offers more flexible pricing for teams",
+          "publishedAt": "2026-04-02",
+          "hash": "9acb7f45bac38dc7fbcf01d97aa3f11854cec496d7e70d14b88390aa75498fb2",
+          "url": "https://openai.com/index/codex-flexible-pricing-for-teams"
+        },
+        {
+          "id": "openai-announcements-2362245b3edefabecbef",
+          "title": "Writing with ChatGPT",
+          "publishedAt": "2026-04-10",
+          "hash": "3e10abc40de789f328b8256219f6a38592e46cd053ecb4c76850ac0582d44a90",
+          "url": "https://openai.com/academy/writing"
+        },
+        {
+          "id": "openai-announcements-240a05c02f85d4da60dc",
+          "title": "Introducing ChatGPT Atlas, the browser with ChatGPT built in",
+          "publishedAt": "2025-10-21",
+          "hash": "ac91ac85c0ee73785c7baafee1fd112b0e93f249f26829bce63bbb90a1aac024",
+          "url": "https://openai.com/index/introducing-chatgpt-atlas"
+        },
+        {
+          "id": "openai-announcements-24cb1873b9d2d37a522c",
+          "title": "OpenAI helps Hyatt advance AI among colleagues",
+          "publishedAt": "2026-04-20",
+          "hash": "94bda8b655f78ae0008563458b206b588cab1be84bb7d3946af8677f326421a1",
+          "url": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise"
+        },
+        {
+          "id": "openai-announcements-251f6337f181cc09a2f4",
+          "title": "A business that scales with the value of intelligence",
+          "publishedAt": "2026-01-18",
+          "hash": "9975490b5a229ff898c224ff1b834900240c68dfa065a165bb98308c97f200ad",
+          "url": "https://openai.com/index/a-business-that-scales-with-the-value-of-intelligence"
+        },
+        {
+          "id": "openai-announcements-25b33fecf05b4e543a47",
+          "title": "Market research with ChatGPT",
+          "publishedAt": "2025-04-13",
+          "hash": "4ea31192dfeaf2ed99bc33be87d34b587d311c0953bbb085ee5b07d1ea8b2c6b",
+          "url": "https://openai.com/business/learn/market-research-with-chatgpt"
+        },
+        {
+          "id": "openai-announcements-25e141fd02c9e561491c",
+          "title": "How Ramp engineers accelerate code review with Codex",
+          "publishedAt": "2026-05-20",
+          "hash": "a312ec0d4475de44e1ecdcc903bca98204b0d1f18dcf33668cb9f8eb9d64b5ee",
+          "url": "https://openai.com/index/ramp"
+        },
+        {
+          "id": "openai-announcements-27870879434904650fc8",
+          "title": "PRC-linked influence operations are targeting AI debates in the US",
+          "publishedAt": "2026-06-10",
+          "hash": "446f1a0ff0c6b2f5e9cb8bb09b4ed643bc357c2cb659f3b5b945f8aa04e45563",
+          "url": "https://openai.com/index/prc-linked-influence-operations-ai-debates"
+        },
+        {
+          "id": "openai-announcements-27d219dd79b5e1d1b433",
+          "title": "Datadog uses Codex for system-level code review",
+          "publishedAt": "2026-01-09",
+          "hash": "d33ca991bb458dd67bc95a879dedcc24b42a2e492e83f8736b1c18a4c43d1434",
+          "url": "https://openai.com/index/datadog"
+        },
+        {
+          "id": "openai-announcements-292f631c6a64d1a189a4",
+          "title": "Expanding data residency access to business customers worldwide",
+          "publishedAt": "2025-11-25",
+          "hash": "2cfb8a8b3481a85db7d70cc07b3553bc4853da4b8acadcaabac786ed20f464b4",
+          "url": "https://openai.com/index/expanding-data-residency-access-to-business-customers-worldwide"
+        },
+        {
+          "id": "openai-announcements-2a5c0cad5d8b2f9d8e4a",
+          "title": "Premium seats are coming to ChatGPT Business",
+          "publishedAt": "2026-08-10",
+          "hash": "d1610caa5a3e924f2098addf40b0d08d6d68dc70a761f5e8202b16ec701dceae",
+          "url": "https://openai.com/index/premium-seats-chatgpt-business"
+        },
+        {
+          "id": "openai-announcements-2aa7e747964e595a2906",
+          "title": "How Endava builds an agentic organization with Codex",
+          "publishedAt": "2026-05-28",
+          "hash": "286408558e0113db6b2e80d052e67f2f5e858dec1cbd31076a16dcae81c98b49",
+          "url": "https://openai.com/index/endava"
+        },
+        {
+          "id": "openai-announcements-2b1ea71bf0b9ebc053c7",
+          "title": "VfL Wolfsburg turns ChatGPT into a club-wide capability",
+          "publishedAt": "2026-03-05",
+          "hash": "1e772970b2a8d966f8f0b6a648a9ed4c2de192290bbe2a7760f1dc7b42874bea",
+          "url": "https://openai.com/index/vfl-wolfsburg"
+        },
+        {
+          "id": "openai-announcements-2b32eedea2ca3ae817ac",
+          "title": "Working with files in ChatGPT",
+          "publishedAt": "2026-04-10",
+          "hash": "3cfe177eb626d6a1e75f9af4246cf8cd35584c1bfc8a019278439e971255aa49",
+          "url": "https://openai.com/academy/working-with-files"
+        },
+        {
+          "id": "openai-announcements-2d6622764daac4f384b5",
+          "title": "Addendum to GPT-5 system card: GPT-5-Codex",
+          "publishedAt": "2025-09-15",
+          "hash": "0421b3e50a5656206560352a977c8040b91428e3951c026e8158925c14156777",
+          "url": "https://openai.com/index/gpt-5-system-card-addendum-gpt-5-codex"
+        },
+        {
+          "id": "openai-announcements-2d8e70fb45cef7470a5b",
+          "title": "Building advertising for the way people use AI",
+          "publishedAt": "2026-10-05",
+          "hash": "568d5e96b6bb4b5dd023086350573f781529e45750a2c93e3a2b558c3063493b",
+          "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement"
+        },
+        {
+          "id": "openai-announcements-2e1f29b50d98a2b5df93",
+          "title": "How Endava is redesigning software delivery around AI agents",
+          "publishedAt": "2026-06-04",
+          "hash": "6d6a168a8dc5be30a5d271094f20a1f493b825973cefc424f17e36c336b54d51",
+          "url": "https://openai.com/index/endava-frontiers"
+        },
+        {
+          "id": "openai-announcements-2ffc54a54257793e4aba",
+          "title": "Applications of AI at OpenAI",
+          "publishedAt": "2026-04-10",
+          "hash": "9e2422a4dbfd6328d5941c0539abbb505ff7c5c5c92f50621be584129b35ed88",
+          "url": "https://openai.com/academy/applications-of-ai"
+        },
+        {
+          "id": "openai-announcements-3064e426d18ccd85acab",
+          "title": "Introducing the ChatGPT for small business program",
+          "publishedAt": "2026-07-21",
+          "hash": "c77b78a6a251b6a827e22d4b1bd5335b6d9afbad9617f8a11e2614d027eb2a21",
+          "url": "https://openai.com/index/introducing-chatgpt-small-business-program"
+        },
+        {
+          "id": "openai-announcements-31ac460c075a1fd1fc14",
+          "title": "Personalize ChatGPT with custom instructions",
+          "publishedAt": "2025-05-12",
+          "hash": "928fb9c13340651cba82c219f018805eff995f0ec11fe8632476c7d8afae3599",
+          "url": "https://openai.com/business/learn/personalize-chatgpt-with-custom-instructions"
+        },
+        {
+          "id": "openai-announcements-326607290d218cfb7f34",
+          "title": "Sea's View on the Future of Agentic Software Development with Codex",
+          "publishedAt": "2026-05-14",
+          "hash": "f785f3eec8f65ffd0326acb482a4b9cb8b2c80fd77944e69b0f6fea00face171",
+          "url": "https://openai.com/index/sea-david-chen"
+        },
+        {
+          "id": "openai-announcements-330fba64551db8b49d6a",
+          "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+          "publishedAt": "2026-09-01",
+          "hash": "01b471f87dfa8e04f098e40ec58923fc72deb14c7d761f49739eb211e259dde8",
+          "url": "https://openai.com/index/gilbert-tobin"
+        },
+        {
+          "id": "openai-announcements-338aaf898d6c024266e3",
+          "title": "Beyond rate limits: scaling access to Codex and Sora",
+          "publishedAt": "2026-02-13",
+          "hash": "b90839d0514b5df729c672b3e65e041e510ecf3995f4bebc132071e74ac5c07f",
+          "url": "https://openai.com/index/beyond-rate-limits"
+        },
+        {
+          "id": "openai-announcements-33e5e3005ea0eaf66ee2",
+          "title": "Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol",
+          "publishedAt": "2025-09-29",
+          "hash": "147c6a4c69a5b179ea016d2400f6d069685714f662a2dfde5827f4448344f90d",
+          "url": "https://openai.com/index/buy-it-in-chatgpt"
+        },
+        {
+          "id": "openai-announcements-33eae878317d27dcc038",
+          "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+          "publishedAt": "2026-08-25",
+          "hash": "31b87f2d5f89a23eb94b46280526e0a2ff468bae266522db07cac08da1cd4c07",
+          "url": "https://openai.com/index/introducing-admin-plugin"
+        },
+        {
+          "id": "openai-announcements-35471ebc68944b7ee0c6",
+          "title": "Evaluating fairness in ChatGPT",
+          "publishedAt": "2024-10-15",
+          "hash": "58e1ce2914ee3680840458133695b4b5ae0ad194b39ddecce60f46e3f1a7cecb",
+          "url": "https://openai.com/index/evaluating-fairness-in-chatgpt"
+        },
+        {
+          "id": "openai-announcements-3556c47e80db65b8a163",
+          "title": "How we built OWL, the new architecture behind our ChatGPT-based browser, Atlas",
+          "publishedAt": "2025-10-30",
+          "hash": "6a7fb7b6ace6cd6093e653d1a21f98a66d5035cb10beadad78c1b8073b2ed436",
+          "url": "https://openai.com/index/building-chatgpt-atlas"
+        },
+        {
+          "id": "openai-announcements-3763c3e63f841c3b3b74",
+          "title": "From asking to doing: How the world is putting ChatGPT to work",
+          "publishedAt": "2026-08-06",
+          "hash": "83ed67403ce2efadff862bd5ecd880c4f7f223d0ed180d0484589c3fe2d94997",
+          "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work"
+        },
+        {
+          "id": "openai-announcements-37bd9866fae91761c2f5",
+          "title": "Taisei Corporation shapes the next generation of talent with AI",
+          "publishedAt": "2026-01-29",
+          "hash": "dfdfdfc15ce8131a3b214a151be8b7963a25ac02a39a612757e5a613b25c15c4",
+          "url": "https://openai.com/index/taisei"
+        },
+        {
+          "id": "openai-announcements-387cb8d894c7424e8166",
+          "title": "OpenAI to acquire Astral",
+          "publishedAt": "2026-03-19",
+          "hash": "9f5feaae41267fcacd6ad0c63ec3d5bd2c188fd2789bc6f5ccf3655927f14e0a",
+          "url": "https://openai.com/index/openai-to-acquire-astral"
+        },
+        {
+          "id": "openai-announcements-389ab448b1904bc0f03b",
+          "title": "Introducing 4o Image Generation",
+          "publishedAt": "2025-03-25",
+          "hash": "c0e6e22250e61ddf22daed189f70b85e2e6fe790f391c4b6660cd9acac618a11",
+          "url": "https://openai.com/index/introducing-4o-image-generation"
+        },
+        {
+          "id": "openai-announcements-389ebd02d2834f48054d",
+          "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
+          "publishedAt": "2026-07-22",
+          "hash": "a4e3b1c96e634ff5bd8f678947929ca2652bbf385230a6f428f44aaeef9e8646",
+          "url": "https://openai.com/index/ntt-data"
+        },
+        {
+          "id": "openai-announcements-39842fa0b34b37cbe3f7",
+          "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+          "publishedAt": "2026-09-10",
+          "hash": "67a15f96dcd3042d98adf9b1739e496ef6acf0d69c6132ce9246cae95d4dbcb0",
+          "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials"
+        },
+        {
+          "id": "openai-announcements-3b715ea69722289b3223",
+          "title": "Introducing group chats in ChatGPT",
+          "publishedAt": "2025-11-13",
+          "hash": "bbddbfe5cb8917402f1534e524debdcfa669871845b1305696da6a0a849d3bf4",
+          "url": "https://openai.com/index/group-chats-in-chatgpt"
+        },
+        {
+          "id": "openai-announcements-3bda12e16fd31e0e48f8",
+          "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+          "publishedAt": "2026-09-02",
+          "hash": "50befc6e58ca6c9ac5e71a49904ad990063cb14a584ea1994e9282890f6730ab",
+          "url": "https://openai.com/index/atv-big-air-tour"
+        },
+        {
+          "id": "openai-announcements-3c295fdffd0454ca255d",
+          "title": "OpenAI and the CSU system bring AI to 500,000 students & faculty",
+          "publishedAt": "2025-02-04",
+          "hash": "3f588262cd517ed59b77792a1c39dc4195b3fe5e5ad95c72ebfdd6137cadccfd",
+          "url": "https://openai.com/index/openai-and-the-csu-system"
+        },
+        {
+          "id": "openai-announcements-3cfde46429d5cbfeda4b",
+          "title": "Inside GPT-5 for Work: How Businesses Use GPT-5",
+          "publishedAt": "2026-01-22",
+          "hash": "b2c1d87368f2737bdf34bbcabbe1791cb925bc23b425a54949d1959e21306d72",
+          "url": "https://openai.com/business/guides-and-resources/chatgpt-usage-and-adoption-patterns-at-work"
+        },
+        {
+          "id": "openai-announcements-3da06b55f73b9af36f02",
+          "title": "Sycophancy in GPT-4o: what happened and what we’re doing about it",
+          "publishedAt": "2025-04-29",
+          "hash": "6eab61658b83b728d5af5738e97064c522748b7a8a86519b2e483da6fca3364c",
+          "url": "https://openai.com/index/sycophancy-in-gpt-4o"
+        },
+        {
+          "id": "openai-announcements-3dec299964e674ad1760",
+          "title": "Designing AI agents to resist prompt injection",
+          "publishedAt": "2026-03-11",
+          "hash": "db7624656578554a3f6458ba1bef71ec286d6dd0099c1c85e4215744d54f97e3",
+          "url": "https://openai.com/index/designing-agents-to-resist-prompt-injection"
+        },
+        {
+          "id": "openai-announcements-3eec9fb139cb49c35819",
+          "title": "Our approach to age prediction",
+          "publishedAt": "2026-01-20",
+          "hash": "273487cde6776ced160f659c89d0e1a4a1679f3fe9fd6050010a66eed1baa263",
+          "url": "https://openai.com/index/our-approach-to-age-prediction"
+        },
+        {
+          "id": "openai-announcements-3fb14968493dc68260e4",
+          "title": "Introducing GPT-Live",
+          "publishedAt": "2026-07-08",
+          "hash": "8b71ac31d43e796d07d814a939fde3c04fafeee5a9bffca62320843ce0369234",
+          "url": "https://openai.com/index/introducing-gpt-live"
+        },
+        {
+          "id": "openai-announcements-3fd5f55a253df7049bda",
+          "title": "Brainstorming with ChatGPT",
+          "publishedAt": "2026-04-10",
+          "hash": "87864a5a58f608401da437f41c2370c261c2f2092caac37e9c64659896fc055a",
+          "url": "https://openai.com/academy/brainstorming"
+        },
+        {
+          "id": "openai-announcements-419d8c6232d2a2ef8902",
+          "title": "Introducing parental controls",
+          "publishedAt": "2025-09-29",
+          "hash": "7af3651e5a99eea6168f9d4cc94156cd8a0b2510f6ef31db2ac5ac2d0afc3fc4",
+          "url": "https://openai.com/index/introducing-parental-controls"
+        },
+        {
+          "id": "openai-announcements-4410122683c569258d5a",
+          "title": "How to connect AI usage to business value",
+          "publishedAt": "2026-09-16",
+          "hash": "5a80fe650747f6d084e000efd64b4c56489b933b375f34cdab9db33a44fa8302",
+          "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value"
+        },
+        {
+          "id": "openai-announcements-446f0739d5574fe927f6",
+          "title": "OpenAI and Target team up on new AI-powered experiences",
+          "publishedAt": "2025-11-19",
+          "hash": "8299483db9e792d4562662ee46885513abadb8b5c253251d5206f4353a3c6469",
+          "url": "https://openai.com/index/target-partnership"
+        },
+        {
+          "id": "openai-announcements-450d5ccfb1602dc277cd",
+          "title": "New usage analytics and updated spend controls for enterprises",
+          "publishedAt": "2026-06-18",
+          "hash": "1db2c45d8894359efc3e0d3a03d60d0994a0a38da35fe9e92bdce9ebcd839f90",
+          "url": "https://openai.com/index/chatgpt-enterprise-spend-controls"
+        },
+        {
+          "id": "openai-announcements-4586c5f3db353f7d037e",
+          "title": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
+          "publishedAt": "2026-04-13",
+          "hash": "2e178378584079a21a75594b7ddeeccaa33c47b0ac97aed5ebe2b6de12dab8ea",
+          "url": "https://openai.com/index/cloudflare-openai-agent-cloud"
+        },
+        {
+          "id": "openai-announcements-45d6a2b79938283a07ca",
+          "title": "LegalOn halves Codex costs while maintaining development speed",
+          "publishedAt": "2026-10-08",
+          "hash": "896d2c6f7fdcfc627ede0be80b29452d93ee1ebd0bb97b77130d5b5217b18a82",
+          "url": "https://openai.com/index/legalon-halves-codex-costs"
+        },
+        {
+          "id": "openai-announcements-466447842229de9e16d1",
+          "title": "Prototyping with canvas in ChatGPT",
+          "publishedAt": "2025-04-13",
+          "hash": "e06b6302f18db5184cf319b945e853cbba933c2b8423dc4652fb13d999489d8f",
+          "url": "https://openai.com/business/learn/prototyping-with-canvas-in-chatgpt"
+        },
+        {
+          "id": "openai-announcements-469345dd38743a921434",
+          "title": "Workspace agents",
+          "publishedAt": "2026-04-22",
+          "hash": "d5c214ecef6003614f488e78f485f72d35ae045ebbaa5ef789f20bf68e761363",
+          "url": "https://openai.com/academy/workspace-agents"
+        },
+        {
+          "id": "openai-announcements-46fcf5bb7b99520f1816",
+          "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+          "publishedAt": "2026-09-11",
+          "hash": "a6e5d59779abf810ec7613f2c85f1630cd54be1b106c89a6751cc7cfce9c94f5",
+          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one"
+        },
+        {
+          "id": "openai-announcements-473eced4d0d7fe183ce0",
+          "title": "Codex is becoming a productivity tool for everyone",
+          "publishedAt": "2026-06-02",
+          "hash": "1888bc6a565f2e5c38abe8746402b65835158bebdcf5236cb93868c740a55889",
+          "url": "https://openai.com/index/codex-for-knowledge-work"
+        },
+        {
+          "id": "openai-announcements-47da73cdc4f72b4cf63e",
+          "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+          "publishedAt": "2026-07-29",
+          "hash": "a2492b29c1a8c5d81e3e15d9a24cda98f5f8368eda6a41f6cd50fc5ca3dad204",
+          "url": "https://openai.com/index/chatgpt-for-academic-researchers"
+        },
+        {
+          "id": "openai-announcements-4955eca90327b60ac28f",
+          "title": "Building more helpful ChatGPT experiences for everyone",
+          "publishedAt": "2025-09-02",
+          "hash": "aecbfe432236da20e28a7a08bb56876b5572ba9338a0a0d0ac276391b1b904af",
+          "url": "https://openai.com/index/building-more-helpful-chatgpt-experiences-for-everyone"
+        },
+        {
+          "id": "openai-announcements-49857bbbb2f8af4d0586",
+          "title": "How Codex became a collaborator for OpenAI’s creative team",
+          "publishedAt": "2026-07-16",
+          "hash": "cc79577cc42f08103a47394f07b1b49f9b6654067523939aa14354a93fa96429",
+          "url": "https://openai.com/index/codex-collaborator-creative-team"
+        },
+        {
+          "id": "openai-announcements-4a3442a5ca8c193564d3",
+          "title": "Building a safe, effective sandbox to enable Codex on Windows",
+          "publishedAt": "2026-05-13",
+          "hash": "eabd7f17be224995b0bcdfc0ddfd5e272812470108adc0d50be2471ed67139e9",
+          "url": "https://openai.com/index/building-codex-windows-sandbox"
+        },
+        {
+          "id": "openai-announcements-4a841ea7ec7ce18860ac",
+          "title": "Introducing GPT-5.3-Codex-Spark",
+          "publishedAt": "2026-02-12",
+          "hash": "e19678c9f277b87ecfb5cc9000b10b1e0b4180fa374de22795e4dc4e50b20ac6",
+          "url": "https://openai.com/index/introducing-gpt-5-3-codex-spark"
+        },
+        {
+          "id": "openai-announcements-4a975b89e4a0f0fb6925",
+          "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+          "publishedAt": "2026-06-21",
+          "hash": "543464bfaaa0dde5609bd231d20a5d611c608d4ad078fddf69fcdc233998fd54",
+          "url": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment"
+        },
+        {
+          "id": "openai-announcements-4b127611578b917a8f88",
+          "title": "Custom instructions for ChatGPT",
+          "publishedAt": "2023-07-20",
+          "hash": "a97f61740bce87590a61fdecf9016ee9fc012863bd7cf783676b105e92f379a6",
+          "url": "https://openai.com/index/custom-instructions-for-chatgpt"
+        },
+        {
+          "id": "openai-announcements-4b2349c3257d50210e2b",
+          "title": "Introducing study mode in ChatGPT",
+          "publishedAt": "2025-07-29",
+          "hash": "064cd437e0109d3308d864e98869c4bc17c79c9549cd5363c722405094d17307",
+          "url": "https://openai.com/index/chatgpt-study-mode"
+        },
+        {
+          "id": "openai-announcements-4b51d8cada0e95386b12",
+          "title": "OpenAI Codex and Figma launch seamless code-to-design experience",
+          "publishedAt": "2026-02-26",
+          "hash": "8cfda545a3c83f6db7eb8be83b991607a1a14787db0373f0aa9f6520304affe2",
+          "url": "https://openai.com/index/figma-partnership"
+        },
+        {
+          "id": "openai-announcements-4c04529d4e0b4d640b1f",
+          "title": "Creating images with ChatGPT",
+          "publishedAt": "2026-04-10",
+          "hash": "1e039ba9a761a6c2dacfc32e89efaa1f827ac65aadca40a537cee460b7994218",
+          "url": "https://openai.com/academy/image-generation"
+        },
+        {
+          "id": "openai-announcements-4de1cea0a8965778fe62",
+          "title": "Introducing GPTs",
+          "publishedAt": "2023-11-06",
+          "hash": "bddd1823b647f94168298b74580320912cbf42e6bbd65f79c1f51a16e735a469",
+          "url": "https://openai.com/index/introducing-gpts"
+        },
+        {
+          "id": "openai-announcements-4df8e51cae93fe19b42b",
+          "title": "OpenAI frontier models and Codex are now available on AWS",
+          "publishedAt": "2026-06-01",
+          "hash": "bf882717ef9ebf1c867afaf398c497d0c13b86939f2264dd1bdab3bc48ae6041",
+          "url": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws"
+        },
+        {
+          "id": "openai-announcements-4e324623ab7ca6fee0e1",
+          "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+          "publishedAt": "2026-10-07",
+          "hash": "d28c117fb55c469252fe7b06296c0637321596a9437d4018c5ad694d2f56bbe6",
+          "url": "https://openai.com/index/radisson"
+        },
+        {
+          "id": "openai-announcements-503e9c2326e78f3e5469",
+          "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+          "publishedAt": "2026-09-08",
+          "hash": "66184f035cba70ef99191a641e894750f16ee81ded99637c631770464cee7c70",
+          "url": "https://openai.com/index/codex-quantum-computing-experiments"
+        },
+        {
+          "id": "openai-announcements-5265d72fa2c49c7a5fd9",
+          "title": "Zenken boosts a lean sales team with ChatGPT Enterprise",
+          "publishedAt": "2026-01-13",
+          "hash": "71ea4ac0be482c89e0d57afeed6555c247a88ea8efd2cc45c267a921ef082afa",
+          "url": "https://openai.com/index/zenken"
+        },
+        {
+          "id": "openai-announcements-53e1da4b0cbcd14ff9f4",
+          "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
+          "publishedAt": "2026-05-27",
+          "hash": "dcb38e2731cce96da8c06ffb3066d77204b0c4314298bbd20dbe2c468cf2230f",
+          "url": "https://openai.com/index/cisco"
+        },
+        {
+          "id": "openai-announcements-54ada6137f6932008291",
+          "title": "Retiring GPT-4o, GPT-4.1, GPT-4.1 mini, and OpenAI o4-mini in ChatGPT",
+          "publishedAt": "2026-01-29",
+          "hash": "a7927526f232965fa6b49701c57030709c634a506862914ebc9082c147a64dec",
+          "url": "https://openai.com/index/retiring-gpt-4o-and-older-models"
+        },
+        {
+          "id": "openai-announcements-55904b2e2ce75c332dfe",
+          "title": "Early methods for studying affective use and emotional well-being on ChatGPT",
+          "publishedAt": "2025-03-21",
+          "hash": "8c0057dea3759f7aa004262330649716bc44549605b14fea0255b885f35bd04c",
+          "url": "https://openai.com/index/affective-use-study"
+        },
+        {
+          "id": "openai-announcements-55da04f42e321f995dad",
+          "title": "Building more with GPT-5.1-Codex-Max",
+          "publishedAt": "2025-11-19",
+          "hash": "d14e21c94761b6da0cf84b01097579d7fe1d9a4e62f331cf73b7bd6f7620ec7c",
+          "url": "https://openai.com/index/gpt-5-1-codex-max"
+        },
+        {
+          "id": "openai-announcements-574161e956a980149577",
+          "title": "How Philips is scaling AI literacy across 70,000 employees",
+          "publishedAt": "2025-11-13",
+          "hash": "e361a339bd0839d03b21e4d310ece30407f960d091ab531ae21e8be01b4eacc3",
+          "url": "https://openai.com/index/philips"
+        },
+        {
+          "id": "openai-announcements-575cb0a6069ca3a88e32",
+          "title": "Finding GPT-4’s mistakes with GPT-4",
+          "publishedAt": "2024-06-27",
+          "hash": "ae6748f0692ddffd6b402d976e4c56ed0b6d9644ff59cd85f5f1bb4509e212f7",
+          "url": "https://openai.com/index/finding-gpt4s-mistakes-with-gpt-4"
+        },
+        {
+          "id": "openai-announcements-57a55fcb205568a64309",
+          "title": "How frontier firms are pulling ahead",
+          "publishedAt": "2026-05-06",
+          "hash": "e67bf59d98a8eddb094b64c4d64298098b981abbad2804951f5da9ad3815bdf8",
+          "url": "https://openai.com/index/introducing-b2b-signals"
+        },
+        {
+          "id": "openai-announcements-57b488d288c298008e72",
+          "title": "AdventHealth advances whole-person care with OpenAI",
+          "publishedAt": "2026-05-21",
+          "hash": "af24da9e6d2d6bc6c6b55af439e99eee744b67d79d06221a8b6488949cf518ed",
+          "url": "https://openai.com/index/adventhealth"
+        },
+        {
+          "id": "openai-announcements-5838a1fb2a7322c084d7",
+          "title": "Genmab launches “AI Everywhere”",
+          "publishedAt": "2024-09-19",
+          "hash": "454bbfb863039335180655f1956c43a48522f5553c379bc96ceb1cceb1fedb36",
+          "url": "https://openai.com/index/genmab"
+        },
+        {
+          "id": "openai-announcements-58b581b20ce32e7be40e",
+          "title": "What Codex unlocks for Notion",
+          "publishedAt": "2026-06-09",
+          "hash": "a5307be7dd4181a0704a4a2f2ed15b6ed1ed107e977c09b133510336374cd618",
+          "url": "https://openai.com/index/notion"
+        },
+        {
+          "id": "openai-announcements-598673c37b3697232e31",
+          "title": "Plex Coffee delivers fast, personal service with ChatGPT",
+          "publishedAt": "2025-10-15",
+          "hash": "606ef4398964836c263c4f8826e7a568014afa928bf6c5696f307b9ea0832806",
+          "url": "https://openai.com/index/plex-coffee"
+        },
+        {
+          "id": "openai-announcements-5a992319f41ed1bcd275",
+          "title": "OpenAI Codex",
+          "publishedAt": "2021-08-10",
+          "hash": "eb086accf50d82d4459bf7d638d13b4c77d25df10f6bcd4f1c47ddbd93029c6e",
+          "url": "https://openai.com/index/openai-codex"
+        },
+        {
+          "id": "openai-announcements-5b802ccebc3cd95495da",
+          "title": "How engineers at Nextdoor use Codex to build without limits",
+          "publishedAt": "2026-06-09",
+          "hash": "b11ff265215c9f450e0476f94860b1a05d768f9530de561b42b3d0162f94bff2",
+          "url": "https://openai.com/index/nextdoor"
+        },
+        {
+          "id": "openai-announcements-5bea303cfdb176bb1a01",
+          "title": "GPT-5.1: A smarter, more conversational ChatGPT",
+          "publishedAt": "2025-11-12",
+          "hash": "75fb5eb244887c93d42c9c8c318455bc15ce1555f5ddc13264e8ceeb33bb065d",
+          "url": "https://openai.com/index/gpt-5-1"
+        },
+        {
+          "id": "openai-announcements-5becf449a527f5c9c85c",
+          "title": "Codex Security: now in research preview",
+          "publishedAt": "2026-03-06",
+          "hash": "1821ed14be86a5544f3aa67f9888aa007283146a33413571aa21d1b7f94ed4d0",
+          "url": "https://openai.com/index/codex-security-now-in-research-preview"
+        },
+        {
+          "id": "openai-announcements-5bff17ab9eadda38e0be",
+          "title": "Advancing organizational transformation for business innovation",
+          "publishedAt": "2025-10-28",
+          "hash": "c05a0bccc256f122d8e72b0ed44eea84fd8b4d07526b4a9b0d5c261427379ce7",
+          "url": "https://openai.com/index/dai-nippon-printing"
+        },
+        {
+          "id": "openai-announcements-5c26f4b4fd4d2ff3723b",
+          "title": "Introducing GPT-4o and more tools to ChatGPT free users",
+          "publishedAt": "2024-05-13",
+          "hash": "7fb93c380b5782e430d8b2b30165967108d7d71dc49b435b06586561ea5e41ac",
+          "url": "https://openai.com/index/gpt-4o-and-more-tools-to-chatgpt-free"
+        },
+        {
+          "id": "openai-announcements-5c8d75ef9c12c0596113",
+          "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+          "publishedAt": "2026-08-27",
+          "hash": "f06c5ecbcb05da86bfa6f48c5cedf948e3ed92cced1a87442c91c80cd9e9725e",
+          "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training"
+        },
+        {
+          "id": "openai-announcements-5d3cdb80692874ce8835",
+          "title": "ChatGPT Sites",
+          "publishedAt": "2026-06-02",
+          "hash": "fc10d134e501fc7d617a1d3b8efec7ed68956e8b2dafce303811310465f4c096",
+          "url": "https://openai.com/academy/chatgpt-sites"
+        },
+        {
+          "id": "openai-announcements-5e08b55168f5b9e06d92",
+          "title": "Create on-brand visuals with image generation",
+          "publishedAt": "2025-05-08",
+          "hash": "a987cf7c49b1a02eb082527b20edf46503f083f6e9937eff4b1dad108b266b22",
+          "url": "https://openai.com/business/learn/create-on-brand-visuals-with-image-generation"
+        },
+        {
+          "id": "openai-announcements-5f3c6f21db9e82ec01f1",
+          "title": "Neuro drives national retail wins with ChatGPT Business",
+          "publishedAt": "2025-11-12",
+          "hash": "d6918f16bf07d0d5fd1f07daa62741d2f80b7da79a9c8404b4fd6773359ddab5",
+          "url": "https://openai.com/index/neurogum"
+        },
+        {
+          "id": "openai-announcements-6023038a8912cd08a228",
+          "title": "Asana completed a years-long code migration in 2 weeks with Codex",
+          "publishedAt": "2026-08-18",
+          "hash": "db9addbd11cc79eaefdf3434631f54a76b85095c2b41c6eab8a01d906c803b6c",
+          "url": "https://openai.com/index/asana"
+        },
+        {
+          "id": "openai-announcements-6071f63e21f6425413eb",
+          "title": "DevDay 2026 Recap",
+          "publishedAt": "2026-09-29",
+          "hash": "974a6c3d88ead9133026d724c359de19143392570de482bb4ecaae97c9a225ca",
+          "url": "https://openai.com/index/devday-2026-recap"
+        },
+        {
+          "id": "openai-announcements-6148aa28b40edbcce6af",
+          "title": "Using projects in ChatGPT",
+          "publishedAt": "2026-04-10",
+          "hash": "75ae1bb8ce68330a37a8e6a03911dc594f86ea6c0eac448737b344a374f730e2",
+          "url": "https://openai.com/academy/projects"
+        },
+        {
+          "id": "openai-announcements-6169e1317387fa82f4f6",
+          "title": "Personalizing education with ChatGPT",
+          "publishedAt": "2024-08-26",
+          "hash": "49d69aa40b28d784d15f52f8ec213143a296e78874031d80a58994470ec7d0cd",
+          "url": "https://openai.com/index/asu"
+        },
+        {
+          "id": "openai-announcements-61967ed53f8fcf7a0436",
+          "title": "PVH reimagines the future of fashion with OpenAI",
+          "publishedAt": "2026-01-27",
+          "hash": "b6ed086140d00688d363526ca6a1804c7bcdb932b233f05c72f886705dd3cc1e",
+          "url": "https://openai.com/index/pvh-future-of-fashion"
+        },
+        {
+          "id": "openai-announcements-61b0991879bce7e14b6f",
+          "title": "Introducing ChatGPT for Excel and new financial data integrations",
+          "publishedAt": "2026-03-05",
+          "hash": "c5d6192b449904646624c97ee3cc1d2df249b92954ea6652b839a152d5cdfaea",
+          "url": "https://openai.com/index/chatgpt-for-excel"
+        },
+        {
+          "id": "openai-announcements-62379661ee74ac358b96",
+          "title": "ChatGPT for research",
+          "publishedAt": "2026-04-10",
+          "hash": "b710f4ec18cd96d6ab287759b52feb98718cb9f5608d39ae688fa80d94beb2ca",
+          "url": "https://openai.com/academy/research"
+        },
+        {
+          "id": "openai-announcements-6262633bf72808700d3f",
+          "title": "How ChatGPT adoption broadened in early 2026",
+          "publishedAt": "2026-05-11",
+          "hash": "1ab240c6ba099daad1eb6c7345c1adaef1159e6e7847bcd115045f75e59d5fcc",
+          "url": "https://openai.com/signals/research/2026q1-update"
+        },
+        {
+          "id": "openai-announcements-637d3dfa247fa816a4c4",
+          "title": "How Albertsons Companies is reimagining retail from the inside out",
+          "publishedAt": "2026-10-01",
+          "hash": "ad1267a8d77afdb32bb0ea9f95bb8d83630891847446c26b47f0301b88bb3335",
+          "url": "https://openai.com/index/albertsons-reimagining-retail"
+        },
+        {
+          "id": "openai-announcements-6476741ad7bd8e8e5ea0",
+          "title": "How Zapier transformed core marketing processes with ChatGPT Work",
+          "publishedAt": "2026-08-10",
+          "hash": "5bf77f80b8cd015879c3cf41513bc45526634188e592d451eeb7b4b517f00c4c",
+          "url": "https://openai.com/index/zapier"
+        },
+        {
+          "id": "openai-announcements-661f64ddb5f472a2675e",
+          "title": "Helping teens learn, plan, and shape the future of AI",
+          "publishedAt": "2026-10-07",
+          "hash": "7c696b2ae1b0ada374887e3d2489f233d18d2c6af513fedc2c3e18a9281c9f91",
+          "url": "https://openai.com/index/teens-learn-and-plan"
+        },
+        {
+          "id": "openai-announcements-6628cd67b75bc6b70ebd",
+          "title": "Analyzing data with ChatGPT",
+          "publishedAt": "2026-04-10",
+          "hash": "ba0cce9d1f3b400251233ee4a8c028210d00f45f590aa9e331080dc903ef1940",
+          "url": "https://openai.com/academy/data-analysis"
+        },
+        {
+          "id": "openai-announcements-66312b6309f0b1f18a88",
+          "title": "How NVIDIA engineers and researchers build with Codex",
+          "publishedAt": "2026-05-12",
+          "hash": "77f128583aa5e45bb57a6495653fe2a504a72c309e9934320652e44c16622ed9",
+          "url": "https://openai.com/index/nvidia"
+        },
+        {
+          "id": "openai-announcements-66439e0ac0aedcb0a787",
+          "title": "Healthcare",
+          "publishedAt": "2026-04-10",
+          "hash": "296c087369328a720cef680c39d81e41d85cdc852a26b475f19bbfddbf5215e0",
+          "url": "https://openai.com/academy/healthcare"
+        },
+        {
+          "id": "openai-announcements-6690e16164d97bde8aa3",
+          "title": "We’re bringing the Financial Times’ world-class journalism to ChatGPT",
+          "publishedAt": "2024-04-29",
+          "hash": "64ea516ae20255b4d71a19ac5b279f672c435c69e07386b075e0e6807b06ffdf",
+          "url": "https://openai.com/index/content-partnership-with-financial-times"
+        },
+        {
+          "id": "openai-announcements-66be1220771465af8b1a",
+          "title": "Running Codex safely at OpenAI",
+          "publishedAt": "2026-05-08",
+          "hash": "b7c4cb8c0ebe9c7b1ea3227975f81f1ef4cb99c188e96fbadd1255eaeea318d0",
+          "url": "https://openai.com/index/running-codex-safely"
+        },
+        {
+          "id": "openai-announcements-684a18e96f3c7cb5fad5",
+          "title": "OpenAI’s new economic analysis",
+          "publishedAt": "2025-07-22",
+          "hash": "e01ef134a84c94d5b1537fb9d7b0bba4367b8004349d02026497d579ed656cef",
+          "url": "https://openai.com/global-affairs/new-economic-analysis"
+        },
+        {
+          "id": "openai-announcements-686919f72317bb09e7b4",
+          "title": "HiBob turns 2,500 GPTs into product and team growth",
+          "publishedAt": "2025-10-08",
+          "hash": "500e50c24129d6e1f7d78c92def0721bf16e1aab0563ee3e17f4a13c1eaa446c",
+          "url": "https://openai.com/index/hibob"
+        },
+        {
+          "id": "openai-announcements-6a886414536a09e3da65",
+          "title": "Now everyone can put data to work",
+          "publishedAt": "2026-09-10",
+          "hash": "b52c2537ab51a340d2ef1feee11abaeea227609c6593cc1c3e137355202b00a2",
+          "url": "https://openai.com/index/put-data-to-work"
+        },
+        {
+          "id": "openai-announcements-6accc8619e9dd4083495",
+          "title": "Our approach to advertising and expanding access to ChatGPT",
+          "publishedAt": "2026-01-16",
+          "hash": "f6015e4c8ecf085826433812d8973064a97e4386f5dbf7b55d52bf6f5cd14187",
+          "url": "https://openai.com/index/our-approach-to-advertising-and-expanding-access"
+        },
+        {
+          "id": "openai-announcements-6deeebce1719b9f21b32",
+          "title": "Introducing upgrades to Codex",
+          "publishedAt": "2025-09-15",
+          "hash": "c22ebeea8fc85cc49dd73615b9024a64630df5cf121b4207e0c89b4341fdfc7c",
+          "url": "https://openai.com/index/introducing-upgrades-to-codex"
+        },
+        {
+          "id": "openai-announcements-6e04638f264415e917d4",
+          "title": "OpenAI partners with Schibsted Media Group",
+          "publishedAt": "2025-02-10",
+          "hash": "1070ebb17e38471856482076ec70b5c985ed396ef4b1242474d1a7af762b49f0",
+          "url": "https://openai.com/index/openai-partners-with-schibsted-media-group"
+        },
+        {
+          "id": "openai-announcements-6e3496e455e99c1ccdd6",
+          "title": "Improvements to data analysis in ChatGPT",
+          "publishedAt": "2024-05-16",
+          "hash": "452459a54c1af7c0607615e19a9b75715f1968496aea1a567d3afc1107ad474d",
+          "url": "https://openai.com/index/improvements-to-data-analysis-in-chatgpt"
+        },
+        {
+          "id": "openai-announcements-6e38de98e5aa78fff977",
+          "title": "Promega’s top-down adoption of ChatGPT accelerates manufacturing, sales, and marketing",
+          "publishedAt": "2024-10-31",
+          "hash": "9e1e64b9e24c31cb1966f65ac7cc8f64b205a61139ef8bdb8fece7f515c7522c",
+          "url": "https://openai.com/index/promega"
+        },
+        {
+          "id": "openai-announcements-6e8e33679c1148e06016",
+          "title": "The San Antonio Spurs use ChatGPT to scale impact on and off the court",
+          "publishedAt": "2025-05-07",
+          "hash": "2f0f8e4ff3fbc9bf05854074f1cc49abf2d8d4894acf270ef0ddfae5e97a83e8",
+          "url": "https://openai.com/index/san-antonio-spurs"
+        },
+        {
+          "id": "openai-announcements-6f1209c6c0e07aba0da6",
+          "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
+          "publishedAt": "2026-05-18",
+          "hash": "79817b6e96e1f730d93d2bf37bcfe1c4bd7fc1ba31ef4b9273857ae6e0a6e44a",
+          "url": "https://openai.com/index/dell-codex-enterprise-partnership"
+        },
+        {
+          "id": "openai-announcements-6f26f347e1a5123a0646",
+          "title": "Learn ChatGPT workflows for finance teams",
+          "publishedAt": "2026-04-10",
+          "hash": "c716ffbe7074c21a6a2a3c2f57ead08f98f477c493ace2db2863d9799795f263",
+          "url": "https://openai.com/academy/finance"
+        },
+        {
+          "id": "openai-announcements-7020586b596b14ca636b",
+          "title": "Intuit and OpenAI join forces on new AI-powered experiences",
+          "publishedAt": "2025-11-18",
+          "hash": "9f07216a9743cf2d59563d064a906092d15b5347342be95cdb65551f35956c65",
+          "url": "https://openai.com/index/intuit-partnership"
+        },
+        {
+          "id": "openai-announcements-71e515eab71d5abb16c8",
+          "title": "Memory and new controls for ChatGPT",
+          "publishedAt": "2024-02-13",
+          "hash": "c0812c29a6323df01d01d9b28ebfb11b3fdeb1070c2ca3dcc67ee5b70cf56e8e",
+          "url": "https://openai.com/index/memory-and-new-controls-for-chatgpt"
+        },
+        {
+          "id": "openai-announcements-7347f06e7c916544f6e9",
+          "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+          "publishedAt": "2026-08-07",
+          "hash": "595f100907e81f1d27e8b05a3c7526536ff49d66a495920bbcafc7a491463a46",
+          "url": "https://openai.com/index/hsp-gruppe"
+        },
+        {
+          "id": "openai-announcements-734a5335f405a5cb053d",
+          "title": "ChatGPT for managers",
+          "publishedAt": "2026-04-10",
+          "hash": "431e093d162d99d9fae01a6a1b28453232f01f4f07d06fe5e53e689393c3d2a2",
+          "url": "https://openai.com/academy/managers"
+        },
+        {
+          "id": "openai-announcements-7447a7f27a11805e57a1",
+          "title": "Our approach to data and AI",
+          "publishedAt": "2024-05-07",
+          "hash": "a70fcd2dba44af5ef21f971d4333403a26d604b4aba8db8e2e02e15ed0a1faf5",
+          "url": "https://openai.com/index/approach-to-data-and-ai"
+        },
+        {
+          "id": "openai-announcements-75b9ed387c100e634788",
+          "title": "Responsible and safe use of AI",
+          "publishedAt": "2026-04-10",
+          "hash": "96ee84bd46c8ce9cc1516d563ebf841992868cb01f3ae9cc328d5d078dd7d166",
+          "url": "https://openai.com/academy/responsible-and-safe-use"
+        },
+        {
+          "id": "openai-announcements-76c95cd852987031f9d7",
+          "title": "How loveholidays is making everyone a builder with Codex",
+          "publishedAt": "2026-08-26",
+          "hash": "74a36b429438b58d7332dbeda6d16726a513a3552a6742cb40efd52457fa817b",
+          "url": "https://openai.com/index/loveholidays"
+        },
+        {
+          "id": "openai-announcements-792a066e22a14011d4fc",
+          "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
+          "publishedAt": "2025-12-11",
+          "hash": "0a303eae8891f425f5e469f0c136a117aa7543ec685fb3a445ca5b189d9b65af",
+          "url": "https://openai.com/index/disney-sora-agreement"
+        },
+        {
+          "id": "openai-announcements-796000f78fab5e9a772a",
+          "title": "Introducing apps in ChatGPT and the new Apps SDK",
+          "publishedAt": "2025-10-06",
+          "hash": "336887ffca6c1ed81caa7375157e1e5b9e1258e367a46697baa96b6f53579528",
+          "url": "https://openai.com/index/introducing-apps-in-chatgpt"
+        },
+        {
+          "id": "openai-announcements-7a6650f45302971b2687",
+          "title": "Mixi reimagines communication with ChatGPT",
+          "publishedAt": "2025-08-20",
+          "hash": "d5799497a01ed4301372092d0f8e3b9f67bf830040ceb30111d3824e25e890e3",
+          "url": "https://openai.com/index/mixi"
+        },
+        {
+          "id": "openai-announcements-7a7213b68631e1d3fcae",
+          "title": "ChatGPT agent System Card",
+          "publishedAt": "2025-07-17",
+          "hash": "15c8c51349fdeede10bdbec27b7f57057d4631c309e6cfeb5c9ee986be4f7534",
+          "url": "https://openai.com/index/chatgpt-agent-system-card"
+        },
+        {
+          "id": "openai-announcements-7a828343fe90eb89fb43",
+          "title": "New GPT-3 capabilities: Edit & insert",
+          "publishedAt": "2022-03-15",
+          "hash": "3573dded54cdfd2751e8e01c8a7fa40ae0e44a0a0cbefdabb6e8f17cb89d733a",
+          "url": "https://openai.com/index/gpt-3-edit-insert"
+        },
+        {
+          "id": "openai-announcements-7bcd68b5d5cb7fb5256e",
+          "title": "The next phase of enterprise AI",
+          "publishedAt": "2026-04-08",
+          "hash": "3df7f560a836a4dfc710e2e88b61c6a1e4feff870c12290ceb5d96e13c7459f7",
+          "url": "https://openai.com/index/next-phase-of-enterprise-ai"
+        },
+        {
+          "id": "openai-announcements-7dc607f834c1952ae1b9",
+          "title": "OpenAI and Reddit Partnership",
+          "publishedAt": "2024-05-16",
+          "hash": "bc35c72227e141909a2c705c151909f05d62414ce5d830a0af72c0561109cda9",
+          "url": "https://openai.com/index/openai-and-reddit-partnership"
+        },
+        {
+          "id": "openai-announcements-7e92cfb2dba983456718",
+          "title": "Introducing ChatGPT Go, now available worldwide",
+          "publishedAt": "2026-01-16",
+          "hash": "d45cf4716db84b4339c56c913c7c897fc7cb675eeb277e451505196f7483c68c",
+          "url": "https://openai.com/index/introducing-chatgpt-go"
+        },
+        {
+          "id": "openai-announcements-7fda7ddac79f0115fb5e",
+          "title": "Addendum to GPT-5.2 System Card: GPT-5.2-Codex",
+          "publishedAt": "2025-12-18",
+          "hash": "ae3b68c138429558095f87caf22c71cc22893d6eaf303a3e645cd5cacd24c443",
+          "url": "https://openai.com/index/gpt-5-2-codex-system-card"
+        },
+        {
+          "id": "openai-announcements-80128a657db24a50d953",
+          "title": "Steuerrecht.com delivers client-ready legal analysis with ChatGPT",
+          "publishedAt": "2025-10-27",
+          "hash": "c1a27544915762d232598e1e269c8dd37a533f2226ca0fa24d739448fae49e9f",
+          "url": "https://openai.com/index/steuerrecht"
+        },
+        {
+          "id": "openai-announcements-80b7965b893dda531867",
+          "title": "New funding to build towards AGI",
+          "publishedAt": "2025-03-31",
+          "hash": "b85467829dff2b2f591b08db09953393aae2444fef9aa6cfc0aa2e927c1a050d",
+          "url": "https://openai.com/index/march-funding-updates"
+        },
+        {
+          "id": "openai-announcements-817be1b64aeefb03765c",
+          "title": "How Scania accelerates work with AI across its global workforce",
+          "publishedAt": "2025-11-19",
+          "hash": "6d0c4c5dfe3262a4ca1bf204aad6bedbc077a08b92bb5b95691797c4904a805e",
+          "url": "https://openai.com/index/scania"
+        },
+        {
+          "id": "openai-announcements-82f91c53d861c9ac0ac6",
+          "title": "Connect internal knowledge from Google Drive",
+          "publishedAt": "2025-05-08",
+          "hash": "f53ce9f9b9733ee0004290888ce5b17899e11584e23cc06a370f6af27b7417fb",
+          "url": "https://openai.com/business/learn/connect-internal-knowledge-from-google-drive"
+        },
+        {
+          "id": "openai-announcements-832a12c8f33a104e2b49",
+          "title": "Learning never stops: How AI makes learning continuous",
+          "publishedAt": "2026-08-26",
+          "hash": "5e9cecb55a78dfcce559087bd27f033f6f23dd56c7380301d3a793caff4088eb",
+          "url": "https://openai.com/index/learning-never-stops"
+        },
+        {
+          "id": "openai-announcements-833e9419a34f8836dc9d",
+          "title": "Are you a Codex Original?",
+          "publishedAt": "2026-09-28",
+          "hash": "55ffc018aed9fbea6796bea7af5fd1033a7d7d6d9722120587f079d2dfb0e3f8",
+          "url": "https://openai.com/form/codex-originals"
+        },
+        {
+          "id": "openai-announcements-8393c843a171d72369b2",
+          "title": "ChatGPT Ads expands across Europe",
+          "publishedAt": "2026-08-18",
+          "hash": "f7d4ad840a38a7deec87eefeca8f7009c3fac865d5eb1aa67aea71682d4fe137",
+          "url": "https://openai.com/index/chatgpt-ads-expands-across-europe"
+        },
+        {
+          "id": "openai-announcements-8431b973880dedc40f9e",
+          "title": "Spring Update",
+          "publishedAt": "2024-05-13",
+          "hash": "1b7dbdb1fb320112c5f7acb6547da566d648806a4767ebaaec3bf67030e38e53",
+          "url": "https://openai.com/index/spring-update"
+        },
+        {
+          "id": "openai-announcements-84799fb71cec5d1ec642",
+          "title": "How OpenAI Uses Codex to Accelerate Engineering",
+          "publishedAt": "2026-01-14",
+          "hash": "016a4e11f5d2b0c7b19118f3d70b4473f7160aeb2a94aa84f34d31db9e7eed22",
+          "url": "https://openai.com/business/guides-and-resources/how-openai-uses-codex"
+        },
+        {
+          "id": "openai-announcements-880638aa77e3a8eefa34",
+          "title": "How Braintrust turns customer requests into code with Codex",
+          "publishedAt": "2026-05-29",
+          "hash": "20b332a05f8a57a5638c25346e3186dbb868a833024f602e11595b91d4119978",
+          "url": "https://openai.com/index/braintrust"
+        },
+        {
+          "id": "openai-announcements-882596cbc7639eb42bf2",
+          "title": "Chatham scales its capital markets expertise with OpenAI",
+          "publishedAt": "2026-10-02",
+          "hash": "af0d2acf13f9be368a434ff5c268b894678a246c3a08df9f8f9e824edf606551",
+          "url": "https://openai.com/index/chatham-financial"
+        },
+        {
+          "id": "openai-announcements-884aaaa8e6ec21985243",
+          "title": "Research with ChatGPT",
+          "publishedAt": "2026-04-10",
+          "hash": "336be33bee8d86cb84bd3748662094185b7c7da80fe1e1908a3164b296302e25",
+          "url": "https://openai.com/academy/search-and-deep-research"
+        },
+        {
+          "id": "openai-announcements-88747408a554c7382032",
+          "title": "Data-driven beauty and creativity with ChatGPT",
+          "publishedAt": "2024-11-13",
+          "hash": "dcf56fe23571fbab2b51f58690baa5553b7945adcc76ce73c3a43e2850b101c3",
+          "url": "https://openai.com/index/estee-lauder"
+        },
+        {
+          "id": "openai-announcements-89a221162f32c17ddc19",
+          "title": "Scaling PostgreSQL to power 800 million ChatGPT users",
+          "publishedAt": "2026-01-22",
+          "hash": "bef8b198a20c75da95a0a54065a057954ffd5d9132214d58a46c3b37dc9fc8a2",
+          "url": "https://openai.com/index/scaling-postgresql"
+        },
+        {
+          "id": "openai-announcements-8a25b441c338751efe26",
+          "title": "Teaching with AI",
+          "publishedAt": "2023-08-31",
+          "hash": "b3b805796eee452422b6a73df93c28a51da1020be82532ffb7972897186221d2",
+          "url": "https://openai.com/index/teaching-with-ai"
+        },
+        {
+          "id": "openai-announcements-8a7cdd78fd48385994a8",
+          "title": "A milestone in expanding access to AI",
+          "publishedAt": "2026-08-31",
+          "hash": "82633da94b981e15380e51e979060804503e7d4b6494b519d9980ead344d0ad4",
+          "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads"
+        },
+        {
+          "id": "openai-announcements-8a8601b30dd910cc816f",
+          "title": "Why Codex Security Doesn’t Include a SAST Report",
+          "publishedAt": "2026-03-16",
+          "hash": "aae860bb1552dda88f07ea64382c114d05e7d982db03ebfbfd564c0805996b13",
+          "url": "https://openai.com/index/why-codex-security-doesnt-include-sast"
+        },
+        {
+          "id": "openai-announcements-8cad933a121d8b62c9d4",
+          "title": "Making ChatGPT better for clinicians",
+          "publishedAt": "2026-04-22",
+          "hash": "e74a63936b965f59d4e8f0fbcd0d5e10744517ed273c8dc4dcb02bb38a50b112",
+          "url": "https://openai.com/index/making-chatgpt-better-for-clinicians"
+        },
+        {
+          "id": "openai-announcements-8d601fb98b9e65cd6676",
+          "title": "Introducing shopping research in ChatGPT",
+          "publishedAt": "2025-11-24",
+          "hash": "2f8bfdcf2d6a1c701fab67d7a4855422a288b3fc319abe71b52beed19b86dda0",
+          "url": "https://openai.com/index/chatgpt-shopping-research"
+        },
+        {
+          "id": "openai-announcements-8f3818540eb6f52ee4d9",
+          "title": "Building a custom math tutor powered by ChatGPT",
+          "publishedAt": "2025-02-04",
+          "hash": "e94d7f451d43351e532bd98e2f40db62d828f4caf467f63910f3138941e8052c",
+          "url": "https://openai.com/index/my-dog-the-math-tutor"
+        },
+        {
+          "id": "openai-announcements-8f555fe918e1ef562b9b",
+          "title": "Speeding up agentic workflows with WebSockets in the Responses API",
+          "publishedAt": "2026-04-22",
+          "hash": "660c26876f83c8fc761fe352fef6cfdfe8dfeef8022852ca6622b7128dc2a574",
+          "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets"
+        },
+        {
+          "id": "openai-announcements-901595b7f999be00ec80",
+          "title": "OpenAI and GEDI partner for Italian news content",
+          "publishedAt": "2024-09-26",
+          "hash": "566bef63ebdd04793214905d0468fab79fcba305d8fd4efbb0646bdb5edadb80",
+          "url": "https://openai.com/index/gedi"
+        },
+        {
+          "id": "openai-announcements-903ad882e64a9df38b6e",
+          "title": "Enhancing news in ChatGPT with The Atlantic",
+          "publishedAt": "2024-05-29",
+          "hash": "9b28d754b9be8725f40fcef5089f1431b482e04582b6f0eb27f8d21f1470cd74",
+          "url": "https://openai.com/index/enhancing-news-in-chatgpt-with-the-atlantic"
+        },
+        {
+          "id": "openai-announcements-946bf5413869bf933b6b",
+          "title": "Inside Mirakl's agentic commerce vision",
+          "publishedAt": "2025-12-01",
+          "hash": "9e8a12fee2a1f9ce291d293bc408dfcc91b5a9bb43aa317c795cadd2381986dd",
+          "url": "https://openai.com/index/mirakl"
+        },
+        {
+          "id": "openai-announcements-9508517bc8f220149e5f",
+          "title": "Introducing ChatGPT Enterprise",
+          "publishedAt": "2023-08-28",
+          "hash": "7cd195462444432a30b91c38ff416af44163e435a8f48badaca97460d41cd2c2",
+          "url": "https://openai.com/index/introducing-chatgpt-enterprise"
+        },
+        {
+          "id": "openai-announcements-95384e9055c3b715bb5c",
+          "title": "CyberAgent moves faster with ChatGPT Enterprise and Codex",
+          "publishedAt": "2026-04-09",
+          "hash": "686cbc61e02ba997a2474f222c5c00a7393f5ecf4e61d94c12119781f532109d",
+          "url": "https://openai.com/index/cyberagent"
+        },
+        {
+          "id": "openai-announcements-961a62b25f9363d1492a",
+          "title": "New in ChatGPT for Business: April 2025",
+          "publishedAt": "2025-04-24",
+          "hash": "e41e88fcd156ab1d6e014293ea515cedb60e1d50d3f1d4b766b46daca82d05bf",
+          "url": "https://openai.com/business/new-in-chatgpt-for-business-april-updates-2025"
+        },
+        {
+          "id": "openai-announcements-97786632d087ad76c7fc",
+          "title": "ChatGPT plugins",
+          "publishedAt": "2023-03-23",
+          "hash": "3790634d6bbdfa06aca7977d3f0b34e882e7247421a1a6752a4105ae773cf128",
+          "url": "https://openai.com/index/chatgpt-plugins"
+        },
+        {
+          "id": "openai-announcements-978a353b1d065a4cdc31",
+          "title": "Personalizing ChatGPT",
+          "publishedAt": "2026-04-10",
+          "hash": "6a2af0479d0fcdb4bfc7147f000ae4d87d740588fa80c6bb759ca89612f763c6",
+          "url": "https://openai.com/academy/personalization"
+        },
+        {
+          "id": "openai-announcements-97debc210b6974cc24b1",
+          "title": "Developers can now submit apps to ChatGPT",
+          "publishedAt": "2025-12-17",
+          "hash": "dd732dacac8be4ce09f73c12063347adf0eaa385aff67e6938787ae48d2d9edb",
+          "url": "https://openai.com/index/developers-can-now-submit-apps-to-chatgpt"
+        },
+        {
+          "id": "openai-announcements-97e92714d577da88c6e3",
+          "title": "Circles powers telco personalization with OpenAI technology",
+          "publishedAt": "2026-08-03",
+          "hash": "83e71259898135a907027d80dbcb815b05c0ab6b404a1a71a7636ad175040921",
+          "url": "https://openai.com/index/circles"
+        },
+        {
+          "id": "openai-announcements-9aba7995b6a5f362ca76",
+          "title": "Introducing GPT-5.3-Codex",
+          "publishedAt": "2026-02-05",
+          "hash": "30975bd9366157d8ed4563283bd807139dcb2e3b064e4fe5a48243e8c54988c5",
+          "url": "https://openai.com/index/introducing-gpt-5-3-codex"
+        },
+        {
+          "id": "openai-announcements-9adc8594232bd72a2bff",
+          "title": "OpenAI and Apple announce partnership",
+          "publishedAt": "2024-06-10",
+          "hash": "96ad555ec56bc30129ea4dc090ca697c500701043a7da43e3044666206a7d8dd",
+          "url": "https://openai.com/index/openai-and-apple-announce-partnership"
+        },
+        {
+          "id": "openai-announcements-9bafa93fe08b847d5d92",
+          "title": "How RingCentral builds AI-native work from engineering to ops",
+          "publishedAt": "2026-08-12",
+          "hash": "5602f6877a11037b050130dc44dfa51572d24a087a0899eca77f3465e9bcb62d",
+          "url": "https://openai.com/index/ringcentral"
+        },
+        {
+          "id": "openai-announcements-9bc8e7751f802c1e63da",
+          "title": "DALL·E 3 is now available in ChatGPT Plus and Enterprise",
+          "publishedAt": "2023-10-19",
+          "hash": "c970567403aac43f2a8195cff9fdefbfec1b2eefb791d508a36c434ba4c607b5",
+          "url": "https://openai.com/index/dall-e-3-is-now-available-in-chatgpt-plus-and-enterprise"
+        },
+        {
+          "id": "openai-announcements-9bf93d58cc35db9987f8",
+          "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+          "publishedAt": "2026-10-09",
+          "hash": "facce04c84eb9a50fd433c61c59da7c5a880b814595de2c48ed44823daae26d9",
+          "url": "https://openai.com/index/asana-browser-agent"
+        },
+        {
+          "id": "openai-announcements-9de028fbe46cac8b155a",
+          "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+          "publishedAt": "2026-09-25",
+          "hash": "ed12fff9354dae78eaea1bac7ca520246f81d203bfc549eb5e132b8b1c63305e",
+          "url": "https://openai.com/index/proaction"
+        },
+        {
+          "id": "openai-announcements-9f4dbdd37bfa3bd34250",
+          "title": "Improving health intelligence in ChatGPT",
+          "publishedAt": "2026-06-18",
+          "hash": "68d0544b89b59f16ec44a949ed86b3dde41fdabda25b5855b1d639b396355b71",
+          "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt"
+        },
+        {
+          "id": "openai-announcements-9f84e2e45d87466b2176",
+          "title": "Accelerating the next phase of AI",
+          "publishedAt": "2026-03-31",
+          "hash": "435855201c4fd47a57c52d39d1250f345169366897adbf4332f643d65924ce9e",
+          "url": "https://openai.com/index/accelerating-the-next-phase-ai"
+        },
+        {
+          "id": "openai-announcements-a028cc7ae9bd695cb41d",
+          "title": "Start using ChatGPT instantly",
+          "publishedAt": "2024-04-01",
+          "hash": "3efe7994b1e6a543292e354694e60db16452054b9f6714553759173050154615",
+          "url": "https://openai.com/index/start-using-chatgpt-instantly"
+        },
+        {
+          "id": "openai-announcements-a04d57070e9b202e388d",
+          "title": "Simplex rethinks software development with Codex",
+          "publishedAt": "2026-05-07",
+          "hash": "a80c4beb59ff8539d6cab1e1d2064c504e6e0b65e10d96a5270b4320bee93827",
+          "url": "https://openai.com/index/simplex"
+        },
+        {
+          "id": "openai-announcements-a097ef0d441a7216b7cd",
+          "title": "GPT-6 and Intelligent UI for everyone",
+          "publishedAt": "2026-10-07",
+          "hash": "c326d226d87ac68b5b60fb743efadca2a4eeaf2ee05cfca4850f2ea83a10e09f",
+          "url": "https://openai.com/index/gpt-6-for-everyone"
+        },
+        {
+          "id": "openai-announcements-a1312e54bd28a28cba89",
+          "title": "Helping ChatGPT better recognize context in sensitive conversations",
+          "publishedAt": "2026-05-14",
+          "hash": "a6d860e3857bfb8a45cf533cef15a6e75bdff4e3e4de81678f6876e0246fc5b7",
+          "url": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations"
+        },
+        {
+          "id": "openai-announcements-a15adbd33f2781761720",
+          "title": "Our commitment to community safety",
+          "publishedAt": "2026-04-28",
+          "hash": "59e86360b1f25c1f1a6a238422c075a287b642c4e18d830af2212326e3f46aed",
+          "url": "https://openai.com/index/our-commitment-to-community-safety"
+        },
+        {
+          "id": "openai-announcements-a1b72811dd254b5043b5",
+          "title": "1Password increases engineering productivity 21% with Codex",
+          "publishedAt": "2026-09-08",
+          "hash": "67148e07908536c51971a6b7c204433bc54a0d78f4da4eef0105722520e5c0cc",
+          "url": "https://openai.com/index/1password"
+        },
+        {
+          "id": "openai-announcements-a452b2dc7f5d1496d4c8",
+          "title": "Introducing ChatGPT Pro",
+          "publishedAt": "2024-12-05",
+          "hash": "55caf3f88d38cb728a45677fdb5220a7d1cfb7bdc7ecc7a92311b07cd61d3edc",
+          "url": "https://openai.com/index/introducing-chatgpt-pro"
+        },
+        {
+          "id": "openai-announcements-a6fcbba288389a6bed07",
+          "title": "Introducing Trusted Contact in ChatGPT",
+          "publishedAt": "2026-05-07",
+          "hash": "32a797858e5b5c68d1a305c741adf8156baf36a29f1d499546a3ecb1044e760d",
+          "url": "https://openai.com/index/introducing-trusted-contact-in-chatgpt"
+        },
+        {
+          "id": "openai-announcements-a8c40ae01de0ba3a754b",
+          "title": "Introducing canvas, a new way to write and code with ChatGPT.",
+          "publishedAt": "2024-10-03",
+          "hash": "908db06cb583b0f12e75a975b255efea692d7c510229a1f9ddedb59e20f4c5ef",
+          "url": "https://openai.com/index/introducing-canvas"
+        },
+        {
+          "id": "openai-announcements-a8fe7ab45085b1b3f26a",
+          "title": "Data science workflows with ChatGPT Work",
+          "publishedAt": "2026-07-14",
+          "hash": "b88b87ed6f964f8d92f9ed663d8f7947eaaded080803017cb02fd32a62a7cb0d",
+          "url": "https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex"
+        },
+        {
+          "id": "openai-announcements-a907415b440a72c97ae1",
+          "title": "Why teens deserve access to safe AI",
+          "publishedAt": "2026-07-16",
+          "hash": "754e2efe3b84bcff8e758e666488f32dfe4106a8107aba32d6996df1f3c0fc42",
+          "url": "https://openai.com/index/why-teens-deserve-access-safe-ai"
+        },
+        {
+          "id": "openai-announcements-a96d956a5e60f370b93d",
+          "title": "More ways to work with your team and tools in ChatGPT",
+          "publishedAt": "2025-09-25",
+          "hash": "1179d78ed155bea7838d0f8eecdcb1358f17ae02d879415491c69a025806929b",
+          "url": "https://openai.com/index/more-ways-to-work-with-your-team"
+        },
+        {
+          "id": "openai-announcements-a98a34dd9950048acb9e",
+          "title": "Creating nail art with ChatGPT",
+          "publishedAt": "2025-02-04",
+          "hash": "64e691f239fc2e5ae7d5788b139dc32b8244ac5dee90509adeec4ebc1d24f701",
+          "url": "https://openai.com/index/ten-tiny-canvases"
+        },
+        {
+          "id": "openai-announcements-aa67bf587bd0c123b390",
+          "title": "Getting started with ChatGPT",
+          "publishedAt": "2026-07-10",
+          "hash": "3c34358338569ec4c371652d8adcd5d03f566d2b581b54cc0e492a965b64d1e7",
+          "url": "https://openai.com/academy/getting-started"
+        },
+        {
+          "id": "openai-announcements-ab9ea62ec59ebe1add5f",
+          "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
+          "publishedAt": "2026-07-07",
+          "hash": "a29c810436cd2484b04429dc7966cc201edfdf8224782431738fba56c6e0094b",
+          "url": "https://openai.com/index/australian-payments-plus"
+        },
+        {
+          "id": "openai-announcements-abb942f337e217d5ca58",
+          "title": "Introducing Codex",
+          "publishedAt": "2025-05-16",
+          "hash": "694566306a69ff97e524071a07db8e5ed125d6c5834efb16e7c685ec4e5923af",
+          "url": "https://openai.com/index/introducing-codex"
+        },
+        {
+          "id": "openai-announcements-ac90ade86eae5c0db28c",
+          "title": "Everyday work with ChatGPT Work",
+          "publishedAt": "2026-04-23",
+          "hash": "a92083be7d38ca97a48e02764877cc85482f7e016d9738264badf1082748d8a6",
+          "url": "https://openai.com/academy/how-to-use-chatgpt-work-for-everyday-tasks"
+        },
+        {
+          "id": "openai-announcements-ad89fb510e3c78c26282",
+          "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
+          "publishedAt": "2026-08-20",
+          "hash": "b6b6fd8c7cecc7d3c8821d7b43f89b2c7da09a770afcc663d623ff5e573681e8",
+          "url": "https://openai.com/index/stampli"
+        },
+        {
+          "id": "openai-announcements-ae10eb4597fe2dea3b83",
+          "title": "Unrolling the Codex agent loop",
+          "publishedAt": "2026-01-23",
+          "hash": "fb3dbc9c5fc746c2780caf9c0d5c462fdba160c22347872efd443f7e1a05023e",
+          "url": "https://openai.com/index/unrolling-the-codex-agent-loop"
+        },
+        {
+          "id": "openai-announcements-ae69059d9d37c3d72485",
+          "title": "Enabling a data-driven workforce",
+          "publishedAt": "2024-08-08",
+          "hash": "7bbcaed4f7d3b60db4bff0e98fe91d4b996f13d8aa3c8ed87fb2d8915a434a7f",
+          "url": "https://openai.com/business/enabling-a-data-driven-workforce-webinar"
+        },
+        {
+          "id": "openai-announcements-af71f35d86eeb9d84515",
+          "title": "Shipping code to your IDE with ChatGPT",
+          "publishedAt": "2025-04-08",
+          "hash": "d45e4c39558f6d457796c8b1379dc450de8cee6379b0267aab9a19c436033bf6",
+          "url": "https://openai.com/business/learn/shipping-code-to-your-ide-with-chatgpt"
+        },
+        {
+          "id": "openai-announcements-af801fa32a97b759c6aa",
+          "title": "Introducing ChatGPT Plus",
+          "publishedAt": "2023-02-01",
+          "hash": "91606089159252ca6c945b7130bfe944cd3990c6f08352c5abdaa62d41cc55e3",
+          "url": "https://openai.com/index/chatgpt-plus"
+        },
+        {
+          "id": "openai-announcements-afbf3bfda829c0175e53",
+          "title": "Strategic planning with ChatGPT",
+          "publishedAt": "2025-04-08",
+          "hash": "0d518a0dcd4546687cc65a317f692809e0eeb64def545ec2fb85ddde842f1b99",
+          "url": "https://openai.com/business/learn/strategic-planning-with-chatgpt"
+        },
+        {
+          "id": "openai-announcements-b0366f9850a9d166d4a5",
+          "title": "Helping older adults use AI in everyday life",
+          "publishedAt": "2026-09-16",
+          "hash": "333b9346dbd5286cb7bd8a72384d4f5d0248ca12e99dad4f8120b2d4409c66e9",
+          "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life"
+        },
+        {
+          "id": "openai-announcements-b040c6a9760044cef0af",
+          "title": "Codex for every role, tool, and workflow",
+          "publishedAt": "2026-06-02",
+          "hash": "6eafceac34a91441e3b9284cd42821e2384774b1c8208493d851a0a81b3014c5",
+          "url": "https://openai.com/index/codex-for-every-role-tool-workflow"
+        },
+        {
+          "id": "openai-announcements-b074ccdb2d9ec0277b65",
+          "title": "Introducing ChatGPT agent",
+          "publishedAt": "2025-07-17",
+          "hash": "d569e03001b679c82048b2219a139fd1f0fa5445aca25ee8b35786e66992b6a5",
+          "url": "https://openai.com/index/introducing-chatgpt-agent"
+        },
+        {
+          "id": "openai-announcements-b0bfca7aae4b9f5b8008",
+          "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
+          "publishedAt": "2025-12-09",
+          "hash": "b7dad02f9422d89a4a7c7dd2b2fee83d23f30ddaf9f7064802698e8d5c6b26a3",
+          "url": "https://openai.com/index/deutsche-telekom-collaboration"
+        },
+        {
+          "id": "openai-announcements-b117978acb8a29a32c12",
+          "title": "Introducing Lockdown Mode and Elevated Risk labels in ChatGPT",
+          "publishedAt": "2026-02-13",
+          "hash": "321093dbac6021b3e97edc4bb4a3b8857a51d4278715a82cb4d3a98a68675fd6",
+          "url": "https://openai.com/index/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt"
+        },
+        {
+          "id": "openai-announcements-b11d4bd5436401db7d0e",
+          "title": "Continue your ChatGPT experience beyond WhatsApp",
+          "publishedAt": "2025-10-21",
+          "hash": "bde9b2924fb0f39807a07c063c61357896431641df35cc2b59fa930cd6497631",
+          "url": "https://openai.com/index/chatgpt-whatsapp-transition"
+        },
+        {
+          "id": "openai-announcements-b19ec562c455e753267b",
+          "title": "Testing ads in ChatGPT",
+          "publishedAt": "2026-08-11",
+          "hash": "dc210e2ed3f0b5c6460142cbc7f5e75ab6c368291094c5129d55fc1dee148b22",
+          "url": "https://openai.com/index/testing-ads-in-chatgpt"
+        },
+        {
+          "id": "openai-announcements-b1c9322e571fec76add6",
+          "title": "Improving GPT‐5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+          "publishedAt": "2026-08-06",
+          "hash": "2fb9965a8bd2405c01335e06b624449074c377f5e5f7a569c7db4da3dd99df64",
+          "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt"
+        },
+        {
+          "id": "openai-announcements-b1e8fd2810bc41646a56",
+          "title": "Partnering with Axios expands OpenAI’s work with the news industry",
+          "publishedAt": "2025-01-15",
+          "hash": "6e853930e2d87c214f7cb3613ce92417a3814213893fa2f8ba2b6eb945836436",
+          "url": "https://openai.com/index/partnering-with-axios-expands-openai-work-with-the-news-industry"
+        },
+        {
+          "id": "openai-announcements-b32e9b847135398762b9",
+          "title": "Introducing the Agents API",
+          "publishedAt": "2026-09-10",
+          "hash": "89fc2c30d73e82aafe541ec8da6ac9c7f03450a98bc7ee2e83add7fa5ebd0535",
+          "url": "https://openai.com/index/introducing-the-agents-api"
+        },
+        {
+          "id": "openai-announcements-b34c98233be7b51ec97b",
+          "title": "How should AI systems behave, and who should decide?",
+          "publishedAt": "2023-02-16",
+          "hash": "c92b30315f13d3b0e55bf0e3fba83d5a28a8239ad00032a556b8055e1b11567c",
+          "url": "https://openai.com/index/how-should-ai-systems-behave"
+        },
+        {
+          "id": "openai-announcements-b5b36394e50a1ce9f5b4",
+          "title": "Delegate work to ChatGPT agent",
+          "publishedAt": "2025-08-06",
+          "hash": "3c8c5fefe7aee69435139a94d12d22607b240135cb345f1eae5cf25eb6e8c78a",
+          "url": "https://openai.com/business/learn/delegate-work-to-chatgpt-agent"
+        },
+        {
+          "id": "openai-announcements-b5d18c04f7f67bab650d",
+          "title": "OpenAI available at FedRAMP Moderate",
+          "publishedAt": "2026-04-27",
+          "hash": "b3bafce04b2bab68ad3c34ba42598d3e5db26584a924bfae3a25017fd4bbe315",
+          "url": "https://openai.com/index/openai-available-at-fedramp-moderate"
+        },
+        {
+          "id": "openai-announcements-b63e5cb33bb0ec81fc69",
+          "title": "Daybreak: Tools for securing every organization in the world",
+          "publishedAt": "2026-06-22",
+          "hash": "ce8dea0faedd21e37b02a26decd3900cc91be5ea62191fc6864663ae4de09d54",
+          "url": "https://openai.com/index/daybreak-securing-the-world"
+        },
+        {
+          "id": "openai-announcements-b68785e0ad8b53a8b766",
+          "title": "A free version of ChatGPT built for teachers",
+          "publishedAt": "2025-11-19",
+          "hash": "624505a8af2465a17d128e7036a5be4eaee5da25ef37f1b7e17d4fa1e534d110",
+          "url": "https://openai.com/index/chatgpt-for-teachers"
+        },
+        {
+          "id": "openai-announcements-b7195bbec0581aa4f92a",
+          "title": "MUFG aims to become AI-native with OpenAI",
+          "publishedAt": "2026-07-07",
+          "hash": "b48459eb5c9a7e3475c81f4f2893e8d0476be79f3f6ac4d56fafe26889f17269",
+          "url": "https://openai.com/index/mufg"
+        },
+        {
+          "id": "openai-announcements-b80206eeacbe4305e748",
+          "title": "Defining and evaluating political bias in LLMs",
+          "publishedAt": "2025-10-09",
+          "hash": "ba754916a83a672b3f8a7e8d5e14fc5877cc66ade93c85874df2a24d36958829",
+          "url": "https://openai.com/index/defining-and-evaluating-political-bias-in-llms"
+        },
+        {
+          "id": "openai-announcements-baeb7ae75753a1c18f7a",
+          "title": "A new personal finance experience in ChatGPT",
+          "publishedAt": "2026-05-15",
+          "hash": "78c34d01eddb6ef7e54884e96dd01dc9c194c1c7a0446966c90dd2c378217b9b",
+          "url": "https://openai.com/index/personal-finance-chatgpt"
+        },
+        {
+          "id": "openai-announcements-baf07daff59f271b9079",
+          "title": "How NVIDIA scales expertise with ChatGPT Work",
+          "publishedAt": "2026-08-18",
+          "hash": "cddf64be3b455c3841922afedde51195ddc10e851785b1b0cab43086fbc61e1c",
+          "url": "https://openai.com/index/nvidia/chatgpt-work"
+        },
+        {
+          "id": "openai-announcements-bb71e409dd7f29f762c2",
+          "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+          "publishedAt": "2026-09-23",
+          "hash": "96ccf6541116107a8933699c367789ca402aae39636cac6f93f2428f2581d53a",
+          "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan"
+        },
+        {
+          "id": "openai-announcements-bb84cd80ed2345759045",
+          "title": "Introducing OpenAI for Nonprofits",
+          "publishedAt": "2024-05-30",
+          "hash": "587739b58679b6d379e47a820b63e8979102df4c0c43f3b841c22471653d2e62",
+          "url": "https://openai.com/index/introducing-openai-for-nonprofits"
+        },
+        {
+          "id": "openai-announcements-bb96c88aa03c8dcad896",
+          "title": "What we’re optimizing ChatGPT for",
+          "publishedAt": "2025-08-04",
+          "hash": "1d577208bd36e42d1470ffe36690fd799163d8ef9d007177c5c4ec5862844e3a",
+          "url": "https://openai.com/index/optimizing-chatgpt"
+        },
+        {
+          "id": "openai-announcements-bc1a61aec959b957d136",
+          "title": "Introducing ChatGPT",
+          "publishedAt": "2022-11-30",
+          "hash": "cc8b8ff7f1bba7c6a785160b88b24bb1073486b4e936eb4d5173fcf1335f3d08",
+          "url": "https://openai.com/index/chatgpt"
+        },
+        {
+          "id": "openai-announcements-bc32444a81aa8a8c9a85",
+          "title": "How people are using ChatGPT",
+          "publishedAt": "2025-09-15",
+          "hash": "266ae68563debc84fee0976041db314b38418c6eed3f03d7c722bf841665d16b",
+          "url": "https://openai.com/index/how-people-are-using-chatgpt"
+        },
+        {
+          "id": "openai-announcements-bc79b84ae366f6d42a6a",
+          "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
+          "publishedAt": "2026-05-22",
+          "hash": "f51013620c01d64a5ebe4626091c16fc00baec109bc96b3f7831aa1bd42cea6b",
+          "url": "https://openai.com/index/gartner-2026-agentic-coding-leader"
+        },
+        {
+          "id": "openai-announcements-bd5105ccfa254f063bb1",
+          "title": "Introducing ChatGPT search",
+          "publishedAt": "2024-10-31",
+          "hash": "4fc8e22b92f8af193ed4a6c759608be38ead180d6e5dd68761c7fd2792cf1f82",
+          "url": "https://openai.com/index/introducing-chatgpt-search"
+        },
+        {
+          "id": "openai-announcements-bf70d809f9542eeef4af",
+          "title": "Launching Health in ChatGPT",
+          "publishedAt": "2026-07-23",
+          "hash": "4574b7c2948e407363db383b0722bb739cd739b5106d1f105d4e5602e5053ada",
+          "url": "https://openai.com/index/health-in-chatgpt"
+        },
+        {
+          "id": "openai-announcements-c0364833b41073ca7c0e",
+          "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+          "publishedAt": "2026-09-01",
+          "hash": "15161491bb8adbb11cf6ae376aeba3c4d872b802cac6441e78bf83c6271b94e5",
+          "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources"
+        },
+        {
+          "id": "openai-announcements-c0ea38c978e3cd13352c",
+          "title": "Catching halibut with ChatGPT",
+          "publishedAt": "2025-02-04",
+          "hash": "b3dbff6053556c0510fad7aca38b788d8cc0e144ad8f9c39439331eaf223dc5a",
+          "url": "https://openai.com/index/fishing-for-first-timers"
+        },
+        {
+          "id": "openai-announcements-c17e7186c8901da25fd7",
+          "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
+          "publishedAt": "2026-06-10",
+          "hash": "2d71f9aa6239f72f779d3f0600af9a8e58c12451bf7719714d15ef3145381588",
+          "url": "https://openai.com/index/openai-on-oracle-cloud"
+        },
+        {
+          "id": "openai-announcements-c3ab33c62226049804cd",
+          "title": "Dreaming: Better memory for a more helpful ChatGPT",
+          "publishedAt": "2026-06-04",
+          "hash": "f24eaba9fa69d6d6f8af68532c161529f9bada0713279a637dacebf91a51af92",
+          "url": "https://openai.com/index/chatgpt-memory-dreaming"
+        },
+        {
+          "id": "openai-announcements-c3b0ed374d41680783fa",
+          "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+          "publishedAt": "2026-08-18",
+          "hash": "69e65cd2eae708ec087228038d8ebd4a05802c8e97de3e1b0d1dbf59f0084f10",
+          "url": "https://openai.com/index/chatgpt-for-teens"
+        },
+        {
+          "id": "openai-announcements-c4837425d75b16bdf8e8",
+          "title": "OpenAI acquires Software Applications Incorporated, maker of Sky",
+          "publishedAt": "2025-10-23",
+          "hash": "44777113bc4a25875ab9d74bfcf50ea50c36b3838875e8d322e7d889ca5e5274",
+          "url": "https://openai.com/index/openai-acquires-software-applications-incorporated"
+        },
+        {
+          "id": "openai-announcements-c6c77ede35b02810507b",
+          "title": "Introducing ChatGPT Team",
+          "publishedAt": "2024-01-10",
+          "hash": "960adcd22af6c705436f41c8864471846dd4efa3e2504ceacfa1b61dfd62a5ff",
+          "url": "https://openai.com/index/introducing-chatgpt-team"
+        },
+        {
+          "id": "openai-announcements-c6dde7320bdf607b3f1b",
+          "title": "OpenAI and Greek Government launch ‘OpenAI for Greece’",
+          "publishedAt": "2025-09-05",
+          "hash": "615a59eecbd3b7f8c4524a519d3e90be80f0585f4e81ac90346b8e940b0c0710",
+          "url": "https://openai.com/global-affairs/openai-for-greece"
+        },
+        {
+          "id": "openai-announcements-c71ef79e3212dc880b6b",
+          "title": "Introducing workspace agents in ChatGPT",
+          "publishedAt": "2026-04-22",
+          "hash": "0579fc74155efedd63375295de33cb06c8638a4d0850b4657543db1def05777c",
+          "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt"
+        },
+        {
+          "id": "openai-announcements-c78dd96d03513680330c",
+          "title": "ENEOS Materials brings ChatGPT Enterprise to manufacturing",
+          "publishedAt": "2025-09-24",
+          "hash": "92ebfb1086260570fe8e7a826955ae74afbe1d70428efa624101ec0b05c6c5b5",
+          "url": "https://openai.com/index/eneos-materials"
+        },
+        {
+          "id": "openai-announcements-c7affab7451ec44b9067",
+          "title": "Building self-improving tax agents with Codex",
+          "publishedAt": "2026-05-27",
+          "hash": "a08c97a20eec5342a10eb0e2c014344651b7bac398c4d306cb633b6a18a421f9",
+          "url": "https://openai.com/index/building-self-improving-tax-agents-with-codex"
+        },
+        {
+          "id": "openai-announcements-c81f77b805490ba20f75",
+          "title": "BBVA and OpenAI collaborate to transform global banking",
+          "publishedAt": "2025-12-12",
+          "hash": "07c5f679ee4de49753932884b5f9d1dfdfb313a1f611407428fa7d172e0f60cf",
+          "url": "https://openai.com/index/bbva-collaboration-expansion"
+        },
+        {
+          "id": "openai-announcements-ca31d97018ea2c02ba71",
+          "title": "New compliance and administrative tools for ChatGPT Enterprise",
+          "publishedAt": "2024-07-18",
+          "hash": "ff01980f470500710a19e967e09e7f18e50a245b871532c9cf0348926fc86a80",
+          "url": "https://openai.com/index/new-tools-for-chatgpt-enterprise"
+        },
+        {
+          "id": "openai-announcements-ca7758ca2a2c3977dbbb",
+          "title": "How ChatGPT learns about the world while protecting privacy",
+          "publishedAt": "2026-05-06",
+          "hash": "6d60ee9cbcfe7284a3085b12e97f6449168ca145f3aad615ca0af59d97089fe8",
+          "url": "https://openai.com/index/how-chatgpt-protects-privacy"
+        },
+        {
+          "id": "openai-announcements-cc90f3025a86e677fb30",
+          "title": "OpenAI and Guardian Media Group launch content partnership",
+          "publishedAt": "2025-02-14",
+          "hash": "4bb3294b9f0a2f76be24c643f002055ecad63dd15b63d2597ab6cf7263c824dc",
+          "url": "https://openai.com/index/openai-and-guardian-media-group-launch-content-partnership"
+        },
+        {
+          "id": "openai-announcements-cd164621c26d332beae3",
+          "title": "Work smarter with your company knowledge in ChatGPT",
+          "publishedAt": "2025-10-23",
+          "hash": "6ce20dafe575323ede8a13f8c480f4b73412e6590480e5fbb297b3f5ca52b42a",
+          "url": "https://openai.com/index/introducing-company-knowledge"
+        },
+        {
+          "id": "openai-announcements-cd88270c00622dafecb0",
+          "title": "Univé builds an AI-ready workforce",
+          "publishedAt": "2026-07-31",
+          "hash": "29fc0074b0c7ecd2cd34fa024fa2075792def07efbbc4351a72d56125090abe5",
+          "url": "https://openai.com/index/unive"
+        },
+        {
+          "id": "openai-announcements-cd8d6c8023f2f56d4036",
+          "title": "Introducing GPT-5.2-Codex",
+          "publishedAt": "2025-12-18",
+          "hash": "5a1d934fa02ab439dc0b4f868d4652a0aaff5449722280171d32f370a9fe7f89",
+          "url": "https://openai.com/index/introducing-gpt-5-2-codex"
+        },
+        {
+          "id": "openai-announcements-ce943383d65893dfe9ef",
+          "title": "Finance workflows with ChatGPT Work",
+          "publishedAt": "2026-05-12",
+          "hash": "a9a54b46b81faf9604e0b096258fa76b8898309d93d288cf78cccc3efa68eca3",
+          "url": "https://openai.com/academy/how-finance-teams-use-codex"
+        },
+        {
+          "id": "openai-announcements-d22acfa5d0cc1d093c4a",
+          "title": "How Cooley is accelerating IPO work with ChatGPT",
+          "publishedAt": "2026-09-17",
+          "hash": "837f791e4db38cbf64b5f2622133340bed857c93cdf4e87839a399bf6f4ad726",
+          "url": "https://openai.com/index/cooley-gopublic"
+        },
+        {
+          "id": "openai-announcements-d2a0da8324dcb2e58fb8",
+          "title": "Commonwealth Bank of Australia builds AI fluency at scale",
+          "publishedAt": "2025-12-09",
+          "hash": "2f4e3f5330b64b0be4245769bc29a9b187dac4c1e5552b453d7a464c16d54779",
+          "url": "https://openai.com/index/commonwealth-bank-of-australia"
+        },
+        {
+          "id": "openai-announcements-d47fffe1fb51fed8b890",
+          "title": "The next chapter for UK sovereign AI",
+          "publishedAt": "2025-10-22",
+          "hash": "00581338193b500db074ca3de9d93a17019d6c9127619f170aeb2f5e3e8a7208",
+          "url": "https://openai.com/index/the-next-chapter-for-uk-sovereign-ai"
+        },
+        {
+          "id": "openai-announcements-d58daa6d846a2b00998f",
+          "title": "Powering product discovery in ChatGPT",
+          "publishedAt": "2026-03-24",
+          "hash": "6638ba023c669cf492ae157c0160f12dc4cf85ceccef1bc2945f16cf1d81f9d0",
+          "url": "https://openai.com/index/powering-product-discovery-in-chatgpt"
+        },
+        {
+          "id": "openai-announcements-d63866e4506b41f8fd70",
+          "title": "Building towards age prediction",
+          "publishedAt": "2025-09-16",
+          "hash": "b74e80568dca633b97c83c1acc4c4deb649c8c876cd9ce9b4f4cbc9cee839c38",
+          "url": "https://openai.com/index/building-towards-age-prediction"
+        },
+        {
+          "id": "openai-announcements-d98e79f87911521c1f87",
+          "title": "Think Bigger: How Small Teams Win with ChatGPT",
+          "publishedAt": "2026-01-22",
+          "hash": "f20a1f24cfde35d8f90943a9d3e3c493bfdf00d7a2b3058eed3315c9771d3774",
+          "url": "https://openai.com/business/guides-and-resources/chatgpt-business-smb-guide"
+        },
+        {
+          "id": "openai-announcements-dab2a335b9a73af05c46",
+          "title": "OpenAI partners with Cerebras",
+          "publishedAt": "2026-01-14",
+          "hash": "56d2263c01f250826e84cab93f029e612d8e820e48d274badfa09041902c810f",
+          "url": "https://openai.com/index/cerebras-partnership"
+        },
+        {
+          "id": "openai-announcements-db7b9e6fe248e3146f87",
+          "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+          "publishedAt": "2026-10-08",
+          "hash": "8f63f085bfa506ef71c724039d6bb878874218460207ee21a7f053c68cee961c",
+          "url": "https://openai.com/index/oracle"
+        },
+        {
+          "id": "openai-announcements-db9d0913513df69e6eee",
+          "title": "How AI is expanding what people do at work",
+          "publishedAt": "2026-07-27",
+          "hash": "64c2321e0fb2d285a4bf0ff2183e688a8fd69b5b7d3704ad7cabc2555c5286a3",
+          "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work"
+        },
+        {
+          "id": "openai-announcements-dbc4cdcd6b0aad550af9",
+          "title": "Bringing ChatGPT to GenAI.mil",
+          "publishedAt": "2026-02-09",
+          "hash": "d19dc9d5b5f216db125399a932d0acec94f75a606c45a7143bca0cbf55ae1485",
+          "url": "https://openai.com/index/bringing-chatgpt-to-genaimil"
+        },
+        {
+          "id": "openai-announcements-dc32b9a6e0b3da7310dc",
+          "title": "New in ChatGPT for Business: March 2025",
+          "publishedAt": "2025-03-18",
+          "hash": "ef50e67ae2c43726baf5e687d638cf82a817303a5ee8fe39960bbff34fbcdaf0",
+          "url": "https://openai.com/business/new-in-chatgpt-for-work-march-updates-2025"
+        },
+        {
+          "id": "openai-announcements-dd64fe3084a4f825eb0e",
+          "title": "GPT-5.3-Codex System Card",
+          "publishedAt": "2026-02-05",
+          "hash": "e8ab69376c08be5a0d66118a9612e23429de3297965aafdb4b3766cc193673c2",
+          "url": "https://openai.com/index/gpt-5-3-codex-system-card"
+        },
+        {
+          "id": "openai-announcements-dd83ecd40f2ff4074504",
+          "title": "AutoScout24 scales engineering with AI-powered workflows",
+          "publishedAt": "2026-05-12",
+          "hash": "f10810ac6a8439d2214b48095b33855346ac34c4a4106c21d800d7fbb0256581",
+          "url": "https://openai.com/index/autoscout24"
+        },
+        {
+          "id": "openai-announcements-df5b8a20bbfc63a56334",
+          "title": "The Washington Post partners with OpenAI on search content",
+          "publishedAt": "2025-04-22",
+          "hash": "6e0e1ef1e334a481bdfac2be7bd630ab7ed2d0cf9f76d8150564cea0d53f6043",
+          "url": "https://openai.com/global-affairs/the-washington-post-partners-with-openai"
+        },
+        {
+          "id": "openai-announcements-e063daae6225e1569539",
+          "title": "From assistance to execution: How enterprises put AI to work",
+          "publishedAt": "2026-08-12",
+          "hash": "3510652c22fd523f70c1f738f0ef480ffa3360e24d99cce5a79656d090f10669",
+          "url": "https://openai.com/index/how-enterprises-put-ai-to-work"
+        },
+        {
+          "id": "openai-announcements-e0eeaa812fbd99828ddb",
+          "title": "Introducing the ChatGPT app for iOS",
+          "publishedAt": "2023-05-18",
+          "hash": "8f7a138c981408be305e4175a644cab8eb2b88dddd3346a5dcfa3b5eb145ac58",
+          "url": "https://openai.com/index/introducing-the-chatgpt-app-for-ios"
+        },
+        {
+          "id": "openai-announcements-e205ffac9d9f156d0028",
+          "title": "Unlocking the Codex harness: how we built the App Server",
+          "publishedAt": "2026-02-04",
+          "hash": "534551babe250c2393f2c15371941e23ae4deeb46c6654db4a5bdbf069014b63",
+          "url": "https://openai.com/index/unlocking-the-codex-harness"
+        },
+        {
+          "id": "openai-announcements-e2330fefe7e289875400",
+          "title": "Codex-maxxing for long-running work",
+          "publishedAt": "2026-06-22",
+          "hash": "0db4eaf91ba0e7e90b580db8723f6e19bc38da5686d43b7d67513fc4e727ca42",
+          "url": "https://openai.com/index/codex-maxxing-long-running-work"
+        },
+        {
+          "id": "openai-announcements-e2e14d0c1d724cca36a0",
+          "title": "Introducing ChatGPT Images and GPT‐Image‐1.5",
+          "publishedAt": "2025-12-16",
+          "hash": "d24ede91dd3e8dd6c7d5e0acf3e93cf0febf33bbb7a1ae55104fb1c36b1f375c",
+          "url": "https://openai.com/index/new-chatgpt-images-is-here"
+        },
+        {
+          "id": "openai-announcements-e53397b32e7f3ab85667",
+          "title": "Introducing ChatGPT and Whisper APIs",
+          "publishedAt": "2024-04-24",
+          "hash": "d36d9e727140079610d6856ab085d2398d68507a74acb7b2d286efe7e65f80c4",
+          "url": "https://openai.com/index/introducing-chatgpt-and-whisper-apis"
+        },
+        {
+          "id": "openai-announcements-e5c30c6d86b2b58f0b04",
+          "title": "New ways to manage your data in ChatGPT",
+          "publishedAt": "2023-04-25",
+          "hash": "c88c74c94d30ede962c621efb443d78ef90d91e7e0061467f772e3ea92e0fe65",
+          "url": "https://openai.com/index/new-ways-to-manage-your-data-in-chatgpt"
+        },
+        {
+          "id": "openai-announcements-e60fa7207f6a146102cc",
+          "title": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
+          "publishedAt": "2026-05-25",
+          "hash": "d088406657b463e2586a76dfca7ab4c320c7d55b3864176fefe37d24e2c4414c",
+          "url": "https://openai.com/index/grupo-folha-grupo-uol-partnership"
+        },
+        {
+          "id": "openai-announcements-e64934c73e22900fa3b7",
+          "title": "A Content and Product Partnership with Vox Media",
+          "publishedAt": "2024-05-29",
+          "hash": "e6e5e4c2097f94f29c72ac719c3ee04032ad6b9d408270928cba651511989c5a",
+          "url": "https://openai.com/index/a-content-and-product-partnership-with-vox-media"
+        },
+        {
+          "id": "openai-announcements-e9de10efc604fe9845f7",
+          "title": "Intellectual freedom by design",
+          "publishedAt": "2025-07-15",
+          "hash": "5d8f062ea486acab9808b98bb883ad87552d1cdc90568532850d497d1e5a3644",
+          "url": "https://openai.com/global-affairs/intellectual-freedom-by-design"
+        },
+        {
+          "id": "openai-announcements-eafd28afa8a69fbca252",
+          "title": "How We Used Codex to Ship Sora for Android in 28 Days",
+          "publishedAt": "2025-12-12",
+          "hash": "f18f7560412b2f5f3faee35116f1d658af25c19c63b02d8f84ee0beb05ac87a9",
+          "url": "https://openai.com/index/shipping-sora-for-android-with-codex"
+        },
+        {
+          "id": "openai-announcements-eb9a8702520abacbb995",
+          "title": "HYGH speeds development and campaigns with ChatGPT Business",
+          "publishedAt": "2025-10-10",
+          "hash": "aa89bbf9a3d8b7951c7cc54fcb353b40ba99c6c575324ad777bd68ff7503a90c",
+          "url": "https://openai.com/index/hygh"
+        },
+        {
+          "id": "openai-announcements-ebb413cc5359756bf923",
+          "title": "How Jump Trading is scaling quant research with ChatGPT",
+          "publishedAt": "2026-10-06",
+          "hash": "bcf50c755957cfbf819b75e963ac588eeee8df1a7fbc02fbfa585c6f1f33feeb",
+          "url": "https://openai.com/index/jump-trading"
+        },
+        {
+          "id": "openai-announcements-ee9f77bc7cfbdb9716b0",
+          "title": "Vision and voice in ChatGPT",
+          "publishedAt": "2025-04-08",
+          "hash": "740949131b90dbe60aebc28c6f18bf8f9e42a30b695edf9c738558e0b8a9906e",
+          "url": "https://openai.com/business/learn/vision-and-voice-in-chatgpt"
+        },
+        {
+          "id": "openai-announcements-eed116caed0195cd0325",
+          "title": "Creating a contextual workspace in ChatGPT",
+          "publishedAt": "2025-04-13",
+          "hash": "56e72c575e6c0122170d55ed81aad9e6f57fd5c98f014f59c02452b17cbfe8aa",
+          "url": "https://openai.com/business/learn/creating-a-contextual-workspace-in-chatgpt"
+        },
+        {
+          "id": "openai-announcements-ef12d7074e94053cd242",
+          "title": "Expert Council on Well-Being and AI",
+          "publishedAt": "2025-10-14",
+          "hash": "fdb337c347d6156bd2ad8350c586550a0427a4b4d34c9ac360d4b38bd2183f75",
+          "url": "https://openai.com/index/expert-council-on-well-being-and-ai"
+        },
+        {
+          "id": "openai-announcements-f01dd809dd4b1b5f3e70",
+          "title": "Prompting fundamentals",
+          "publishedAt": "2026-04-10",
+          "hash": "f05a98a8021a560f66372220917b23ec13de2e385a521374df417798d767aac6",
+          "url": "https://openai.com/academy/prompting"
+        },
+        {
+          "id": "openai-announcements-f27e81386276dea887e6",
+          "title": "ChatGPT for operations teams",
+          "publishedAt": "2026-04-10",
+          "hash": "29927ef8b3aa98d24c5d9757130ab5e2a95f04291930224fef1ef131551c2188",
+          "url": "https://openai.com/academy/operations"
+        },
+        {
+          "id": "openai-announcements-f56c542f57bec4122afe",
+          "title": "Using skills",
+          "publishedAt": "2026-04-10",
+          "hash": "83a504b717de094c808c25f10bbf4cb12a8a8f41ff362d469ea775a5c1caa844",
+          "url": "https://openai.com/academy/skills"
+        },
+        {
+          "id": "openai-announcements-f6b93302265de7767e51",
+          "title": "Harness engineering: leveraging Codex in an agent-first world",
+          "publishedAt": "2026-02-11",
+          "hash": "2e9659575bf30b7993a04295a4e4b2cf0faee63b9efe37fdc8ef31fcc0b7a209",
+          "url": "https://openai.com/index/harness-engineering"
+        },
+        {
+          "id": "openai-announcements-f6f80e4d7509555eb8b6",
+          "title": "ChatGPT for customer success teams",
+          "publishedAt": "2026-04-10",
+          "hash": "5c495fb3394e89c40abb59198f20e4f08920d2496e6f20c4435769a7098befa7",
+          "url": "https://openai.com/academy/customer-success"
+        },
+        {
+          "id": "openai-announcements-f951bda6a0f47540544d",
+          "title": "ChatGPT can now see, hear, and speak",
+          "publishedAt": "2023-09-25",
+          "hash": "2b47ba4fa793b9586ac0df9241598070917d6fe89517df76940b1c978a287649",
+          "url": "https://openai.com/index/chatgpt-can-now-see-hear-and-speak"
+        },
+        {
+          "id": "openai-announcements-f9a6fe3e0b32193c4cc4",
+          "title": "Singular Bank helps bankers move fast with ChatGPT and Codex",
+          "publishedAt": "2026-05-06",
+          "hash": "86c3d42ed35e16e2c77cd6b755c4e5bed32ecc2f4d50ef6a72285621bf872dff",
+          "url": "https://openai.com/index/singular-bank"
+        },
+        {
+          "id": "openai-announcements-f9ff221789e0942ded4a",
+          "title": "An open-source spec for orchestration: Symphony",
+          "publishedAt": "2026-04-27",
+          "hash": "67da3104c2e75c7083ecc667f253a8a8b475d51e7abd0945fc9ae841be158d8c",
+          "url": "https://openai.com/index/open-source-codex-orchestration-symphony"
+        },
+        {
+          "id": "openai-announcements-fa2791fbc9af008fbec5",
+          "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+          "publishedAt": "2026-08-26",
+          "hash": "41470d06550a509bf5865eb7a8e283923462af1e7a8caa5a86fbb6272e8d9720",
+          "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts"
+        },
+        {
+          "id": "openai-announcements-fa5410010e0ab5accf84",
+          "title": "Inside OpenAI’s in-house data agent",
+          "publishedAt": "2026-01-29",
+          "hash": "93a735f4b29224ffb807c4b6f5a4354fa7d93ab2e92b8db94c029cbb928df8fb",
+          "url": "https://openai.com/index/inside-our-in-house-data-agent"
+        },
+        {
+          "id": "openai-announcements-fabc6ef2e876397360e6",
+          "title": "How Virgin Atlantic ships faster with Codex",
+          "publishedAt": "2026-05-22",
+          "hash": "8c41f79e3cb58462dd863793585bf595dabfaa74e4452e53f02d7344da4c5f96",
+          "url": "https://openai.com/index/virgin-atlantic"
+        },
+        {
+          "id": "openai-announcements-fe5fe461dbdbdc9318c8",
+          "title": "AI fundamentals",
+          "publishedAt": "2026-04-10",
+          "hash": "232d027205933517dac9cdadfd93e20206375a8cee24507242a9cb3426af5e3a",
+          "url": "https://openai.com/academy/what-is-ai"
+        },
+        {
+          "id": "openai-announcements-ff7c1653ce2eb767fcfc",
+          "title": "Disrupting a Cambodia-based criminal scam operation",
+          "publishedAt": "2026-07-31",
+          "hash": "ef4f8e77f1415d9d61f19c5157e1f9d69ca8f33498c2682afd955e961785643a",
+          "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation"
+        },
+        {
+          "id": "openai-announcements-ff9c96ec9359b7dfa2e0",
+          "title": "OpenAI named Emerging Leader in Generative AI",
+          "publishedAt": "2025-11-17",
+          "hash": "7f51824e359a453738527b26e8d27ca57aade8cc2c985bf845ddf0a0d384da48",
+          "url": "https://openai.com/index/gartner-2025-emerging-leader"
+        }
+      ],
+      "lastEntryCount": 344,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    }
+  },
+  "reviewControlIds": []
+}

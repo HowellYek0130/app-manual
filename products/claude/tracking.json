@@ -1,0 +1,992 @@
+{
+  "sources": {
+    "claude-release-notes": {
+      "hash": "e3e6337966f5271e9644eeadd3363632f48d2aa54ca9c5683e1e66de6b17da49",
+      "entries": [
+        {
+          "id": "claude-release-notes-01d3e2483ba87ad2fa7f",
+          "title": "February 13, 2026 · Analytics API for Enterprise plans",
+          "publishedAt": "2026-02-13",
+          "hash": "79a4109b74ca2e0e20e7e57150ddd5940a0c1b363093360cb04b11287bafc369",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-0202d39d2f18e6f41c45",
+          "title": "August 12, 2025 · 1M token context window",
+          "publishedAt": "2025-08-12",
+          "hash": "6752cea35e8aa6f208574649867003ddee78e25c9dffd239fe8ab18434e4673c",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-03427e3d55387c4b4b6e",
+          "title": "May 28, 2026 · Claude Opus 4.8 launch",
+          "publishedAt": "2026-05-28",
+          "hash": "a452fb2fe8dd6b0a32b2921dbc3214e2a6954433339651821192d6a816ed69ef",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-06791fde6345849b7dd6",
+          "title": "June 30, 2026 · Claude Sonnet 5 launch",
+          "publishedAt": "2026-06-30",
+          "hash": "797cc9ceef428a31ebfc93b245933491d371c8437e1c7cfeffc0ddea420e3c34",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-085ef431f710db8e96a2",
+          "title": "March 23, 2026 · Computer use research preview in Cowork and Claude Code + Dispatch improvements",
+          "publishedAt": "2026-03-23",
+          "hash": "da9adbfc8a5d6b045166dd39591377309d456465aec4c1f1f53d6972f370055e",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-0ba56a25feb4e4af0257",
+          "title": "October 15, 2025 · Claude Haiku 4.5 launch",
+          "publishedAt": "2025-10-15",
+          "hash": "fe5f731a5ddeb4f503831eca19f55dd264b528ef027209938a7ecaa3f7701883",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-0f5a8a98e1414174cd4b",
+          "title": "January 12, 2026 · Cowork research preview on Claude Desktop (macOS only) for Max plans",
+          "publishedAt": "2026-01-12",
+          "hash": "32735dc6e331d6059abbe12efa2ee4c42b07992a1b7c8078ab8c69923e0fb7bf",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-1301ad61ecc530d0949e",
+          "title": "August 6, 2025 · Claude Code Security Reviews",
+          "publishedAt": "2025-08-06",
+          "hash": "5278200f23034b8997adade9f71000d12d3477437221857c521e82ec17412a02",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-135a65c2272a6f586108",
+          "title": "September 16, 2026 · Claude Cowork comes to every conversation",
+          "publishedAt": "2026-09-16",
+          "hash": "b84c357330ce88a0c3297c13a4f6a8f9559525a99cb8bb705f68a28bd74fdf47",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-1571452075ce91488318",
+          "title": "December 18, 2025 · Skills for organizations, partners, and the ecosystem",
+          "publishedAt": "2025-12-18",
+          "hash": "1a34f27627c01a4838aae2b7b6bd55b733a151f76a59908753d26c61243fa2fe",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-2b8965894908761a4b5c",
+          "title": "February 12, 2026 · Self-serve Enterprise plans",
+          "publishedAt": "2026-02-12",
+          "hash": "aefb3d41296695305b3fc3282898cea2ab7b00b742bdc8e96cf193e965833c99",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-33b5187cb949f27c435d",
+          "title": "August 1, 2025 · Project Sharing",
+          "publishedAt": "2025-08-01",
+          "hash": "3d602f244218cdbd31f474433c71f9d2982d2194235608cacd62192cdec972b6",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-3dc8f05fe541a3ada266",
+          "title": "April 16, 2026 · Claude Opus 4.7 launch",
+          "publishedAt": "2026-04-16",
+          "hash": "9c8254bf65817649b6c6e24e5449e3d97b438b14d30adece28d2a01b3076118d",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-43833086dcbaea83555d",
+          "title": "August 25, 2026 · Memory in Claude Cowork, editable topics, and a sensitive topics setting",
+          "publishedAt": "2026-08-25",
+          "hash": "61ac5557e9a09838556f5689389c7a46c8c9ca77b151ddb2379ea25bbea3d95d",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-484a658e2e6d59806f87",
+          "title": "March 12, 2026 · Claude creates interactive charts, diagrams and visualizations",
+          "publishedAt": "2026-03-12",
+          "hash": "cdb4dde220509bb7727cd88b465024d06221e5678fc61c66dfaf2c37268a53ac",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-50e877e43fabaac38dd0",
+          "title": "February 5, 2026 · Claude Opus 4.6 launch",
+          "publishedAt": "2026-02-05",
+          "hash": "2504827f45fd7b43aaaddf14ac3c547e49db2b4d93ba1d95a5454837b1ae78c2",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-55ca54c3d697df230528",
+          "title": "June 25, 2026 · Enable Trusted Devices for Remote Control",
+          "publishedAt": "2026-06-25",
+          "hash": "db3561195a83393fa57a37e5847015d728eb2f2eb0cb872eb82363cbf9f5f6e1",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-55d64378acf1fb50ebe5",
+          "title": "September 3, 2025 · Location, maps, and calendar access on Claude for iOS and Android",
+          "publishedAt": "2025-09-03",
+          "hash": "9942d3c18add1c5005946f40ca9fc4508c5ac44d9bb51a52e43cb8a5f80c4607",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-5957db066770111240c4",
+          "title": "August 27, 2025 · Code Execution Tool",
+          "publishedAt": "2025-08-27",
+          "hash": "be9833e92b4f6e7c990277ae0627848274afa42dac9612d5d15ee67ee4d10fd1",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-59ef95f25def74558ff6",
+          "title": "July 7, 2026 · Claude Cowork on web and mobile",
+          "publishedAt": "2026-07-07",
+          "hash": "3f1af8d361dce15bd2ac4f71bc41f7f5c96d6ef218eacde8d7d92d08e89ced47",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-5c20e4f57ac9e3d5d51b",
+          "title": "July 24, 2026 · Claude Opus 5 launch",
+          "publishedAt": "2026-07-24",
+          "hash": "3b649476d078b8d0296fc7b286fb2d13ffb51cd463a43e866136b474cacaf674",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-642453d368e195a4bb69",
+          "title": "March 25, 2026 · Interactive apps in Claude for iOS and Android",
+          "publishedAt": "2026-03-25",
+          "hash": "5c93389f947af8d9ce8fffaf201c04e4b489a0adcf907083b491c87f50847a90",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-64a91eb31fd101f1a729",
+          "title": "July 14, 2026 · HIPAA configuration for your Claude organizations is now self-serve",
+          "publishedAt": "2026-07-14",
+          "hash": "0b2360f1330905b8ba5b1f8ae8050a78234d2a8763e6fa50e5e27ba28cb11286",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-6843c6d7c9014cc7b859",
+          "title": "September 22, 2026 · Claude Opus 5.5 launch",
+          "publishedAt": "2026-09-22",
+          "hash": "ba834db6efff5b8a67b1abd2356c9eec37e6da549e0c206d6d67f706b4ff6639",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-771eace85b7d642b92aa",
+          "title": "July 1, 2026 · Access to Claude Fable 5 and Claude Mythos 5 restored",
+          "publishedAt": "2026-07-01",
+          "hash": "deaf09282f4fdf5c87c3bff898345c40b172ed960411567e21a70c36cf32d9f1",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-78e740d94bc1a4061ff4",
+          "title": "November 24, 2025 · Claude Opus 4.5 launch",
+          "publishedAt": "2025-11-24",
+          "hash": "90e6f3d11bc4a0ff6e52fa0f93ebe88f1dc3f53139053ab0a313d437ff9ad67a",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-7cb43b41126ab9e31dd5",
+          "title": "September 18, 2025 · Claude’s memory on Enterprise plans",
+          "publishedAt": "2025-09-18",
+          "hash": "14c2bc92987112dec70c241a7e04dfca11a1c96ef98fb65109018848ad715b52",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-8aa91119090e8092ace8",
+          "title": "January 16, 2026 · Cowork research preview expanded to Pro plans",
+          "publishedAt": "2026-01-16",
+          "hash": "b2a9a7ed64dad801a7d48f938d426343e454cbfde3c0b347d3650c7f84b5462d",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-8ad10b2fc14e94375d2e",
+          "title": "February 17, 2026 · Claude Sonnet 4.6 launch",
+          "publishedAt": "2026-02-17",
+          "hash": "697aeacedd1a6e5510533d24b6a985e5a98735ca72b440a67bb40bb461f482c7",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-8bb4251f863a4e371556",
+          "title": "August 5, 2025 · Claude Opus 4.1",
+          "publishedAt": "2025-08-05",
+          "hash": "1d798b720ca72a5e692e944a704f52d2529363c0d8498a84cee1e19fa3cd0a4b",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-903952e394cd91c74dc5",
+          "title": "October 7, 2026 · Claude Haiku 5.5 launch",
+          "publishedAt": "2026-10-07",
+          "hash": "4705c22fa3eae4bc6282a9afcbda8e5168782e496fcf0d1fcd66ea988739e5ed",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-942468ef45d6f3cd2262",
+          "title": "June 9, 2026 · Claude Fable 5 launch",
+          "publishedAt": "2026-06-09",
+          "hash": "e09345e425aa99b543b1fcc9df755c9102cf5416b9e9240d4fde7510e9a7b70a",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-9499aee670fe2683a322",
+          "title": "September 15, 2026 · Launching Salesforce in Claude (beta)",
+          "publishedAt": "2026-09-15",
+          "hash": "41e2299ca5f3873c5a2efc09e9ce1ce3661b1df16e58efa25810cbdeddcde5fe",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-94f4bb99a4ef4d4eba82",
+          "title": "July 9, 2026 · A new way to reflect with Claude",
+          "publishedAt": "2026-07-09",
+          "hash": "9f6c63bfbabf3f7c6dbdf6dc71b0c8622eab042780ce0ef09a976b737895311d",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-9c84d43649eea52e7b2f",
+          "title": "September 28, 2026 · Claude Sonnet 5.5 launch",
+          "publishedAt": "2026-09-28",
+          "hash": "a1916fe33afb6da50d4f82c12d3d2ed0a2b60f341d863117f267938e7e243d89",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-9f24967b18ec404c3045",
+          "title": "September 9, 2025 · Creating and editing files with Claude",
+          "publishedAt": "2025-09-09",
+          "hash": "ca2f907fcf329e772f64cfd764ba2424db2ac5cca5074dd31d7b22e13a45301f",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-a62a523cc487878e60d4",
+          "title": "July 10, 2026 · Updated memory for Claude",
+          "publishedAt": "2026-07-10",
+          "hash": "61f3bb9bb7132608e65b6301fb69360ba25f90287c72410ccd7a98fc6a70d890",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-ab16a4f538c0d003ab6e",
+          "title": "February 25, 2026 · Scheduled tasks in Cowork",
+          "publishedAt": "2026-02-25",
+          "hash": "abc6ad1c2a267ce0a3cbd4ea3d21e3956cbfe77106f148bbe0ef673174eab27c",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-b4d7c591fbf33112ac17",
+          "title": "August 11, 2025 · Ability to search past conversations",
+          "publishedAt": "2025-08-11",
+          "hash": "0aa4f66861b0faee9db830d765facf1fc3b8d47a3adb11c4c1aa9e67bb2e6605",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-b60518d70930c98f34b9",
+          "title": "June 12, 2026 · Access to Claude Fable 5 and Claude Mythos 5 suspended",
+          "publishedAt": "2026-06-12",
+          "hash": "f6f98f677686515376b01382a8c4d797847160d339ac7dfd717f566b83becfca",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-bef3dd0066332d1434f2",
+          "title": "June 23, 2026 · Delegate work to Claude in Slack with Claude Tag",
+          "publishedAt": "2026-06-23",
+          "hash": "32d8f07ef67ea5c1a394ae3568cb567dfe737071ca8a9030f1d681fc4e6c26ca",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-bf8b49d17d05bcef7e3b",
+          "title": "September 16, 2025 · Claude in Chrome expansion",
+          "publishedAt": "2025-09-16",
+          "hash": "37daedf5e4a5d24c1808c00f4e75a3aeb5fc0cf0f3586385834dee322c1ae8da",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-c6895f0109c897115555",
+          "title": "September 11, 2025 · Claude’s memory on Team plans and incognito chats for free, Pro, Max, and Team plans",
+          "publishedAt": "2025-09-11",
+          "hash": "86b0168fbf2b83b3fc7b44c94cf2772e985157228fb69f85d72ff8a0b20f1943",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-c6afdb90b9f81623d604",
+          "title": "March 11, 2026 · Work across Excel and PowerPoint",
+          "publishedAt": "2026-03-11",
+          "hash": "d0b859c81f598bfe457f60d45359eb561fa368484c10a084087dfe364726eb5c",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-c7a9f44a82ea4c4de943",
+          "title": "September 29, 2025 · Claude Sonnet 4.5 launch",
+          "publishedAt": "2025-09-29",
+          "hash": "b495412c276fe790830ca0e7e0ce47c24eaaefbf523a273b56805c00deda2cf8",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-c988831ab1d2bd9b6c52",
+          "title": "October 23, 2025 · Claude’s memory on Max and Pro plans",
+          "publishedAt": "2025-10-23",
+          "hash": "c8cd50e30ca278015ee875b2f850e696873ea602940734702972e730abb136e6",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-c9f2ca71c9fefab21d8f",
+          "title": "August 21, 2025 · Admin controls for desktop extensions",
+          "publishedAt": "2025-08-21",
+          "hash": "c4dd9fe9b03acd50cf646fd031beb14e3fcf1f5240e88b65414b6dfeb9020649",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-d67425239ed6643d14af",
+          "title": "April 9, 2026 · Claude Cowork generally available",
+          "publishedAt": "2026-04-09",
+          "hash": "2275cab2b318a305976490d6a9dceb3f92bc03a53f9722ce770c305e909edc04",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-db51f19de89356e224b0",
+          "title": "March 17, 2026 · Control Cowork from your phone with a persistent thread (research preview for Pro/Max)",
+          "publishedAt": "2026-03-17",
+          "hash": "a95a8645d60fa83710b4bc863dca84ce02849e6252534fc93e00d4cb726330e2",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-df548305d3b630dc2235",
+          "title": "March 2, 2026 · Memory for free users",
+          "publishedAt": "2026-03-02",
+          "hash": "a96dfbce10dc40f80defeb8d0280ba7ef556242c4170175f78217aa6ce4a1b11",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-e12f91207641dae2e988",
+          "title": "September 1, 2026 · Claude Fable 5.1 and Claude Mythos 5.1 launch",
+          "publishedAt": "2026-09-01",
+          "hash": "7a7eb2de7ca29f95686b603bfce6002b42d70807ce55daeebf8989f5d29c18cf",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-e4bc2ddfd7fb7c8f9b1d",
+          "title": "September 25, 2026 · Build plugins for Claude",
+          "publishedAt": "2026-09-25",
+          "hash": "90685daad525d7576019b58e67e0cb4dd8b8c453a4f788edf6f2f945a8754864",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-e802551af21a2cb24d85",
+          "title": "August 20, 2025 · Premium seats with Claude Code for Team and Enterprise plans",
+          "publishedAt": "2025-08-20",
+          "hash": "1af83bb2ce9000d151a22505571b71d252ec9b6c9d3a1eeb80113a307d78727b",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-e8129b81ca704aeba95f",
+          "title": "August 26, 2025 · Claude in Chrome",
+          "publishedAt": "2025-08-26",
+          "hash": "60efc11185f347b97de73bfba5afb0253f7a12b0e35a92d415146894c42dfef9",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-ef0c75bd02f6d767d273",
+          "title": "May 21, 2026 · Claude now works with more security and compliance tools",
+          "publishedAt": "2026-05-21",
+          "hash": "ffcea15c2324e11e032e349957f61012330a1e3d14501454ca1dbaa44afd7bd6",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-f67645a45830bafd3a4c",
+          "title": "April 17, 2026 · Claude Design by Anthropic Labs",
+          "publishedAt": "2026-04-17",
+          "hash": "cbadb3c12a594fb94ee0bc20a608dc2bc8b393e662a31efc55baa1aff83e2599",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        },
+        {
+          "id": "claude-release-notes-febdcffe80f65f132f95",
+          "title": "September 10, 2026 · Smart reports (beta)",
+          "publishedAt": "2026-09-10",
+          "hash": "ad1e9b40c6d22a2f79c59de93725cd1cf42456190ab49aa365105df3a5ef9df1",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        }
+      ],
+      "lastEntryCount": 57,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-unified": {
+      "hash": "79ad91158b5f3d410b54bbb563b5e0570fb7a7b66e4d6031254b310ffae26f57",
+      "entries": [
+        {
+          "id": "claude-unified-afe229f88c4a73d3529f",
+          "title": "Claude Cowork and chat are one Claude",
+          "publishedAt": "2026-09-16",
+          "hash": "c669ed952f4878a76169156d689600aafa9c6f62690a3cb6c3022471ae05000f",
+          "url": "https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-cloud": {
+      "hash": "8061876329add637adbcc43a59a93995b450dc19ca38544e87663992079693bc",
+      "entries": [
+        {
+          "id": "claude-cloud-4a801ac42a1227b81560",
+          "title": "Use Claude Cowork on web, desktop, and mobile",
+          "publishedAt": "2026-10-06",
+          "hash": "40c98ac6ad728df70c8920fb03a8ca669a50bbee48677dbfc6443fc2ce33fb42",
+          "url": "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-start": {
+      "hash": "602dee2fc9ad74b51aee322f5d4fe3453f9de601e8788dcf9f3bf74272bf543b",
+      "entries": [
+        {
+          "id": "claude-start-5a36005db887100c6c0b",
+          "title": "Get started with Claude",
+          "publishedAt": "2026-09-16",
+          "hash": "c085d36e6543d89518137868443061e39da1d6da82fc0df22a7ca584161eeece",
+          "url": "https://support.claude.com/en/articles/8114491-get-started-with-claude"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-desktop": {
+      "hash": "d26f89685589d530de78172962185e281488c100397552c0b91784176253c17c",
+      "entries": [
+        {
+          "id": "claude-desktop-b4e9c3e38a6037dae3df",
+          "title": "Install Claude Desktop",
+          "publishedAt": "2026-09-25",
+          "hash": "7a349a2c623a8efa1a6a3078ad5feeafc67c6ca51e8fc7e02ebd3c4c80ba21f7",
+          "url": "https://support.claude.com/en/articles/10065433-install-claude-desktop"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-models": {
+      "hash": "fe84ad87fb209101d96a3778ce809c7355ac68219a6117e2efcfb65e3336d946",
+      "entries": [
+        {
+          "id": "claude-models-7573bc31228798d04c24",
+          "title": "Change the model, effort, and thinking settings",
+          "publishedAt": "2026-10-07",
+          "hash": "9272c15bf13e10af3faed1a96bae0d7158f4980f1e7cb7b868546bf2971782ba",
+          "url": "https://support.claude.com/en/articles/8664678-change-the-model-effort-and-thinking-settings"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-uploads": {
+      "hash": "0fea7eca43a5d6aecbd66e752236021722268c37b9e646e5879549c018ce2bfb",
+      "entries": [
+        {
+          "id": "claude-uploads-965208b484ed2cc6c264",
+          "title": "Upload files to Claude",
+          "publishedAt": "2026-07-23",
+          "hash": "0eb08ca6a6e94322a8b6809dea0d055acef7abb612c3879eb9eebc59395295c2",
+          "url": "https://support.claude.com/en/articles/8241126-upload-files-to-claude"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-projects": {
+      "hash": "057d9e8e0ca0455da255df4ff4fd196f493eb389b2301b8f666a75d8dcf7799a",
+      "entries": [
+        {
+          "id": "claude-projects-e54efbf170ef0d46fae6",
+          "title": "How can I create and manage projects?",
+          "publishedAt": "2026-09-30",
+          "hash": "a13f5f1593e5e2a4179c7f1a6fdf492f43fa36e0fc70ce92698a8d7078742447",
+          "url": "https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-cowork-projects": {
+      "hash": "576188270885549133cdd40b855e988173674c273e82e870ee16dd74782b0b4c",
+      "entries": [
+        {
+          "id": "claude-cowork-projects-bee6c804145a81af7a94",
+          "title": "Organize your tasks with projects in Claude Cowork",
+          "publishedAt": "2026-09-16",
+          "hash": "7e02af8a289c33058f5c60183b07c87c37d4814d5ba6d8986664998fe03e9f8b",
+          "url": "https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-memory": {
+      "hash": "9ba9ae08d8a5ae482dd2801d0d1ce670c55a9f291bbcd7f82c4d5fbed6c7c3e8",
+      "entries": [
+        {
+          "id": "claude-memory-51665b652e20b9a41200",
+          "title": "Use Claude’s chat search and memory to build on previous context",
+          "publishedAt": "2026-09-30",
+          "hash": "b280c6c3d112b701c60b3f3da435a5163474ccdaa9c8b201469ca4e14e20eabf",
+          "url": "https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-memory-transfer": {
+      "hash": "c25bd40185ad66249111e9ffee907073436ca38ee7f998c13edd6d5ae72b8d6a",
+      "entries": [
+        {
+          "id": "claude-memory-transfer-80131ebb6141e7a7e17c",
+          "title": "Import and export your memory from Claude",
+          "publishedAt": "2026-09-02",
+          "hash": "3d42f091f204ec631e2241bfc67cd21ae37e3e8f4bda5b3bcbe5596ac3bddb81",
+          "url": "https://support.claude.com/en/articles/12123587-import-and-export-your-memory-from-claude"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-incognito": {
+      "hash": "ff595cb79709cccf9148da5eebb0f9e11e182d89593a634760f9a2a7907a5f54",
+      "entries": [
+        {
+          "id": "claude-incognito-d8e68d06257d08065e6c",
+          "title": "Use incognito chats",
+          "publishedAt": "2026-09-30",
+          "hash": "149ef90745f5c15383f667c41fdd447555adfd23c0870765e29a1d7465b1848b",
+          "url": "https://support.claude.com/en/articles/12260368-use-incognito-chats"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-artifacts": {
+      "hash": "eeec9a6eae9c65a2ade4c9121e07b1f6e87c76d720eb3c0a10823a892c40ebb7",
+      "entries": [
+        {
+          "id": "claude-artifacts-366cb819f5367e4c16d9",
+          "title": "What are artifacts and how do I use them?",
+          "publishedAt": "2026-10-08",
+          "hash": "7f128f15995d0c428ef8f73917c580b6094dca7c9e22df056f6025e83ffabe6e",
+          "url": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-share": {
+      "hash": "d54072dc738166772dfc2674b12743dffc09acfe9afd242370413d7eff2217f3",
+      "entries": [
+        {
+          "id": "claude-share-5565d564c5dba5bb0cce",
+          "title": "Share artifacts",
+          "publishedAt": "2026-09-23",
+          "hash": "a6ec21bfd08f0ef3cf3c13724003cf1cda8494b87f70b0f0dedb1c61e9d68a1e",
+          "url": "https://support.claude.com/en/articles/9547008-share-artifacts"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-docs": {
+      "hash": "df2b0d604860e1e836b9fc9e7732d1ab2c97923771e9bfd35c48d41cf4a879af",
+      "entries": [
+        {
+          "id": "claude-docs-ba203d4490a50d7fc73e",
+          "title": "Get started with Claude Docs",
+          "publishedAt": "2026-10-08",
+          "hash": "c5880df8a2c6f857ed91ea2cf9fc1862b6b39f021bcb65e34c636efa8c312204",
+          "url": "https://support.claude.com/en/articles/16923645-get-started-with-claude-docs"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-design": {
+      "hash": "23bdea160122011f97800a9dc380108d7c2724d748d5294371cae57de5da1776",
+      "entries": [
+        {
+          "id": "claude-design-c1ae6368f57ee81c4726",
+          "title": "Get started with Claude Design",
+          "publishedAt": "2026-10-08",
+          "hash": "6d09a6e0c9213cfe40740b1be8c7fbac4c69b974c57a8960cc7a96b77b2876b7",
+          "url": "https://support.claude.com/en/articles/14604416-get-started-with-claude-design"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-design-systems": {
+      "hash": "4dd79994b6b93cbe5798f884d7468fbbba5a4f6d7d18b1418be4bc70af52571c",
+      "entries": [
+        {
+          "id": "claude-design-systems-3ce3683e531e0bb0c7a1",
+          "title": "Set up your design system in Claude Design",
+          "publishedAt": "2026-10-08",
+          "hash": "9a657f780c69a00025c2fa99201a3bd3925e6c89fd7be67667767f4f9712462b",
+          "url": "https://support.claude.com/en/articles/14604397-set-up-your-design-system-in-claude-design"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-connectors": {
+      "hash": "78908179ce31f94391b74ff08a1e468de18ca1598bb30bace4cf5ba278249b16",
+      "entries": [
+        {
+          "id": "claude-connectors-d041e8447b934a5c5e98",
+          "title": "Use connectors to extend Claude's capabilities",
+          "publishedAt": "2026-10-01",
+          "hash": "c4241486336170865fbefcf41d80202352b4f25394496e11693dfbc8e1504b33",
+          "url": "https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-connector-types": {
+      "hash": "5c47202d257d1a51c9d0707c40d616b369fdf75c87a6520a4f5b0572a7f5894c",
+      "entries": [
+        {
+          "id": "claude-connector-types-f9b59fae6ab671bb35ac",
+          "title": "When to use desktop and web connectors",
+          "publishedAt": "2026-09-25",
+          "hash": "864314ad33881a99decc328a6aee272565153c414b59e74e87b2fad2ca292902",
+          "url": "https://support.claude.com/en/articles/11725091-when-to-use-desktop-and-web-connectors"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-tool-access": {
+      "hash": "01e63f8912bc20726ff6cd13ab9ef422e3e73a1c86a3f996944f41adb7e104b2",
+      "entries": [
+        {
+          "id": "claude-tool-access-0ef5e7a423741322a1d7",
+          "title": "Manage Claude’s tool access",
+          "publishedAt": "2026-03-16",
+          "hash": "3349669bfffcecb2f3fe1f26eaa0dc17dec42178d452e00d1186f81c982e2434",
+          "url": "https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-directory": {
+      "hash": "ef2b477a96cce41def8ecf753712a00a662c6257e04f5286ec768bfd06855a27",
+      "entries": [
+        {
+          "id": "claude-directory-6ee3c0df4b82014ef069",
+          "title": "Browse skills, connectors, and plugins in one directory",
+          "publishedAt": "2026-09-25",
+          "hash": "41cb931484b29ba92d03f26d1727e0097c2a9533d41a225680de6554418da541",
+          "url": "https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-skills": {
+      "hash": "0069f56114926d8dff22e54a7c842f41d6f832a49243f99bbb15651aa38c7d4c",
+      "entries": [
+        {
+          "id": "claude-skills-d8344e771cb984aaaf90",
+          "title": "Use skills in Claude",
+          "publishedAt": "2026-09-22",
+          "hash": "220bdf1fe34e51c7b28d1bb452066afd31af77deb8ae6d95672d4598b17fa015",
+          "url": "https://support.claude.com/en/articles/12512180-use-skills-in-claude"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-plugins": {
+      "hash": "33117947990193b7bbe372a9ceaeedd1ae856e09aad0ac341fcf4a8455888d4b",
+      "entries": [
+        {
+          "id": "claude-plugins-11628e8ff165dc76cd60",
+          "title": "Use plugins in Claude",
+          "publishedAt": "2026-10-07",
+          "hash": "ae9df06a85bc047356aa952f920b9568ea462240bf678055e99bc146a0326de0",
+          "url": "https://support.claude.com/en/articles/13837440-use-plugins-in-claude"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-extensions": {
+      "hash": "2f4a18194550caf789da6f880409a600b631a70d62f15bf6ddea2c8346743db3",
+      "entries": [
+        {
+          "id": "claude-extensions-d2288e44edba6baadd55",
+          "title": "Getting Started with Local MCP Servers on Claude Desktop",
+          "publishedAt": "2026-09-25",
+          "hash": "0488ae4dc8100667a4c77b25d75a261964bbe6ad988b45e7bbf87521699f8b91",
+          "url": "https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-appearance": {
+      "hash": "01a38bdf9f653d811147f8214631a96f6f4fae890b79b3e5d7d12bfff75326f8",
+      "entries": [
+        {
+          "id": "claude-appearance-4cb613689cbcaa1bcdc8",
+          "title": "Customizing your appearance settings",
+          "publishedAt": "2026-03-16",
+          "hash": "1a33061e817b13439933048c9a32939538adb3df5abd779dfea3ebe228e19154",
+          "url": "https://support.claude.com/en/articles/8887527-customizing-your-appearance-settings"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-export": {
+      "hash": "6d47b793d44a4396bf6f13f8dc223d4b6668b22b67590c18b4a7f265d5ddffa8",
+      "entries": [
+        {
+          "id": "claude-export-daf07092056b1e0a9728",
+          "title": "Export your Claude data",
+          "publishedAt": "2026-07-08",
+          "hash": "a28870846620787542e2b1b0d5213596b933223ff0cc8c2fefc574412f1a8a8c",
+          "url": "https://support.claude.com/en/articles/9450526-export-your-claude-data"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-files": {
+      "hash": "508f685cc337961a6f178f67405a487486dc2ba962b32de7930ba413f1ef609f",
+      "entries": [
+        {
+          "id": "claude-files-545f93840f9914e59e03",
+          "title": "Create and edit files with Claude",
+          "publishedAt": "2026-08-06",
+          "hash": "6f9f6ad35b3832bdf09870655aa32f1173fc103834a3d7d171d7a5c2d6cf67a7",
+          "url": "https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-usage": {
+      "hash": "a2ba2165ad00498e3914d90dfedfce9dbff10b5ff33adbbfcf974009c49e13c3",
+      "entries": [
+        {
+          "id": "claude-usage-1a386ba36183424f351d",
+          "title": "How do usage and length limits work?",
+          "publishedAt": "2026-10-08",
+          "hash": "203185d151328475e75956811cd4c7b6aa1a35c9e7d20d24ae19de994e582aee",
+          "url": "https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-schedule": {
+      "hash": "f851a2b2d4eade65c6218831ec09230813be01aba7d5ee641df69e33b96d083c",
+      "entries": [
+        {
+          "id": "claude-schedule-90ff3c5f3b1b750eca3f",
+          "title": "Schedule recurring tasks in Claude Cowork",
+          "publishedAt": "2026-10-06",
+          "hash": "7b129c16fb79d54896ee26f9ce5b7f185d2e08392dce683f274405d951a2d78f",
+          "url": "https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-cowork": {
+      "hash": "c505a260a29204c625a0f0293427be491648648ca20cb3f125266929f4c5379d",
+      "entries": [
+        {
+          "id": "claude-cowork-794f4f1d07d63fcf703c",
+          "title": "Get started with Claude Cowork",
+          "publishedAt": "2026-10-06",
+          "hash": "bf532c725c113d00148c7a795dc09f75d2290a54334547ce8c6e7674987338b2",
+          "url": "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-computer": {
+      "hash": "d6125fc2311ae3197ab20c86b32d391cb745d28f1470729b7850e62af8225ba3",
+      "entries": [
+        {
+          "id": "claude-computer-a66e911bb8519a59b035",
+          "title": "Let Claude use your computer in Cowork",
+          "publishedAt": "2026-09-16",
+          "hash": "2468e18b954e0ace201e35d1743fe5eeccb5eb3e84a50e16c794b265c6ef6ce2",
+          "url": "https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-browser": {
+      "hash": "c433096a08817d7a86fb097c44af983a4599c8e266e07ea3e663ecb9f782f9b6",
+      "entries": [
+        {
+          "id": "claude-browser-d496f18cbd2ae2c085dc",
+          "title": "Use the built-in browser in Claude Cowork",
+          "publishedAt": "2026-09-16",
+          "hash": "ec197c5f8eab897b43713d03ca10b57b927cc40ba24bcb27812449944be1593b",
+          "url": "https://support.claude.com/en/articles/16607400-use-the-built-in-browser-in-claude-cowork"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-code": {
+      "hash": "3d6dc133c7c090645df38dc3bb5178dce430515928ffc6ef4c408565005a1dd6",
+      "entries": [
+        {
+          "id": "claude-code-dc0e6ba55835bcffb1f0",
+          "title": "Desktop application",
+          "publishedAt": null,
+          "hash": "a686064cb1c90d04f758c8b0a83115d194918dc0de5668a3f4fa829b76f365c9",
+          "url": "https://code.claude.com/docs/en/desktop"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-code-plan": {
+      "hash": "f869e34815feb231bbae48b8bf8035a18baa696faa3c93eee6b0a3ce4a9cf089",
+      "entries": [
+        {
+          "id": "claude-code-plan-f61234c4ee6478201469",
+          "title": "Use Claude Code with your Pro or Max plan",
+          "publishedAt": "2026-10-08",
+          "hash": "a2de903cb39e84b316ff60bc12011becdbe393341d8932a75ca752dc1a250288",
+          "url": "https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan"
+        }
+      ],
+      "lastEntryCount": 1,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    },
+    "claude-announcements": {
+      "hash": "743e23e3d2f84ed7f858d16fef36779ead1f72267848fdaec717449d3467078d",
+      "entries": [
+        {
+          "id": "claude-announcements-0dd3bed5c7dd1c272c8d",
+          "title": "Introducing Claude Opus 5.5",
+          "publishedAt": "2026-09-22",
+          "hash": "f6a77d7d33f6e4ef7119d7272242e8300344e019c132766971078302fb738846",
+          "url": "https://www.anthropic.com/claude-opus-5-5"
+        },
+        {
+          "id": "claude-announcements-2e558311550142699a80",
+          "title": "The Situation Report",
+          "publishedAt": "2026-09-22",
+          "hash": "91ad1aa0af5f644aa21a343083c0366de818f88a9e9c5bd7d2e4fab4a4760167",
+          "url": "https://www.anthropic.com/features/ebola-response"
+        },
+        {
+          "id": "claude-announcements-4e3ca8a95d36633072bd",
+          "title": "Introducing Claude Sonnet 5.5",
+          "publishedAt": "2026-09-28",
+          "hash": "08a23c8183f3ec5a441d57b6325061d30d7b2b66e8daadb0c5fbaca47aa41391",
+          "url": "https://www.anthropic.com/claude-sonnet-5-5"
+        },
+        {
+          "id": "claude-announcements-c08402b8f22a4b159df3",
+          "title": "Barclays scales Claude to upgrade operations and improve client experience",
+          "publishedAt": "2026-10-01",
+          "hash": "09dd7abebdf5ceca0f24947c066c3ddaf9510a091dce72b3767a04bd7a131978",
+          "url": "https://www.anthropic.com/news/barclays-scales-claude"
+        },
+        {
+          "id": "claude-announcements-cdb1d51fae0431106fed",
+          "title": "Introducing Claude Haiku 5.5",
+          "publishedAt": "2026-10-07",
+          "hash": "55cf3debd8b070dc600a6c60ac3f35528ddfa09af6dac25061d6b1886fe42398",
+          "url": "https://www.anthropic.com/claude-haiku-5-5"
+        },
+        {
+          "id": "claude-announcements-ef1b3a4772eab8370f46",
+          "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+          "publishedAt": "2026-09-23",
+          "hash": "59cc0120723eff9ee32a727ccda8a171ee7e90015ed9cd049591ba995900c17b",
+          "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system"
+        }
+      ],
+      "lastEntryCount": 6,
+      "lastAttemptAt": "2026-10-12T12:57:51.291Z",
+      "lastSuccessAt": "2026-10-12T12:57:51.291Z",
+      "status": "ok"
+    }
+  },
+  "reviewControlIds": []
+}

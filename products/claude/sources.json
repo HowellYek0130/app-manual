@@ -1,0 +1,353 @@
+[
+  {
+    "id": "claude-release-notes",
+    "title": "Release notes",
+    "url": "https://support.claude.com/en/articles/12138966-release-notes",
+    "kind": "release-notes",
+    "keywords": [
+      "Release notes",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-unified",
+    "title": "Claude Cowork and chat are one Claude",
+    "url": "https://support.claude.com/en/articles/16761823-claude-cowork-and-chat-are-one-claude",
+    "kind": "article",
+    "keywords": [
+      "Claude Cowork and chat are one Claude",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-cloud",
+    "title": "Use Claude Cowork on web, desktop, and mobile",
+    "url": "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile",
+    "kind": "article",
+    "keywords": [
+      "Use Claude Cowork on web, desktop, and mobile",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-start",
+    "title": "Get started with Claude",
+    "url": "https://support.claude.com/en/articles/8114491-get-started-with-claude",
+    "kind": "article",
+    "keywords": [
+      "Get started with Claude",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-desktop",
+    "title": "Install Claude Desktop",
+    "url": "https://support.claude.com/en/articles/10065433-install-claude-desktop",
+    "kind": "article",
+    "keywords": [
+      "Install Claude Desktop",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-models",
+    "title": "Change the model, effort, and thinking settings",
+    "url": "https://support.claude.com/en/articles/8664678-change-the-model-effort-and-thinking-settings",
+    "kind": "article",
+    "keywords": [
+      "Change the model, effort, and thinking settings",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-uploads",
+    "title": "Upload files to Claude",
+    "url": "https://support.claude.com/en/articles/8241126-upload-files-to-claude",
+    "kind": "article",
+    "keywords": [
+      "Upload files to Claude",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-projects",
+    "title": "How can I create and manage projects?",
+    "url": "https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects",
+    "kind": "article",
+    "keywords": [
+      "How can I create and manage projects?",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-cowork-projects",
+    "title": "Organize your tasks with projects in Claude Cowork",
+    "url": "https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork",
+    "kind": "article",
+    "keywords": [
+      "Organize your tasks with projects in Claude Cowork",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-memory",
+    "title": "Use Claude’s chat search and memory to build on previous context",
+    "url": "https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context",
+    "kind": "article",
+    "keywords": [
+      "Use Claude’s chat search and memory to build on previous context",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-memory-transfer",
+    "title": "Import and export your memory from Claude",
+    "url": "https://support.claude.com/en/articles/12123587-import-and-export-your-memory-from-claude",
+    "kind": "article",
+    "keywords": [
+      "Import and export your memory from Claude",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-incognito",
+    "title": "Use incognito chats",
+    "url": "https://support.claude.com/en/articles/12260368-use-incognito-chats",
+    "kind": "article",
+    "keywords": [
+      "Use incognito chats",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-artifacts",
+    "title": "What are artifacts and how do I use them?",
+    "url": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them",
+    "kind": "article",
+    "keywords": [
+      "What are artifacts and how do I use them?",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-share",
+    "title": "Share artifacts",
+    "url": "https://support.claude.com/en/articles/9547008-share-artifacts",
+    "kind": "article",
+    "keywords": [
+      "Share artifacts",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-docs",
+    "title": "Get started with Claude Docs",
+    "url": "https://support.claude.com/en/articles/16923645-get-started-with-claude-docs",
+    "kind": "article",
+    "keywords": [
+      "Get started with Claude Docs",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-design",
+    "title": "Get started with Claude Design",
+    "url": "https://support.claude.com/en/articles/14604416-get-started-with-claude-design",
+    "kind": "article",
+    "keywords": [
+      "Get started with Claude Design",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-design-systems",
+    "title": "Set up your design system in Claude Design",
+    "url": "https://support.claude.com/en/articles/14604397-set-up-your-design-system-in-claude-design",
+    "kind": "article",
+    "keywords": [
+      "Set up your design system in Claude Design",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-connectors",
+    "title": "Use connectors to extend Claude’s capabilities",
+    "url": "https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities",
+    "kind": "article",
+    "keywords": [
+      "Use connectors to extend Claude’s capabilities",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-connector-types",
+    "title": "When to use desktop and web connectors",
+    "url": "https://support.claude.com/en/articles/11725091-when-to-use-desktop-and-web-connectors",
+    "kind": "article",
+    "keywords": [
+      "When to use desktop and web connectors",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-tool-access",
+    "title": "Manage Claude’s tool access",
+    "url": "https://support.claude.com/en/articles/13730515-manage-claude-s-tool-access",
+    "kind": "article",
+    "keywords": [
+      "Manage Claude’s tool access",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-directory",
+    "title": "Browse skills, connectors, and plugins in one directory",
+    "url": "https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory",
+    "kind": "article",
+    "keywords": [
+      "Browse skills, connectors, and plugins in one directory",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-skills",
+    "title": "Use skills in Claude",
+    "url": "https://support.claude.com/en/articles/12512180-use-skills-in-claude",
+    "kind": "article",
+    "keywords": [
+      "Use skills in Claude",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-plugins",
+    "title": "Use plugins in Claude",
+    "url": "https://support.claude.com/en/articles/13837440-use-plugins-in-claude",
+    "kind": "article",
+    "keywords": [
+      "Use plugins in Claude",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-extensions",
+    "title": "Getting Started with Local MCP Servers on Claude Desktop",
+    "url": "https://support.claude.com/en/articles/10949351-getting-started-with-local-mcp-servers-on-claude-desktop",
+    "kind": "article",
+    "keywords": [
+      "Getting Started with Local MCP Servers on Claude Desktop",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-appearance",
+    "title": "Customizing your appearance settings",
+    "url": "https://support.claude.com/en/articles/8887527-customizing-your-appearance-settings",
+    "kind": "article",
+    "keywords": [
+      "Customizing your appearance settings",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-export",
+    "title": "Export your Claude data",
+    "url": "https://support.claude.com/en/articles/9450526-export-your-claude-data",
+    "kind": "article",
+    "keywords": [
+      "Export your Claude data",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-files",
+    "title": "Create and edit files with Claude",
+    "url": "https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude",
+    "kind": "article",
+    "keywords": [
+      "Create and edit files with Claude",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-usage",
+    "title": "How do usage and length limits work?",
+    "url": "https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work",
+    "kind": "article",
+    "keywords": [
+      "How do usage and length limits work?",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-schedule",
+    "title": "Schedule recurring tasks in Claude Cowork",
+    "url": "https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork",
+    "kind": "article",
+    "keywords": [
+      "Schedule recurring tasks in Claude Cowork",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-cowork",
+    "title": "Get started with Claude Cowork",
+    "url": "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork",
+    "kind": "article",
+    "keywords": [
+      "Get started with Claude Cowork",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-computer",
+    "title": "Let Claude use your computer in Cowork",
+    "url": "https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork",
+    "kind": "article",
+    "keywords": [
+      "Let Claude use your computer in Cowork",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-browser",
+    "title": "Use the built-in browser in Claude Cowork",
+    "url": "https://support.claude.com/en/articles/16607400-use-the-built-in-browser-in-claude-cowork",
+    "kind": "article",
+    "keywords": [
+      "Use the built-in browser in Claude Cowork",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-code",
+    "title": "Desktop application — Claude Code Docs",
+    "url": "https://code.claude.com/docs/en/desktop",
+    "kind": "article",
+    "keywords": [
+      "Desktop application — Claude Code Docs",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-code-plan",
+    "title": "Use Claude Code with your Pro or Max plan",
+    "url": "https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan",
+    "kind": "article",
+    "keywords": [
+      "Use Claude Code with your Pro or Max plan",
+      "Claude"
+    ]
+  },
+  {
+    "id": "claude-announcements",
+    "title": "Anthropic newsroom · Claude / Cowork",
+    "url": "https://www.anthropic.com/news",
+    "kind": "announcements",
+    "selector": "main",
+    "keywords": [
+      "Claude",
+      "Cowork"
+    ]
+  }
+]

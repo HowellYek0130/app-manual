@@ -1,0 +1,81 @@
+[
+  {
+    "id": "claude-baseline-2026-09-16-artifacts",
+    "sourceId": "claude-release-notes",
+    "title": "Create designs, decks, and docs in any conversation",
+    "url": "https://support.claude.com/en/articles/12138966-release-notes",
+    "publishedAt": "2026-09-16",
+    "detectedAt": "2026-10-12T00:00:00Z",
+    "type": "baseline",
+    "controlIds": [
+      "claude-artifacts-docs",
+      "claude-artifacts-slides",
+      "claude-artifacts-design",
+      "claude-artifact-doc-share"
+    ],
+    "summaryZh": "新版成果支持文档、幻灯片及设计模板，可在对话旁直接编辑、导出与分享。需要理解新 Share 流程与旧 legacy Publish 的访问规则差异。",
+    "interpretation": "reviewed"
+  },
+  {
+    "id": "claude-baseline-2026-09-16-unified",
+    "sourceId": "claude-release-notes",
+    "title": "Claude Cowork comes to every conversation",
+    "url": "https://support.claude.com/en/articles/12138966-release-notes",
+    "publishedAt": "2026-09-16",
+    "detectedAt": "2026-10-12T00:00:00Z",
+    "type": "baseline",
+    "controlIds": [
+      "claude-home-new",
+      "claude-home-recents",
+      "claude-conversation-manual",
+      "claude-settings-general-instructions"
+    ],
+    "summaryZh": "聊天与 Cowork 的能力逐步合并到同一对话，先面向 Pro / Max。已迁移账号不再选择 Chat / Cowork；指令、搜索和任务入口也有变化。本手册以新体验为主并保留差异。",
+    "interpretation": "reviewed"
+  },
+  {
+    "id": "claude-baseline-2026-09-28-sonnet-55",
+    "sourceId": "claude-release-notes",
+    "title": "Claude Sonnet 5.5 launch",
+    "url": "https://support.claude.com/en/articles/12138966-release-notes",
+    "publishedAt": "2026-09-28",
+    "detectedAt": "2026-10-12T00:00:00Z",
+    "type": "baseline",
+    "controlIds": [
+      "claude-model-picker-sonnet",
+      "claude-effort-menu-thinking"
+    ],
+    "summaryZh": "Sonnet 5.5 已发布。官方模型设置文档说明它在 Claude 中不能关闭思考；Effort 仍用于调整处理力度，不能按旧 Extended 开关教程操作。",
+    "interpretation": "reviewed"
+  },
+  {
+    "id": "claude-baseline-2026-10-06-cloud",
+    "sourceId": "claude-cloud",
+    "title": "What changed for Pro and Max plans on October 6",
+    "url": "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile",
+    "publishedAt": "2026-10-06",
+    "detectedAt": "2026-10-12T00:00:00Z",
+    "type": "baseline",
+    "controlIds": [
+      "claude-settings-desktop-storage",
+      "claude-schedule-form-confirm",
+      "claude-code-start-environment"
+    ],
+    "summaryZh": "官方说明 Pro / Max 的新 Cowork 任务改在云端执行；旧本地任务保留原运行位置。云任务访问本机文件或浏览器仍依赖桌面在线，新纯本地任务可使用 Code。",
+    "interpretation": "reviewed"
+  },
+  {
+    "id": "claude-baseline-2026-10-07-haiku-55",
+    "sourceId": "claude-release-notes",
+    "title": "Claude Haiku 5.5 launch",
+    "url": "https://support.claude.com/en/articles/12138966-release-notes",
+    "publishedAt": "2026-10-07",
+    "detectedAt": "2026-10-12T00:00:00Z",
+    "type": "baseline",
+    "controlIds": [
+      "claude-model-picker-more"
+    ],
+    "summaryZh": "官方发布新的 Haiku 5.5 小型模型。是否出现在个人 Pro 的模型菜单应以当前账号为准；使用 More models 核对，而不是沿用旧型号清单。",
+    "interpretation": "reviewed"
+  }
+]

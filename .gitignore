@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.tsbuildinfo
+output/
+playwright-report/
+test-results/
+.playwright/
+.playwright-cli/
+.cache/
+.env
+.env.*
+!.env.example
