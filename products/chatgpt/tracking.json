@@ -1,13 +1,13 @@
 {
   "sources": {
     "release-notes": {
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
       "lastSuccessAt": null,
       "status": "error",
       "error": "HTTP 403"
     },
     "desktop-changelog": {
-      "hash": "6e999515f5df7e3821c4dbd7ce7d1d9a05790f16a3a2654b8211103b506bf028",
+      "hash": "87b959af253ecb8ab2ae95cb3baaadb568820cc780eb8757c52002bcb3821638",
       "entries": [
         {
           "id": "desktop-changelog-03c2a76299543de1588f",
@@ -962,13 +962,13 @@
           "url": "https://learn.chatgpt.com/docs/changelog"
         }
       ],
-      "lastEntryCount": 136,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastEntryCount": 122,
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "migration": {
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
       "lastSuccessAt": null,
       "status": "error",
       "error": "HTTP 403"
@@ -985,8 +985,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "app": {
@@ -1001,8 +1001,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "windows": {
@@ -1017,8 +1017,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "projects": {
@@ -1033,8 +1033,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "settings": {
@@ -1049,8 +1049,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "shortcuts": {
@@ -1065,8 +1065,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "models": {
@@ -1081,8 +1081,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "model-selection": {
@@ -1097,8 +1097,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "pricing": {
@@ -1113,8 +1113,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "work": {
@@ -1129,8 +1129,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "plugins": {
@@ -1145,8 +1145,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "skills": {
@@ -1161,8 +1161,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "personalize": {
@@ -1177,8 +1177,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "memories": {
@@ -1193,30 +1193,30 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "chat-memory": {
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
       "lastSuccessAt": null,
       "status": "error",
       "error": "HTTP 403"
     },
     "data": {
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
       "lastSuccessAt": null,
       "status": "error",
       "error": "HTTP 403"
     },
     "temporary": {
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
       "lastSuccessAt": null,
       "status": "error",
       "error": "HTTP 403"
     },
     "files": {
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
       "lastSuccessAt": null,
       "status": "error",
       "error": "HTTP 403"
@@ -1233,8 +1233,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "browser": {
@@ -1249,8 +1249,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "browser-extension": {
@@ -1265,8 +1265,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "review": {
@@ -1281,8 +1281,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "environments": {
@@ -1297,8 +1297,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "worktrees": {
@@ -1313,8 +1313,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "permissions": {
@@ -1329,8 +1329,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "scheduled": {
@@ -1345,8 +1345,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "notifications": {
@@ -1361,8 +1361,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "voice": {
@@ -1377,8 +1377,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "appshots": {
@@ -1393,8 +1393,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "computer-use": {
@@ -1409,8 +1409,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "app-updates": {
@@ -1425,8 +1425,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "search": {
@@ -1441,8 +1441,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "images": {
@@ -1457,8 +1457,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "image-inputs": {
@@ -1473,8 +1473,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "terminal": {
@@ -1489,8 +1489,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "pets": {
@@ -1505,8 +1505,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "space": {
@@ -1521,8 +1521,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "remote": {
@@ -1537,8 +1537,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "developer-settings": {
@@ -1553,8 +1553,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     },
     "openai-announcements": {
@@ -3970,8 +3970,8 @@
         }
       ],
       "lastEntryCount": 344,
-      "lastAttemptAt": "2026-10-12T21:43:34.018Z",
-      "lastSuccessAt": "2026-10-12T21:43:34.018Z",
+      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
+      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
       "status": "ok"
     }
   },
