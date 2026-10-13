@@ -404,8 +404,8 @@
         }
       ],
       "lastEntryCount": 57,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-unified": {
@@ -420,8 +420,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-cloud": {
@@ -436,8 +436,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-start": {
@@ -452,8 +452,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-desktop": {
@@ -468,8 +468,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-models": {
@@ -484,8 +484,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-uploads": {
@@ -500,8 +500,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-projects": {
@@ -516,8 +516,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-cowork-projects": {
@@ -532,8 +532,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-memory": {
@@ -548,8 +548,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-memory-transfer": {
@@ -564,8 +564,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-incognito": {
@@ -580,8 +580,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-artifacts": {
@@ -596,8 +596,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-share": {
@@ -612,8 +612,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-docs": {
@@ -628,8 +628,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-design": {
@@ -644,8 +644,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-design-systems": {
@@ -660,8 +660,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-connectors": {
@@ -676,8 +676,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-connector-types": {
@@ -692,8 +692,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-tool-access": {
@@ -708,8 +708,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-directory": {
@@ -724,8 +724,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-skills": {
@@ -740,8 +740,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-plugins": {
@@ -756,8 +756,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-extensions": {
@@ -772,8 +772,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-appearance": {
@@ -788,8 +788,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-export": {
@@ -804,8 +804,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-files": {
@@ -820,8 +820,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-usage": {
@@ -836,8 +836,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-schedule": {
@@ -852,8 +852,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-cowork": {
@@ -868,8 +868,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-computer": {
@@ -884,8 +884,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-browser": {
@@ -900,24 +900,24 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-code": {
-      "hash": "3d6dc133c7c090645df38dc3bb5178dce430515928ffc6ef4c408565005a1dd6",
+      "hash": "6157d92ad0bc1859ca73071057429ee1333470b42d6d27b1c1f0323f9300a338",
       "entries": [
         {
           "id": "claude-code-dc0e6ba55835bcffb1f0",
           "title": "Desktop application",
           "publishedAt": null,
-          "hash": "a686064cb1c90d04f758c8b0a83115d194918dc0de5668a3f4fa829b76f365c9",
+          "hash": "d3373508406864aace90ee528b62878fff6f5c3e44537ba1cb4f10d401bfb338",
           "url": "https://code.claude.com/docs/en/desktop"
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-code-plan": {
@@ -932,8 +932,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     },
     "claude-announcements": {
@@ -983,10 +983,34 @@
         }
       ],
       "lastEntryCount": 6,
-      "lastAttemptAt": "2026-10-13T07:41:00.139Z",
-      "lastSuccessAt": "2026-10-13T07:41:00.139Z",
+      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
+      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
       "status": "ok"
     }
   },
-  "reviewControlIds": []
+  "reviewControlIds": [
+    "claude-browser-permission-always",
+    "claude-browser-permission-deny",
+    "claude-browser-permission-once",
+    "claude-code-session-browser",
+    "claude-code-session-comment",
+    "claude-code-session-diff",
+    "claude-code-session-mode",
+    "claude-code-session-stop",
+    "claude-code-session-terminal",
+    "claude-code-start-environment",
+    "claude-code-start-folder",
+    "claude-code-start-plan",
+    "claude-code-start-start",
+    "claude-computer-permission-allow",
+    "claude-computer-permission-deny",
+    "claude-computer-permission-review",
+    "claude-home-code",
+    "claude-settings-desktop-computer",
+    "claude-settings-desktop-denied",
+    "claude-settings-general-desktop",
+    "claude-task-running-computer",
+    "claude-task-running-redirect",
+    "claude-task-running-stop"
+  ]
 }
