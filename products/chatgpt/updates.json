@@ -1,5 +1,295 @@
 [
   {
+    "id": "desktop-changelog-0e5bef7ab691aebd172c-46da913f157c55a5",
+    "sourceId": "desktop-changelog",
+    "title": "2026-04-23 · GPT-5.5 and Codex app updates 26.422",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-04-23",
+    "detectedAt": "2026-10-15T17:46:05.073Z",
+    "type": "edited",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-2d97def8387a7900526d-09ce62ba19605c26",
+    "sourceId": "desktop-changelog",
+    "title": "2026-09-02 · Codex app 26.901",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-09-02",
+    "detectedAt": "2026-10-15T17:46:05.073Z",
+    "type": "new",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-2fe754a5bff82f802ce5-69e936e1f8001338",
+    "sourceId": "desktop-changelog",
+    "title": "2026-03-11 · Codex app 26.311",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-03-11",
+    "detectedAt": "2026-10-15T17:46:05.073Z",
+    "type": "edited",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-41da3fd1ef9c34b86c9d-e1f70552f0f36f0d",
+    "sourceId": "desktop-changelog",
+    "title": "2026-09-29 · Codex app 26.928",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-09-29",
+    "detectedAt": "2026-10-15T17:46:05.073Z",
+    "type": "new",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-45985784440404fd11d7-027e64aa89cc151f",
+    "sourceId": "desktop-changelog",
+    "title": "2026-08-04 · Codex app 26.730",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-08-04",
+    "detectedAt": "2026-10-15T17:46:05.073Z",
+    "type": "new",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-5301a963cd1662bb34cd-5b1dec504c270a38",
+    "sourceId": "desktop-changelog",
+    "title": "2026-10-08 · Codex app 26.1007",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-10-08",
+    "detectedAt": "2026-10-15T17:46:05.073Z",
+    "type": "new",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-54cc3c4fdda99bd66e0b-a524de613370c224",
+    "sourceId": "desktop-changelog",
+    "title": "2026-10-01 · Codex app 26.930",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-10-01",
+    "detectedAt": "2026-10-15T17:46:05.073Z",
+    "type": "new",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-6707244c43b83183d3a2-daa5bb15664933b3",
+    "sourceId": "desktop-changelog",
+    "title": "2026-09-08 · Codex app 26.903",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-09-08",
+    "detectedAt": "2026-10-15T17:46:05.073Z",
+    "type": "new",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-6ab7893a3fc6604aa02a-b78759c5456a492a",
+    "sourceId": "desktop-changelog",
+    "title": "2026-08-31 · Codex app 26.831",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-08-31",
+    "detectedAt": "2026-10-15T17:46:05.073Z",
+    "type": "new",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-76b3e725944099335a7f-4209f003e324d47e",
+    "sourceId": "desktop-changelog",
+    "title": "2026-02-24 · Codex app 26.224",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-02-24",
+    "detectedAt": "2026-10-15T17:46:05.073Z",
+    "type": "new",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-80f3f3612fadacd210d4-4f36b9921bebb152",
+    "sourceId": "desktop-changelog",
+    "title": "2026-05-14 · Work with Codex from anywhere 26.513",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-05-14",
+    "detectedAt": "2026-10-15T17:46:05.073Z",
+    "type": "edited",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-83f295be5ed1931dd37d-75c198b69b3a171e",
+    "sourceId": "desktop-changelog",
+    "title": "2026-06-16 · More Codex features in the EEA, UK, and Switzerland 26.611",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-06-16",
+    "detectedAt": "2026-10-15T17:46:05.073Z",
+    "type": "edited",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-8914e985e8877d03d3a7-af0cb40821b4d010",
+    "sourceId": "desktop-changelog",
+    "title": "2026-08-13 · Computer History 26.810",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-08-13",
+    "detectedAt": "2026-10-15T17:46:05.073Z",
+    "type": "edited",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-8ca9a620ba473cbe56d9-8e286086149ce3e4",
+    "sourceId": "desktop-changelog",
+    "title": "2026-09-17 · Codex app 26.915",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-09-17",
+    "detectedAt": "2026-10-15T17:46:05.073Z",
+    "type": "new",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-8cbbdd6bd9c2ae61746d-a9e6a003204ec94c",
+    "sourceId": "desktop-changelog",
+    "title": "2026-07-23 · ChatGPT Voice and multi-folder projects 26.715",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-07-23",
+    "detectedAt": "2026-10-15T17:46:05.073Z",
+    "type": "edited",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-960575b208a104ef9934-51705f1ff33e03f5",
+    "sourceId": "desktop-changelog",
+    "title": "2026-09-22 · Codex app 26.917",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-09-22",
+    "detectedAt": "2026-10-15T17:46:05.073Z",
+    "type": "new",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-9839c976f7671de56570-0c85139a6b2f5c34",
+    "sourceId": "desktop-changelog",
+    "title": "2026-08-17 · Codex app 26.814",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-08-17",
+    "detectedAt": "2026-10-15T17:46:05.073Z",
+    "type": "new",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-9d2441e8dce4d51f85be-9a297ec7e1fe80b4",
+    "sourceId": "desktop-changelog",
+    "title": "2026-08-19 · Codex app 26.818",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-08-19",
+    "detectedAt": "2026-10-15T17:46:05.073Z",
+    "type": "new",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-a2d6d948f53905df0e09-d85def34087adf3c",
+    "sourceId": "desktop-changelog",
+    "title": "2026-08-27 · Codex app 26.825",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-08-27",
+    "detectedAt": "2026-10-15T17:46:05.073Z",
+    "type": "new",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-bb9f43184a494968fe12-16f28624a5d9f294",
+    "sourceId": "desktop-changelog",
+    "title": "2026-10-07 · Codex app 26.1002",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-10-07",
+    "detectedAt": "2026-10-15T17:46:05.073Z",
+    "type": "new",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-be830bc5c319dfadeea4-2689ecd871ce6b52",
+    "sourceId": "desktop-changelog",
+    "title": "2026-10-09 · Composer predictions in Codex",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-10-09",
+    "detectedAt": "2026-10-15T17:46:05.073Z",
+    "type": "new",
+    "controlIds": [
+      "chatgpt-work-model-sol"
+    ],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-c8877c4c3208a0a4e1ac-e99a9cba4b06f153",
+    "sourceId": "desktop-changelog",
+    "title": "2026-09-16 · Codex app 26.911",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-09-16",
+    "detectedAt": "2026-10-15T17:46:05.073Z",
+    "type": "new",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-cf8420694df02221f7aa-1e8bfc06e46911b6",
+    "sourceId": "desktop-changelog",
+    "title": "2026-08-25 · Browser extensions, site tools, and cloud sign-in 26.820",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-08-25",
+    "detectedAt": "2026-10-15T17:46:05.073Z",
+    "type": "edited",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-ee6f1bb3bc00c07eafb5-63cceb274e2ef63c",
+    "sourceId": "desktop-changelog",
+    "title": "2026-06-25 · Codex Remote reaches general availability 26.623",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-06-25",
+    "detectedAt": "2026-10-15T17:46:05.073Z",
+    "type": "edited",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "desktop-changelog-fff28f7c6091df6a274e-5d13bad86e27f4e5",
+    "sourceId": "desktop-changelog",
+    "title": "2026-08-06 · Codex app 26.803",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-08-06",
+    "detectedAt": "2026-10-15T17:46:05.073Z",
+    "type": "new",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "pricing-ac4d1ae97fe8c4030f39-e77b0fc15947dbf4",
+    "sourceId": "pricing",
+    "title": "Pricing",
+    "url": "https://learn.chatgpt.com/docs/pricing",
+    "publishedAt": null,
+    "detectedAt": "2026-10-15T17:46:05.073Z",
+    "type": "edited",
+    "controlIds": [
+      "chatgpt-advanced-speed"
+    ],
+    "interpretation": "pending"
+  },
+  {
     "id": "desktop-changelog-45a4897ff910b5b75c52-416446ccf9777b03",
     "sourceId": "desktop-changelog",
     "title": "2026-10-14 · GPT-5.5 retirement in Codex",
