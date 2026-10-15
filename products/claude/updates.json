@@ -1,5 +1,258 @@
 [
   {
+    "id": "claude-browser-d496f18cbd2ae2c085dc-98c8b3f8ff3148ec",
+    "sourceId": "claude-browser",
+    "title": "Use the built-in browser in Claude Cowork",
+    "url": "https://support.claude.com/en/articles/16607400-use-the-built-in-browser-in-claude-cowork",
+    "publishedAt": "2026-09-16",
+    "detectedAt": "2026-10-15T05:53:04.460Z",
+    "type": "edited",
+    "controlIds": [
+      "claude-browser-access",
+      "claude-browser-import",
+      "claude-browser-import-confirm",
+      "claude-browser-import-firefox",
+      "claude-browser-import-sites",
+      "claude-browser-preference",
+      "claude-browser-signin",
+      "claude-settings-desktop-browser",
+      "claude-task-browser"
+    ],
+    "interpretation": "pending"
+  },
+  {
+    "id": "claude-cloud-4a801ac42a1227b81560-a117e3c1dbd7c938",
+    "sourceId": "claude-cloud",
+    "title": "Use Claude Cowork on web, desktop, and mobile",
+    "url": "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile",
+    "publishedAt": "2026-10-06",
+    "detectedAt": "2026-10-15T05:53:04.460Z",
+    "type": "edited",
+    "controlIds": [
+      "claude-scheduled-history",
+      "claude-scheduled-new",
+      "claude-scheduled-open",
+      "claude-settings-desktop-storage",
+      "claude-settings-general-privacy",
+      "claude-settings-privacy-training"
+    ],
+    "interpretation": "pending"
+  },
+  {
+    "id": "claude-code-dc0e6ba55835bcffb1f0-f3951767d1c1a6bf",
+    "sourceId": "claude-code",
+    "title": "Desktop application",
+    "url": "https://code.claude.com/docs/en/desktop",
+    "publishedAt": null,
+    "detectedAt": "2026-10-15T05:53:04.460Z",
+    "type": "edited",
+    "controlIds": [
+      "claude-browser-permission-always",
+      "claude-browser-permission-deny",
+      "claude-browser-permission-once",
+      "claude-code-session-browser",
+      "claude-code-session-comment",
+      "claude-code-session-diff",
+      "claude-code-session-mode",
+      "claude-code-session-stop",
+      "claude-code-session-terminal",
+      "claude-code-start-environment",
+      "claude-code-start-folder",
+      "claude-code-start-plan",
+      "claude-code-start-start",
+      "claude-computer-permission-allow",
+      "claude-computer-permission-deny",
+      "claude-computer-permission-review",
+      "claude-home-code",
+      "claude-settings-desktop-computer",
+      "claude-settings-desktop-denied",
+      "claude-settings-general-desktop",
+      "claude-task-running-computer",
+      "claude-task-running-redirect",
+      "claude-task-running-stop"
+    ],
+    "interpretation": "pending"
+  },
+  {
+    "id": "claude-code-plan-f61234c4ee6478201469-8e6edb75bc53efaa",
+    "sourceId": "claude-code-plan",
+    "title": "Use Claude Code with your Pro or Max plan",
+    "url": "https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan",
+    "publishedAt": "2026-10-08",
+    "detectedAt": "2026-10-15T05:53:04.460Z",
+    "type": "edited",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "claude-computer-a66e911bb8519a59b035-b41072a03ea0ebf4",
+    "sourceId": "claude-computer",
+    "title": "Let Claude use your computer in Cowork",
+    "url": "https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork",
+    "publishedAt": "2026-09-16",
+    "detectedAt": "2026-10-15T05:53:04.460Z",
+    "type": "edited",
+    "controlIds": [
+      "claude-computer-permission-allow",
+      "claude-settings-desktop-computer",
+      "claude-settings-general-desktop",
+      "claude-task-running-computer"
+    ],
+    "interpretation": "pending"
+  },
+  {
+    "id": "claude-cowork-794f4f1d07d63fcf703c-e5d8c12c9f8b5037",
+    "sourceId": "claude-cowork",
+    "title": "Get started with Claude Cowork",
+    "url": "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork",
+    "publishedAt": "2026-10-06",
+    "detectedAt": "2026-10-15T05:53:04.460Z",
+    "type": "edited",
+    "controlIds": [
+      "claude-conversation-task",
+      "claude-recents-task",
+      "claude-settings-capabilities-egress"
+    ],
+    "interpretation": "pending"
+  },
+  {
+    "id": "claude-cowork-projects-bee6c804145a81af7a94-b5e5571ea669458b",
+    "sourceId": "claude-cowork-projects",
+    "title": "Organize your tasks with projects in Claude Cowork",
+    "url": "https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork",
+    "publishedAt": "2026-09-16",
+    "detectedAt": "2026-10-15T05:53:04.460Z",
+    "type": "edited",
+    "controlIds": [
+      "claude-home-projects",
+      "claude-project-chat",
+      "claude-project-knowledge",
+      "claude-project-memory",
+      "claude-project-scheduled",
+      "claude-projects-archive",
+      "claude-projects-create",
+      "claude-projects-open"
+    ],
+    "interpretation": "pending"
+  },
+  {
+    "id": "claude-desktop-b4e9c3e38a6037dae3df-23652f7c9f389588",
+    "sourceId": "claude-desktop",
+    "title": "Install Claude Desktop",
+    "url": "https://support.claude.com/en/articles/10065433-install-claude-desktop",
+    "publishedAt": "2026-09-25",
+    "detectedAt": "2026-10-15T05:53:04.460Z",
+    "type": "edited",
+    "controlIds": [
+      "claude-home-code"
+    ],
+    "interpretation": "pending"
+  },
+  {
+    "id": "claude-export-daf07092056b1e0a9728-26832f9828167457",
+    "sourceId": "claude-export",
+    "title": "Export your Claude data",
+    "url": "https://support.claude.com/en/articles/9450526-export-your-claude-data",
+    "publishedAt": "2026-07-08",
+    "detectedAt": "2026-10-15T05:53:04.460Z",
+    "type": "edited",
+    "controlIds": [
+      "claude-home-profile",
+      "claude-settings-general-privacy",
+      "claude-settings-privacy-export"
+    ],
+    "interpretation": "pending"
+  },
+  {
+    "id": "claude-memory-51665b652e20b9a41200-2c9b70de2c99cb5a",
+    "sourceId": "claude-memory",
+    "title": "Use Claude’s chat search and memory to build on previous context",
+    "url": "https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context",
+    "publishedAt": "2026-09-30",
+    "detectedAt": "2026-10-15T05:53:04.460Z",
+    "type": "edited",
+    "controlIds": [
+      "claude-composer-menu-memory",
+      "claude-project-memory",
+      "claude-recents-conversation",
+      "claude-recents-search",
+      "claude-settings-general-memory",
+      "claude-settings-memory-pause",
+      "claude-settings-memory-sensitive",
+      "claude-settings-memory-toggle",
+      "claude-settings-memory-topics"
+    ],
+    "interpretation": "pending"
+  },
+  {
+    "id": "claude-projects-e54efbf170ef0d46fae6-69f63c03a15f9859",
+    "sourceId": "claude-projects",
+    "title": "How can I create and manage projects?",
+    "url": "https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects",
+    "publishedAt": "2026-09-30",
+    "detectedAt": "2026-10-15T05:53:04.460Z",
+    "type": "edited",
+    "controlIds": [
+      "claude-conversation-move",
+      "claude-home-projects",
+      "claude-project-chat",
+      "claude-project-create-cancel",
+      "claude-project-create-create",
+      "claude-project-create-name",
+      "claude-project-instructions",
+      "claude-project-instructions-edit",
+      "claude-project-instructions-save",
+      "claude-project-knowledge",
+      "claude-project-knowledge-add",
+      "claude-project-knowledge-open",
+      "claude-project-knowledge-remove",
+      "claude-project-star",
+      "claude-projects-create",
+      "claude-projects-open"
+    ],
+    "interpretation": "pending"
+  },
+  {
+    "id": "claude-schedule-90ff3c5f3b1b750eca3f-a55a2bf1a0193df7",
+    "sourceId": "claude-schedule",
+    "title": "Schedule recurring tasks in Claude Cowork",
+    "url": "https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork",
+    "publishedAt": "2026-10-06",
+    "detectedAt": "2026-10-15T05:53:04.460Z",
+    "type": "edited",
+    "controlIds": [
+      "claude-home-scheduled",
+      "claude-project-scheduled",
+      "claude-schedule-form-cadence",
+      "claude-schedule-form-confirm",
+      "claude-schedule-form-instructions",
+      "claude-scheduled-history",
+      "claude-scheduled-new",
+      "claude-scheduled-open",
+      "claude-task-detail-delete",
+      "claude-task-detail-edit",
+      "claude-task-detail-pause",
+      "claude-task-detail-run"
+    ],
+    "interpretation": "pending"
+  },
+  {
+    "id": "claude-usage-1a386ba36183424f351d-eeeee50e98281a9e",
+    "sourceId": "claude-usage",
+    "title": "How do usage and length limits work?",
+    "url": "https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work",
+    "publishedAt": "2026-10-08",
+    "detectedAt": "2026-10-15T05:53:04.460Z",
+    "type": "edited",
+    "controlIds": [
+      "claude-settings-general-usage",
+      "claude-settings-usage-credits",
+      "claude-settings-usage-effort",
+      "claude-settings-usage-view"
+    ],
+    "interpretation": "pending"
+  },
+  {
     "id": "claude-code-dc0e6ba55835bcffb1f0-d3373508406864aa",
     "sourceId": "claude-code",
     "title": "Desktop application",

@@ -1,5 +1,116 @@
 [
   {
+    "id": "desktop-changelog-45a4897ff910b5b75c52-416446ccf9777b03",
+    "sourceId": "desktop-changelog",
+    "title": "2026-10-14 · GPT-5.5 retirement in Codex",
+    "url": "https://learn.chatgpt.com/docs/changelog",
+    "publishedAt": "2026-10-14",
+    "detectedAt": "2026-10-15T05:53:04.460Z",
+    "type": "new",
+    "controlIds": [
+      "chatgpt-work-model-sol"
+    ],
+    "interpretation": "pending"
+  },
+  {
+    "id": "developer-settings-d38afa89254fa059c40a-2599f4ebc9dfdf87",
+    "sourceId": "developer-settings",
+    "title": "Developer settings",
+    "url": "https://learn.chatgpt.com/docs/developer-settings",
+    "publishedAt": null,
+    "detectedAt": "2026-10-15T05:53:04.460Z",
+    "type": "edited",
+    "controlIds": [
+      "chatgpt-git-branch-naming",
+      "chatgpt-git-force-push",
+      "chatgpt-git-message-prompts",
+      "chatgpt-git-review-delivery",
+      "chatgpt-mcp-add",
+      "chatgpt-mcp-config",
+      "chatgpt-mcp-oauth",
+      "chatgpt-mcp-recommended",
+      "chatgpt-settings-git",
+      "chatgpt-settings-mcp"
+    ],
+    "interpretation": "pending"
+  },
+  {
+    "id": "models-c272fa6faf4691de0d32-317db113fd57f9cf",
+    "sourceId": "models",
+    "title": "Models",
+    "url": "https://learn.chatgpt.com/docs/models",
+    "publishedAt": null,
+    "detectedAt": "2026-10-15T05:53:04.460Z",
+    "type": "edited",
+    "controlIds": [
+      "chatgpt-advanced-effort",
+      "chatgpt-advanced-model",
+      "chatgpt-advanced-speed",
+      "chatgpt-chat-model-high",
+      "chatgpt-codex-model",
+      "chatgpt-model-advanced",
+      "chatgpt-work-model",
+      "chatgpt-work-model-effort",
+      "chatgpt-work-model-luna",
+      "chatgpt-work-model-sol"
+    ],
+    "interpretation": "pending"
+  },
+  {
+    "id": "openai-announcements-57c3309db5bedcdec4e0-7c23188f1f27c487",
+    "sourceId": "openai-announcements",
+    "title": "Amp puts AI agents to work beyond code with OpenAI models",
+    "url": "https://openai.com/index/amp-beyond-coding",
+    "publishedAt": "2026-10-14",
+    "detectedAt": "2026-10-15T05:53:04.460Z",
+    "type": "new",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "openai-announcements-a8b8c31de898145e14c8-9a1b4754341cf0ee",
+    "sourceId": "openai-announcements",
+    "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+    "url": "https://openai.com/index/third-moment-research",
+    "publishedAt": "2026-10-14",
+    "detectedAt": "2026-10-15T05:53:04.460Z",
+    "type": "new",
+    "controlIds": [],
+    "interpretation": "pending"
+  },
+  {
+    "id": "pricing-ac4d1ae97fe8c4030f39-0b795b3aafb383d4",
+    "sourceId": "pricing",
+    "title": "Pricing",
+    "url": "https://learn.chatgpt.com/docs/pricing",
+    "publishedAt": null,
+    "detectedAt": "2026-10-15T05:53:04.460Z",
+    "type": "edited",
+    "controlIds": [
+      "chatgpt-advanced-speed"
+    ],
+    "interpretation": "pending"
+  },
+  {
+    "id": "scheduled-803acf44becc0ece0309-896444896f6ceff9",
+    "sourceId": "scheduled",
+    "title": "Scheduled tasks",
+    "url": "https://learn.chatgpt.com/docs/automations",
+    "publishedAt": null,
+    "detectedAt": "2026-10-15T05:53:04.460Z",
+    "type": "edited",
+    "controlIds": [
+      "chatgpt-schedule-prompt",
+      "chatgpt-schedule-save",
+      "chatgpt-schedule-time",
+      "chatgpt-scheduled-create",
+      "chatgpt-scheduled-pause",
+      "chatgpt-scheduled-runs",
+      "chatgpt-work-scheduled"
+    ],
+    "interpretation": "pending"
+  },
+  {
     "id": "desktop-changelog-256f27f0f2f6ac61bfa4-4e13ffde2d8db267",
     "sourceId": "desktop-changelog",
     "title": "2026-10-08 · Codex CLI 0.162.0",

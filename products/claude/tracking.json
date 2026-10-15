@@ -404,8 +404,8 @@
         }
       ],
       "lastEntryCount": 57,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-unified": {
@@ -420,24 +420,24 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-cloud": {
-      "hash": "8061876329add637adbcc43a59a93995b450dc19ca38544e87663992079693bc",
+      "hash": "06116c476c28a3ab03dbe43441199df1a6b6f95437a9b0d7a494a4899eb204f0",
       "entries": [
         {
           "id": "claude-cloud-4a801ac42a1227b81560",
           "title": "Use Claude Cowork on web, desktop, and mobile",
           "publishedAt": "2026-10-06",
-          "hash": "40c98ac6ad728df70c8920fb03a8ca669a50bbee48677dbfc6443fc2ce33fb42",
+          "hash": "a117e3c1dbd7c9385c53ece5811e2b2e71da8bb462345266f9a43b96333c3030",
           "url": "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile"
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-start": {
@@ -452,24 +452,24 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-desktop": {
-      "hash": "d26f89685589d530de78172962185e281488c100397552c0b91784176253c17c",
+      "hash": "17aaa0e43118a367138a5fbd6b8d732f61228b22245323abca1b585d07f19c02",
       "entries": [
         {
           "id": "claude-desktop-b4e9c3e38a6037dae3df",
           "title": "Install Claude Desktop",
           "publishedAt": "2026-09-25",
-          "hash": "7a349a2c623a8efa1a6a3078ad5feeafc67c6ca51e8fc7e02ebd3c4c80ba21f7",
+          "hash": "23652f7c9f3895888a3411b3dbbeefbc7a37b608aa820ebb7f8a9179b97c6bcb",
           "url": "https://support.claude.com/en/articles/10065433-install-claude-desktop"
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-models": {
@@ -484,8 +484,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-uploads": {
@@ -500,56 +500,56 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-projects": {
-      "hash": "057d9e8e0ca0455da255df4ff4fd196f493eb389b2301b8f666a75d8dcf7799a",
+      "hash": "f378bdc99a5ac27fd29aabdbfa6748bbd165c40f475e41ab6c18893ad674cf79",
       "entries": [
         {
           "id": "claude-projects-e54efbf170ef0d46fae6",
           "title": "How can I create and manage projects?",
           "publishedAt": "2026-09-30",
-          "hash": "a13f5f1593e5e2a4179c7f1a6fdf492f43fa36e0fc70ce92698a8d7078742447",
+          "hash": "69f63c03a15f98590a52d737ea1031fff3983539e5c00e133d95418fdae090fd",
           "url": "https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects"
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-cowork-projects": {
-      "hash": "576188270885549133cdd40b855e988173674c273e82e870ee16dd74782b0b4c",
+      "hash": "03c5273162aabd179bfe4d7c3b634a73c4a9a680164cd0a37ac6aae665340957",
       "entries": [
         {
           "id": "claude-cowork-projects-bee6c804145a81af7a94",
           "title": "Organize your tasks with projects in Claude Cowork",
           "publishedAt": "2026-09-16",
-          "hash": "7e02af8a289c33058f5c60183b07c87c37d4814d5ba6d8986664998fe03e9f8b",
+          "hash": "b5e5571ea669458b566798a074fa624e745c4827775e0e3648a7076be28c54cc",
           "url": "https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork"
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-memory": {
-      "hash": "9ba9ae08d8a5ae482dd2801d0d1ce670c55a9f291bbcd7f82c4d5fbed6c7c3e8",
+      "hash": "d2935dda75db6007d6f57be3e0b83a93b4393b5b758e1fb09b97200835e66598",
       "entries": [
         {
           "id": "claude-memory-51665b652e20b9a41200",
           "title": "Use Claude’s chat search and memory to build on previous context",
           "publishedAt": "2026-09-30",
-          "hash": "b280c6c3d112b701c60b3f3da435a5163474ccdaa9c8b201469ca4e14e20eabf",
+          "hash": "2c9b70de2c99cb5ae84fcd9e1c0827893284fbc55d68a147fef51a4b5b7d37bf",
           "url": "https://support.claude.com/en/articles/11817273-use-claude-s-chat-search-and-memory-to-build-on-previous-context"
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-memory-transfer": {
@@ -564,8 +564,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-incognito": {
@@ -580,8 +580,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-artifacts": {
@@ -596,8 +596,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-share": {
@@ -612,8 +612,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-docs": {
@@ -628,8 +628,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-design": {
@@ -644,8 +644,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-design-systems": {
@@ -660,8 +660,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-connectors": {
@@ -676,8 +676,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-connector-types": {
@@ -692,8 +692,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-tool-access": {
@@ -708,8 +708,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-directory": {
@@ -724,8 +724,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-skills": {
@@ -740,8 +740,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-plugins": {
@@ -756,8 +756,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-extensions": {
@@ -772,8 +772,8 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-appearance": {
@@ -788,24 +788,24 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-export": {
-      "hash": "6d47b793d44a4396bf6f13f8dc223d4b6668b22b67590c18b4a7f265d5ddffa8",
+      "hash": "e55a0cad5e665d76f315965b8efbf4b37271a2b8b55d6b978d7b87c050ed4446",
       "entries": [
         {
           "id": "claude-export-daf07092056b1e0a9728",
           "title": "Export your Claude data",
           "publishedAt": "2026-07-08",
-          "hash": "a28870846620787542e2b1b0d5213596b933223ff0cc8c2fefc574412f1a8a8c",
+          "hash": "26832f98281674576c0423bdbd78d0366b102bcbf24f584d3acd5a29b56f0c6d",
           "url": "https://support.claude.com/en/articles/9450526-export-your-claude-data"
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-files": {
@@ -820,120 +820,120 @@
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-usage": {
-      "hash": "a2ba2165ad00498e3914d90dfedfce9dbff10b5ff33adbbfcf974009c49e13c3",
+      "hash": "0cdef944741d4aefc215988a48540651039743e1d647b76a6fabf1ad5c21de05",
       "entries": [
         {
           "id": "claude-usage-1a386ba36183424f351d",
           "title": "How do usage and length limits work?",
           "publishedAt": "2026-10-08",
-          "hash": "203185d151328475e75956811cd4c7b6aa1a35c9e7d20d24ae19de994e582aee",
+          "hash": "eeeee50e98281a9e830eccd3e13bea99356d030d7663e60dbbd49478979e7158",
           "url": "https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work"
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-schedule": {
-      "hash": "f851a2b2d4eade65c6218831ec09230813be01aba7d5ee641df69e33b96d083c",
+      "hash": "62caf4e6b1cd6105665f77050eec6c6e9c67fa79c93291f2ba9859cbbe7f7bb0",
       "entries": [
         {
           "id": "claude-schedule-90ff3c5f3b1b750eca3f",
           "title": "Schedule recurring tasks in Claude Cowork",
           "publishedAt": "2026-10-06",
-          "hash": "7b129c16fb79d54896ee26f9ce5b7f185d2e08392dce683f274405d951a2d78f",
+          "hash": "a55a2bf1a0193df7a17ee1d690c121cf53c1f6844e60f4426c901e46cc1aafc3",
           "url": "https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork"
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-cowork": {
-      "hash": "c505a260a29204c625a0f0293427be491648648ca20cb3f125266929f4c5379d",
+      "hash": "19c3152ebb75b2722136bc4ac5e76a866f93f2b6db2894ee9ec7143cbe8099c6",
       "entries": [
         {
           "id": "claude-cowork-794f4f1d07d63fcf703c",
           "title": "Get started with Claude Cowork",
           "publishedAt": "2026-10-06",
-          "hash": "bf532c725c113d00148c7a795dc09f75d2290a54334547ce8c6e7674987338b2",
+          "hash": "e5d8c12c9f8b5037db715374163d4a4ffb5b91f5aef691b57264999ead14cd91",
           "url": "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork"
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-computer": {
-      "hash": "d6125fc2311ae3197ab20c86b32d391cb745d28f1470729b7850e62af8225ba3",
+      "hash": "2451cb55b103941f9a636caf4d2ef1ccc1762e921a6ba09217a642c4fd6dbf57",
       "entries": [
         {
           "id": "claude-computer-a66e911bb8519a59b035",
           "title": "Let Claude use your computer in Cowork",
           "publishedAt": "2026-09-16",
-          "hash": "2468e18b954e0ace201e35d1743fe5eeccb5eb3e84a50e16c794b265c6ef6ce2",
+          "hash": "b41072a03ea0ebf47c812c3603214fc1e45cea395e2459afa72581845fb4719f",
           "url": "https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork"
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-browser": {
-      "hash": "c433096a08817d7a86fb097c44af983a4599c8e266e07ea3e663ecb9f782f9b6",
+      "hash": "c7276e7690ce55aac927ace17356a8e4235f318a1d59bfc77a5eed3926c84a24",
       "entries": [
         {
           "id": "claude-browser-d496f18cbd2ae2c085dc",
           "title": "Use the built-in browser in Claude Cowork",
           "publishedAt": "2026-09-16",
-          "hash": "ec197c5f8eab897b43713d03ca10b57b927cc40ba24bcb27812449944be1593b",
+          "hash": "98c8b3f8ff3148ecc9a097332076c089309317b1429f3bd91d859558c93ca544",
           "url": "https://support.claude.com/en/articles/16607400-use-the-built-in-browser-in-claude-cowork"
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-code": {
-      "hash": "6157d92ad0bc1859ca73071057429ee1333470b42d6d27b1c1f0323f9300a338",
+      "hash": "66ca3db6cec08b2d5b8f50e1fb7abd43743cbb0e07ee5188f8fffdc5b83d4978",
       "entries": [
         {
           "id": "claude-code-dc0e6ba55835bcffb1f0",
           "title": "Desktop application",
           "publishedAt": null,
-          "hash": "d3373508406864aace90ee528b62878fff6f5c3e44537ba1cb4f10d401bfb338",
+          "hash": "f3951767d1c1a6bf8fbb768f4edd0fb192f48c06e66fd782d2f730cc1e814000",
           "url": "https://code.claude.com/docs/en/desktop"
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-code-plan": {
-      "hash": "f869e34815feb231bbae48b8bf8035a18baa696faa3c93eee6b0a3ce4a9cf089",
+      "hash": "a6e63ce00914bd6494a7e6012d3853fcf1e8d2b131984e9462571b3027575e74",
       "entries": [
         {
           "id": "claude-code-plan-f61234c4ee6478201469",
           "title": "Use Claude Code with your Pro or Max plan",
           "publishedAt": "2026-10-08",
-          "hash": "a2de903cb39e84b316ff60bc12011becdbe393341d8932a75ca752dc1a250288",
+          "hash": "8e6edb75bc53efaa71873ab846ef0251cb3622f6a386663dddd2a367e39b2b65",
           "url": "https://support.claude.com/en/articles/11145838-use-claude-code-with-your-pro-or-max-plan"
         }
       ],
       "lastEntryCount": 1,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     },
     "claude-announcements": {
@@ -983,15 +983,22 @@
         }
       ],
       "lastEntryCount": 6,
-      "lastAttemptAt": "2026-10-13T19:51:34.909Z",
-      "lastSuccessAt": "2026-10-13T19:51:34.909Z",
+      "lastAttemptAt": "2026-10-15T05:53:04.460Z",
+      "lastSuccessAt": "2026-10-15T05:53:04.460Z",
       "status": "ok"
     }
   },
   "reviewControlIds": [
+    "claude-browser-access",
+    "claude-browser-import",
+    "claude-browser-import-confirm",
+    "claude-browser-import-firefox",
+    "claude-browser-import-sites",
     "claude-browser-permission-always",
     "claude-browser-permission-deny",
     "claude-browser-permission-once",
+    "claude-browser-preference",
+    "claude-browser-signin",
     "claude-code-session-browser",
     "claude-code-session-comment",
     "claude-code-session-diff",
@@ -1002,13 +1009,65 @@
     "claude-code-start-folder",
     "claude-code-start-plan",
     "claude-code-start-start",
+    "claude-composer-menu-memory",
     "claude-computer-permission-allow",
     "claude-computer-permission-deny",
     "claude-computer-permission-review",
+    "claude-conversation-move",
+    "claude-conversation-task",
     "claude-home-code",
+    "claude-home-profile",
+    "claude-home-projects",
+    "claude-home-scheduled",
+    "claude-project-chat",
+    "claude-project-create-cancel",
+    "claude-project-create-create",
+    "claude-project-create-name",
+    "claude-project-instructions",
+    "claude-project-instructions-edit",
+    "claude-project-instructions-save",
+    "claude-project-knowledge",
+    "claude-project-knowledge-add",
+    "claude-project-knowledge-open",
+    "claude-project-knowledge-remove",
+    "claude-project-memory",
+    "claude-project-scheduled",
+    "claude-project-star",
+    "claude-projects-archive",
+    "claude-projects-create",
+    "claude-projects-open",
+    "claude-recents-conversation",
+    "claude-recents-search",
+    "claude-recents-task",
+    "claude-schedule-form-cadence",
+    "claude-schedule-form-confirm",
+    "claude-schedule-form-instructions",
+    "claude-scheduled-history",
+    "claude-scheduled-new",
+    "claude-scheduled-open",
+    "claude-settings-capabilities-egress",
+    "claude-settings-desktop-browser",
     "claude-settings-desktop-computer",
     "claude-settings-desktop-denied",
+    "claude-settings-desktop-storage",
     "claude-settings-general-desktop",
+    "claude-settings-general-memory",
+    "claude-settings-general-privacy",
+    "claude-settings-general-usage",
+    "claude-settings-memory-pause",
+    "claude-settings-memory-sensitive",
+    "claude-settings-memory-toggle",
+    "claude-settings-memory-topics",
+    "claude-settings-privacy-export",
+    "claude-settings-privacy-training",
+    "claude-settings-usage-credits",
+    "claude-settings-usage-effort",
+    "claude-settings-usage-view",
+    "claude-task-browser",
+    "claude-task-detail-delete",
+    "claude-task-detail-edit",
+    "claude-task-detail-pause",
+    "claude-task-detail-run",
     "claude-task-running-computer",
     "claude-task-running-redirect",
     "claude-task-running-stop"
